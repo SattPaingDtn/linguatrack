@@ -1,0 +1,101 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "@fontsource-variable/dm-sans";
+@import "@fontsource/noto-sans-myanmar/400.css";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--foreground);
+  --color-popover: var(--card);
+  --color-popover-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #e9eee7;
+  --color-secondary-foreground: var(--primary);
+  --color-muted: #f2f3ed;
+  --color-muted-foreground: #59675e;
+  --color-accent: #e9eee7;
+  --color-accent-foreground: var(--primary);
+  --color-destructive: #b33c32;
+  --color-border: #e2e6dd;
+  --color-input: #d0d8cc;
+  --color-ring: #35704f;
+  --color-sage: #dce9d6;
+  --color-orange: #d77446;
+  --font-sans: "DM Sans Variable", "Noto Sans Myanmar", sans-serif;
+  --radius-sm: 0.4rem;
+  --radius-md: 0.65rem;
+  --radius-lg: 0.85rem;
+  --radius-xl: 1.2rem;
+  --radius-2xl: 1.5rem;
+}
+
+:root {
+  --background: #f7f8f2;
+  --foreground: #243a2d;
+  --card: #ffffff;
+  --primary: #294e3c;
+  --radius: 0.85rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  button,
+  a,
+  input,
+  textarea,
+  summary {
+    -webkit-tap-highlight-color: transparent;
+  }
+  button:not(:disabled),
+  summary {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 3px solid #35704f;
+    outline-offset: 4px;
+  }
+  ::selection {
+    background: #dce9d6;
+    color: #243a2d;
+  }
+  [lang="my"] {
+    font-family: "Noto Sans Myanmar", sans-serif;
+    line-height: 2;
+  }
+  audio {
+    max-width: 100%;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply text-[11px] font-bold uppercase tracking-[0.16em] text-muted-foreground;
+  }
+  .page-title {
+    @apply text-3xl font-semibold tracking-[-0.04em] sm:text-4xl;
+  }
+  .section-title {
+    @apply text-lg font-semibold tracking-tight;
+  }
+  .soft-panel {
+    @apply rounded-2xl border bg-card p-5 sm:p-6;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

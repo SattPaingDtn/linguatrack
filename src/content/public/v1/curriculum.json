@@ -1,0 +1,451 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0",
+  "publishedAt": "2026-10-11",
+  "primaryLanguage": "en",
+  "explanationLanguage": "my",
+  "courses": [
+    {
+      "id": "general-a1",
+      "slug": "a1",
+      "level": "A1",
+      "track": "general-english",
+      "title": "First steps",
+      "description": {
+        "en": "Start with the words that open up your world.",
+        "my": "အခြေခံစကားလုံးနှင့် ရိုးရှင်းသော ဝါကျများမှ စတင်ပါ။"
+      },
+      "status": "available",
+      "outcomes": [
+        "Introduce yourself",
+        "Understand everyday greetings",
+        "Build simple sentences"
+      ],
+      "chapters": [
+        {
+          "id": "a1-chapter-1",
+          "slug": "first-conversations",
+          "title": "Your first conversations",
+          "description": {
+            "en": "Every conversation begins with a hello. Learn to greet people, introduce yourself, and make your first English sentences.",
+            "my": "စကားဝိုင်းတိုင်းသည် နှုတ်ဆက်ခြင်းဖြင့် စတင်သည်။ နှုတ်ဆက်စကား၊ မိမိကိုယ်ကို မိတ်ဆက်ခြင်းနှင့် ပထမဆုံးအင်္ဂလိပ်ဝါကျများကို လေ့လာပါ။"
+          },
+          "order": 1,
+          "lessons": [
+            {
+              "id": "a1-c1-introductions",
+              "slug": "introductions",
+              "title": "Hello, nice to meet you!",
+              "description": {
+                "en": "Meet new people and introduce yourself with confidence.",
+                "my": "လူသစ်များနှင့် တွေ့ဆုံရာတွင် မိမိကိုယ်ကို ယုံကြည်မှုရှိစွာ မိတ်ဆက်ပြောဆိုပါ။"
+              },
+              "durationMinutes": 8,
+              "skills": [
+                "listening",
+                "speaking",
+                "reading"
+              ],
+              "areas": [
+                "listening",
+                "speaking",
+                "reading",
+                "vocabulary"
+              ],
+              "objectives": [
+                {
+                  "en": "Say your name and where you are from.",
+                  "my": "မိမိအမည်နှင့် မည်သည့်နေရာမှ လာကြောင်း ပြောနိုင်မည်။"
+                },
+                {
+                  "en": "Use polite greetings in a short conversation.",
+                  "my": "ယဉ်ကျေးသော နှုတ်ဆက်စကားများကို အသုံးပြုနိုင်မည်။"
+                }
+              ],
+              "blocks": [
+                {
+                  "id": "a1-c1-welcome",
+                  "type": "explanation",
+                  "title": "A small conversation. A big first step.",
+                  "body": {
+                    "en": "Use “Hello” to greet someone. Say “My name is…” or “I’m…” to introduce yourself. “Nice to meet you” is a polite phrase when you meet someone for the first time.",
+                    "my": "“Hello” ကို နှုတ်ဆက်ရာတွင် အသုံးပြုပါ။ မိမိအမည်ကို ပြောရန် “My name is…” သို့မဟုတ် “I’m…” ကို အသုံးပြုနိုင်သည်။ ပထမဆုံးတွေ့ဆုံသူကို “Nice to meet you” ဟု ယဉ်ကျေးစွာ ပြောနိုင်သည်။"
+                  },
+                  "examples": [
+                    "Hello! My name is Su.",
+                    "I’m from Myanmar.",
+                    "Nice to meet you!"
+                  ]
+                },
+                {
+                  "id": "a1-c1-dialogue",
+                  "type": "reading",
+                  "title": "Read a first meeting",
+                  "passage": "Su: Hello! My name is Su. What’s your name?\nAlex: Hi, I’m Alex. Nice to meet you, Su.\nSu: Nice to meet you, too. Where are you from?\nAlex: I’m from Canada. And you?\nSu: I’m from Myanmar. I’m a student.",
+                  "explanation": {
+                    "en": "“What’s” means “What is.” “I’m” means “I am.” These short forms are common in everyday conversation.",
+                    "my": "“What’s” သည် “What is” ၏ အတိုကောက်ဖြစ်ပြီး “I’m” သည် “I am” ၏ အတိုကောက်ဖြစ်သည်။ နေ့စဉ်စကားပြောတွင် အတိုကောက်များကို အသုံးများသည်။"
+                  }
+                },
+                {
+                  "id": "a1-c1-listen",
+                  "type": "listening",
+                  "title": "Listen, then say it aloud",
+                  "audio": "/audio/a1-introductions.wav",
+                  "transcript": "Hello! My name is Su. I am from Myanmar. I am a student. Nice to meet you!",
+                  "instruction": {
+                    "en": "Listen for the name, country, and occupation. Play it again and repeat each sentence. Sample audio is synthesized locally.",
+                    "my": "အမည်၊ နိုင်ငံနှင့် အလုပ်အကိုင်ကို နားထောင်ပါ။ ထပ်မံနားထောင်ပြီး ဝါကျတစ်ကြောင်းစီကို လိုက်ပြောပါ။ ဤနမူနာအသံကို ကွန်ပျူတာဖြင့် ဖန်တီးထားသည်။"
+                  }
+                },
+                {
+                  "id": "a1-c1-words",
+                  "type": "vocabulary",
+                  "title": "Your first five words",
+                  "words": [
+                    {
+                      "word": "hello",
+                      "pronunciation": "/həˈləʊ/",
+                      "meaning": "မင်္ဂလာပါ၊ နှုတ်ဆက်စကား",
+                      "example": "Hello, Alex!"
+                    },
+                    {
+                      "word": "name",
+                      "pronunciation": "/neɪm/",
+                      "meaning": "အမည်",
+                      "example": "My name is Su."
+                    },
+                    {
+                      "word": "from",
+                      "pronunciation": "/frɒm/",
+                      "meaning": "မှ၊ ကနေ",
+                      "example": "I am from Myanmar."
+                    },
+                    {
+                      "word": "student",
+                      "pronunciation": "/ˈstjuːdənt/",
+                      "meaning": "ကျောင်းသား၊ ကျောင်းသူ",
+                      "example": "I am a student."
+                    },
+                    {
+                      "word": "meet",
+                      "pronunciation": "/miːt/",
+                      "meaning": "တွေ့ဆုံသည်",
+                      "example": "Nice to meet you."
+                    }
+                  ]
+                },
+                {
+                  "id": "a1-c1-speak",
+                  "type": "speaking",
+                  "title": "Your turn to introduce yourself",
+                  "prompt": {
+                    "en": "Say three sentences about yourself. Use your real name and country. Practise aloud; recording and automatic assessment are not part of this demo.",
+                    "my": "မိမိအကြောင်း ဝါကျသုံးကြောင်း ပြောပါ။ အမည်နှင့် နိုင်ငံအမှန်ကို အသုံးပြုပါ။ အသံထွက်လေ့ကျင့်ပါ။ ဤနမူနာတွင် အသံသွင်းခြင်းနှင့် အလိုအလျောက်အကဲဖြတ်ခြင်း မပါဝင်ပါ။"
+                  },
+                  "modelAnswer": "Hello! My name is Su. I’m from Myanmar. Nice to meet you!",
+                  "checklist": [
+                    "I said my name.",
+                    "I said where I am from.",
+                    "I used a polite greeting."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "a1-c1-be",
+              "slug": "am-is-are",
+              "title": "The little verb “to be”",
+              "description": {
+                "en": "Build simple sentences with am, is, and are.",
+                "my": "am၊ is နှင့် are ကို အသုံးပြုပြီး ရိုးရှင်းသော ဝါကျများ တည်ဆောက်ပါ။"
+              },
+              "durationMinutes": 10,
+              "skills": [
+                "reading",
+                "writing"
+              ],
+              "areas": [
+                "grammar",
+                "reading",
+                "writing"
+              ],
+              "objectives": [
+                {
+                  "en": "Choose am, is, or are for the correct subject.",
+                  "my": "ကတ္တားနှင့်ကိုက်ညီသော am၊ is သို့မဟုတ် are ကို ရွေးနိုင်မည်။"
+                },
+                {
+                  "en": "Write a short personal introduction.",
+                  "my": "မိမိအကြောင်း မိတ်ဆက်စာတို ရေးနိုင်မည်။"
+                }
+              ],
+              "blocks": [
+                {
+                  "id": "a1-c1-grammar",
+                  "type": "grammar",
+                  "title": "I am. You are. She is.",
+                  "rule": {
+                    "en": "Use “to be” to talk about identity, nationality, and occupations. Use am with I; is with he, she, and it; are with you, we, and they. Put not after the verb to make a negative sentence.",
+                    "my": "“to be” ကို လူတစ်ဦး၏ အမည်၊ နိုင်ငံသားဖြစ်မှုနှင့် အလုပ်အကိုင် ဖော်ပြရန် အသုံးပြုသည်။ I နှင့် am၊ he/she/it နှင့် is၊ you/we/they နှင့် are ကို သုံးပါ။ ငြင်းဆိုဝါကျတွင် ကြိယာနောက်၌ not ထည့်ပါ။"
+                  },
+                  "examples": [
+                    {
+                      "pattern": "I + am",
+                      "example": "I am a student.",
+                      "translation": "ကျွန်ုပ်သည် ကျောင်းသား/ကျောင်းသူဖြစ်သည်။"
+                    },
+                    {
+                      "pattern": "He / She / It + is",
+                      "example": "She is a teacher.",
+                      "translation": "သူမသည် ဆရာမဖြစ်သည်။"
+                    },
+                    {
+                      "pattern": "You / We / They + are",
+                      "example": "They are from Canada.",
+                      "translation": "သူတို့သည် ကနေဒါမှ ဖြစ်သည်။"
+                    },
+                    {
+                      "pattern": "Subject + am / is / are + not",
+                      "example": "I am not a teacher.",
+                      "translation": "ကျွန်ုပ်သည် ဆရာ/ဆရာမ မဟုတ်ပါ။"
+                    }
+                  ]
+                },
+                {
+                  "id": "a1-c1-contractions",
+                  "type": "explanation",
+                  "title": "Sound a little more natural",
+                  "body": {
+                    "en": "In conversation, use I’m, you’re, he’s, she’s, we’re, and they’re. Both “I am a student” and “I’m a student” are correct. Remember the article a before a singular occupation.",
+                    "my": "စကားပြောရာတွင် I’m၊ you’re၊ he’s၊ she’s၊ we’re နှင့် they’re ကို သုံးနိုင်သည်။ “I am a student” နှင့် “I’m a student” နှစ်မျိုးလုံး မှန်သည်။ အလုပ်အကိုင်တစ်ခုကို ပြောရာတွင် a ထည့်ရန် မမေ့ပါနှင့်။"
+                  },
+                  "examples": [
+                    "I’m a student.",
+                    "She’s a teacher.",
+                    "We’re friends."
+                  ]
+                },
+                {
+                  "id": "a1-c1-write",
+                  "type": "writing",
+                  "title": "Write your own introduction",
+                  "prompt": {
+                    "en": "Write 10–40 words. Include your name, country, and occupation. Your draft stays on this page only; this is self-practice, with no automatic grading.",
+                    "my": "စကားလုံး ၁၀ မှ ၄၀ အထိ ရေးပါ။ အမည်၊ နိုင်ငံနှင့် အလုပ်အကိုင်ကို ထည့်ရေးပါ။ ဤစာမူသည် ဤစာမျက်နှာပေါ်တွင်သာ ရှိမည်။ အလိုအလျောက်အမှတ်ပေးခြင်း မပါဝင်ပါ။"
+                  },
+                  "modelAnswer": "Hello! My name is Su. I am from Myanmar. I am a student. Nice to meet you!",
+                  "minWords": 10,
+                  "maxWords": 40
+                }
+              ]
+            },
+            {
+              "id": "a1-c1-check",
+              "slug": "chapter-check",
+              "title": "Let’s put it all together",
+              "description": {
+                "en": "Check your understanding of greetings, vocabulary, and to be.",
+                "my": "နှုတ်ဆက်စကား၊ ဝေါဟာရနှင့် to be အသုံးပြုမှုကို စစ်ဆေးပါ။"
+              },
+              "durationMinutes": 7,
+              "skills": [
+                "reading",
+                "writing"
+              ],
+              "areas": [
+                "grammar",
+                "vocabulary",
+                "reading",
+                "writing"
+              ],
+              "objectives": [
+                {
+                  "en": "Apply the chapter’s vocabulary and grammar.",
+                  "my": "အခန်းတွင် သင်ယူခဲ့သော ဝေါဟာရနှင့် သဒ္ဒါကို အသုံးချနိုင်မည်။"
+                }
+              ],
+              "blocks": [
+                {
+                  "id": "a1-c1-quiz",
+                  "type": "quiz",
+                  "title": "Chapter 1 knowledge check",
+                  "passingPercent": 80,
+                  "questions": [
+                    {
+                      "id": "a1-c1-q1",
+                      "prompt": "I ___ a student.",
+                      "skill": "grammar",
+                      "options": [
+                        {
+                          "id": "option-1",
+                          "text": "am"
+                        },
+                        {
+                          "id": "option-2",
+                          "text": "is"
+                        },
+                        {
+                          "id": "option-3",
+                          "text": "are"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "a1-c1-q2",
+                      "prompt": "She ___ from Myanmar.",
+                      "skill": "grammar",
+                      "options": [
+                        {
+                          "id": "option-1",
+                          "text": "am"
+                        },
+                        {
+                          "id": "option-2",
+                          "text": "is"
+                        },
+                        {
+                          "id": "option-3",
+                          "text": "are"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "a1-c1-q3",
+                      "prompt": "They ___ teachers.",
+                      "skill": "grammar",
+                      "options": [
+                        {
+                          "id": "option-1",
+                          "text": "is"
+                        },
+                        {
+                          "id": "option-2",
+                          "text": "am"
+                        },
+                        {
+                          "id": "option-3",
+                          "text": "are"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "a1-c1-q4",
+                      "prompt": "What do you say when you meet someone for the first time?",
+                      "skill": "vocabulary",
+                      "options": [
+                        {
+                          "id": "option-1",
+                          "text": "Good night."
+                        },
+                        {
+                          "id": "option-2",
+                          "text": "Nice to meet you."
+                        },
+                        {
+                          "id": "option-3",
+                          "text": "See you tomorrow."
+                        }
+                      ]
+                    },
+                    {
+                      "id": "a1-c1-q5",
+                      "prompt": "Choose the correct introduction.",
+                      "skill": "writing",
+                      "options": [
+                        {
+                          "id": "option-1",
+                          "text": "My name are Su."
+                        },
+                        {
+                          "id": "option-2",
+                          "text": "I from Myanmar."
+                        },
+                        {
+                          "id": "option-3",
+                          "text": "My name is Su. I am from Myanmar."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "general-a2",
+      "slug": "a2",
+      "level": "A2",
+      "track": "general-english",
+      "title": "Everyday confidence",
+      "description": {
+        "en": "Find your voice in familiar, everyday situations.",
+        "my": "နေ့စဉ်ဘဝတွင် အသုံးဝင်သော အင်္ဂလိပ်စကားကို လေ့လာပါ။"
+      },
+      "status": "planned",
+      "outcomes": [
+        "Talk about daily routines",
+        "Navigate travel and shopping",
+        "Describe past experiences"
+      ],
+      "chapters": []
+    },
+    {
+      "id": "general-b1",
+      "slug": "b1",
+      "level": "B1",
+      "track": "general-english",
+      "title": "Independent English",
+      "description": {
+        "en": "Move from short answers to real conversations.",
+        "my": "အကြောင်းအရာများကို ကိုယ်တိုင် ရှင်းလင်းပြောဆိုနိုင်ရန် လေ့ကျင့်ပါ။"
+      },
+      "status": "planned",
+      "outcomes": [
+        "Share opinions and experiences",
+        "Follow connected speech",
+        "Write clear personal messages"
+      ],
+      "chapters": []
+    },
+    {
+      "id": "general-b2",
+      "slug": "b2",
+      "level": "B2",
+      "track": "general-english",
+      "title": "Express yourself",
+      "description": {
+        "en": "Explore ideas, tell stories, and make your point.",
+        "my": "စိတ်ကူးများနှင့် အမြင်များကို ရှင်းလင်းစွာ ဖော်ပြပါ။"
+      },
+      "status": "planned",
+      "outcomes": [
+        "Discuss complex topics",
+        "Understand extended articles",
+        "Write structured arguments"
+      ],
+      "chapters": []
+    },
+    {
+      "id": "general-c1",
+      "slug": "c1",
+      "level": "C1",
+      "track": "general-english",
+      "title": "English without limits",
+      "description": {
+        "en": "Communicate with nuance, precision, and flexibility.",
+        "my": "နက်နဲသော အကြောင်းအရာများကို တိကျသေချာစွာ ဆက်သွယ်ပြောဆိုပါ။"
+      },
+      "status": "planned",
+      "outcomes": [
+        "Understand implicit meaning",
+        "Speak fluently and flexibly",
+        "Write for academic and professional contexts"
+      ],
+      "chapters": []
+    }
+  ]
+}

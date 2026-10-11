@@ -1,0 +1,16 @@
+node_modules
+.next
+package-lock.json
+test-results
+playwright-report
+public/audio
+
+*.svg
+
+docs/*.sql
+AGENTS.md
+
+src/content/public
+supabase/migrations/*.sql
+
+.next-e2e
