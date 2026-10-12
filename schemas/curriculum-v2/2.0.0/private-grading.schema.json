@@ -1,0 +1,825 @@
+{
+  "$comment": "Generated from strict Zod contracts. Also run the semantic package validator; refinements/graph rules are not expressible in JSON Schema.",
+  "$id": "urn:linguatrack:curriculum:private-grading:2.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "assessmentPolicies": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "aggregation": {
+            "enum": ["legacy-rounded-percent-v1", "weighted-integer-points-v1"],
+            "type": "string"
+          },
+          "assessmentRef": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "const": "assessment",
+                "type": "string"
+              },
+              "revision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            "required": ["kind", "id", "revision"],
+            "type": "object"
+          },
+          "itemWeights": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "exerciseRef": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "id": {
+                      "maxLength": 120,
+                      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                      "type": "string"
+                    },
+                    "kind": {
+                      "const": "exercise",
+                      "type": "string"
+                    },
+                    "revision": {
+                      "maximum": 2147483647,
+                      "minimum": 1,
+                      "type": "integer"
+                    }
+                  },
+                  "required": ["kind", "id", "revision"],
+                  "type": "object"
+                },
+                "weight": {
+                  "maximum": 10000,
+                  "minimum": 1,
+                  "type": "integer"
+                }
+              },
+              "required": ["exerciseRef", "weight"],
+              "type": "object"
+            },
+            "maxItems": 1000,
+            "minItems": 1,
+            "type": "array"
+          },
+          "passPercent": {
+            "maximum": 100,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "policyRevision": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "requireAllGrades": {
+            "const": true,
+            "type": "boolean"
+          },
+          "requireAllResponses": {
+            "const": true,
+            "type": "boolean"
+          },
+          "requiredItems": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "id": {
+                  "maxLength": 120,
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                  "type": "string"
+                },
+                "kind": {
+                  "const": "exercise",
+                  "type": "string"
+                },
+                "revision": {
+                  "maximum": 2147483647,
+                  "minimum": 1,
+                  "type": "integer"
+                }
+              },
+              "required": ["kind", "id", "revision"],
+              "type": "object"
+            },
+            "maxItems": 1000,
+            "minItems": 1,
+            "type": "array"
+          },
+          "sectionMinimums": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "minimumPercent": {
+                  "maximum": 100,
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                "sectionId": {
+                  "maxLength": 120,
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                  "type": "string"
+                }
+              },
+              "required": ["sectionId", "minimumPercent"],
+              "type": "object"
+            },
+            "maxItems": 100,
+            "type": "array"
+          }
+        },
+        "required": [
+          "assessmentRef",
+          "policyRevision",
+          "aggregation",
+          "requiredItems",
+          "itemWeights",
+          "passPercent",
+          "requireAllResponses",
+          "requireAllGrades",
+          "sectionMinimums"
+        ],
+        "type": "object"
+      },
+      "maxItems": 100000,
+      "type": "array"
+    },
+    "exerciseRules": {
+      "items": {
+        "oneOf": [
+          {
+            "additionalProperties": false,
+            "properties": {
+              "correctOptionIds": {
+                "items": {
+                  "maxLength": 120,
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                  "type": "string"
+                },
+                "maxItems": 12,
+                "minItems": 1,
+                "type": "array"
+              },
+              "exerciseRef": {
+                "additionalProperties": false,
+                "properties": {
+                  "id": {
+                    "maxLength": 120,
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "type": "string"
+                  },
+                  "kind": {
+                    "const": "exercise",
+                    "type": "string"
+                  },
+                  "revision": {
+                    "maximum": 2147483647,
+                    "minimum": 1,
+                    "type": "integer"
+                  }
+                },
+                "required": ["kind", "id", "revision"],
+                "type": "object"
+              },
+              "explanation": {
+                "additionalProperties": false,
+                "properties": {
+                  "en": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "my": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["en", "my"],
+                "type": "object"
+              },
+              "graderVersion": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              },
+              "gradingRevision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              },
+              "maxPoints": {
+                "maximum": 10000,
+                "minimum": 1,
+                "type": "integer"
+              },
+              "scoring": {
+                "const": "exact_set",
+                "type": "string"
+              },
+              "type": {
+                "const": "multiple_choice",
+                "type": "string"
+              }
+            },
+            "required": [
+              "exerciseRef",
+              "gradingRevision",
+              "graderVersion",
+              "maxPoints",
+              "explanation",
+              "type",
+              "correctOptionIds",
+              "scoring"
+            ],
+            "type": "object"
+          },
+          {
+            "additionalProperties": false,
+            "properties": {
+              "acceptedPairs": {
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "leftId": {
+                      "maxLength": 120,
+                      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                      "type": "string"
+                    },
+                    "rightId": {
+                      "maxLength": 120,
+                      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                      "type": "string"
+                    }
+                  },
+                  "required": ["leftId", "rightId"],
+                  "type": "object"
+                },
+                "maxItems": 50,
+                "minItems": 1,
+                "type": "array"
+              },
+              "exerciseRef": {
+                "additionalProperties": false,
+                "properties": {
+                  "id": {
+                    "maxLength": 120,
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "type": "string"
+                  },
+                  "kind": {
+                    "const": "exercise",
+                    "type": "string"
+                  },
+                  "revision": {
+                    "maximum": 2147483647,
+                    "minimum": 1,
+                    "type": "integer"
+                  }
+                },
+                "required": ["kind", "id", "revision"],
+                "type": "object"
+              },
+              "explanation": {
+                "additionalProperties": false,
+                "properties": {
+                  "en": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "my": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["en", "my"],
+                "type": "object"
+              },
+              "graderVersion": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              },
+              "gradingRevision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              },
+              "maxPoints": {
+                "maximum": 10000,
+                "minimum": 1,
+                "type": "integer"
+              },
+              "scoring": {
+                "enum": ["exact_set", "per_pair"],
+                "type": "string"
+              },
+              "type": {
+                "const": "matching",
+                "type": "string"
+              }
+            },
+            "required": [
+              "exerciseRef",
+              "gradingRevision",
+              "graderVersion",
+              "maxPoints",
+              "explanation",
+              "type",
+              "acceptedPairs",
+              "scoring"
+            ],
+            "type": "object"
+          },
+          {
+            "additionalProperties": false,
+            "properties": {
+              "acceptedByBlank": {
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "blankId": {
+                      "maxLength": 120,
+                      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                      "type": "string"
+                    },
+                    "variants": {
+                      "items": {
+                        "maxLength": 40000,
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "maxItems": 100,
+                      "minItems": 1,
+                      "type": "array"
+                    }
+                  },
+                  "required": ["blankId", "variants"],
+                  "type": "object"
+                },
+                "maxItems": 50,
+                "minItems": 1,
+                "type": "array"
+              },
+              "exerciseRef": {
+                "additionalProperties": false,
+                "properties": {
+                  "id": {
+                    "maxLength": 120,
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "type": "string"
+                  },
+                  "kind": {
+                    "const": "exercise",
+                    "type": "string"
+                  },
+                  "revision": {
+                    "maximum": 2147483647,
+                    "minimum": 1,
+                    "type": "integer"
+                  }
+                },
+                "required": ["kind", "id", "revision"],
+                "type": "object"
+              },
+              "explanation": {
+                "additionalProperties": false,
+                "properties": {
+                  "en": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "my": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["en", "my"],
+                "type": "object"
+              },
+              "graderVersion": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              },
+              "gradingRevision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              },
+              "maxPoints": {
+                "maximum": 10000,
+                "minimum": 1,
+                "type": "integer"
+              },
+              "normalizerVersion": {
+                "const": "en-nfc-trim-ascii-space-casefold-v1",
+                "type": "string"
+              },
+              "scoring": {
+                "enum": ["exact_set", "per_blank"],
+                "type": "string"
+              },
+              "type": {
+                "const": "fill_in_blank",
+                "type": "string"
+              }
+            },
+            "required": [
+              "exerciseRef",
+              "gradingRevision",
+              "graderVersion",
+              "maxPoints",
+              "explanation",
+              "type",
+              "acceptedByBlank",
+              "normalizerVersion",
+              "scoring"
+            ],
+            "type": "object"
+          },
+          {
+            "additionalProperties": false,
+            "properties": {
+              "acceptedOrders": {
+                "items": {
+                  "items": {
+                    "maxLength": 120,
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "type": "string"
+                  },
+                  "maxItems": 100,
+                  "minItems": 2,
+                  "type": "array"
+                },
+                "maxItems": 100,
+                "minItems": 1,
+                "type": "array"
+              },
+              "exerciseRef": {
+                "additionalProperties": false,
+                "properties": {
+                  "id": {
+                    "maxLength": 120,
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "type": "string"
+                  },
+                  "kind": {
+                    "const": "exercise",
+                    "type": "string"
+                  },
+                  "revision": {
+                    "maximum": 2147483647,
+                    "minimum": 1,
+                    "type": "integer"
+                  }
+                },
+                "required": ["kind", "id", "revision"],
+                "type": "object"
+              },
+              "explanation": {
+                "additionalProperties": false,
+                "properties": {
+                  "en": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "my": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["en", "my"],
+                "type": "object"
+              },
+              "graderVersion": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              },
+              "gradingRevision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              },
+              "maxPoints": {
+                "maximum": 10000,
+                "minimum": 1,
+                "type": "integer"
+              },
+              "scoring": {
+                "const": "exact_sequence",
+                "type": "string"
+              },
+              "type": {
+                "const": "sentence_ordering",
+                "type": "string"
+              }
+            },
+            "required": [
+              "exerciseRef",
+              "gradingRevision",
+              "graderVersion",
+              "maxPoints",
+              "explanation",
+              "type",
+              "acceptedOrders",
+              "scoring"
+            ],
+            "type": "object"
+          },
+          {
+            "additionalProperties": false,
+            "properties": {
+              "exerciseRef": {
+                "additionalProperties": false,
+                "properties": {
+                  "id": {
+                    "maxLength": 120,
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "type": "string"
+                  },
+                  "kind": {
+                    "const": "exercise",
+                    "type": "string"
+                  },
+                  "revision": {
+                    "maximum": 2147483647,
+                    "minimum": 1,
+                    "type": "integer"
+                  }
+                },
+                "required": ["kind", "id", "revision"],
+                "type": "object"
+              },
+              "explanation": {
+                "additionalProperties": false,
+                "properties": {
+                  "en": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "my": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["en", "my"],
+                "type": "object"
+              },
+              "graderVersion": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              },
+              "gradingRevision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              },
+              "markingNotes": {
+                "additionalProperties": false,
+                "properties": {
+                  "en": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "my": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["en", "my"],
+                "type": "object"
+              },
+              "maxPoints": {
+                "maximum": 10000,
+                "minimum": 1,
+                "type": "integer"
+              },
+              "method": {
+                "const": "human_rubric",
+                "type": "string"
+              },
+              "modelResponse": {
+                "additionalProperties": false,
+                "properties": {
+                  "language": {
+                    "const": "en",
+                    "type": "string"
+                  },
+                  "text": {
+                    "maxLength": 100000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["language", "text"],
+                "type": "object"
+              },
+              "rubricRef": {
+                "additionalProperties": false,
+                "properties": {
+                  "id": {
+                    "maxLength": 120,
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "type": "string"
+                  },
+                  "kind": {
+                    "const": "rubric",
+                    "type": "string"
+                  },
+                  "revision": {
+                    "maximum": 2147483647,
+                    "minimum": 1,
+                    "type": "integer"
+                  }
+                },
+                "required": ["kind", "id", "revision"],
+                "type": "object"
+              },
+              "type": {
+                "const": "writing_submission",
+                "type": "string"
+              },
+              "wordCounterVersion": {
+                "const": "en-apostrophe-hyphen-v1",
+                "type": "string"
+              }
+            },
+            "required": [
+              "exerciseRef",
+              "gradingRevision",
+              "graderVersion",
+              "maxPoints",
+              "explanation",
+              "type",
+              "method",
+              "rubricRef",
+              "wordCounterVersion",
+              "modelResponse",
+              "markingNotes"
+            ],
+            "type": "object"
+          },
+          {
+            "additionalProperties": false,
+            "properties": {
+              "exerciseRef": {
+                "additionalProperties": false,
+                "properties": {
+                  "id": {
+                    "maxLength": 120,
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "type": "string"
+                  },
+                  "kind": {
+                    "const": "exercise",
+                    "type": "string"
+                  },
+                  "revision": {
+                    "maximum": 2147483647,
+                    "minimum": 1,
+                    "type": "integer"
+                  }
+                },
+                "required": ["kind", "id", "revision"],
+                "type": "object"
+              },
+              "explanation": {
+                "additionalProperties": false,
+                "properties": {
+                  "en": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "my": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["en", "my"],
+                "type": "object"
+              },
+              "graderVersion": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              },
+              "gradingRevision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              },
+              "markingNotes": {
+                "additionalProperties": false,
+                "properties": {
+                  "en": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "my": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["en", "my"],
+                "type": "object"
+              },
+              "maxPoints": {
+                "maximum": 10000,
+                "minimum": 1,
+                "type": "integer"
+              },
+              "method": {
+                "const": "human_rubric",
+                "type": "string"
+              },
+              "modelResponse": {
+                "additionalProperties": false,
+                "properties": {
+                  "language": {
+                    "const": "en",
+                    "type": "string"
+                  },
+                  "text": {
+                    "maxLength": 100000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["language", "text"],
+                "type": "object"
+              },
+              "rubricRef": {
+                "additionalProperties": false,
+                "properties": {
+                  "id": {
+                    "maxLength": 120,
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "type": "string"
+                  },
+                  "kind": {
+                    "const": "rubric",
+                    "type": "string"
+                  },
+                  "revision": {
+                    "maximum": 2147483647,
+                    "minimum": 1,
+                    "type": "integer"
+                  }
+                },
+                "required": ["kind", "id", "revision"],
+                "type": "object"
+              },
+              "type": {
+                "const": "speaking_recording",
+                "type": "string"
+              }
+            },
+            "required": [
+              "exerciseRef",
+              "gradingRevision",
+              "graderVersion",
+              "maxPoints",
+              "explanation",
+              "type",
+              "method",
+              "rubricRef",
+              "modelResponse",
+              "markingNotes"
+            ],
+            "type": "object"
+          }
+        ]
+      },
+      "maxItems": 100000,
+      "type": "array"
+    }
+  },
+  "required": ["exerciseRules", "assessmentPolicies"],
+  "type": "object"
+}

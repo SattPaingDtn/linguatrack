@@ -1,0 +1,154 @@
+{
+  "$comment": "Generated from strict Zod contracts. Also run the semantic package validator; refinements/graph rules are not expressible in JSON Schema.",
+  "$id": "urn:linguatrack:curriculum:rubrics:2.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "aggregation": {
+        "const": "sum_integer_points",
+        "type": "string"
+      },
+      "coreSkill": {
+        "enum": ["writing", "speaking"],
+        "type": "string"
+      },
+      "criteria": {
+        "items": {
+          "additionalProperties": false,
+          "properties": {
+            "anchors": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "description": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "en": {
+                        "maxLength": 40000,
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "my": {
+                        "maxLength": 40000,
+                        "minLength": 1,
+                        "type": "string"
+                      }
+                    },
+                    "required": ["en", "my"],
+                    "type": "object"
+                  },
+                  "points": {
+                    "maximum": 10000,
+                    "minimum": 0,
+                    "type": "integer"
+                  }
+                },
+                "required": ["points", "description"],
+                "type": "object"
+              },
+              "maxItems": 10001,
+              "minItems": 2,
+              "type": "array"
+            },
+            "description": {
+              "additionalProperties": false,
+              "properties": {
+                "en": {
+                  "maxLength": 40000,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "my": {
+                  "maxLength": 40000,
+                  "minLength": 1,
+                  "type": "string"
+                }
+              },
+              "required": ["en", "my"],
+              "type": "object"
+            },
+            "id": {
+              "maxLength": 120,
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "type": "string"
+            },
+            "maxPoints": {
+              "maximum": 10000,
+              "minimum": 1,
+              "type": "integer"
+            }
+          },
+          "required": ["id", "description", "maxPoints", "anchors"],
+          "type": "object"
+        },
+        "maxItems": 50,
+        "minItems": 1,
+        "type": "array"
+      },
+      "id": {
+        "maxLength": 120,
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+        "type": "string"
+      },
+      "kind": {
+        "const": "rubric",
+        "type": "string"
+      },
+      "revision": {
+        "maximum": 2147483647,
+        "minimum": 1,
+        "type": "integer"
+      },
+      "source": {
+        "additionalProperties": false,
+        "properties": {
+          "contentVersion": {
+            "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+            "type": "string"
+          },
+          "id": {
+            "maxLength": 120,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "kind": {
+            "enum": ["course", "chapter", "lesson", "block", "question"],
+            "type": "string"
+          },
+          "pointer": {
+            "maxLength": 1000,
+            "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+            "type": "string"
+          },
+          "schemaVersion": {
+            "const": 1,
+            "type": "number"
+          }
+        },
+        "required": ["schemaVersion", "contentVersion", "kind", "id"],
+        "type": "object"
+      },
+      "title": {
+        "additionalProperties": false,
+        "properties": {
+          "en": {
+            "maxLength": 40000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "my": {
+            "maxLength": 40000,
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": ["en", "my"],
+        "type": "object"
+      }
+    },
+    "required": ["kind", "id", "revision", "coreSkill", "title", "criteria", "aggregation"],
+    "type": "object"
+  },
+  "type": "array"
+}

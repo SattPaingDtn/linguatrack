@@ -6,6 +6,12 @@ Sign in and choose **My progress → Export learning data**. The authenticated `
 
 Sync pending answers first: an export contains acknowledged database records. Browser pending answers are separately stored under `linguatrack:pending:v1:<user-id>` in localStorage. If synchronization is blocked, preserve that value using browser developer tools before clearing site data. It contains selected answers, IDs and content versions, not answer keys or auth credentials. There is no automatic JSON import in this phase.
 
+## Reset your learning data
+
+After exporting if needed, open **My progress → Reset progress and history**, type `RESET` and choose **Permanently reset**. The same control appears in nonempty Review history. This clears your completed lessons, all quiz attempts and answers, mistake reviews, study sessions and resume position across content versions. It retains your login and the curriculum. This is permanent; the app has no undo or history import.
+
+Pending pre-reset answers on all devices become invalid. This device clears them only after confirmation; other devices discard them when refreshing the account snapshot and show a notice. If reset fails or its acknowledgement is lost, keep the dialog open and retry: the same request cannot delete newly added progress a second time. Reloading also lets you check whether the reset committed. Migration `20261011000300_reset_learning.sql` must be applied first; applying the migration itself does not delete learning data.
+
 ## Administrator backup
 
 Keep backups outside Git, encrypted and access-controlled. Hosted Supabase backup availability and retention depend on the project's current plan; verify the Dashboard backup settings rather than assuming point-in-time recovery is enabled. Follow [Supabase backup guidance](https://supabase.com/docs/guides/platform/backups) for managed restores.

@@ -4,6 +4,8 @@ vi.mock("server-only", () => ({}));
 vi.mock("@/lib/supabase/server", () => ({ createSupabaseServerClient: vi.fn() }));
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import { POST as authPOST } from "@/app/api/auth/route";
+import { POST as resetPOST } from "@/app/api/learning/reset/route";
+import { emptySnapshot } from "@/lib/learning/contracts";
 import { POST } from "@/app/api/learning/answer/route";
 import { input, canonicalQuiz } from "./fixtures";
 import { getSupabaseConfig } from "@/lib/supabase/config";
@@ -120,5 +122,40 @@ describe("trusted answer API", () => {
     expect(() => getSupabaseConfig()).toThrow("both");
     vi.stubEnv("NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY", "test-public-key");
     expect(getSupabaseConfig()).toMatchObject({ url: "https://test.supabase.co" });
+  });
+});
+
+describe("owner-only reset API", () => {
+  const body = {
+    requestId: crypto.randomUUID(),
+    contentVersion: "1.0.0",
+    generation: 0,
+    confirmation: "RESET",
+  };
+  it("requires sign-in, explicit confirmation, valid IDs and same-origin JSON without an owner override", async () => {
+    clientMock.mockResolvedValue(null);
+    expect((await resetPOST(request(body))).status).toBe(401);
+    expect((await resetPOST(request({ ...body, confirmation: "yes" }))).status).toBe(400);
+    expect((await resetPOST(request({ ...body, requestId: "invalid" }))).status).toBe(400);
+    expect((await resetPOST(request({ ...body, userId: crypto.randomUUID() }))).status).toBe(400);
+    expect((await resetPOST(request(body, "https://other.example"))).status).toBe(403);
+  });
+  it("uses the verified user's RPC and returns the acknowledged generation", async () => {
+    const rpc = vi.fn(async () => ({ data: { ...emptySnapshot, generation: 1 }, error: null }));
+    clientMock.mockResolvedValue({
+      auth: { getUser: async () => ({ data: { user: { id: crypto.randomUUID() } }, error: null }) },
+      rpc,
+    } as unknown as NonNullable<Awaited<ReturnType<typeof createSupabaseServerClient>>>);
+    const response = await resetPOST(request(body));
+    expect(response.status).toBe(200);
+    expect(await response.json()).toMatchObject({ generation: 1, attempts: [] });
+    expect(rpc).toHaveBeenCalledWith("reset_learning", {
+      p_request_id: body.requestId,
+      p_version: body.contentVersion,
+      p_generation: 0,
+    });
+    expect(response.headers.get("Cache-Control")).toContain("no-store");
+    rpc.mockResolvedValue({ data: null, error: { code: "40001" } } as never);
+    expect((await resetPOST(request(body))).status).toBe(409);
   });
 });

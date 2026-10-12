@@ -42,7 +42,7 @@ export function MultipleChoiceQuiz({
   const saved = pending ? session.attempts.find((a) => a.id === pending.attemptId) : unfinished;
   return (
     <QuizPlayer
-      key={`${session.user?.id ?? "preview"}:${quiz.id}:${requestedAttempt ?? "resume"}`}
+      key={`${session.user?.id ?? "preview"}:${session.generation}:${quiz.id}:${requestedAttempt ?? "resume"}`}
       quiz={quiz}
       lessonId={lessonId}
       saved={saved}
@@ -61,7 +61,7 @@ function QuizPlayer({
   saved?: QuizAttempt;
   pending?: import("@/lib/learning/contracts").AnswerSubmission;
 }) {
-  const { submitAnswer, attempts, mode } = useSession();
+  const { submitAnswer, attempts, mode, generation } = useSession();
   const [attemptId, setAttemptId] = useState(pending?.attemptId ?? saved?.id ?? "");
   const [index, setIndex] = useState(() =>
     Math.max(
@@ -95,6 +95,7 @@ function QuizPlayer({
     try {
       await submitAnswer({
         attemptId: id,
+        generation: pending?.generation ?? generation,
         contentVersion: curriculum.contentVersion,
         lessonId,
         quizId: quiz.id,

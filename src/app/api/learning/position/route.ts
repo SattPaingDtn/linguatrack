@@ -6,6 +6,7 @@ export async function POST(request: Request) {
     const { client } = await requireLearner();
     const { error } = await client.rpc("touch_position", {
       p_version: input.contentVersion,
+      p_generation: input.generation,
       p_lesson_id: input.lessonId,
       p_block_id: input.blockId,
       p_session_id: input.sessionId,

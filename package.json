@@ -11,11 +11,21 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
-    "check": "npm run content:check && npm run lint && npm run typecheck && npm test && npm run build",
+    "check": "npm run content:check && npm run curriculum:v2:schemas:check && npm run lint && npm run typecheck && npm test && npm run build",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "content:generate": "node scripts/generate-content.mjs",
-    "content:check": "node scripts/generate-content.mjs --check"
+    "content:check": "node scripts/generate-content.mjs --check",
+    "curriculum:v2:schemas": "tsx scripts/curriculum/cli.ts schemas",
+    "curriculum:v2:schemas:check": "tsx scripts/curriculum/cli.ts schemas --check",
+    "curriculum:v2:bridge": "tsx scripts/curriculum/cli.ts bridge",
+    "curriculum:v2:validate": "tsx scripts/curriculum/cli.ts validate",
+    "curriculum:v2:compatibility": "tsx scripts/curriculum/cli.ts compatibility",
+    "test:curriculum:v2": "vitest run tests/curriculum-v2",
+    "curriculum:v2:author-prototype": "tsx scripts/curriculum/author-prototype.ts",
+    "curriculum:v2:edit-pronouns": "tsx scripts/curriculum/edit-pronouns.ts",
+    "test:preview": "vitest run tests/preview",
+    "test:e2e:preview": "playwright test --config playwright.preview.config.ts"
   },
   "dependencies": {
     "@fontsource-variable/dm-sans": "^5.3.0",
@@ -52,6 +62,7 @@
     "jsdom": "^29.1.1",
     "prettier": "^3.9.10",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5",
     "vitest": "^4.1.11"
   },

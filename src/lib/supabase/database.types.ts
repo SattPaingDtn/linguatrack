@@ -11,6 +11,7 @@ export type Database = {
       answer_question: {
         Args: {
           p_attempt_id: string;
+          p_generation: number;
           p_version: string;
           p_lesson_id: string;
           p_quiz_id: string;
@@ -19,7 +20,10 @@ export type Database = {
         };
         Returns: Json;
       };
-      complete_lesson: { Args: { p_version: string; p_lesson_id: string }; Returns: Json };
+      complete_lesson: {
+        Args: { p_version: string; p_lesson_id: string; p_generation: number };
+        Returns: Json;
+      };
       touch_position: {
         Args: {
           p_version: string;
@@ -27,10 +31,15 @@ export type Database = {
           p_block_id: string | null;
           p_session_id: string;
           p_sequence: number;
+          p_generation: number;
         };
         Returns: undefined;
       };
-      review_mistake: { Args: { p_response_id: string }; Returns: undefined };
+      review_mistake: { Args: { p_response_id: string; p_generation: number }; Returns: undefined };
+      reset_learning: {
+        Args: { p_request_id: string; p_version: string; p_generation: number };
+        Returns: Json;
+      };
       learning_export: { Args: Record<string, never>; Returns: Json };
     };
   };

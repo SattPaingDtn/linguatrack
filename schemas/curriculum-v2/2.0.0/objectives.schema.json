@@ -1,0 +1,308 @@
+{
+  "$comment": "Generated from strict Zod contracts. Also run the semantic package validator; refinements/graph rules are not expressible in JSON Schema.",
+  "$id": "urn:linguatrack:curriculum:objectives:2.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "action": {
+        "enum": [
+          "identify",
+          "recognize",
+          "match",
+          "order",
+          "produce",
+          "interpret",
+          "summarize",
+          "argue"
+        ],
+        "type": "string"
+      },
+      "descriptorRefs": {
+        "items": {
+          "additionalProperties": false,
+          "properties": {
+            "descriptorId": {
+              "maxLength": 40000,
+              "minLength": 1,
+              "type": "string"
+            },
+            "edition": {
+              "maxLength": 40000,
+              "minLength": 1,
+              "type": "string"
+            },
+            "framework": {
+              "const": "CEFR",
+              "type": "string"
+            }
+          },
+          "required": ["framework", "edition", "descriptorId"],
+          "type": "object"
+        },
+        "maxItems": 100,
+        "type": "array"
+      },
+      "difficulty": {
+        "additionalProperties": false,
+        "properties": {
+          "band": {
+            "enum": ["introductory", "developing", "consolidating"],
+            "type": "string"
+          },
+          "estimateSource": {
+            "enum": ["author", "pilot"],
+            "type": "string"
+          },
+          "estimatedMinutes": {
+            "exclusiveMinimum": 0,
+            "maximum": 240,
+            "type": "number"
+          },
+          "targetCefr": {
+            "enum": ["A1", "A2", "B1", "B2", "C1"],
+            "type": "string"
+          }
+        },
+        "required": ["targetCefr", "band", "estimateSource", "estimatedMinutes"],
+        "type": "object"
+      },
+      "expectedEvidence": {
+        "items": {
+          "enum": [
+            "recognition",
+            "comprehension",
+            "written_production",
+            "spoken_production",
+            "self_practice"
+          ],
+          "type": "string"
+        },
+        "maxItems": 5,
+        "minItems": 1,
+        "type": "array"
+      },
+      "id": {
+        "maxLength": 120,
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+        "type": "string"
+      },
+      "kind": {
+        "const": "objective",
+        "type": "string"
+      },
+      "revision": {
+        "maximum": 2147483647,
+        "minimum": 1,
+        "type": "integer"
+      },
+      "source": {
+        "additionalProperties": false,
+        "properties": {
+          "contentVersion": {
+            "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+            "type": "string"
+          },
+          "id": {
+            "maxLength": 120,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "kind": {
+            "enum": ["course", "chapter", "lesson", "block", "question"],
+            "type": "string"
+          },
+          "pointer": {
+            "maxLength": 1000,
+            "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+            "type": "string"
+          },
+          "schemaVersion": {
+            "const": 1,
+            "type": "number"
+          }
+        },
+        "required": ["schemaVersion", "contentVersion", "kind", "id"],
+        "type": "object"
+      },
+      "statement": {
+        "anyOf": [
+          {
+            "additionalProperties": false,
+            "properties": {
+              "en": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              },
+              "my": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": ["en", "my"],
+            "type": "object"
+          },
+          {
+            "additionalProperties": false,
+            "properties": {
+              "language": {
+                "enum": ["en", "my"],
+                "type": "string"
+              },
+              "legacy": {
+                "const": true,
+                "type": "boolean"
+              },
+              "source": {
+                "additionalProperties": false,
+                "properties": {
+                  "contentVersion": {
+                    "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                    "type": "string"
+                  },
+                  "id": {
+                    "maxLength": 120,
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "type": "string"
+                  },
+                  "kind": {
+                    "enum": ["course", "chapter", "lesson", "block", "question"],
+                    "type": "string"
+                  },
+                  "pointer": {
+                    "maxLength": 1000,
+                    "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                    "type": "string"
+                  },
+                  "schemaVersion": {
+                    "const": 1,
+                    "type": "number"
+                  }
+                },
+                "required": ["schemaVersion", "contentVersion", "kind", "id"],
+                "type": "object"
+              },
+              "text": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": ["legacy", "language", "text", "source"],
+            "type": "object"
+          }
+        ]
+      },
+      "successCriterion": {
+        "anyOf": [
+          {
+            "additionalProperties": false,
+            "properties": {
+              "en": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              },
+              "my": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": ["en", "my"],
+            "type": "object"
+          },
+          {
+            "additionalProperties": false,
+            "properties": {
+              "language": {
+                "enum": ["en", "my"],
+                "type": "string"
+              },
+              "legacy": {
+                "const": true,
+                "type": "boolean"
+              },
+              "source": {
+                "additionalProperties": false,
+                "properties": {
+                  "contentVersion": {
+                    "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                    "type": "string"
+                  },
+                  "id": {
+                    "maxLength": 120,
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "type": "string"
+                  },
+                  "kind": {
+                    "enum": ["course", "chapter", "lesson", "block", "question"],
+                    "type": "string"
+                  },
+                  "pointer": {
+                    "maxLength": 1000,
+                    "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                    "type": "string"
+                  },
+                  "schemaVersion": {
+                    "const": 1,
+                    "type": "number"
+                  }
+                },
+                "required": ["schemaVersion", "contentVersion", "kind", "id"],
+                "type": "object"
+              },
+              "text": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": ["legacy", "language", "text", "source"],
+            "type": "object"
+          }
+        ]
+      },
+      "tags": {
+        "additionalProperties": false,
+        "properties": {
+          "areas": {
+            "items": {
+              "enum": ["listening", "speaking", "reading", "writing", "grammar", "vocabulary"],
+              "type": "string"
+            },
+            "maxItems": 6,
+            "minItems": 1,
+            "type": "array"
+          },
+          "coreSkills": {
+            "items": {
+              "enum": ["listening", "speaking", "reading", "writing"],
+              "type": "string"
+            },
+            "maxItems": 4,
+            "type": "array"
+          }
+        },
+        "required": ["areas", "coreSkills"],
+        "type": "object"
+      }
+    },
+    "required": [
+      "kind",
+      "id",
+      "revision",
+      "statement",
+      "action",
+      "tags",
+      "successCriterion",
+      "expectedEvidence",
+      "difficulty",
+      "descriptorRefs"
+    ],
+    "type": "object"
+  },
+  "type": "array"
+}

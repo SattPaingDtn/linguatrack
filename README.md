@@ -34,6 +34,7 @@ npm start
 4. Apply these migrations **once, in order**, in the project's SQL Editor:
    - `supabase/migrations/20261011000100_learning.sql`
    - `supabase/migrations/20261011000200_curriculum_v1.sql`
+   - `supabase/migrations/20261011000300_reset_learning.sql`
      Alternatively, use the Supabase CLI: `supabase login`, `supabase link --project-ref YOUR_PROJECT_REF`, then `supabase db push`. CLI linking asks for database access; do not put those secrets in the app environment or source files.
 5. Restart the development server after changing environment variables; rebuild and restart for production. Open **Your account** via the sidebar, create an account, confirm the email in the same browser, and sign in. The header and notice now identify **saved** progress. Preview activity is not imported.
 6. Complete a lesson, answer part of a quiz, reload, then sign into that account in another browser/device. Verify completion, quiz continuation and **Continue learning**. Sign in with a different account to verify empty personal history.
@@ -100,8 +101,27 @@ Before the initial content release is applied, `npm run content:generate` refres
 
 ## Backups and export
 
-Learners can download their complete owner-scoped JSON history from **My progress → Export learning data**. Administrator backup and restore instructions are in [backup/export guide](docs/backups.md). User JSON is a portable history export, not a database restore format. No automatic imports or destructive resets are exposed in the app.
+Learners can download their complete owner-scoped JSON history from **My progress → Export learning data**. Administrator backup and restore instructions are in [backup/export guide](docs/backups.md). User JSON is a portable history export, not a database restore format. No automatic history imports are provided. Signed-in learners can use **My progress → Reset progress and history** (also available in nonempty Review history). Type `RESET` and confirm to permanently clear completions, attempts/answers, mistake reviews, study activity and resume position across all content versions. The account and curriculum remain. Export first if you need a copy. Apply migration `20261011000300_reset_learning.sql` before using the updated app; it adds an owner-only atomic reset, retry deduplication and a generation guard against old device submissions. No learner data is reset automatically by deployment.
 
 ## Dependency note
 
 `tw-animate-css` remains pinned to 1.3.8 for the existing Tailwind Turbopack loader. The development ESLint tree contains the upstream `braces` advisory previously identified in Phase 1; no runtime dependency is affected by that finding. Recheck `npm audit` and apply compatible updates when available rather than forcing an unrelated major downgrade.
+
+## Phase 3A: curriculum v2 foundation
+
+Offline strict v2 schemas, generated JSON Schema, reference/media validation and a deterministic v1 bridge are available. **The app still runs v1; no v2 release or database migration is activated.** Existing lessons, design, saved history and reset behavior are preserved.
+
+```bash
+npm run curriculum:v2:schemas:check
+npm run curriculum:v2:bridge -- --out .curriculum-drafts/1.1.0
+npm run curriculum:v2:validate -- .curriculum-drafts/1.1.0
+npm run test:curriculum:v2
+```
+
+The bridge requires a new output directory and retains all IDs, slugs, options, answers and the 80% pass rule. Draft compatibility mappings require review. See [Phase 3A files, commands, validation rules, history audits and remaining steps](docs/phase-3a-curriculum.md). `npm run check` now includes generated v2 schema drift checks. No additional credentials are required.
+
+### Development-only subject pronouns preview (Phase 3C)
+
+With the reviewed local draft chain 1.1.0–1.3.0 present, run `npm run dev` and open [the local lesson preview](http://localhost:3000/dev/lessons/subject-pronouns). It shows bilingual draft content, all 14 practice questions and unsaved writing. Grading stays on the development server; results never update account progress or review history. Production returns 404.
+
+Run `npm run test:preview` for focused tests and `npm run test:e2e:preview` for real desktop/mobile development checks. See [Phase 3C setup, isolation and limitations](docs/phase-3c-preview.md).

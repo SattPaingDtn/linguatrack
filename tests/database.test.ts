@@ -19,7 +19,11 @@ let userA: string;
 let userB: string;
 async function migrate(database: PGlite) {
   await database.exec(setup);
-  for (const name of ["20261011000100_learning.sql", "20261011000200_curriculum_v1.sql"])
+  for (const name of [
+    "20261011000100_learning.sql",
+    "20261011000200_curriculum_v1.sql",
+    "20261011000300_reset_learning.sql",
+  ])
     await database.exec(await readFile(join(process.cwd(), "supabase/migrations", name), "utf8"));
 }
 async function asUser(uid: string, role = "authenticated", database = db) {
@@ -205,6 +209,160 @@ describe("PostgreSQL migration and persistence", () => {
         11,
       ]),
     ).rejects.toThrow("Unknown lesson section");
+  });
+  it("resets only the authenticated owner's data across versions and preserves curriculum/account", async () => {
+    const attempt = crypto.randomUUID();
+    await answer(attempt, 1, "option-2");
+    await db.query("select public.complete_lesson($1,$2)", [version, "a1-c1-introductions"]);
+    await db.query("select public.touch_position($1,$2,$3,$4,$5)", [
+      version,
+      lesson,
+      "a1-c1-quiz",
+      crypto.randomUUID(),
+      1,
+    ]);
+    await db.exec("reset role");
+    await db.query(
+      "insert into private.lesson_catalog(content_version,lesson_id,href,block_ids,quizzes) select '1.1.0',lesson_id,href,block_ids,quizzes from private.lesson_catalog where content_version=$1",
+      [version],
+    );
+    await db.query(
+      "insert into public.lesson_progress(user_id,content_version,lesson_id,completion_source) values($1,'1.1.0',$2,'self_reported')",
+      [userA, "a1-c1-introductions"],
+    );
+    await asUser(userB);
+    await answer(crypto.randomUUID(), 1, "option-2");
+    await db.query("select public.complete_lesson($1,$2)", [version, "a1-c1-introductions"]);
+    const untouched = await snapshot();
+    await asUser(userA);
+    const { rows } = await db.query<{ value: unknown }>(
+      "select public.reset_learning($1,$2,$3) as value",
+      [crypto.randomUUID(), version, 0],
+    );
+    expect(learningSnapshotSchema.parse(rows[0]!.value)).toMatchObject({
+      generation: 1,
+      completed: [],
+      attempts: [],
+      mistakes: [],
+      studySeconds: 0,
+      studySessionCount: 0,
+      profile: { lastLessonId: null, lastBlockId: null, contentVersion: null },
+    });
+    for (const table of [
+      "lesson_progress",
+      "quiz_attempts",
+      "exercise_responses",
+      "mistake_reviews",
+      "study_sessions",
+    ]) {
+      expect((await db.query(`select * from public.${table}`)).rows).toHaveLength(0);
+    }
+    expect((await db.query("select * from public.profiles")).rows).toHaveLength(1);
+    await asUser(userB);
+    expect(await snapshot()).toEqual(untouched);
+    await db.exec("reset role");
+    expect((await db.query("select * from private.lesson_catalog")).rows).toHaveLength(6);
+    expect((await db.query("select * from auth.users where id=$1", [userA])).rows).toHaveLength(1);
+  });
+  it("rejects pre-reset writes on every mutation and safely retries a reset without deleting subsequent activity", async () => {
+    const id = crypto.randomUUID();
+    await answer(id, 1, "option-2");
+    const response = (await snapshot()).mistakes[0]!.responseId;
+    const request = crypto.randomUUID();
+    await db.query("select public.reset_learning($1,$2,$3)", [request, version, 0]);
+    await expect(answer(id, 1, "option-2")).rejects.toThrow("history was reset");
+    await expect(
+      db.query("select public.complete_lesson($1,$2)", [version, "a1-c1-introductions"]),
+    ).rejects.toThrow("history was reset");
+    await expect(
+      db.query("select public.touch_position($1,$2,$3,$4,$5)", [
+        version,
+        lesson,
+        null,
+        crypto.randomUUID(),
+        1,
+      ]),
+    ).rejects.toThrow("history was reset");
+    await expect(db.query("select public.review_mistake($1)", [response])).rejects.toThrow(
+      "history was reset",
+    );
+    await db.query("select public.complete_lesson($1,$2,$3)", [version, "a1-c1-introductions", 1]);
+    const fresh = crypto.randomUUID();
+    await db.query("select public.answer_question($1,$2,$3,$4,$5,$6,$7)", [
+      fresh,
+      version,
+      lesson,
+      quiz,
+      "a1-c1-q1",
+      "option-1",
+      1,
+    ]);
+    await db.query("select public.touch_position($1,$2,$3,$4,$5,$6)", [
+      version,
+      lesson,
+      "a1-c1-quiz",
+      crypto.randomUUID(),
+      1,
+      1,
+    ]);
+    const after = await snapshot();
+    await db.query("select public.reset_learning($1,$2,$3)", [request, version, 0]);
+    expect(await snapshot()).toEqual(after);
+    await expect(
+      db.query("select public.reset_learning($1,$2,$3)", [request, version, 1]),
+    ).rejects.toThrow("Reset request mismatch");
+    await expect(
+      db.query("select public.reset_learning($1,$2,$3)", [crypto.randomUUID(), version, 0]),
+    ).rejects.toThrow("history was reset");
+    await expect(
+      db.query("select private.answer_question($1,$2,$3,$4,$5,$6)", [
+        id,
+        version,
+        lesson,
+        quiz,
+        "a1-c1-q1",
+        "option-1",
+      ]),
+    ).rejects.toThrow("permission denied");
+    await asUser("", "anon");
+    await expect(
+      db.query("select public.reset_learning($1,$2,$3)", [crypto.randomUUID(), version, 0]),
+    ).rejects.toThrow("permission denied");
+    await asUser("");
+    await expect(
+      db.query("select public.reset_learning($1,$2,$3)", [crypto.randomUUID(), version, 0]),
+    ).rejects.toThrow("Authentication required");
+  });
+  it("rolls back a failed reset and preserves existing history", async () => {
+    await answer(crypto.randomUUID(), 1, "option-2");
+    const before = await snapshot();
+    await expect(
+      db.query("select public.reset_learning($1,$2,$3)", [crypto.randomUUID(), "9.0.0", 0]),
+    ).rejects.toThrow("Unknown content version");
+    expect(await snapshot()).toEqual(before);
+    await db.exec("reset role");
+    await db.exec(
+      "create function private.fail_reset() returns trigger language plpgsql as $$ begin raise exception 'Test failure'; end $$; create trigger fail_reset before delete on public.study_sessions for each row execute function private.fail_reset();",
+    );
+    await asUser(userA);
+    await db.query("select public.touch_position($1,$2,$3,$4,$5)", [
+      version,
+      lesson,
+      null,
+      crypto.randomUUID(),
+      1,
+    ]);
+    const active = await snapshot();
+    try {
+      await expect(
+        db.query("select public.reset_learning($1,$2,$3)", [crypto.randomUUID(), version, 0]),
+      ).rejects.toThrow("Test failure");
+      expect(await snapshot()).toEqual(active);
+    } finally {
+      await db.exec(
+        "reset role; drop trigger fail_reset on public.study_sessions; drop function private.fail_reset();",
+      );
+    }
   });
   it("persists records after database close/reopen and exports only the authenticated owner's rows", async () => {
     const directory = await mkdtemp(join(tmpdir(), "linguatrack-db-"));

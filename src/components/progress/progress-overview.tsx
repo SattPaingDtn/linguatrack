@@ -7,6 +7,7 @@ import { calculateProgress } from "@/lib/learning/progress";
 import { SkillBadge } from "@/components/shared/skill-badge";
 import { Progress } from "@/components/ui/progress";
 import { Button } from "@/components/ui/button";
+import { ResetProgress } from "./reset-progress";
 export function ProgressOverview() {
   const { completed, attempts, mode, loading, studySeconds, studySessionCount, resetSession } =
     useSession();
@@ -185,6 +186,9 @@ export function ProgressOverview() {
             {error}
           </p>
         )}
+      </div>
+      <div className="mt-4">
+        <ResetProgress />
       </div>
     </>
   );

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import { AppShell } from "@/components/layout/app-shell";
-import { SessionProvider } from "@/components/progress/session-provider";
+import { ApplicationBoundary } from "@/components/layout/application-boundary";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -13,9 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-        <SessionProvider>
-          <AppShell>{children}</AppShell>
-        </SessionProvider>
+        <ApplicationBoundary>{children}</ApplicationBoundary>
       </body>
     </html>
   );

@@ -1,0 +1,253 @@
+{
+  "$comment": "Generated from strict Zod contracts. Also run the semantic package validator; refinements/graph rules are not expressible in JSON Schema.",
+  "$id": "urn:linguatrack:curriculum:submissions:2.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "attemptId": {
+      "format": "uuid",
+      "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000|ffffffff-ffff-ffff-ffff-ffffffffffff)$",
+      "type": "string"
+    },
+    "contentVersion": {
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+      "type": "string"
+    },
+    "delivery": {
+      "anyOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "id": {
+              "maxLength": 120,
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "type": "string"
+            },
+            "kind": {
+              "const": "block",
+              "type": "string"
+            },
+            "revision": {
+              "maximum": 2147483647,
+              "minimum": 1,
+              "type": "integer"
+            }
+          },
+          "required": ["kind", "id", "revision"],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "id": {
+              "maxLength": 120,
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "type": "string"
+            },
+            "kind": {
+              "const": "assessment",
+              "type": "string"
+            },
+            "revision": {
+              "maximum": 2147483647,
+              "minimum": 1,
+              "type": "integer"
+            }
+          },
+          "required": ["kind", "id", "revision"],
+          "type": "object"
+        }
+      ]
+    },
+    "exercise": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "maxLength": 120,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "type": "string"
+        },
+        "kind": {
+          "const": "exercise",
+          "type": "string"
+        },
+        "revision": {
+          "maximum": 2147483647,
+          "minimum": 1,
+          "type": "integer"
+        }
+      },
+      "required": ["kind", "id", "revision"],
+      "type": "object"
+    },
+    "generation": {
+      "maximum": 2147483647,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "response": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "optionIds": {
+              "items": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "maxItems": 12,
+              "minItems": 1,
+              "type": "array"
+            },
+            "type": {
+              "const": "multiple_choice",
+              "type": "string"
+            }
+          },
+          "required": ["type", "optionIds"],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "pairs": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "leftId": {
+                    "maxLength": 120,
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "type": "string"
+                  },
+                  "rightId": {
+                    "maxLength": 120,
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "type": "string"
+                  }
+                },
+                "required": ["leftId", "rightId"],
+                "type": "object"
+              },
+              "maxItems": 50,
+              "minItems": 1,
+              "type": "array"
+            },
+            "type": {
+              "const": "matching",
+              "type": "string"
+            }
+          },
+          "required": ["type", "pairs"],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "fill_in_blank",
+              "type": "string"
+            },
+            "values": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "blankId": {
+                    "maxLength": 120,
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "type": "string"
+                  },
+                  "text": {
+                    "maxLength": 100000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["blankId", "text"],
+                "type": "object"
+              },
+              "maxItems": 50,
+              "minItems": 1,
+              "type": "array"
+            }
+          },
+          "required": ["type", "values"],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "tokenIds": {
+              "items": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "maxItems": 100,
+              "minItems": 2,
+              "type": "array"
+            },
+            "type": {
+              "const": "sentence_ordering",
+              "type": "string"
+            }
+          },
+          "required": ["type", "tokenIds"],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "text": {
+              "maxLength": 100000,
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": {
+              "const": "writing_submission",
+              "type": "string"
+            }
+          },
+          "required": ["type", "text"],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "submissionAssetId": {
+              "format": "uuid",
+              "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000|ffffffff-ffff-ffff-ffff-ffffffffffff)$",
+              "type": "string"
+            },
+            "type": {
+              "const": "speaking_recording",
+              "type": "string"
+            }
+          },
+          "required": ["type", "submissionAssetId"],
+          "type": "object"
+        }
+      ]
+    },
+    "responseId": {
+      "format": "uuid",
+      "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000|ffffffff-ffff-ffff-ffff-ffffffffffff)$",
+      "type": "string"
+    },
+    "schemaVersion": {
+      "const": 2,
+      "type": "number"
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "contentVersion",
+    "attemptId",
+    "responseId",
+    "generation",
+    "delivery",
+    "exercise",
+    "response"
+  ],
+  "type": "object"
+}

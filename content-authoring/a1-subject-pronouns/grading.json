@@ -1,0 +1,243 @@
+{
+  "exerciseRules": [
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pronouns-q01",
+        "revision": 2
+      },
+      "gradingRevision": 2,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "type": "multiple_choice",
+      "maxPoints": 1,
+      "correctOptionIds": ["option-1"],
+      "scoring": "exact_set",
+      "explanation": {
+        "en": "I refers to the person speaking. It takes am: I am a student.",
+        "my": "I သည် ပြောသူကိုယ်တိုင်ကို ရည်ညွှန်းသည်။ I နှင့် am ကို တွဲပြီး I am a student. ဟု ရေးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pronouns-q02",
+        "revision": 2
+      },
+      "gradingRevision": 2,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "type": "multiple_choice",
+      "maxPoints": 1,
+      "correctOptionIds": ["option-2"],
+      "scoring": "exact_set",
+      "explanation": {
+        "en": "Use you for the person you are speaking to. You takes are even for one person.",
+        "my": "နားထောင်သူအတွက် you ကို သုံးပါ။ လူတစ်ဦးတည်းဖြစ်လျှင်လည်း You are a student. ဟု ရေးရသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pronouns-q03",
+        "revision": 2
+      },
+      "gradingRevision": 2,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "type": "multiple_choice",
+      "maxPoints": 1,
+      "correctOptionIds": ["option-3"],
+      "scoring": "exact_set",
+      "explanation": {
+        "en": "Use he for the man in this example: He is a teacher. He takes is.",
+        "my": "ဤဥပမာရှိ အမျိုးသားအတွက် he ကို သုံးပါ။ He နှင့် is ကို တွဲပြီး He is a teacher. ဟု ရေးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pronouns-q04",
+        "revision": 2
+      },
+      "gradingRevision": 2,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "type": "multiple_choice",
+      "maxPoints": 1,
+      "correctOptionIds": ["option-1"],
+      "scoring": "exact_set",
+      "explanation": {
+        "en": "Use she for the woman in this example: She is happy. She takes is.",
+        "my": "ဤဥပမာရှိ အမျိုးသမီးအတွက် she ကို သုံးပါ။ She နှင့် is ကို တွဲပြီး She is happy. ဟု ရေးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pronouns-q05",
+        "revision": 2
+      },
+      "gradingRevision": 2,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "type": "multiple_choice",
+      "maxPoints": 1,
+      "correctOptionIds": ["option-2"],
+      "scoring": "exact_set",
+      "explanation": {
+        "en": "It replaces the singular thing the book. Use it is.",
+        "my": "The book သည် အရာဝတ္ထုတစ်ခု ဖြစ်သည်။ ထပ်မပြောလိုလျှင် it ကို သုံးပြီး It is on the desk. ဟု ရေးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pronouns-q06",
+        "revision": 2
+      },
+      "gradingRevision": 2,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "type": "multiple_choice",
+      "maxPoints": 1,
+      "correctOptionIds": ["option-3"],
+      "scoring": "exact_set",
+      "explanation": {
+        "en": "We includes the speaker and other people. They would exclude the speaker in this context.",
+        "my": "We သည် ပြောသူနှင့် အခြားသူများကို အတူ ရည်ညွှန်းသည်။ မိမိနှင့် အတန်းဖော်များအတွက် We are students. ဟု ရေးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pronouns-q07",
+        "revision": 2
+      },
+      "gradingRevision": 2,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "type": "multiple_choice",
+      "maxPoints": 1,
+      "correctOptionIds": ["option-1"],
+      "scoring": "exact_set",
+      "explanation": {
+        "en": "Use they for the two other students. This example uses plural they.",
+        "my": "ဤဥပမာတွင် Su နှင့် Aye သည် အခြားလူနှစ်ဦး ဖြစ်သည်။ သူတို့အတွက် they ကို သုံးပြီး They are at school. ဟု ရေးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pronouns-q08",
+        "revision": 2
+      },
+      "gradingRevision": 2,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "type": "multiple_choice",
+      "maxPoints": 1,
+      "correctOptionIds": ["option-2"],
+      "scoring": "exact_set",
+      "explanation": {
+        "en": "The present form of be with I is am: I am ready.",
+        "my": "I နှင့် am ကို တွဲရသည်။ I am ready. ဟု ရေးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pronouns-q09",
+        "revision": 2
+      },
+      "gradingRevision": 2,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "type": "multiple_choice",
+      "maxPoints": 1,
+      "correctOptionIds": ["option-3"],
+      "scoring": "exact_set",
+      "explanation": {
+        "en": "Use is with she: She is a teacher. A teacher is an identity complement.",
+        "my": "She နှင့် is ကို တွဲရသည်။ She is a teacher. တွင် a teacher သည် မည်သူဖြစ်ကြောင်း ဖြည့်စွက်ဖော်ပြသည့် အပိုင်းဖြစ်ပြီး ကံ မဟုတ်ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pronouns-q10",
+        "revision": 2
+      },
+      "gradingRevision": 2,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "type": "multiple_choice",
+      "maxPoints": 1,
+      "correctOptionIds": ["option-1"],
+      "scoring": "exact_set",
+      "explanation": {
+        "en": "You always takes are in this present-tense be pattern, whether one listener or several.",
+        "my": "You နှင့် are ကို တွဲပါ။ နားထောင်သူတစ်ဦးတည်းဖြစ်လျှင်လည်း You are ready. ဟု ရေးရသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pronouns-q11",
+        "revision": 2
+      },
+      "gradingRevision": 2,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "type": "multiple_choice",
+      "maxPoints": 1,
+      "correctOptionIds": ["option-2"],
+      "scoring": "exact_set",
+      "explanation": {
+        "en": "Use are with we: We are friends.",
+        "my": "We နှင့် are ကို တွဲပြီး We are friends. ဟု ရေးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pronouns-q12",
+        "revision": 2
+      },
+      "gradingRevision": 2,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "type": "multiple_choice",
+      "maxPoints": 1,
+      "correctOptionIds": ["option-3"],
+      "scoring": "exact_set",
+      "explanation": {
+        "en": "“I am a student.” is a statement: subject I + verb am + complement a student. “Am I a student?” is a correctly punctuated question, not the requested statement. “I a student am.” has the wrong word order.",
+        "my": "I am a student. သည် ရိုးရိုးပြောဝါကျ ဖြစ်သည်။ ကတ္တား I ကို ကြိယာ am ရှေ့၌ ထားပါ။ Am I a student? သည် မေးခွန်းဖြစ်ပြီး I a student am. သည် စကားလုံးအစီအစဉ် မမှန်ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pronouns-q13",
+        "revision": 2
+      },
+      "gradingRevision": 2,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "type": "multiple_choice",
+      "maxPoints": 1,
+      "correctOptionIds": ["option-1"],
+      "scoring": "exact_set",
+      "explanation": {
+        "en": "With read, use subject + verb + object: I + read + books. Books answers what I read.",
+        "my": "I read books. တွင် ကတ္တား I၊ ကြိယာ read၊ ကံ books ဟု စီထားသည်။ Books သည် မည်သည့်အရာကို ဖတ်သလဲဆိုသည့် အဖြေဖြစ်သည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pronouns-q14",
+        "revision": 2
+      },
+      "gradingRevision": 2,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "type": "multiple_choice",
+      "maxPoints": 1,
+      "correctOptionIds": ["option-2"],
+      "scoring": "exact_set",
+      "explanation": {
+        "en": "Use I + like + tea. Do not add am before like in this present simple pattern, and put the verb before its object.",
+        "my": "“လက်ဖက်ရည်ကို နှစ်သက်တယ်” ဟု ဆိုလိုလျှင် I like tea. ဟု ရေးပါ။ ကတ္တား I၊ ကြိယာ like၊ ကံ tea ဟု စီပြီး like ရှေ့၌ am မထည့်ပါနှင့်။"
+      }
+    }
+  ],
+  "assessmentPolicies": []
+}

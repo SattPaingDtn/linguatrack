@@ -5,9 +5,22 @@ const contentId = z
   .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/)
   .max(120);
 export const versionSchema = z.string().regex(/^\d+\.\d+\.\d+$/);
+export const generationSchema = z.number().int().nonnegative().max(2147483647).default(0);
+export const resetSubmissionSchema = z
+  .object({
+    requestId: z.uuid(),
+    contentVersion: versionSchema,
+    generation: generationSchema,
+    confirmation: z.literal("RESET"),
+  })
+  .strict();
+export const mistakeSubmissionSchema = z
+  .object({ responseId: z.uuid(), generation: generationSchema })
+  .strict();
 export const answerSubmissionSchema = z
   .object({
     attemptId: z.uuid(),
+    generation: generationSchema,
     contentVersion: versionSchema,
     lessonId: contentId,
     quizId: contentId,
@@ -21,11 +34,12 @@ export const positionSchema = z
     lessonId: contentId,
     blockId: contentId.nullable(),
     sessionId: z.uuid(),
+    generation: generationSchema,
     sequence: z.number().int().nonnegative().max(Number.MAX_SAFE_INTEGER),
   })
   .strict();
 export const completionSchema = z
-  .object({ contentVersion: versionSchema, lessonId: contentId })
+  .object({ contentVersion: versionSchema, lessonId: contentId, generation: generationSchema })
   .strict();
 export const exerciseResponseSchema = z.object({
   id: z.uuid(),
@@ -65,6 +79,7 @@ export const profileSchema = z.object({
   updatedAt: z.string().nullable(),
 });
 export const learningSnapshotSchema = z.object({
+  generation: generationSchema,
   completed: z.array(contentId),
   attempts: z.array(quizAttemptSchema),
   profile: profileSchema,
@@ -77,6 +92,7 @@ export type QuizAttempt = z.infer<typeof quizAttemptSchema>;
 export type ExerciseResponse = z.infer<typeof exerciseResponseSchema>;
 export type LearningSnapshot = z.infer<typeof learningSnapshotSchema>;
 export const emptySnapshot: LearningSnapshot = {
+  generation: 0,
   completed: [],
   attempts: [],
   profile: { lastLessonId: null, lastBlockId: null, contentVersion: null, updatedAt: null },

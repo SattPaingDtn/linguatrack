@@ -31,6 +31,7 @@ export async function POST(request: Request) {
     const { data, error } = await client.rpc("answer_question", {
       p_attempt_id: input.attemptId,
       p_version: input.contentVersion,
+      p_generation: input.generation,
       p_lesson_id: input.lessonId,
       p_quiz_id: input.quizId,
       p_question_id: input.questionId,

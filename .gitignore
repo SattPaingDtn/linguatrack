@@ -48,3 +48,6 @@ next-env.d.ts
 /backups/
 
 .next-e2e
+
+# Curriculum v2 authoring drafts (never activated automatically)
+/.curriculum-drafts/

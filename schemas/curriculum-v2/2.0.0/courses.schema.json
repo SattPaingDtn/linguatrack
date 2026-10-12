@@ -1,0 +1,285 @@
+{
+  "$comment": "Generated from strict Zod contracts. Also run the semantic package validator; refinements/graph rules are not expressible in JSON Schema.",
+  "$id": "urn:linguatrack:curriculum:courses:2.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "chapterRefs": {
+        "items": {
+          "additionalProperties": false,
+          "properties": {
+            "id": {
+              "maxLength": 120,
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "type": "string"
+            },
+            "kind": {
+              "const": "chapter",
+              "type": "string"
+            },
+            "revision": {
+              "maximum": 2147483647,
+              "minimum": 1,
+              "type": "integer"
+            }
+          },
+          "required": ["kind", "id", "revision"],
+          "type": "object"
+        },
+        "maxItems": 1000,
+        "type": "array"
+      },
+      "coverageState": {
+        "enum": ["partial", "complete"],
+        "type": "string"
+      },
+      "coverageTargets": {
+        "items": {
+          "additionalProperties": false,
+          "properties": {
+            "area": {
+              "enum": ["listening", "speaking", "reading", "writing", "grammar", "vocabulary"],
+              "type": "string"
+            },
+            "evidenceKind": {
+              "enum": [
+                "teaching",
+                "recognition",
+                "comprehension",
+                "written_production",
+                "spoken_production"
+              ],
+              "type": "string"
+            },
+            "minimumDistinctItems": {
+              "maximum": 1000,
+              "minimum": 1,
+              "type": "integer"
+            },
+            "objectiveRefs": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "id": {
+                    "maxLength": 120,
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "type": "string"
+                  },
+                  "kind": {
+                    "const": "objective",
+                    "type": "string"
+                  },
+                  "revision": {
+                    "maximum": 2147483647,
+                    "minimum": 1,
+                    "type": "integer"
+                  }
+                },
+                "required": ["kind", "id", "revision"],
+                "type": "object"
+              },
+              "maxItems": 1000,
+              "minItems": 1,
+              "type": "array"
+            }
+          },
+          "required": ["area", "evidenceKind", "objectiveRefs", "minimumDistinctItems"],
+          "type": "object"
+        },
+        "maxItems": 1000,
+        "type": "array"
+      },
+      "description": {
+        "additionalProperties": false,
+        "properties": {
+          "en": {
+            "maxLength": 40000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "my": {
+            "maxLength": 40000,
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": ["en", "my"],
+        "type": "object"
+      },
+      "id": {
+        "maxLength": 120,
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+        "type": "string"
+      },
+      "kind": {
+        "const": "course",
+        "type": "string"
+      },
+      "level": {
+        "enum": ["A1", "A2", "B1", "B2", "C1"],
+        "type": "string"
+      },
+      "outcomeRefs": {
+        "items": {
+          "additionalProperties": false,
+          "properties": {
+            "id": {
+              "maxLength": 120,
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "type": "string"
+            },
+            "kind": {
+              "const": "objective",
+              "type": "string"
+            },
+            "revision": {
+              "maximum": 2147483647,
+              "minimum": 1,
+              "type": "integer"
+            }
+          },
+          "required": ["kind", "id", "revision"],
+          "type": "object"
+        },
+        "maxItems": 1000,
+        "minItems": 1,
+        "type": "array"
+      },
+      "revision": {
+        "maximum": 2147483647,
+        "minimum": 1,
+        "type": "integer"
+      },
+      "slug": {
+        "maxLength": 120,
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+        "type": "string"
+      },
+      "source": {
+        "additionalProperties": false,
+        "properties": {
+          "contentVersion": {
+            "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+            "type": "string"
+          },
+          "id": {
+            "maxLength": 120,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "kind": {
+            "enum": ["course", "chapter", "lesson", "block", "question"],
+            "type": "string"
+          },
+          "pointer": {
+            "maxLength": 1000,
+            "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+            "type": "string"
+          },
+          "schemaVersion": {
+            "const": 1,
+            "type": "number"
+          }
+        },
+        "required": ["schemaVersion", "contentVersion", "kind", "id"],
+        "type": "object"
+      },
+      "status": {
+        "enum": ["available", "planned"],
+        "type": "string"
+      },
+      "title": {
+        "anyOf": [
+          {
+            "additionalProperties": false,
+            "properties": {
+              "en": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              },
+              "my": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": ["en", "my"],
+            "type": "object"
+          },
+          {
+            "additionalProperties": false,
+            "properties": {
+              "language": {
+                "enum": ["en", "my"],
+                "type": "string"
+              },
+              "legacy": {
+                "const": true,
+                "type": "boolean"
+              },
+              "source": {
+                "additionalProperties": false,
+                "properties": {
+                  "contentVersion": {
+                    "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                    "type": "string"
+                  },
+                  "id": {
+                    "maxLength": 120,
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "type": "string"
+                  },
+                  "kind": {
+                    "enum": ["course", "chapter", "lesson", "block", "question"],
+                    "type": "string"
+                  },
+                  "pointer": {
+                    "maxLength": 1000,
+                    "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                    "type": "string"
+                  },
+                  "schemaVersion": {
+                    "const": 1,
+                    "type": "number"
+                  }
+                },
+                "required": ["schemaVersion", "contentVersion", "kind", "id"],
+                "type": "object"
+              },
+              "text": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": ["legacy", "language", "text", "source"],
+            "type": "object"
+          }
+        ]
+      },
+      "track": {
+        "enum": ["general-english", "toeic", "it-business-english"],
+        "type": "string"
+      }
+    },
+    "required": [
+      "kind",
+      "id",
+      "revision",
+      "slug",
+      "title",
+      "description",
+      "level",
+      "track",
+      "status",
+      "coverageState",
+      "outcomeRefs",
+      "chapterRefs",
+      "coverageTargets"
+    ],
+    "type": "object"
+  },
+  "type": "array"
+}

@@ -1,0 +1,65 @@
+/* Scoped to the local lesson renderer. Live lesson typography stays unchanged. */
+[data-preview-reading] {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+[data-preview-reading] [lang="my"] {
+  font-family: "Noto Sans Myanmar", "Myanmar Text", "Padauk", sans-serif;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.95;
+  letter-spacing: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+[data-preview-reading] [data-preview-bilingual] {
+  min-width: 0;
+}
+
+[data-preview-reading] [data-preview-language] {
+  min-width: 0;
+  max-width: 72ch;
+}
+
+[data-preview-reading] [data-preview-language="my"] {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #dce3d5;
+}
+
+[data-preview-reading] [data-preview-language] p {
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+
+[data-preview-reading] [data-preview-language="en"] p {
+  font-size: 1rem;
+  line-height: 1.85;
+}
+
+[data-preview-reading] [data-preview-language] p + p {
+  margin-top: 1rem;
+}
+
+[data-preview-reading] textarea {
+  font-family: "DM Sans Variable", "Noto Sans Myanmar", "Myanmar Text", "Padauk", sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.95;
+  overflow-wrap: anywhere;
+}
+
+[data-preview-reading] summary {
+  min-height: 44px;
+  padding-block: 0.75rem;
+}
+
+[data-preview-reading] button {
+  max-width: 100%;
+  min-height: 44px;
+  height: auto;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}

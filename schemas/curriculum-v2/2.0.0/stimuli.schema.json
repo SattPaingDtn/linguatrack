@@ -1,0 +1,193 @@
+{
+  "$comment": "Generated from strict Zod contracts. Also run the semantic package validator; refinements/graph rules are not expressible in JSON Schema.",
+  "$id": "urn:linguatrack:curriculum:stimuli:2.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "oneOf": [
+      {
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "maxLength": 120,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "kind": {
+            "const": "stimulus",
+            "type": "string"
+          },
+          "passage": {
+            "additionalProperties": false,
+            "properties": {
+              "language": {
+                "const": "en",
+                "type": "string"
+              },
+              "text": {
+                "maxLength": 100000,
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": ["language", "text"],
+            "type": "object"
+          },
+          "revision": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "source": {
+            "additionalProperties": false,
+            "properties": {
+              "contentVersion": {
+                "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                "type": "string"
+              },
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "enum": ["course", "chapter", "lesson", "block", "question"],
+                "type": "string"
+              },
+              "pointer": {
+                "maxLength": 1000,
+                "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                "type": "string"
+              },
+              "schemaVersion": {
+                "const": 1,
+                "type": "number"
+              }
+            },
+            "required": ["schemaVersion", "contentVersion", "kind", "id"],
+            "type": "object"
+          },
+          "sourceAttribution": {
+            "maxLength": 40000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": {
+            "const": "reading",
+            "type": "string"
+          }
+        },
+        "required": ["kind", "id", "revision", "type", "passage", "sourceAttribution"],
+        "type": "object"
+      },
+      {
+        "additionalProperties": false,
+        "properties": {
+          "audioRef": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "const": "asset",
+                "type": "string"
+              },
+              "revision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            "required": ["kind", "id", "revision"],
+            "type": "object"
+          },
+          "id": {
+            "maxLength": 120,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "kind": {
+            "const": "stimulus",
+            "type": "string"
+          },
+          "revision": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "source": {
+            "additionalProperties": false,
+            "properties": {
+              "contentVersion": {
+                "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                "type": "string"
+              },
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "enum": ["course", "chapter", "lesson", "block", "question"],
+                "type": "string"
+              },
+              "pointer": {
+                "maxLength": 1000,
+                "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                "type": "string"
+              },
+              "schemaVersion": {
+                "const": 1,
+                "type": "number"
+              }
+            },
+            "required": ["schemaVersion", "contentVersion", "kind", "id"],
+            "type": "object"
+          },
+          "transcriptAccess": {
+            "enum": ["always", "after_submission", "reviewer_only"],
+            "type": "string"
+          },
+          "transcriptRef": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "const": "transcript",
+                "type": "string"
+              },
+              "revision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            "required": ["kind", "id", "revision"],
+            "type": "object"
+          },
+          "type": {
+            "const": "listening",
+            "type": "string"
+          }
+        },
+        "required": [
+          "kind",
+          "id",
+          "revision",
+          "type",
+          "audioRef",
+          "transcriptRef",
+          "transcriptAccess"
+        ],
+        "type": "object"
+      }
+    ]
+  },
+  "type": "array"
+}

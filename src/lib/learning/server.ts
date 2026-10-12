@@ -72,10 +72,13 @@ export async function parseSubmission<T>(request: Request, schema: z.ZodType<T>)
   return parsed.data;
 }
 export function apiFailure(error: unknown) {
-  const status = error instanceof ApiError ? error.status : 503;
+  const staleGeneration = z.object({ code: z.literal("40001") }).safeParse(error).success;
+  const status = error instanceof ApiError ? error.status : staleGeneration ? 409 : 503;
   const message =
     error instanceof ApiError
       ? error.message
-      : "Learning data could not be saved or loaded. Keep this page open and retry; check Supabase configuration and migrations.";
+      : staleGeneration
+        ? "Learning history was reset. Reload to start again; pre-reset answers cannot be saved."
+        : "Learning data could not be saved or loaded. Keep this page open and retry; check Supabase configuration and migrations.";
   return Response.json({ error: message }, { status, headers: privateHeaders });
 }

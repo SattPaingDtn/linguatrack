@@ -1,0 +1,165 @@
+{
+  "$comment": "Generated from strict Zod contracts. Also run the semantic package validator; refinements/graph rules are not expressible in JSON Schema.",
+  "$id": "urn:linguatrack:curriculum:public-manifest:2.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "cefrAwarding": {
+      "const": "disabled",
+      "type": "string"
+    },
+    "contentVersion": {
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+      "type": "string"
+    },
+    "contractVersion": {
+      "const": "2.0.0",
+      "type": "string"
+    },
+    "courseRefs": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "maxLength": 120,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "kind": {
+            "const": "course",
+            "type": "string"
+          },
+          "revision": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": ["kind", "id", "revision"],
+        "type": "object"
+      },
+      "maxItems": 1000,
+      "minItems": 1,
+      "type": "array"
+    },
+    "createdAt": {
+      "format": "date-time",
+      "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d(?:\\.\\d+)?(?:Z))$",
+      "type": "string"
+    },
+    "curriculumId": {
+      "const": "linguatrack-academy",
+      "type": "string"
+    },
+    "explanationLanguage": {
+      "const": "my",
+      "type": "string"
+    },
+    "files": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "byteLength": {
+            "anyOf": [
+              {
+                "maximum": 9007199254740991,
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "collection": {
+            "enum": [
+              "courses",
+              "chapters",
+              "lessons",
+              "blocks",
+              "objectives",
+              "exercises",
+              "assessments",
+              "stimuli",
+              "transcripts",
+              "assets",
+              "media"
+            ],
+            "type": "string"
+          },
+          "path": {
+            "maxLength": 500,
+            "pattern": "^[a-zA-Z0-9_-]+(?:\\/[a-zA-Z0-9_-]+)*(?:\\.[a-zA-Z0-9_-]+)?$",
+            "type": "string"
+          },
+          "sha256": {
+            "anyOf": [
+              {
+                "pattern": "^[a-f0-9]{64}$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "visibility": {
+            "const": "public",
+            "type": "string"
+          }
+        },
+        "required": ["collection", "path", "visibility", "sha256", "byteLength"],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "locales": {
+      "items": false,
+      "maxItems": 2,
+      "minItems": 2,
+      "prefixItems": [
+        {
+          "const": "en",
+          "type": "string"
+        },
+        {
+          "const": "my",
+          "type": "string"
+        }
+      ],
+      "type": "array"
+    },
+    "publicOnly": {
+      "const": true,
+      "type": "boolean"
+    },
+    "schemaVersion": {
+      "const": 2,
+      "type": "number"
+    },
+    "state": {
+      "enum": ["draft", "sealed"],
+      "type": "string"
+    },
+    "teachingLanguage": {
+      "const": "en",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "contractVersion",
+    "curriculumId",
+    "contentVersion",
+    "state",
+    "createdAt",
+    "publicOnly",
+    "teachingLanguage",
+    "explanationLanguage",
+    "locales",
+    "cefrAwarding",
+    "courseRefs",
+    "files"
+  ],
+  "type": "object"
+}

@@ -1,0 +1,1304 @@
+{
+  "courses": [],
+  "chapters": [],
+  "lessons": [
+    {
+      "kind": "lesson",
+      "id": "a1-c1-subject-pronouns",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-1",
+        "revision": 2
+      },
+      "slug": "subject-pronouns-and-sentences",
+      "title": {
+        "en": "Who does what? Subject pronouns and simple sentences",
+        "my": "ဘယ်သူက ဘာလုပ်သလဲ။ ကတ္တားနာမ်စားနှင့် ရိုးရှင်းသော ဝါကျများ"
+      },
+      "description": {
+        "en": "Use I, you, he, she, it, we and they. Build simple statements with a clear subject and verb.",
+        "my": "I၊ you၊ he၊ she၊ it၊ we နှင့် they ကို အသုံးပြုပုံ လေ့လာပါ။ ကတ္တားနှင့် ကြိယာကို မှန်ကန်စွာ စီစဉ်ပြီး ရိုးရှင်းသော ဝါကျများ တည်ဆောက်ပါ။"
+      },
+      "tags": {
+        "areas": ["grammar", "reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 20
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-subject-pronouns-objective-pronouns",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c1-subject-pronouns-objective-be",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c1-subject-pronouns-objective-order",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [
+        {
+          "target": {
+            "kind": "lesson",
+            "id": "a1-c1-be",
+            "revision": 2
+          },
+          "requirement": "completed",
+          "enforcement": "advisory"
+        }
+      ],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c1-pronouns-overview",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c1-pronouns-reference",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c1-pronouns-be-agreement",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c1-pronouns-word-order",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c1-pronouns-common-mistakes",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c1-pronouns-practice",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "kind": "block",
+      "id": "a1-c1-pronouns-overview",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-subject-pronouns",
+        "revision": 1
+      },
+      "type": "explanation",
+      "title": {
+        "en": "Find the subject first",
+        "my": "ကတ္တားကို အရင်ရှာပါ"
+      },
+      "body": {
+        "en": "The subject tells us who or what the sentence is about. A subject pronoun can replace a name or a noun phrase. In the simple affirmative statements in this lesson, put the subject before the verb: Su is a student. She is a student. Burmese can leave the subject understood from context; include it in these English practice sentences. Start a sentence with a capital letter, always write I as a capital, and finish a statement with a full stop.",
+        "my": "ကတ္တားဆိုသည်မှာ ဝါကျထဲတွင် မည်သူ သို့မဟုတ် မည်သည့်အရာအကြောင်း ပြောနေသည်ကို ဖော်ပြသည့် အပိုင်းဖြစ်သည်။ ကတ္တားနာမ်စားသည် နာမည် သို့မဟုတ် နာမ်စု၏ နေရာတွင် အစားထိုးနိုင်သည်။ ဤသင်ခန်းစာရှိ အငြင်းနှင့် မေးခွန်းမပါသော ရိုးရိုးပြောဝါကျများတွင် ကတ္တားကို ကြိယာမတိုင်မီ ထားပါ။ Su is a student. → She is a student. မြန်မာစကားတွင် အကြောင်းအရာအရ ကတ္တားကို နားလည်နိုင်လျှင် ချန်ထားတတ်သော်လည်း ဤအင်္ဂလိပ်လေ့ကျင့်ခန်းဝါကျများတွင် ကတ္တားကို ထည့်ရေးပါ။ ဝါကျအစတွင် စာလုံးကြီးကို သုံးပါ။ I ကို အမြဲ စာလုံးကြီးဖြင့် ရေးပြီး ရိုးရိုးပြောဝါကျအဆုံးတွင် ပုဒ်မ (.) ထည့်ပါ။"
+      },
+      "examples": [
+        {
+          "language": "en",
+          "text": "Su is a student. She is a student."
+        },
+        {
+          "language": "en",
+          "text": "The book is new. It is new."
+        },
+        {
+          "language": "en",
+          "text": "I am Su."
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pronouns-reference",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-subject-pronouns",
+        "revision": 1
+      },
+      "type": "grammar",
+      "title": {
+        "en": "Seven useful subject pronouns",
+        "my": "အသုံးများသော ကတ္တားနာမ်စား ခုနစ်လုံး"
+      },
+      "rule": {
+        "en": "I refers to the speaker. You refers to the listener, one person or several people. He and she refer to a person using those pronouns. It commonly refers to one thing; animals may also be called he or she when their sex is known. We means the speaker and other people. They refers to other people or things in a group in this lesson. They is also used for one person, including when gender is unknown; the form they are stays the same. These Burmese equivalents depend on context and politeness.",
+        "my": "I = ပြောသူကိုယ်တိုင် (ကျွန်တော်/ကျွန်မ)။ You = နားထောင်သူ (သင်)၊ တစ်ဦးတည်းဖြစ်စေ အများဖြစ်စေ သုံးနိုင်သည်။ He = he နာမ်စားကို သုံးသည့်သူ (အများအားဖြင့် အမျိုးသား)။ She = she နာမ်စားကို သုံးသည့်သူ (အများအားဖြင့် အမျိုးသမီး)။ မြန်မာလို နှစ်မျိုးလုံးကို “သူ” ဟု ပြောနိုင်သည်။ It = အများအားဖြင့် အရာဝတ္ထုတစ်ခု။ တိရစ္ဆာန်၏ လိင်ကို သိလျှင် he သို့မဟုတ် she ကိုလည်း သုံးနိုင်သည်။ We = ပြောသူနှင့် အခြားသူများ (ကျွန်တော်တို့/ကျွန်မတို့)။ ဤသင်ခန်းစာတွင် They ကို အခြားလူများ သို့မဟုတ် အရာဝတ္ထုများအတွက် သုံးထားသည်။ လူတစ်ဦးတည်းအတွက်၊ လိင်ကို မသိသည့်အခါတွင်လည်း they ကို သုံးနိုင်ပြီး they are ဟုပင် ရေးရသည်။ မြန်မာနာမ်စားများကို အကြောင်းအရာနှင့် ယဉ်ကျေးမှုအဆင့်အလိုက် ရွေးသုံးပါ။"
+      },
+      "examples": [
+        {
+          "pattern": "I = the speaker",
+          "example": {
+            "language": "en",
+            "text": "I am a student."
+          },
+          "translation": "ကျွန်တော်/ကျွန်မက ကျောင်းသား/ကျောင်းသူတစ်ဦးပါ။"
+        },
+        {
+          "pattern": "you = the listener(s)",
+          "example": {
+            "language": "en",
+            "text": "You are ready."
+          },
+          "translation": "သင် အဆင်သင့်ဖြစ်နေပါပြီ။"
+        },
+        {
+          "pattern": "he = one person using he",
+          "example": {
+            "language": "en",
+            "text": "He is a teacher."
+          },
+          "translation": "သူက ဆရာတစ်ဦးပါ။"
+        },
+        {
+          "pattern": "she = one person using she",
+          "example": {
+            "language": "en",
+            "text": "She is happy."
+          },
+          "translation": "သူ ပျော်နေပါတယ်။"
+        },
+        {
+          "pattern": "it = one thing",
+          "example": {
+            "language": "en",
+            "text": "It is a book."
+          },
+          "translation": "ဒါက စာအုပ်တစ်အုပ်ပါ။"
+        },
+        {
+          "pattern": "we = the speaker and others",
+          "example": {
+            "language": "en",
+            "text": "We are friends."
+          },
+          "translation": "ကျွန်တော်တို့/ကျွန်မတို့က သူငယ်ချင်းတွေပါ။"
+        },
+        {
+          "pattern": "they = a group in this example",
+          "example": {
+            "language": "en",
+            "text": "They are at school."
+          },
+          "translation": "သူတို့ ကျောင်းမှာ ရှိနေပါတယ်။"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pronouns-be-agreement",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-subject-pronouns",
+        "revision": 1
+      },
+      "type": "grammar",
+      "title": {
+        "en": "Match the subject with am, is or are",
+        "my": "ကတ္တားနှင့် ကိုက်ညီသော am၊ is၊ are ကို သုံးပါ"
+      },
+      "rule": {
+        "en": "Use I am; he, she and it is; and you, we and they are. You takes are even when you speak to one person. Use a or an before one countable job or role noun: She is a teacher. Do not add a before an adjective: She is happy.",
+        "my": "I နှင့် am၊ he/she/it နှင့် is၊ you/we/they နှင့် are ကို သုံးပါ။ You သည် လူတစ်ဦးကို ရည်ညွှန်းလျှင်လည်း are နှင့် တွဲရသည်။ ရေတွက်နိုင်သော အလုပ်အကိုင် သို့မဟုတ် အခန်းကဏ္ဍကို ဖော်ပြသည့် နာမ်တစ်ခု၏ ရှေ့တွင် a သို့မဟုတ် an ကို ထည့်ပါ။ She is a teacher. နာမဝိသေသန၏ ရှေ့တွင် a မထည့်ပါနှင့်။ She is happy."
+      },
+      "examples": [
+        {
+          "pattern": "I + am",
+          "example": {
+            "language": "en",
+            "text": "I am ready."
+          },
+          "translation": "ကျွန်တော်/ကျွန်မ အဆင်သင့်ဖြစ်နေပါပြီ။"
+        },
+        {
+          "pattern": "he / she / it + is",
+          "example": {
+            "language": "en",
+            "text": "She is a teacher."
+          },
+          "translation": "သူက ဆရာမတစ်ဦးပါ။"
+        },
+        {
+          "pattern": "you / we / they + are",
+          "example": {
+            "language": "en",
+            "text": "You are a student."
+          },
+          "translation": "သင်က ကျောင်းသား/ကျောင်းသူတစ်ဦးပါ။"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pronouns-word-order",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-subject-pronouns",
+        "revision": 1
+      },
+      "type": "grammar",
+      "title": {
+        "en": "Two simple sentence patterns",
+        "my": "ရိုးရှင်းသော ဝါကျဖွဲ့ပုံ နှစ်မျိုး"
+      },
+      "rule": {
+        "en": "Pattern 1: Subject + am/is/are + a description, identity or place (a complement). Example: I am a student. A student describes who I am; it is not an object receiving an action. Pattern 2 with read and like: Subject + action verb + object. Example: I read books. Books is the object: what I read. Burmese often puts the object before the verb, but these English sentences put the verb before the object. Not every English sentence needs an object: I sleep is complete. In a present simple sentence such as I like tea, do not insert am before like.",
+        "my": "ပုံစံ (၁) — ကတ္တား + am/is/are + အခြေအနေ၊ မည်သူဖြစ်ကြောင်း သို့မဟုတ် နေရာကို ဖြည့်စွက်ဖော်ပြသည့် အပိုင်း။ ဥပမာ — I am a student. တွင် a student သည် ကျွန်တော်/ကျွန်မ မည်သူဖြစ်ကြောင်း ဖော်ပြသည်။ လုပ်ဆောင်မှုကို ခံရသည့် ကံ မဟုတ်ပါ။ ပုံစံ (၂) — read၊ like ကဲ့သို့သော ကြိယာများနှင့် ကတ္တား + ကြိယာ + ကံ။ ဥပမာ — I read books. တွင် books သည် ဖတ်သည့်အရာဖြစ်၍ ကံ ဖြစ်သည်။ မြန်မာဝါကျများတွင် ကံကို ကြိယာမတိုင်မီ ထားတတ်သော်လည်း ဤအင်္ဂလိပ်ဝါကျများတွင် ကြိယာကို ကံမတိုင်မီ ထားရသည်။ အင်္ဂလိပ်ဝါကျတိုင်း ကံ လိုအပ်သည်မဟုတ်ပါ။ I sleep. သည် ပြည့်စုံသော ဝါကျဖြစ်သည်။ I like tea. ကဲ့သို့သော ရိုးရိုးပစ္စုပ္ပန်ဝါကျတွင် like ရှေ့၌ am မထည့်ပါနှင့်။"
+      },
+      "examples": [
+        {
+          "pattern": "Subject + be + identity",
+          "example": {
+            "language": "en",
+            "text": "I am a student."
+          },
+          "translation": "ကျွန်တော်/ကျွန်မက ကျောင်းသား/ကျောင်းသူတစ်ဦးပါ။"
+        },
+        {
+          "pattern": "Subject + be + description",
+          "example": {
+            "language": "en",
+            "text": "She is happy."
+          },
+          "translation": "သူ ပျော်နေပါတယ်။"
+        },
+        {
+          "pattern": "Subject + be + place",
+          "example": {
+            "language": "en",
+            "text": "They are at home."
+          },
+          "translation": "သူတို့ အိမ်မှာ ရှိနေပါတယ်။"
+        },
+        {
+          "pattern": "Subject + verb + object",
+          "example": {
+            "language": "en",
+            "text": "I read books."
+          },
+          "translation": "ကျွန်တော်/ကျွန်မ စာအုပ်တွေ ဖတ်ပါတယ်။"
+        },
+        {
+          "pattern": "Subject + verb + object",
+          "example": {
+            "language": "en",
+            "text": "We like tea."
+          },
+          "translation": "ကျွန်တော်တို့/ကျွန်မတို့က လက်ဖက်ရည်ကို ကြိုက်ပါတယ်။"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pronouns-common-mistakes",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-subject-pronouns",
+        "revision": 1
+      },
+      "type": "explanation",
+      "title": {
+        "en": "Common mistakes and how to fix them",
+        "my": "အမှားများနှင့် ပြင်ဆင်ပုံ"
+      },
+      "body": {
+        "en": "1. i am Su. → I am Su. Always capitalize I.\n2. She are a teacher. → She is a teacher. Match she with is.\n3. You is ready. → You are ready. Use are with you, even for one listener.\n4. Am a student. → I am a student. Include the subject in this practice statement.\n5. I books read. → I read books. Put the action verb before its object.\n6. To mean “I enjoy tea”: I am like tea. → I like tea. Use like directly as the verb, without am.",
+        "my": "၁။ i am Su. → I am Su. I ကို အမြဲ စာလုံးကြီးဖြင့် ရေးပါ။\n၂။ She are a teacher. → She is a teacher. She နှင့် is ကို တွဲပါ။\n၃။ You is ready. → You are ready. နားထောင်သူတစ်ဦးတည်းဖြစ်လျှင်လည်း you နှင့် are ကို သုံးပါ။\n၄။ Am a student. → I am a student. ဤလေ့ကျင့်ခန်းရှိ ရိုးရိုးပြောဝါကျတွင် ကတ္တားကို ထည့်ရေးပါ။\n၅။ I books read. → I read books. ကြိယာကို ၎င်း၏ ကံမတိုင်မီ ထားပါ။\n၆။ “လက်ဖက်ရည်ကို နှစ်သက်တယ်” ဟု ဆိုလိုလျှင် I am like tea. မဟုတ်ဘဲ I like tea. ဟု ရေးပါ။ Like ကို ကြိယာအဖြစ် တိုက်ရိုက်သုံးပြီး am မထည့်ပါနှင့်။"
+      },
+      "examples": [
+        {
+          "language": "en",
+          "text": "I am Su."
+        },
+        {
+          "language": "en",
+          "text": "She is a teacher."
+        },
+        {
+          "language": "en",
+          "text": "You are ready."
+        },
+        {
+          "language": "en",
+          "text": "I am a student."
+        },
+        {
+          "language": "en",
+          "text": "I read books."
+        },
+        {
+          "language": "en",
+          "text": "I like tea."
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pronouns-practice",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-subject-pronouns",
+        "revision": 1
+      },
+      "type": "exercise_set",
+      "title": {
+        "en": "Practice: choose the best answer",
+        "my": "လေ့ကျင့်ခန်း — အမှန်ဆုံးအဖြေကို ရွေးပါ"
+      },
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pronouns-q01",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pronouns-q02",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pronouns-q03",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pronouns-q04",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pronouns-q05",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pronouns-q06",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pronouns-q07",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pronouns-q08",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pronouns-q09",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pronouns-q10",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pronouns-q11",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pronouns-q12",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pronouns-q13",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pronouns-q14",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "kind": "objective",
+      "id": "a1-c1-subject-pronouns-objective-pronouns",
+      "revision": 1,
+      "statement": {
+        "en": "Choose a subject pronoun for the speaker, listener, another person, a thing, or a group.",
+        "my": "ပြောသူ၊ နားထောင်သူ၊ အခြားသူ၊ အရာဝတ္ထု သို့မဟုတ် လူတစ်စုအတွက် သင့်တော်သော ကတ္တားနာမ်စားကို ရွေးနိုင်မည်။"
+      },
+      "successCriterion": {
+        "en": "Choose a subject pronoun for the speaker, listener, another person, a thing, or a group.",
+        "my": "ပြောသူ၊ နားထောင်သူ၊ အခြားသူ၊ အရာဝတ္ထု သို့မဟုတ် လူတစ်စုအတွက် သင့်တော်သော ကတ္တားနာမ်စားကို ရွေးနိုင်မည်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "expectedEvidence": ["recognition"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c1-subject-pronouns-objective-be",
+      "revision": 1,
+      "statement": {
+        "en": "Choose am, is, or are to agree with the subject pronoun.",
+        "my": "ကတ္တားနာမ်စားနှင့် ကိုက်ညီသော am၊ is သို့မဟုတ် are ကို ရွေးနိုင်မည်။"
+      },
+      "successCriterion": {
+        "en": "Choose am, is, or are to agree with the subject pronoun.",
+        "my": "ကတ္တားနာမ်စားနှင့် ကိုက်ညီသော am၊ is သို့မဟုတ် are ကို ရွေးနိုင်မည်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "expectedEvidence": ["recognition"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c1-subject-pronouns-objective-order",
+      "revision": 1,
+      "statement": {
+        "en": "Recognize subject–verb order in simple statements and subject–verb–object order with read and like.",
+        "my": "ရိုးရှင်းသော ရိုးရိုးပြောဝါကျများတွင် ကတ္တား–ကြိယာ အစီအစဉ်ကို သိနိုင်ပြီး read၊ like ပါသော ဝါကျများတွင် ကတ္တား–ကြိယာ–ကံ အစီအစဉ်ကို ရွေးနိုင်မည်။"
+      },
+      "successCriterion": {
+        "en": "Recognize subject–verb order in simple statements and subject–verb–object order with read and like.",
+        "my": "ရိုးရှင်းသော ရိုးရိုးပြောဝါကျများတွင် ကတ္တား–ကြိယာ အစီအစဉ်ကို သိနိုင်ပြီး read၊ like ပါသော ဝါကျများတွင် ကတ္တား–ကြိယာ–ကံ အစီအစဉ်ကို ရွေးနိုင်မည်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "expectedEvidence": ["recognition"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "descriptorRefs": []
+    }
+  ],
+  "exercises": [
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pronouns-q01",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Read the situation before choosing a pronoun.",
+        "my": "အဖြေတစ်ခုကို ရွေးပါ။ နာမ်စားကို မရွေးမီ ပေးထားသော အကြောင်းအရာကို ဖတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-subject-pronouns-objective-pronouns",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "You are talking about yourself. ___ am a student."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "option-1",
+          "text": {
+            "language": "en",
+            "text": "I"
+          }
+        },
+        {
+          "id": "option-2",
+          "text": {
+            "language": "en",
+            "text": "You"
+          }
+        },
+        {
+          "id": "option-3",
+          "text": {
+            "language": "en",
+            "text": "They"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pronouns-q02",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Read the situation before choosing a pronoun.",
+        "my": "အဖြေတစ်ခုကို ရွေးပါ။ နာမ်စားကို မရွေးမီ ပေးထားသော အကြောင်းအရာကို ဖတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-subject-pronouns-objective-pronouns",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "You are speaking to one classmate. ___ are a student."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "option-1",
+          "text": {
+            "language": "en",
+            "text": "He"
+          }
+        },
+        {
+          "id": "option-2",
+          "text": {
+            "language": "en",
+            "text": "You"
+          }
+        },
+        {
+          "id": "option-3",
+          "text": {
+            "language": "en",
+            "text": "It"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pronouns-q03",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Read the situation before choosing a pronoun.",
+        "my": "အဖြေတစ်ခုကို ရွေးပါ။ နာမ်စားကို မရွေးမီ ပေးထားသော အကြောင်းအရာကို ဖတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-subject-pronouns-objective-pronouns",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Ko Ko is a man. ___ is a teacher."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "option-1",
+          "text": {
+            "language": "en",
+            "text": "We"
+          }
+        },
+        {
+          "id": "option-2",
+          "text": {
+            "language": "en",
+            "text": "It"
+          }
+        },
+        {
+          "id": "option-3",
+          "text": {
+            "language": "en",
+            "text": "He"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pronouns-q04",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Read the situation before choosing a pronoun.",
+        "my": "အဖြေတစ်ခုကို ရွေးပါ။ နာမ်စားကို မရွေးမီ ပေးထားသော အကြောင်းအရာကို ဖတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-subject-pronouns-objective-pronouns",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Su is a woman. ___ is happy."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "option-1",
+          "text": {
+            "language": "en",
+            "text": "She"
+          }
+        },
+        {
+          "id": "option-2",
+          "text": {
+            "language": "en",
+            "text": "They"
+          }
+        },
+        {
+          "id": "option-3",
+          "text": {
+            "language": "en",
+            "text": "I"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pronouns-q05",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Read the situation before choosing a pronoun.",
+        "my": "အဖြေတစ်ခုကို ရွေးပါ။ နာမ်စားကို မရွေးမီ ပေးထားသော အကြောင်းအရာကို ဖတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-subject-pronouns-objective-pronouns",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "The book is new. ___ is on the desk."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "option-1",
+          "text": {
+            "language": "en",
+            "text": "He"
+          }
+        },
+        {
+          "id": "option-2",
+          "text": {
+            "language": "en",
+            "text": "It"
+          }
+        },
+        {
+          "id": "option-3",
+          "text": {
+            "language": "en",
+            "text": "We"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pronouns-q06",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Read the situation before choosing a pronoun.",
+        "my": "အဖြေတစ်ခုကို ရွေးပါ။ နာမ်စားကို မရွေးမီ ပေးထားသော အကြောင်းအရာကို ဖတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-subject-pronouns-objective-pronouns",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "You are talking about yourself and your classmates. ___ are students."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "option-1",
+          "text": {
+            "language": "en",
+            "text": "They"
+          }
+        },
+        {
+          "id": "option-2",
+          "text": {
+            "language": "en",
+            "text": "She"
+          }
+        },
+        {
+          "id": "option-3",
+          "text": {
+            "language": "en",
+            "text": "We"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pronouns-q07",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Read the situation before choosing a pronoun.",
+        "my": "အဖြေတစ်ခုကို ရွေးပါ။ နာမ်စားကို မရွေးမီ ပေးထားသော အကြောင်းအရာကို ဖတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-subject-pronouns-objective-pronouns",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Su and Aye are two other students. ___ are at school."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "option-1",
+          "text": {
+            "language": "en",
+            "text": "They"
+          }
+        },
+        {
+          "id": "option-2",
+          "text": {
+            "language": "en",
+            "text": "I"
+          }
+        },
+        {
+          "id": "option-3",
+          "text": {
+            "language": "en",
+            "text": "It"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pronouns-q08",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Read the situation before choosing a pronoun.",
+        "my": "အဖြေတစ်ခုကို ရွေးပါ။ နာမ်စားကို မရွေးမီ ပေးထားသော အကြောင်းအရာကို ဖတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-subject-pronouns-objective-be",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "I ___ ready."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "option-1",
+          "text": {
+            "language": "en",
+            "text": "is"
+          }
+        },
+        {
+          "id": "option-2",
+          "text": {
+            "language": "en",
+            "text": "am"
+          }
+        },
+        {
+          "id": "option-3",
+          "text": {
+            "language": "en",
+            "text": "are"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pronouns-q09",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Read the situation before choosing a pronoun.",
+        "my": "အဖြေတစ်ခုကို ရွေးပါ။ နာမ်စားကို မရွေးမီ ပေးထားသော အကြောင်းအရာကို ဖတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-subject-pronouns-objective-be",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "She ___ a teacher."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "option-1",
+          "text": {
+            "language": "en",
+            "text": "am"
+          }
+        },
+        {
+          "id": "option-2",
+          "text": {
+            "language": "en",
+            "text": "are"
+          }
+        },
+        {
+          "id": "option-3",
+          "text": {
+            "language": "en",
+            "text": "is"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pronouns-q10",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Read the situation before choosing a pronoun.",
+        "my": "အဖြေတစ်ခုကို ရွေးပါ။ နာမ်စားကို မရွေးမီ ပေးထားသော အကြောင်းအရာကို ဖတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-subject-pronouns-objective-be",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "You ___ ready. (You are speaking to one person.)"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "option-1",
+          "text": {
+            "language": "en",
+            "text": "are"
+          }
+        },
+        {
+          "id": "option-2",
+          "text": {
+            "language": "en",
+            "text": "am"
+          }
+        },
+        {
+          "id": "option-3",
+          "text": {
+            "language": "en",
+            "text": "is"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pronouns-q11",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Read the situation before choosing a pronoun.",
+        "my": "အဖြေတစ်ခုကို ရွေးပါ။ နာမ်စားကို မရွေးမီ ပေးထားသော အကြောင်းအရာကို ဖတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-subject-pronouns-objective-be",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "We ___ friends."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "option-1",
+          "text": {
+            "language": "en",
+            "text": "is"
+          }
+        },
+        {
+          "id": "option-2",
+          "text": {
+            "language": "en",
+            "text": "are"
+          }
+        },
+        {
+          "id": "option-3",
+          "text": {
+            "language": "en",
+            "text": "am"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pronouns-q12",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Read the situation before choosing a pronoun.",
+        "my": "အဖြေတစ်ခုကို ရွေးပါ။ နာမ်စားကို မရွေးမီ ပေးထားသော အကြောင်းအရာကို ဖတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-subject-pronouns-objective-order",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Choose the correct statement."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "option-1",
+          "text": {
+            "language": "en",
+            "text": "Am I a student."
+          }
+        },
+        {
+          "id": "option-2",
+          "text": {
+            "language": "en",
+            "text": "I a student am."
+          }
+        },
+        {
+          "id": "option-3",
+          "text": {
+            "language": "en",
+            "text": "I am a student."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pronouns-q13",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Read the situation before choosing a pronoun.",
+        "my": "အဖြေတစ်ခုကို ရွေးပါ။ နာမ်စားကို မရွေးမီ ပေးထားသော အကြောင်းအရာကို ဖတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-subject-pronouns-objective-order",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Choose the natural word order for a simple statement."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "option-1",
+          "text": {
+            "language": "en",
+            "text": "I read books."
+          }
+        },
+        {
+          "id": "option-2",
+          "text": {
+            "language": "en",
+            "text": "I books read."
+          }
+        },
+        {
+          "id": "option-3",
+          "text": {
+            "language": "en",
+            "text": "Read books I."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pronouns-q14",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Read the situation before choosing a pronoun.",
+        "my": "အဖြေတစ်ခုကို ရွေးပါ။ နာမ်စားကို မရွေးမီ ပေးထားသော အကြောင်းအရာကို ဖတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-subject-pronouns-objective-order",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Use like as a verb meaning enjoy. Choose the correct present simple sentence."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "option-1",
+          "text": {
+            "language": "en",
+            "text": "I am like tea."
+          }
+        },
+        {
+          "id": "option-2",
+          "text": {
+            "language": "en",
+            "text": "I like tea."
+          }
+        },
+        {
+          "id": "option-3",
+          "text": {
+            "language": "en",
+            "text": "I tea like."
+          }
+        }
+      ]
+    }
+  ],
+  "assessments": [],
+  "stimuli": [],
+  "transcripts": [],
+  "assets": []
+}

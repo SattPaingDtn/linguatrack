@@ -1,0 +1,91 @@
+{
+  "$comment": "Generated from strict Zod contracts. Also run the semantic package validator; refinements/graph rules are not expressible in JSON Schema.",
+  "$id": "urn:linguatrack:curriculum:transcripts:2.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "maxLength": 120,
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+        "type": "string"
+      },
+      "kind": {
+        "const": "transcript",
+        "type": "string"
+      },
+      "language": {
+        "const": "en",
+        "type": "string"
+      },
+      "revision": {
+        "maximum": 2147483647,
+        "minimum": 1,
+        "type": "integer"
+      },
+      "segments": {
+        "items": {
+          "additionalProperties": false,
+          "properties": {
+            "endMs": {
+              "exclusiveMinimum": 0,
+              "maximum": 9007199254740991,
+              "type": "integer"
+            },
+            "startMs": {
+              "maximum": 9007199254740991,
+              "minimum": 0,
+              "type": "integer"
+            },
+            "text": {
+              "maxLength": 40000,
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": ["startMs", "endMs", "text"],
+          "type": "object"
+        },
+        "maxItems": 10000,
+        "type": "array"
+      },
+      "source": {
+        "additionalProperties": false,
+        "properties": {
+          "contentVersion": {
+            "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+            "type": "string"
+          },
+          "id": {
+            "maxLength": 120,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "kind": {
+            "enum": ["course", "chapter", "lesson", "block", "question"],
+            "type": "string"
+          },
+          "pointer": {
+            "maxLength": 1000,
+            "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+            "type": "string"
+          },
+          "schemaVersion": {
+            "const": 1,
+            "type": "number"
+          }
+        },
+        "required": ["schemaVersion", "contentVersion", "kind", "id"],
+        "type": "object"
+      },
+      "text": {
+        "maxLength": 100000,
+        "minLength": 1,
+        "type": "string"
+      }
+    },
+    "required": ["kind", "id", "revision", "language", "text", "segments"],
+    "type": "object"
+  },
+  "type": "array"
+}

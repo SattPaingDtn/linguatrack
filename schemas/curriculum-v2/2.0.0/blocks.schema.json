@@ -1,0 +1,1800 @@
+{
+  "$comment": "Generated from strict Zod contracts. Also run the semantic package validator; refinements/graph rules are not expressible in JSON Schema.",
+  "$id": "urn:linguatrack:curriculum:blocks:2.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "oneOf": [
+      {
+        "additionalProperties": false,
+        "properties": {
+          "body": {
+            "additionalProperties": false,
+            "properties": {
+              "en": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              },
+              "my": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": ["en", "my"],
+            "type": "object"
+          },
+          "examples": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "language": {
+                  "const": "en",
+                  "type": "string"
+                },
+                "text": {
+                  "maxLength": 100000,
+                  "minLength": 1,
+                  "type": "string"
+                }
+              },
+              "required": ["language", "text"],
+              "type": "object"
+            },
+            "maxItems": 1000,
+            "type": "array"
+          },
+          "id": {
+            "maxLength": 120,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "kind": {
+            "const": "block",
+            "type": "string"
+          },
+          "lessonRef": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "const": "lesson",
+                "type": "string"
+              },
+              "revision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            "required": ["kind", "id", "revision"],
+            "type": "object"
+          },
+          "revision": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "source": {
+            "additionalProperties": false,
+            "properties": {
+              "contentVersion": {
+                "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                "type": "string"
+              },
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "enum": ["course", "chapter", "lesson", "block", "question"],
+                "type": "string"
+              },
+              "pointer": {
+                "maxLength": 1000,
+                "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                "type": "string"
+              },
+              "schemaVersion": {
+                "const": 1,
+                "type": "number"
+              }
+            },
+            "required": ["schemaVersion", "contentVersion", "kind", "id"],
+            "type": "object"
+          },
+          "title": {
+            "anyOf": [
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "en": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "my": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["en", "my"],
+                "type": "object"
+              },
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "language": {
+                    "enum": ["en", "my"],
+                    "type": "string"
+                  },
+                  "legacy": {
+                    "const": true,
+                    "type": "boolean"
+                  },
+                  "source": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "contentVersion": {
+                        "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                        "type": "string"
+                      },
+                      "id": {
+                        "maxLength": 120,
+                        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                        "type": "string"
+                      },
+                      "kind": {
+                        "enum": ["course", "chapter", "lesson", "block", "question"],
+                        "type": "string"
+                      },
+                      "pointer": {
+                        "maxLength": 1000,
+                        "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                        "type": "string"
+                      },
+                      "schemaVersion": {
+                        "const": 1,
+                        "type": "number"
+                      }
+                    },
+                    "required": ["schemaVersion", "contentVersion", "kind", "id"],
+                    "type": "object"
+                  },
+                  "text": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["legacy", "language", "text", "source"],
+                "type": "object"
+              }
+            ]
+          },
+          "type": {
+            "const": "explanation",
+            "type": "string"
+          }
+        },
+        "required": ["kind", "id", "revision", "lessonRef", "title", "type", "body", "examples"],
+        "type": "object"
+      },
+      {
+        "additionalProperties": false,
+        "properties": {
+          "examples": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "example": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "language": {
+                      "const": "en",
+                      "type": "string"
+                    },
+                    "text": {
+                      "maxLength": 100000,
+                      "minLength": 1,
+                      "type": "string"
+                    }
+                  },
+                  "required": ["language", "text"],
+                  "type": "object"
+                },
+                "pattern": {
+                  "maxLength": 40000,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "translation": {
+                  "maxLength": 40000,
+                  "minLength": 1,
+                  "type": "string"
+                }
+              },
+              "required": ["pattern", "example", "translation"],
+              "type": "object"
+            },
+            "maxItems": 1000,
+            "minItems": 1,
+            "type": "array"
+          },
+          "id": {
+            "maxLength": 120,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "kind": {
+            "const": "block",
+            "type": "string"
+          },
+          "lessonRef": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "const": "lesson",
+                "type": "string"
+              },
+              "revision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            "required": ["kind", "id", "revision"],
+            "type": "object"
+          },
+          "revision": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "rule": {
+            "additionalProperties": false,
+            "properties": {
+              "en": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              },
+              "my": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": ["en", "my"],
+            "type": "object"
+          },
+          "source": {
+            "additionalProperties": false,
+            "properties": {
+              "contentVersion": {
+                "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                "type": "string"
+              },
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "enum": ["course", "chapter", "lesson", "block", "question"],
+                "type": "string"
+              },
+              "pointer": {
+                "maxLength": 1000,
+                "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                "type": "string"
+              },
+              "schemaVersion": {
+                "const": 1,
+                "type": "number"
+              }
+            },
+            "required": ["schemaVersion", "contentVersion", "kind", "id"],
+            "type": "object"
+          },
+          "title": {
+            "anyOf": [
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "en": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "my": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["en", "my"],
+                "type": "object"
+              },
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "language": {
+                    "enum": ["en", "my"],
+                    "type": "string"
+                  },
+                  "legacy": {
+                    "const": true,
+                    "type": "boolean"
+                  },
+                  "source": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "contentVersion": {
+                        "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                        "type": "string"
+                      },
+                      "id": {
+                        "maxLength": 120,
+                        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                        "type": "string"
+                      },
+                      "kind": {
+                        "enum": ["course", "chapter", "lesson", "block", "question"],
+                        "type": "string"
+                      },
+                      "pointer": {
+                        "maxLength": 1000,
+                        "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                        "type": "string"
+                      },
+                      "schemaVersion": {
+                        "const": 1,
+                        "type": "number"
+                      }
+                    },
+                    "required": ["schemaVersion", "contentVersion", "kind", "id"],
+                    "type": "object"
+                  },
+                  "text": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["legacy", "language", "text", "source"],
+                "type": "object"
+              }
+            ]
+          },
+          "type": {
+            "const": "grammar",
+            "type": "string"
+          }
+        },
+        "required": ["kind", "id", "revision", "lessonRef", "title", "type", "rule", "examples"],
+        "type": "object"
+      },
+      {
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "maxLength": 120,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "kind": {
+            "const": "block",
+            "type": "string"
+          },
+          "lessonRef": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "const": "lesson",
+                "type": "string"
+              },
+              "revision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            "required": ["kind", "id", "revision"],
+            "type": "object"
+          },
+          "revision": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "source": {
+            "additionalProperties": false,
+            "properties": {
+              "contentVersion": {
+                "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                "type": "string"
+              },
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "enum": ["course", "chapter", "lesson", "block", "question"],
+                "type": "string"
+              },
+              "pointer": {
+                "maxLength": 1000,
+                "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                "type": "string"
+              },
+              "schemaVersion": {
+                "const": 1,
+                "type": "number"
+              }
+            },
+            "required": ["schemaVersion", "contentVersion", "kind", "id"],
+            "type": "object"
+          },
+          "title": {
+            "anyOf": [
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "en": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "my": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["en", "my"],
+                "type": "object"
+              },
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "language": {
+                    "enum": ["en", "my"],
+                    "type": "string"
+                  },
+                  "legacy": {
+                    "const": true,
+                    "type": "boolean"
+                  },
+                  "source": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "contentVersion": {
+                        "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                        "type": "string"
+                      },
+                      "id": {
+                        "maxLength": 120,
+                        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                        "type": "string"
+                      },
+                      "kind": {
+                        "enum": ["course", "chapter", "lesson", "block", "question"],
+                        "type": "string"
+                      },
+                      "pointer": {
+                        "maxLength": 1000,
+                        "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                        "type": "string"
+                      },
+                      "schemaVersion": {
+                        "const": 1,
+                        "type": "number"
+                      }
+                    },
+                    "required": ["schemaVersion", "contentVersion", "kind", "id"],
+                    "type": "object"
+                  },
+                  "text": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["legacy", "language", "text", "source"],
+                "type": "object"
+              }
+            ]
+          },
+          "type": {
+            "const": "vocabulary",
+            "type": "string"
+          },
+          "words": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "example": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "language": {
+                      "const": "en",
+                      "type": "string"
+                    },
+                    "text": {
+                      "maxLength": 100000,
+                      "minLength": 1,
+                      "type": "string"
+                    }
+                  },
+                  "required": ["language", "text"],
+                  "type": "object"
+                },
+                "meaning": {
+                  "anyOf": [
+                    {
+                      "additionalProperties": false,
+                      "properties": {
+                        "en": {
+                          "maxLength": 40000,
+                          "minLength": 1,
+                          "type": "string"
+                        },
+                        "my": {
+                          "maxLength": 40000,
+                          "minLength": 1,
+                          "type": "string"
+                        }
+                      },
+                      "required": ["en", "my"],
+                      "type": "object"
+                    },
+                    {
+                      "additionalProperties": false,
+                      "properties": {
+                        "language": {
+                          "enum": ["en", "my"],
+                          "type": "string"
+                        },
+                        "legacy": {
+                          "const": true,
+                          "type": "boolean"
+                        },
+                        "source": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "contentVersion": {
+                              "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                              "type": "string"
+                            },
+                            "id": {
+                              "maxLength": 120,
+                              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                              "type": "string"
+                            },
+                            "kind": {
+                              "enum": ["course", "chapter", "lesson", "block", "question"],
+                              "type": "string"
+                            },
+                            "pointer": {
+                              "maxLength": 1000,
+                              "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                              "type": "string"
+                            },
+                            "schemaVersion": {
+                              "const": 1,
+                              "type": "number"
+                            }
+                          },
+                          "required": ["schemaVersion", "contentVersion", "kind", "id"],
+                          "type": "object"
+                        },
+                        "text": {
+                          "maxLength": 40000,
+                          "minLength": 1,
+                          "type": "string"
+                        }
+                      },
+                      "required": ["legacy", "language", "text", "source"],
+                      "type": "object"
+                    }
+                  ]
+                },
+                "pronunciation": {
+                  "maxLength": 40000,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "word": {
+                  "maxLength": 40000,
+                  "minLength": 1,
+                  "type": "string"
+                }
+              },
+              "required": ["word", "pronunciation", "meaning", "example"],
+              "type": "object"
+            },
+            "maxItems": 1000,
+            "minItems": 1,
+            "type": "array"
+          }
+        },
+        "required": ["kind", "id", "revision", "lessonRef", "title", "type", "words"],
+        "type": "object"
+      },
+      {
+        "additionalProperties": false,
+        "properties": {
+          "explanation": {
+            "additionalProperties": false,
+            "properties": {
+              "en": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              },
+              "my": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": ["en", "my"],
+            "type": "object"
+          },
+          "id": {
+            "maxLength": 120,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "kind": {
+            "const": "block",
+            "type": "string"
+          },
+          "lessonRef": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "const": "lesson",
+                "type": "string"
+              },
+              "revision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            "required": ["kind", "id", "revision"],
+            "type": "object"
+          },
+          "revision": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "source": {
+            "additionalProperties": false,
+            "properties": {
+              "contentVersion": {
+                "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                "type": "string"
+              },
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "enum": ["course", "chapter", "lesson", "block", "question"],
+                "type": "string"
+              },
+              "pointer": {
+                "maxLength": 1000,
+                "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                "type": "string"
+              },
+              "schemaVersion": {
+                "const": 1,
+                "type": "number"
+              }
+            },
+            "required": ["schemaVersion", "contentVersion", "kind", "id"],
+            "type": "object"
+          },
+          "stimulusRef": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "const": "stimulus",
+                "type": "string"
+              },
+              "revision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            "required": ["kind", "id", "revision"],
+            "type": "object"
+          },
+          "title": {
+            "anyOf": [
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "en": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "my": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["en", "my"],
+                "type": "object"
+              },
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "language": {
+                    "enum": ["en", "my"],
+                    "type": "string"
+                  },
+                  "legacy": {
+                    "const": true,
+                    "type": "boolean"
+                  },
+                  "source": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "contentVersion": {
+                        "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                        "type": "string"
+                      },
+                      "id": {
+                        "maxLength": 120,
+                        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                        "type": "string"
+                      },
+                      "kind": {
+                        "enum": ["course", "chapter", "lesson", "block", "question"],
+                        "type": "string"
+                      },
+                      "pointer": {
+                        "maxLength": 1000,
+                        "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                        "type": "string"
+                      },
+                      "schemaVersion": {
+                        "const": 1,
+                        "type": "number"
+                      }
+                    },
+                    "required": ["schemaVersion", "contentVersion", "kind", "id"],
+                    "type": "object"
+                  },
+                  "text": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["legacy", "language", "text", "source"],
+                "type": "object"
+              }
+            ]
+          },
+          "type": {
+            "const": "reading",
+            "type": "string"
+          }
+        },
+        "required": [
+          "kind",
+          "id",
+          "revision",
+          "lessonRef",
+          "title",
+          "type",
+          "stimulusRef",
+          "explanation"
+        ],
+        "type": "object"
+      },
+      {
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "maxLength": 120,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "instruction": {
+            "additionalProperties": false,
+            "properties": {
+              "en": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              },
+              "my": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": ["en", "my"],
+            "type": "object"
+          },
+          "kind": {
+            "const": "block",
+            "type": "string"
+          },
+          "lessonRef": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "const": "lesson",
+                "type": "string"
+              },
+              "revision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            "required": ["kind", "id", "revision"],
+            "type": "object"
+          },
+          "revision": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "source": {
+            "additionalProperties": false,
+            "properties": {
+              "contentVersion": {
+                "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                "type": "string"
+              },
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "enum": ["course", "chapter", "lesson", "block", "question"],
+                "type": "string"
+              },
+              "pointer": {
+                "maxLength": 1000,
+                "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                "type": "string"
+              },
+              "schemaVersion": {
+                "const": 1,
+                "type": "number"
+              }
+            },
+            "required": ["schemaVersion", "contentVersion", "kind", "id"],
+            "type": "object"
+          },
+          "stimulusRef": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "const": "stimulus",
+                "type": "string"
+              },
+              "revision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            "required": ["kind", "id", "revision"],
+            "type": "object"
+          },
+          "title": {
+            "anyOf": [
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "en": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "my": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["en", "my"],
+                "type": "object"
+              },
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "language": {
+                    "enum": ["en", "my"],
+                    "type": "string"
+                  },
+                  "legacy": {
+                    "const": true,
+                    "type": "boolean"
+                  },
+                  "source": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "contentVersion": {
+                        "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                        "type": "string"
+                      },
+                      "id": {
+                        "maxLength": 120,
+                        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                        "type": "string"
+                      },
+                      "kind": {
+                        "enum": ["course", "chapter", "lesson", "block", "question"],
+                        "type": "string"
+                      },
+                      "pointer": {
+                        "maxLength": 1000,
+                        "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                        "type": "string"
+                      },
+                      "schemaVersion": {
+                        "const": 1,
+                        "type": "number"
+                      }
+                    },
+                    "required": ["schemaVersion", "contentVersion", "kind", "id"],
+                    "type": "object"
+                  },
+                  "text": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["legacy", "language", "text", "source"],
+                "type": "object"
+              }
+            ]
+          },
+          "type": {
+            "const": "listening",
+            "type": "string"
+          }
+        },
+        "required": [
+          "kind",
+          "id",
+          "revision",
+          "lessonRef",
+          "title",
+          "type",
+          "stimulusRef",
+          "instruction"
+        ],
+        "type": "object"
+      },
+      {
+        "additionalProperties": false,
+        "properties": {
+          "checklist": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "language": {
+                  "const": "en",
+                  "type": "string"
+                },
+                "text": {
+                  "maxLength": 100000,
+                  "minLength": 1,
+                  "type": "string"
+                }
+              },
+              "required": ["language", "text"],
+              "type": "object"
+            },
+            "maxItems": 1000,
+            "minItems": 1,
+            "type": "array"
+          },
+          "id": {
+            "maxLength": 120,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "kind": {
+            "const": "block",
+            "type": "string"
+          },
+          "lessonRef": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "const": "lesson",
+                "type": "string"
+              },
+              "revision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            "required": ["kind", "id", "revision"],
+            "type": "object"
+          },
+          "modelAnswer": {
+            "additionalProperties": false,
+            "properties": {
+              "language": {
+                "const": "en",
+                "type": "string"
+              },
+              "text": {
+                "maxLength": 100000,
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": ["language", "text"],
+            "type": "object"
+          },
+          "prompt": {
+            "additionalProperties": false,
+            "properties": {
+              "en": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              },
+              "my": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": ["en", "my"],
+            "type": "object"
+          },
+          "revision": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "source": {
+            "additionalProperties": false,
+            "properties": {
+              "contentVersion": {
+                "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                "type": "string"
+              },
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "enum": ["course", "chapter", "lesson", "block", "question"],
+                "type": "string"
+              },
+              "pointer": {
+                "maxLength": 1000,
+                "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                "type": "string"
+              },
+              "schemaVersion": {
+                "const": 1,
+                "type": "number"
+              }
+            },
+            "required": ["schemaVersion", "contentVersion", "kind", "id"],
+            "type": "object"
+          },
+          "title": {
+            "anyOf": [
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "en": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "my": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["en", "my"],
+                "type": "object"
+              },
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "language": {
+                    "enum": ["en", "my"],
+                    "type": "string"
+                  },
+                  "legacy": {
+                    "const": true,
+                    "type": "boolean"
+                  },
+                  "source": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "contentVersion": {
+                        "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                        "type": "string"
+                      },
+                      "id": {
+                        "maxLength": 120,
+                        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                        "type": "string"
+                      },
+                      "kind": {
+                        "enum": ["course", "chapter", "lesson", "block", "question"],
+                        "type": "string"
+                      },
+                      "pointer": {
+                        "maxLength": 1000,
+                        "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                        "type": "string"
+                      },
+                      "schemaVersion": {
+                        "const": 1,
+                        "type": "number"
+                      }
+                    },
+                    "required": ["schemaVersion", "contentVersion", "kind", "id"],
+                    "type": "object"
+                  },
+                  "text": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["legacy", "language", "text", "source"],
+                "type": "object"
+              }
+            ]
+          },
+          "type": {
+            "const": "speaking",
+            "type": "string"
+          }
+        },
+        "required": [
+          "kind",
+          "id",
+          "revision",
+          "lessonRef",
+          "title",
+          "type",
+          "prompt",
+          "modelAnswer",
+          "checklist"
+        ],
+        "type": "object"
+      },
+      {
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "maxLength": 120,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "kind": {
+            "const": "block",
+            "type": "string"
+          },
+          "lessonRef": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "const": "lesson",
+                "type": "string"
+              },
+              "revision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            "required": ["kind", "id", "revision"],
+            "type": "object"
+          },
+          "maxWords": {
+            "maximum": 5000,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "minWords": {
+            "maximum": 5000,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "modelAnswer": {
+            "additionalProperties": false,
+            "properties": {
+              "language": {
+                "const": "en",
+                "type": "string"
+              },
+              "text": {
+                "maxLength": 100000,
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": ["language", "text"],
+            "type": "object"
+          },
+          "prompt": {
+            "additionalProperties": false,
+            "properties": {
+              "en": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              },
+              "my": {
+                "maxLength": 40000,
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": ["en", "my"],
+            "type": "object"
+          },
+          "revision": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "source": {
+            "additionalProperties": false,
+            "properties": {
+              "contentVersion": {
+                "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                "type": "string"
+              },
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "enum": ["course", "chapter", "lesson", "block", "question"],
+                "type": "string"
+              },
+              "pointer": {
+                "maxLength": 1000,
+                "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                "type": "string"
+              },
+              "schemaVersion": {
+                "const": 1,
+                "type": "number"
+              }
+            },
+            "required": ["schemaVersion", "contentVersion", "kind", "id"],
+            "type": "object"
+          },
+          "title": {
+            "anyOf": [
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "en": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "my": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["en", "my"],
+                "type": "object"
+              },
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "language": {
+                    "enum": ["en", "my"],
+                    "type": "string"
+                  },
+                  "legacy": {
+                    "const": true,
+                    "type": "boolean"
+                  },
+                  "source": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "contentVersion": {
+                        "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                        "type": "string"
+                      },
+                      "id": {
+                        "maxLength": 120,
+                        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                        "type": "string"
+                      },
+                      "kind": {
+                        "enum": ["course", "chapter", "lesson", "block", "question"],
+                        "type": "string"
+                      },
+                      "pointer": {
+                        "maxLength": 1000,
+                        "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                        "type": "string"
+                      },
+                      "schemaVersion": {
+                        "const": 1,
+                        "type": "number"
+                      }
+                    },
+                    "required": ["schemaVersion", "contentVersion", "kind", "id"],
+                    "type": "object"
+                  },
+                  "text": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["legacy", "language", "text", "source"],
+                "type": "object"
+              }
+            ]
+          },
+          "type": {
+            "const": "writing",
+            "type": "string"
+          }
+        },
+        "required": [
+          "kind",
+          "id",
+          "revision",
+          "lessonRef",
+          "title",
+          "type",
+          "prompt",
+          "modelAnswer",
+          "minWords",
+          "maxWords"
+        ],
+        "type": "object"
+      },
+      {
+        "additionalProperties": false,
+        "properties": {
+          "assessmentRef": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "const": "assessment",
+                "type": "string"
+              },
+              "revision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            "required": ["kind", "id", "revision"],
+            "type": "object"
+          },
+          "exerciseRefs": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "id": {
+                  "maxLength": 120,
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                  "type": "string"
+                },
+                "kind": {
+                  "const": "exercise",
+                  "type": "string"
+                },
+                "revision": {
+                  "maximum": 2147483647,
+                  "minimum": 1,
+                  "type": "integer"
+                }
+              },
+              "required": ["kind", "id", "revision"],
+              "type": "object"
+            },
+            "maxItems": 1000,
+            "minItems": 1,
+            "type": "array"
+          },
+          "id": {
+            "maxLength": 120,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "kind": {
+            "const": "block",
+            "type": "string"
+          },
+          "lessonRef": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "const": "lesson",
+                "type": "string"
+              },
+              "revision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            "required": ["kind", "id", "revision"],
+            "type": "object"
+          },
+          "revision": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "source": {
+            "additionalProperties": false,
+            "properties": {
+              "contentVersion": {
+                "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                "type": "string"
+              },
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "enum": ["course", "chapter", "lesson", "block", "question"],
+                "type": "string"
+              },
+              "pointer": {
+                "maxLength": 1000,
+                "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                "type": "string"
+              },
+              "schemaVersion": {
+                "const": 1,
+                "type": "number"
+              }
+            },
+            "required": ["schemaVersion", "contentVersion", "kind", "id"],
+            "type": "object"
+          },
+          "title": {
+            "anyOf": [
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "en": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "my": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["en", "my"],
+                "type": "object"
+              },
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "language": {
+                    "enum": ["en", "my"],
+                    "type": "string"
+                  },
+                  "legacy": {
+                    "const": true,
+                    "type": "boolean"
+                  },
+                  "source": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "contentVersion": {
+                        "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                        "type": "string"
+                      },
+                      "id": {
+                        "maxLength": 120,
+                        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                        "type": "string"
+                      },
+                      "kind": {
+                        "enum": ["course", "chapter", "lesson", "block", "question"],
+                        "type": "string"
+                      },
+                      "pointer": {
+                        "maxLength": 1000,
+                        "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                        "type": "string"
+                      },
+                      "schemaVersion": {
+                        "const": 1,
+                        "type": "number"
+                      }
+                    },
+                    "required": ["schemaVersion", "contentVersion", "kind", "id"],
+                    "type": "object"
+                  },
+                  "text": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["legacy", "language", "text", "source"],
+                "type": "object"
+              }
+            ]
+          },
+          "type": {
+            "const": "quiz",
+            "type": "string"
+          }
+        },
+        "required": ["kind", "id", "revision", "lessonRef", "title", "type", "exerciseRefs"],
+        "type": "object"
+      },
+      {
+        "additionalProperties": false,
+        "properties": {
+          "exerciseRefs": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "id": {
+                  "maxLength": 120,
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                  "type": "string"
+                },
+                "kind": {
+                  "const": "exercise",
+                  "type": "string"
+                },
+                "revision": {
+                  "maximum": 2147483647,
+                  "minimum": 1,
+                  "type": "integer"
+                }
+              },
+              "required": ["kind", "id", "revision"],
+              "type": "object"
+            },
+            "maxItems": 1000,
+            "minItems": 1,
+            "type": "array"
+          },
+          "id": {
+            "maxLength": 120,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "kind": {
+            "const": "block",
+            "type": "string"
+          },
+          "lessonRef": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "const": "lesson",
+                "type": "string"
+              },
+              "revision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            "required": ["kind", "id", "revision"],
+            "type": "object"
+          },
+          "revision": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "source": {
+            "additionalProperties": false,
+            "properties": {
+              "contentVersion": {
+                "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                "type": "string"
+              },
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "enum": ["course", "chapter", "lesson", "block", "question"],
+                "type": "string"
+              },
+              "pointer": {
+                "maxLength": 1000,
+                "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                "type": "string"
+              },
+              "schemaVersion": {
+                "const": 1,
+                "type": "number"
+              }
+            },
+            "required": ["schemaVersion", "contentVersion", "kind", "id"],
+            "type": "object"
+          },
+          "title": {
+            "anyOf": [
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "en": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "my": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["en", "my"],
+                "type": "object"
+              },
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "language": {
+                    "enum": ["en", "my"],
+                    "type": "string"
+                  },
+                  "legacy": {
+                    "const": true,
+                    "type": "boolean"
+                  },
+                  "source": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "contentVersion": {
+                        "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                        "type": "string"
+                      },
+                      "id": {
+                        "maxLength": 120,
+                        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                        "type": "string"
+                      },
+                      "kind": {
+                        "enum": ["course", "chapter", "lesson", "block", "question"],
+                        "type": "string"
+                      },
+                      "pointer": {
+                        "maxLength": 1000,
+                        "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                        "type": "string"
+                      },
+                      "schemaVersion": {
+                        "const": 1,
+                        "type": "number"
+                      }
+                    },
+                    "required": ["schemaVersion", "contentVersion", "kind", "id"],
+                    "type": "object"
+                  },
+                  "text": {
+                    "maxLength": 40000,
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": ["legacy", "language", "text", "source"],
+                "type": "object"
+              }
+            ]
+          },
+          "type": {
+            "const": "exercise_set",
+            "type": "string"
+          }
+        },
+        "required": ["kind", "id", "revision", "lessonRef", "title", "type", "exerciseRefs"],
+        "type": "object"
+      }
+    ]
+  },
+  "type": "array"
+}

@@ -1,0 +1,184 @@
+{
+  "$comment": "Generated from strict Zod contracts. Also run the semantic package validator; refinements/graph rules are not expressible in JSON Schema.",
+  "$id": "urn:linguatrack:curriculum:compatibility:2.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "completion": {
+        "enum": ["carry_forward", "requires_recompletion", "archive_only"],
+        "type": "string"
+      },
+      "evidence": {
+        "enum": ["equivalent", "not_equivalent", "none"],
+        "type": "string"
+      },
+      "fingerprints": {
+        "additionalProperties": false,
+        "properties": {
+          "source": {
+            "pattern": "^[a-f0-9]{64}$",
+            "type": "string"
+          },
+          "target": {
+            "pattern": "^[a-f0-9]{64}$",
+            "type": "string"
+          }
+        },
+        "required": ["source", "target"],
+        "type": "object"
+      },
+      "from": {
+        "anyOf": [
+          {
+            "additionalProperties": false,
+            "properties": {
+              "contentVersion": {
+                "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                "type": "string"
+              },
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "enum": ["course", "chapter", "lesson", "block", "question"],
+                "type": "string"
+              },
+              "pointer": {
+                "maxLength": 1000,
+                "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+                "type": "string"
+              },
+              "schemaVersion": {
+                "const": 1,
+                "type": "number"
+              }
+            },
+            "required": ["schemaVersion", "contentVersion", "kind", "id"],
+            "type": "object"
+          },
+          {
+            "additionalProperties": false,
+            "properties": {
+              "contentVersion": {
+                "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+                "type": "string"
+              },
+              "ref": {
+                "additionalProperties": false,
+                "properties": {
+                  "id": {
+                    "maxLength": 120,
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "type": "string"
+                  },
+                  "kind": {
+                    "enum": [
+                      "course",
+                      "chapter",
+                      "lesson",
+                      "block",
+                      "exercise",
+                      "objective",
+                      "stimulus",
+                      "transcript",
+                      "asset",
+                      "assessment",
+                      "rubric"
+                    ],
+                    "type": "string"
+                  },
+                  "revision": {
+                    "maximum": 2147483647,
+                    "minimum": 1,
+                    "type": "integer"
+                  }
+                },
+                "required": ["kind", "id", "revision"],
+                "type": "object"
+              },
+              "schemaVersion": {
+                "const": 2,
+                "type": "number"
+              }
+            },
+            "required": ["schemaVersion", "contentVersion", "ref"],
+            "type": "object"
+          }
+        ]
+      },
+      "reason": {
+        "maxLength": 40000,
+        "minLength": 1,
+        "type": "string"
+      },
+      "resume": {
+        "enum": ["same_ids", "restart_with_notice"],
+        "type": "string"
+      },
+      "reviewStatus": {
+        "enum": ["pending", "approved"],
+        "type": "string"
+      },
+      "to": {
+        "additionalProperties": false,
+        "properties": {
+          "contentVersion": {
+            "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+            "type": "string"
+          },
+          "ref": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "kind": {
+                "enum": [
+                  "course",
+                  "chapter",
+                  "lesson",
+                  "block",
+                  "exercise",
+                  "objective",
+                  "stimulus",
+                  "transcript",
+                  "asset",
+                  "assessment",
+                  "rubric"
+                ],
+                "type": "string"
+              },
+              "revision": {
+                "maximum": 2147483647,
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            "required": ["kind", "id", "revision"],
+            "type": "object"
+          }
+        },
+        "required": ["contentVersion", "ref"],
+        "type": "object"
+      }
+    },
+    "required": [
+      "from",
+      "to",
+      "completion",
+      "evidence",
+      "resume",
+      "reason",
+      "reviewStatus",
+      "fingerprints"
+    ],
+    "type": "object"
+  },
+  "maxItems": 100000,
+  "type": "array"
+}

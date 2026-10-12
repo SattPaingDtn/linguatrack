@@ -6,6 +6,7 @@ export async function POST(request: Request) {
     const { client } = await requireLearner();
     const { data, error } = await client.rpc("complete_lesson", {
       p_version: input.contentVersion,
+      p_generation: input.generation,
       p_lesson_id: input.lessonId,
     });
     if (error) throw error;

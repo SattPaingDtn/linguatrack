@@ -5,6 +5,7 @@ import { ArrowRight, RotateCcw } from "lucide-react";
 import { useSession } from "@/components/progress/session-provider";
 import { firstCourse, firstChapter, lessonHref, courses, curriculum } from "@/lib/curriculum";
 import { Button } from "@/components/ui/button";
+import { ResetProgress } from "./reset-progress";
 export function ReviewHistory() {
   const { attempts, mode, loading, mistakes, reviewMistake } = useSession();
   const [incorrectOnly, setIncorrectOnly] = useState(false);
@@ -51,6 +52,7 @@ export function ReviewHistory() {
           Incorrect answers only
         </label>
       </div>
+      <ResetProgress />
       {error && (
         <p role="alert" className="text-sm text-destructive">
           {error}

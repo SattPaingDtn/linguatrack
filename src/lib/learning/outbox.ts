@@ -39,3 +39,14 @@ export function acknowledgeAnswer(storage: DraftStorage, owner: string, answer: 
   if (remaining.length) storage.setItem(key(owner), JSON.stringify(remaining));
   else storage.removeItem(key(owner));
 }
+
+// Discard only generations explicitly invalidated by an acknowledged account reset.
+export function discardResetAnswers(storage: DraftStorage, owner: string, generation: number) {
+  const pending = readOutbox(storage, owner);
+  const remaining = pending.filter((answer) => answer.generation >= generation);
+  if (remaining.length !== pending.length) {
+    if (remaining.length) storage.setItem(key(owner), JSON.stringify(remaining));
+    else storage.removeItem(key(owner));
+  }
+  return { pending: remaining, discarded: pending.length - remaining.length };
+}

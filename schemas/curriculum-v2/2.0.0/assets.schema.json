@@ -1,0 +1,166 @@
+{
+  "$comment": "Generated from strict Zod contracts. Also run the semantic package validator; refinements/graph rules are not expressible in JSON Schema.",
+  "$id": "urn:linguatrack:curriculum:assets:2.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "alt": {
+        "additionalProperties": false,
+        "properties": {
+          "en": {
+            "maxLength": 40000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "my": {
+            "maxLength": 40000,
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": ["en", "my"],
+        "type": "object"
+      },
+      "byteLength": {
+        "exclusiveMinimum": 0,
+        "maximum": 104857600,
+        "type": "integer"
+      },
+      "contentType": {
+        "enum": [
+          "audio/wav",
+          "audio/mpeg",
+          "audio/ogg",
+          "audio/webm",
+          "audio/mp4",
+          "video/mp4",
+          "video/webm",
+          "image/png",
+          "image/jpeg",
+          "image/webp"
+        ],
+        "type": "string"
+      },
+      "durationMs": {
+        "exclusiveMinimum": 0,
+        "maximum": 86400000,
+        "type": "integer"
+      },
+      "id": {
+        "maxLength": 120,
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+        "type": "string"
+      },
+      "kind": {
+        "const": "asset",
+        "type": "string"
+      },
+      "language": {
+        "enum": ["en", "my"],
+        "type": "string"
+      },
+      "legacyPublicPath": {
+        "pattern": "^\\/audio\\/[a-z0-9-]+\\.(wav|mp3|ogg)$",
+        "type": "string"
+      },
+      "provenance": {
+        "maxLength": 40000,
+        "minLength": 1,
+        "type": "string"
+      },
+      "revision": {
+        "maximum": 2147483647,
+        "minimum": 1,
+        "type": "integer"
+      },
+      "sha256": {
+        "pattern": "^[a-f0-9]{64}$",
+        "type": "string"
+      },
+      "source": {
+        "additionalProperties": false,
+        "properties": {
+          "contentVersion": {
+            "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+            "type": "string"
+          },
+          "id": {
+            "maxLength": 120,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "kind": {
+            "enum": ["course", "chapter", "lesson", "block", "question"],
+            "type": "string"
+          },
+          "pointer": {
+            "maxLength": 1000,
+            "pattern": "^(?:\\/(?:[^~\\/]|~[01])*)*$",
+            "type": "string"
+          },
+          "schemaVersion": {
+            "const": 1,
+            "type": "number"
+          }
+        },
+        "required": ["schemaVersion", "contentVersion", "kind", "id"],
+        "type": "object"
+      },
+      "storage": {
+        "oneOf": [
+          {
+            "additionalProperties": false,
+            "properties": {
+              "path": {
+                "maxLength": 500,
+                "pattern": "^[a-zA-Z0-9_-]+(?:\\/[a-zA-Z0-9_-]+)*(?:\\.[a-zA-Z0-9_-]+)?$",
+                "type": "string"
+              },
+              "type": {
+                "const": "package",
+                "type": "string"
+              }
+            },
+            "required": ["type", "path"],
+            "type": "object"
+          },
+          {
+            "additionalProperties": false,
+            "properties": {
+              "objectKey": {
+                "maxLength": 500,
+                "pattern": "^[a-zA-Z0-9_-]+(?:\\/[a-zA-Z0-9_-]+)*(?:\\.[a-zA-Z0-9_-]+)?$",
+                "type": "string"
+              },
+              "storeId": {
+                "maxLength": 120,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "type": {
+                "const": "managed_object",
+                "type": "string"
+              }
+            },
+            "required": ["type", "storeId", "objectKey"],
+            "type": "object"
+          }
+        ]
+      }
+    },
+    "required": [
+      "kind",
+      "id",
+      "revision",
+      "language",
+      "contentType",
+      "storage",
+      "sha256",
+      "byteLength",
+      "provenance"
+    ],
+    "type": "object"
+  },
+  "type": "array"
+}

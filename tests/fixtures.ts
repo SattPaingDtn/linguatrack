@@ -7,6 +7,7 @@ export const canonicalQuiz = canonical.courses[0]!.chapters[0]!.lessons[2]!.bloc
   (b) => b.type === "quiz",
 )!;
 export const input: AnswerSubmission = {
+  generation: 0,
   attemptId: randomUUID(),
   contentVersion: canonical.contentVersion,
   lessonId: "a1-c1-check",

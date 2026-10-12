@@ -1,5 +1,10 @@
 import { beforeEach, describe, expect, it } from "vitest";
-import { acknowledgeAnswer, queueAnswer, readOutbox } from "@/lib/learning/outbox";
+import {
+  acknowledgeAnswer,
+  discardResetAnswers,
+  queueAnswer,
+  readOutbox,
+} from "@/lib/learning/outbox";
 import { input } from "./fixtures";
 beforeEach(() => localStorage.clear());
 describe("durable pending answers", () => {
@@ -15,6 +20,14 @@ describe("durable pending answers", () => {
     acknowledgeAnswer(localStorage, "owner-a", input);
     expect(readOutbox(localStorage, "owner-a")).toEqual([]);
     expect(readOutbox(localStorage, "owner-b")).toEqual([input]);
+  });
+  it("discards pre-reset drafts while preserving current-generation answers and other accounts", () => {
+    queueAnswer(localStorage, "a", input);
+    const fresh = { ...input, attemptId: crypto.randomUUID(), generation: 1 };
+    queueAnswer(localStorage, "a", fresh);
+    queueAnswer(localStorage, "b", input);
+    expect(discardResetAnswers(localStorage, "a", 1)).toEqual({ pending: [fresh], discarded: 1 });
+    expect(readOutbox(localStorage, "b")).toEqual([input]);
   });
   it("does not clear other pending questions when one is acknowledged", () => {
     const second = { ...input, questionId: "a1-c1-q2" };

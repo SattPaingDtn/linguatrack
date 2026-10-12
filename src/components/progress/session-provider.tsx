@@ -24,7 +24,12 @@ import {
   requestJson,
   type LearningState,
 } from "@/lib/learning/client";
-import { acknowledgeAnswer, queueAnswer, readOutbox } from "@/lib/learning/outbox";
+import {
+  acknowledgeAnswer,
+  discardResetAnswers,
+  queueAnswer,
+  readOutbox,
+} from "@/lib/learning/outbox";
 export type { QuizAttempt } from "@/lib/learning/contracts";
 type Session = LearningSnapshot & {
   mode: "loading" | "preview" | "persistent";
@@ -40,6 +45,8 @@ type Session = LearningSnapshot & {
   refresh: (clearIdentity?: boolean) => Promise<void>;
   retrySync: () => Promise<void>;
   resetSession: () => void;
+  resetProgress: () => Promise<void>;
+  resetting: boolean;
 };
 const SessionContext = createContext<Session | null>(null);
 function message(error: unknown) {
@@ -61,7 +68,14 @@ export function SessionProvider({
   const [loading, setLoading] = useState(!initial);
   const [error, setError] = useState<string | null>(null);
   const [pendingAnswers, setPendingAnswers] = useState<AnswerSubmission[]>([]);
+  const [resetting, setResetting] = useState(false);
   const owner = useRef(initial?.user?.id ?? null);
+  const learningGeneration = useRef(initial?.snapshot.generation ?? 0);
+  const mutationEpoch = useRef(0);
+  const resetInFlight = useRef(false);
+  const resetRequest = useRef<{ owner: string; requestId: string; generation: number } | null>(
+    null,
+  );
   const revision = useRef(0);
   const refreshGeneration = useRef(0);
   const sequence = useRef(0);
@@ -71,6 +85,7 @@ export function SessionProvider({
     blockId: string | null;
   } | null>(null);
   const refresh = useCallback(async (clearIdentity = false) => {
+    if (resetInFlight.current) return;
     const generation = ++refreshGeneration.current;
     if (clearIdentity) {
       owner.current = null;
@@ -86,7 +101,13 @@ export function SessionProvider({
       const state = await requestJson("/api/learning", learningStateSchema);
       if (generation !== refreshGeneration.current) return;
       const changedOwner = owner.current !== (state.user?.id ?? null);
-      if (changedOwner || startingRevision === revision.current)
+      const changedGeneration = learningGeneration.current !== state.snapshot.generation;
+      if (changedOwner || changedGeneration) {
+        mutationEpoch.current++;
+        pendingPosition.current = null;
+        learningGeneration.current = state.snapshot.generation;
+      }
+      if (changedOwner || changedGeneration || startingRevision === revision.current)
         setSnapshot((previous) =>
           state.mode === "preview" && !changedOwner && !clearIdentity ? previous : state.snapshot,
         );
@@ -95,8 +116,14 @@ export function SessionProvider({
       setConfigured(state.configured);
       setUser(state.user);
       if (!pendingPosition.current) setError(null);
-      if (state.user) setPendingAnswers(readOutbox(localStorage, state.user.id));
-      else setPendingAnswers([]);
+      if (state.user) {
+        const result = discardResetAnswers(localStorage, state.user.id, state.snapshot.generation);
+        setPendingAnswers(result.pending);
+        if (result.discarded)
+          setError(
+            "Learning history was reset. Pending answers from before that reset were cleared.",
+          );
+      } else setPendingAnswers([]);
     } catch (error) {
       setError(message(error));
     } finally {
@@ -129,6 +156,9 @@ export function SessionProvider({
 
   async function submitAnswer(input: AnswerSubmission) {
     const submittingOwner = owner.current;
+    const startingEpoch = mutationEpoch.current;
+    if (resetInFlight.current || input.generation !== learningGeneration.current)
+      throw new Error("Learning history was reset or is resetting. Reload before answering again.");
     if (mode === "loading" || loading)
       throw new Error("Wait for your learning data to load before submitting.");
     if (submittingOwner) {
@@ -142,9 +172,9 @@ export function SessionProvider({
       }
     }
     const result = await requestJson("/api/learning/answer", answerResultSchema, input);
-    if (owner.current !== submittingOwner)
+    if (owner.current !== submittingOwner || startingEpoch !== mutationEpoch.current)
       throw new Error(
-        "Your account changed while saving. Sign back into the original account to recover the queued answer.",
+        "Your account or learning history changed while saving. Reload to check the current saved data.",
       );
     if (submittingOwner && result.mode !== "persistent")
       throw new Error(
@@ -218,6 +248,8 @@ export function SessionProvider({
     return response;
   }
   async function completeLesson(id: string) {
+    if (resetInFlight.current) throw new Error("Wait for the progress reset to finish.");
+    const startingEpoch = mutationEpoch.current;
     if (mode === "loading" || loading) throw new Error("Wait for learning data to finish loading.");
     const lesson = availableLessons.find((l) => l.id === id);
     if (!lesson) throw new Error("Unknown lesson.");
@@ -240,8 +272,10 @@ export function SessionProvider({
     const saved = await requestJson("/api/learning/complete", learningSnapshotSchema, {
       contentVersion: curriculum.contentVersion,
       lessonId: id,
+      generation: learningGeneration.current,
     });
-    if (owner.current !== savingOwner) throw new Error("Account changed while saving completion.");
+    if (owner.current !== savingOwner || startingEpoch !== mutationEpoch.current)
+      throw new Error("Account or learning history changed while saving completion. Reload.");
     revision.current++;
     setSnapshot(saved);
     if (!pendingPosition.current) setError(null);
@@ -249,7 +283,8 @@ export function SessionProvider({
   const userId = user?.id;
   const visitLesson = useCallback(
     async (lessonId: string, blockId: string | null) => {
-      if (mode !== "persistent" || !userId) return;
+      if (mode !== "persistent" || !userId || resetInFlight.current) return;
+      const startingEpoch = mutationEpoch.current;
       const savingOwner = userId;
       pendingPosition.current = { owner: savingOwner, lessonId, blockId };
       try {
@@ -267,8 +302,14 @@ export function SessionProvider({
           blockId,
           sessionId,
           sequence: sequence.current,
+          generation: learningGeneration.current,
         });
-        if (owner.current !== savingOwner || sequence.current !== submittedSequence) return;
+        if (
+          owner.current !== savingOwner ||
+          sequence.current !== submittedSequence ||
+          startingEpoch !== mutationEpoch.current
+        )
+          return;
         revision.current++;
         setSnapshot((previous) => ({
           ...previous,
@@ -282,7 +323,7 @@ export function SessionProvider({
         pendingPosition.current = null;
         setError(null);
       } catch (error) {
-        if (owner.current === savingOwner)
+        if (owner.current === savingOwner && startingEpoch === mutationEpoch.current)
           setError(`Resume position was not saved. ${message(error)}`);
         throw error;
       }
@@ -290,13 +331,17 @@ export function SessionProvider({
     [mode, userId],
   );
   async function reviewMistake(id: string) {
+    if (resetInFlight.current) throw new Error("Wait for the progress reset to finish.");
+    const startingEpoch = mutationEpoch.current;
     const savingOwner = owner.current;
     const reviewedAt = new Date().toISOString();
     if (mode === "persistent")
       await requestJson("/api/learning/mistake", z.object({ reviewedAt: z.string() }), {
         responseId: id,
+        generation: learningGeneration.current,
       });
-    if (owner.current !== savingOwner) throw new Error("Account changed while saving review.");
+    if (owner.current !== savingOwner || startingEpoch !== mutationEpoch.current)
+      throw new Error("Account or learning history changed while saving review. Reload.");
     revision.current++;
     setSnapshot((previous) => ({
       ...previous,
@@ -319,6 +364,48 @@ export function SessionProvider({
     setSnapshot(emptySnapshot);
     if (!pendingPosition.current) setError(null);
   }
+  async function resetProgress() {
+    const resettingOwner = owner.current;
+    if (mode !== "persistent" || !resettingOwner || loading)
+      throw new Error("Sign in and wait for your learning data to load before resetting.");
+    if (resetInFlight.current) throw new Error("A progress reset is already running.");
+    if (!resetRequest.current || resetRequest.current.owner !== resettingOwner)
+      resetRequest.current = {
+        owner: resettingOwner,
+        requestId: crypto.randomUUID(),
+        generation: learningGeneration.current,
+      };
+    resetInFlight.current = true;
+    setResetting(true);
+    mutationEpoch.current++;
+    revision.current++;
+    refreshGeneration.current++;
+    try {
+      const saved = await requestJson("/api/learning/reset", learningSnapshotSchema, {
+        requestId: resetRequest.current.requestId,
+        generation: resetRequest.current.generation,
+        contentVersion: curriculum.contentVersion,
+        confirmation: "RESET",
+      });
+      if (owner.current !== resettingOwner)
+        throw new Error("Account changed during reset. Sign back in to check its learning data.");
+      learningGeneration.current = saved.generation;
+      pendingPosition.current = null;
+      setSnapshot(saved);
+      const result = discardResetAnswers(localStorage, resettingOwner, saved.generation);
+      setPendingAnswers(result.pending);
+      resetRequest.current = null;
+      setError(null);
+    } catch (error) {
+      // Keep the same request ID for a safe retry if the database committed but the reply was lost.
+      throw new Error(
+        `${message(error)} Retry reset to confirm its outcome, or reload to check your saved data.`,
+      );
+    } finally {
+      resetInFlight.current = false;
+      setResetting(false);
+    }
+  }
   return (
     <SessionContext.Provider
       value={{
@@ -336,6 +423,8 @@ export function SessionProvider({
         refresh,
         retrySync,
         resetSession,
+        resetProgress,
+        resetting,
       }}
     >
       {children}
