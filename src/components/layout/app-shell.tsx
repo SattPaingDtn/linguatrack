@@ -24,6 +24,7 @@ import {
 } from "@/components/ui/sheet";
 import { useSession } from "@/components/progress/session-provider";
 import { cn } from "@/lib/utils";
+import { A1_PREVIEW_PATH } from "@/lib/curriculum/a1-preview/config";
 
 const navigation = [
   { href: "/", label: "Dashboard", icon: LayoutDashboard },
@@ -76,6 +77,17 @@ function SidebarContent({ close }: { close?: () => void }) {
             </Link>
           );
         })}
+        {process.env.NODE_ENV === "development" && (
+          <Link
+            href={A1_PREVIEW_PATH}
+            prefetch={false}
+            onClick={close}
+            className="flex min-h-11 items-center gap-3 rounded-xl px-4 py-3 text-[13px] font-medium text-[#637064] transition-colors hover:bg-[#e3e9dd]"
+          >
+            <GraduationCap size={18} aria-hidden="true" />
+            A1 study previews
+          </Link>
+        )}
       </nav>
       <div className="mt-auto pt-10">
         <div className="rounded-2xl border border-[#d5dfcf] bg-[#e6eddf] p-4">

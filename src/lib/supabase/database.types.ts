@@ -41,6 +41,7 @@ export type Database = {
         Returns: Json;
       };
       learning_export: { Args: Record<string, never>; Returns: Json };
+      learning_history_v2: { Args: Record<string, never>; Returns: Json };
     };
   };
 };

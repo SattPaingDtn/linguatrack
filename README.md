@@ -1,5 +1,7 @@
 # LinguaTrack Academy
 
+Current platform work uses **one existing hosted Supabase project and isolated local tests**. The reusable v2 main-site flow is being implemented in small milestones; previews remain editorial tools. Run `npm run platform:audit` for a read-only validated inventory. See [milestone status, local/hosted readiness and approval gates](docs/platform-milestone-1.md) and [daily content workflow](docs/daily-content-workflow.md). Do not follow the superseded second-project staging setup or enable unpublished content.
+
 English learning with Burmese explanations, built with Next.js App Router, strict TypeScript, Tailwind CSS, shadcn/ui and Supabase. Phase 2 adds account-owned learning history while preserving the Phase 1 dashboard, sidebar, course pages and lesson navigation. The A1 sample chapter remains the playable curriculum; A2–C1, TOEIC and IT Business English remain planned.
 
 ## Launch locally
@@ -125,3 +127,21 @@ The bridge requires a new output directory and retains all IDs, slugs, options, 
 With the reviewed local draft chain 1.1.0–1.3.0 present, run `npm run dev` and open [the local lesson preview](http://localhost:3000/dev/lessons/subject-pronouns). It shows bilingual draft content, all 14 practice questions and unsaved writing. Grading stays on the development server; results never update account progress or review history. Production returns 404.
 
 Run `npm run test:preview` for focused tests and `npm run test:e2e:preview` for real desktop/mobile development checks. See [Phase 3C setup, isolation and limitations](docs/phase-3c-preview.md).
+
+### Inactive A1 Chapter 1 content preview
+
+The complete authoring pack is integrated into local v2 **draft 1.4.0**, with eight retained/new lesson entries covering seven learning roles. The live site still serves v1. With the validated 1.1.0–1.3.0 ancestors present, run `npm run curriculum:v2:author-chapter` once to create the new draft; repeat checks safely with `npm run curriculum:v2:author-chapter -- --check`. Existing draft directories are never overwritten.
+
+Run `npm run dev` and open [the local A1 chapter preview](http://localhost:3000/dev/chapters/a1-chapter-1). It contains 52 checkable MCQs and eight planned questions awaiting actual audio. Writing/speaking are unsaved, ungraded self-practice. Preview routes and the stateless grader return 404 in production and never write learner records. See [lesson mapping, individual URLs, reproduction commands, security checks and editorial limitations](docs/a1-chapter-01-integration-report.md).
+
+### Local A1 Chapters 1–3 picker
+
+Run `npm run curriculum:v2:author-a1-batch` once (with the unchanged 1.1.0–1.4.0 ancestors present) to create inactive draft **1.5.0** for Chapters 2 and 3. Recheck safely with `npm run curriculum:v2:author-a1-batch -- --check`. Existing drafts are never overwritten.
+
+With `npm run dev`, open [the A1 preview picker](http://localhost:3000/dev/a1). Chapter 1 retains its existing 1.4.0 preview; [Chapter 2](http://localhost:3000/dev/a1/people-family-possessions) and [Chapter 3](http://localhost:3000/dev/a1/daily-routines-time) each have seven new lessons, 17 checkable MCQs and five audio-pending questions. Chapters 4–12 remain editorial outlines only. These previews never save progress or award proficiency and return 404 in production. See [the expansion report](docs/a1-chapters-02-03-integration-report.md) and [editorial checklist](content-authoring/A1_EDITORIAL_CHECKLIST.md).
+
+### Local A1 Chapters 4–6 manuscripts
+
+The local [A1 picker](http://localhost:3000/dev/a1) now includes [Home & Neighborhood](http://localhost:3000/dev/a1/home-neighborhood), [Food, Drinks & Shopping](http://localhost:3000/dev/a1/food-drinks-shopping), and [Work & Study](http://localhost:3000/dev/a1/work-study). Each has seven lessons and 12 working MCQs, with five ungraded reading self-review responses and four audio-unavailable checks. Writing/speaking remain unsaved self-practice; private keys stay on the development server.
+
+With the unchanged 1.1.0–1.5.0 ancestors present, create each new draft once using `npm run curriculum:v2:author-manuscript -- --chapter 4`, then 5, then 6; repeat safe checks by adding `--check`. Drafts 1.6.0–1.8.0 are independently pinned and never overwritten. Run `npm run dev` to preview. Production still returns 404. Chapters 7–12 remain outlines only. See [the sequential integration report](docs/a1-chapters-04-06-integration-report.md).

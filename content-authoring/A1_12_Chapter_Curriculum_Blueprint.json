@@ -1,0 +1,463 @@
+{
+  "course": "English Foundation",
+  "level": "A1",
+  "status": "proposed editorial outline; not CEFR certification",
+  "chapters": [
+    {
+      "number": 1,
+      "id": "a1-ch01-outline",
+      "title": "Greetings, Introductions & Jobs",
+      "outcome": "Say hello, introduce people and identify basic jobs",
+      "grammarFocus": "be, subject pronouns, a/an",
+      "plannedLessons": [
+        {
+          "number": 1,
+          "area": "Vocabulary and functional phrases"
+        },
+        {
+          "number": 2,
+          "area": "Grammar foundations"
+        },
+        {
+          "number": 3,
+          "area": "Listening and comprehension"
+        },
+        {
+          "number": 4,
+          "area": "Speaking and role-play"
+        },
+        {
+          "number": 5,
+          "area": "Reading and comprehension"
+        },
+        {
+          "number": 6,
+          "area": "Writing and guided production"
+        },
+        {
+          "number": 7,
+          "area": "Chapter review and assessment"
+        }
+      ],
+      "status": "existing authoring source"
+    },
+    {
+      "number": 2,
+      "id": "a1-ch02-outline",
+      "title": "People, Family & Possessions",
+      "outcome": "Describe people, family and things you own",
+      "grammarFocus": "have/has, possessive adjectives, singular/plural",
+      "plannedLessons": [
+        {
+          "number": 1,
+          "area": "Vocabulary and functional phrases"
+        },
+        {
+          "number": 2,
+          "area": "Grammar foundations"
+        },
+        {
+          "number": 3,
+          "area": "Listening and comprehension"
+        },
+        {
+          "number": 4,
+          "area": "Speaking and role-play"
+        },
+        {
+          "number": 5,
+          "area": "Reading and comprehension"
+        },
+        {
+          "number": 6,
+          "area": "Writing and guided production"
+        },
+        {
+          "number": 7,
+          "area": "Chapter review and assessment"
+        }
+      ],
+      "status": "authored content provided"
+    },
+    {
+      "number": 3,
+      "id": "a1-ch03-outline",
+      "title": "Daily Routines & Time",
+      "outcome": "Talk about routines, schedules and days",
+      "grammarFocus": "present simple affirmative, negatives, questions",
+      "plannedLessons": [
+        {
+          "number": 1,
+          "area": "Vocabulary and functional phrases"
+        },
+        {
+          "number": 2,
+          "area": "Grammar foundations"
+        },
+        {
+          "number": 3,
+          "area": "Listening and comprehension"
+        },
+        {
+          "number": 4,
+          "area": "Speaking and role-play"
+        },
+        {
+          "number": 5,
+          "area": "Reading and comprehension"
+        },
+        {
+          "number": 6,
+          "area": "Writing and guided production"
+        },
+        {
+          "number": 7,
+          "area": "Chapter review and assessment"
+        }
+      ],
+      "status": "authored content provided"
+    },
+    {
+      "number": 4,
+      "id": "a1-ch04-outline",
+      "title": "Home & Neighborhood",
+      "outcome": "Describe a home and say where things are",
+      "grammarFocus": "there is/are; place prepositions",
+      "plannedLessons": [
+        {
+          "number": 1,
+          "area": "Vocabulary and functional phrases"
+        },
+        {
+          "number": 2,
+          "area": "Grammar foundations"
+        },
+        {
+          "number": 3,
+          "area": "Listening and comprehension"
+        },
+        {
+          "number": 4,
+          "area": "Speaking and role-play"
+        },
+        {
+          "number": 5,
+          "area": "Reading and comprehension"
+        },
+        {
+          "number": 6,
+          "area": "Writing and guided production"
+        },
+        {
+          "number": 7,
+          "area": "Chapter review and assessment"
+        }
+      ],
+      "status": "outline only"
+    },
+    {
+      "number": 5,
+      "id": "a1-ch05-outline",
+      "title": "Food, Drinks & Shopping",
+      "outcome": "Order food and ask prices/quantities",
+      "grammarFocus": "some/any; countable/uncountable; how much/many",
+      "plannedLessons": [
+        {
+          "number": 1,
+          "area": "Vocabulary and functional phrases"
+        },
+        {
+          "number": 2,
+          "area": "Grammar foundations"
+        },
+        {
+          "number": 3,
+          "area": "Listening and comprehension"
+        },
+        {
+          "number": 4,
+          "area": "Speaking and role-play"
+        },
+        {
+          "number": 5,
+          "area": "Reading and comprehension"
+        },
+        {
+          "number": 6,
+          "area": "Writing and guided production"
+        },
+        {
+          "number": 7,
+          "area": "Chapter review and assessment"
+        }
+      ],
+      "status": "outline only"
+    },
+    {
+      "number": 6,
+      "id": "a1-ch06-outline",
+      "title": "Work & Study",
+      "outcome": "Explain simple tasks, jobs and workplace tools",
+      "grammarFocus": "can/cannot; imperatives; simple requests",
+      "plannedLessons": [
+        {
+          "number": 1,
+          "area": "Vocabulary and functional phrases"
+        },
+        {
+          "number": 2,
+          "area": "Grammar foundations"
+        },
+        {
+          "number": 3,
+          "area": "Listening and comprehension"
+        },
+        {
+          "number": 4,
+          "area": "Speaking and role-play"
+        },
+        {
+          "number": 5,
+          "area": "Reading and comprehension"
+        },
+        {
+          "number": 6,
+          "area": "Writing and guided production"
+        },
+        {
+          "number": 7,
+          "area": "Chapter review and assessment"
+        }
+      ],
+      "status": "outline only"
+    },
+    {
+      "number": 7,
+      "id": "a1-ch07-outline",
+      "title": "Hobbies & Free Time",
+      "outcome": "Discuss likes, interests and invitations",
+      "grammarFocus": "like/love + -ing; frequency adverbs",
+      "plannedLessons": [
+        {
+          "number": 1,
+          "area": "Vocabulary and functional phrases"
+        },
+        {
+          "number": 2,
+          "area": "Grammar foundations"
+        },
+        {
+          "number": 3,
+          "area": "Listening and comprehension"
+        },
+        {
+          "number": 4,
+          "area": "Speaking and role-play"
+        },
+        {
+          "number": 5,
+          "area": "Reading and comprehension"
+        },
+        {
+          "number": 6,
+          "area": "Writing and guided production"
+        },
+        {
+          "number": 7,
+          "area": "Chapter review and assessment"
+        }
+      ],
+      "status": "outline only"
+    },
+    {
+      "number": 8,
+      "id": "a1-ch08-outline",
+      "title": "Travel & Directions",
+      "outcome": "Ask for directions and plan simple trips",
+      "grammarFocus": "movement prepositions; polite requests",
+      "plannedLessons": [
+        {
+          "number": 1,
+          "area": "Vocabulary and functional phrases"
+        },
+        {
+          "number": 2,
+          "area": "Grammar foundations"
+        },
+        {
+          "number": 3,
+          "area": "Listening and comprehension"
+        },
+        {
+          "number": 4,
+          "area": "Speaking and role-play"
+        },
+        {
+          "number": 5,
+          "area": "Reading and comprehension"
+        },
+        {
+          "number": 6,
+          "area": "Writing and guided production"
+        },
+        {
+          "number": 7,
+          "area": "Chapter review and assessment"
+        }
+      ],
+      "status": "outline only"
+    },
+    {
+      "number": 9,
+      "id": "a1-ch09-outline",
+      "title": "Health & Everyday Needs",
+      "outcome": "Explain simple needs and everyday problems",
+      "grammarFocus": "have got; should basics; need to",
+      "plannedLessons": [
+        {
+          "number": 1,
+          "area": "Vocabulary and functional phrases"
+        },
+        {
+          "number": 2,
+          "area": "Grammar foundations"
+        },
+        {
+          "number": 3,
+          "area": "Listening and comprehension"
+        },
+        {
+          "number": 4,
+          "area": "Speaking and role-play"
+        },
+        {
+          "number": 5,
+          "area": "Reading and comprehension"
+        },
+        {
+          "number": 6,
+          "area": "Writing and guided production"
+        },
+        {
+          "number": 7,
+          "area": "Chapter review and assessment"
+        }
+      ],
+      "status": "outline only"
+    },
+    {
+      "number": 10,
+      "id": "a1-ch10-outline",
+      "title": "Yesterday & Past Events",
+      "outcome": "Tell what happened yesterday",
+      "grammarFocus": "past simple regular/irregular; was/were",
+      "plannedLessons": [
+        {
+          "number": 1,
+          "area": "Vocabulary and functional phrases"
+        },
+        {
+          "number": 2,
+          "area": "Grammar foundations"
+        },
+        {
+          "number": 3,
+          "area": "Listening and comprehension"
+        },
+        {
+          "number": 4,
+          "area": "Speaking and role-play"
+        },
+        {
+          "number": 5,
+          "area": "Reading and comprehension"
+        },
+        {
+          "number": 6,
+          "area": "Writing and guided production"
+        },
+        {
+          "number": 7,
+          "area": "Chapter review and assessment"
+        }
+      ],
+      "status": "outline only"
+    },
+    {
+      "number": 11,
+      "id": "a1-ch11-outline",
+      "title": "Future Plans & Appointments",
+      "outcome": "Arrange meetings and talk about plans",
+      "grammarFocus": "going to; will basics; future time phrases",
+      "plannedLessons": [
+        {
+          "number": 1,
+          "area": "Vocabulary and functional phrases"
+        },
+        {
+          "number": 2,
+          "area": "Grammar foundations"
+        },
+        {
+          "number": 3,
+          "area": "Listening and comprehension"
+        },
+        {
+          "number": 4,
+          "area": "Speaking and role-play"
+        },
+        {
+          "number": 5,
+          "area": "Reading and comprehension"
+        },
+        {
+          "number": 6,
+          "area": "Writing and guided production"
+        },
+        {
+          "number": 7,
+          "area": "Chapter review and assessment"
+        }
+      ],
+      "status": "outline only"
+    },
+    {
+      "number": 12,
+      "id": "a1-ch12-outline",
+      "title": "A1 Integrated Review",
+      "outcome": "Practice integrated everyday communication",
+      "grammarFocus": "A1 revision across all prior grammar",
+      "plannedLessons": [
+        {
+          "number": 1,
+          "area": "Vocabulary and functional phrases"
+        },
+        {
+          "number": 2,
+          "area": "Grammar foundations"
+        },
+        {
+          "number": 3,
+          "area": "Listening and comprehension"
+        },
+        {
+          "number": 4,
+          "area": "Speaking and role-play"
+        },
+        {
+          "number": 5,
+          "area": "Reading and comprehension"
+        },
+        {
+          "number": 6,
+          "area": "Writing and guided production"
+        },
+        {
+          "number": 7,
+          "area": "Chapter review and assessment"
+        }
+      ],
+      "status": "outline only"
+    }
+  ]
+}

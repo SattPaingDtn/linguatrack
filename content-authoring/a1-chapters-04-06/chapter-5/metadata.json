@@ -1,0 +1,146 @@
+{
+  "number": 5,
+  "chapterId": "a1-chapter-5",
+  "slug": "food-drinks-shopping",
+  "sourceFile": "content-authoring/A1_Chapter_05_Full_Lesson_Pack.md",
+  "sourceSha256": "27caefa52dcc08ad55b55c8d6e279905a3779935c8822d7674eb94041b8bf449",
+  "audioStatus": "awaiting_audio",
+  "lessonIds": [
+    "a1-c5-food-words",
+    "a1-c5-quantities-and-orders",
+    "a1-c5-shopping-scripts",
+    "a1-c5-order-and-shop",
+    "a1-c5-a-shopping-list",
+    "a1-c5-write-an-order",
+    "a1-c5-review"
+  ],
+  "questions": [
+    {
+      "sourceId": "L1-1",
+      "exerciseId": "a1-c5-l1-1",
+      "lessonId": "a1-c5-shopping-scripts",
+      "mode": "awaiting_audio"
+    },
+    {
+      "sourceId": "L1-2",
+      "exerciseId": "a1-c5-l1-2",
+      "lessonId": "a1-c5-shopping-scripts",
+      "mode": "awaiting_audio"
+    },
+    {
+      "sourceId": "L2-1",
+      "exerciseId": "a1-c5-l2-1",
+      "lessonId": "a1-c5-shopping-scripts",
+      "mode": "awaiting_audio"
+    },
+    {
+      "sourceId": "L2-2",
+      "exerciseId": "a1-c5-l2-2",
+      "lessonId": "a1-c5-shopping-scripts",
+      "mode": "awaiting_audio"
+    },
+    {
+      "sourceId": "R1",
+      "exerciseId": "a1-c5-r1",
+      "lessonId": "a1-c5-a-shopping-list",
+      "mode": "self_review"
+    },
+    {
+      "sourceId": "R2",
+      "exerciseId": "a1-c5-r2",
+      "lessonId": "a1-c5-a-shopping-list",
+      "mode": "self_review"
+    },
+    {
+      "sourceId": "R3",
+      "exerciseId": "a1-c5-r3",
+      "lessonId": "a1-c5-a-shopping-list",
+      "mode": "self_review"
+    },
+    {
+      "sourceId": "R4",
+      "exerciseId": "a1-c5-r4",
+      "lessonId": "a1-c5-a-shopping-list",
+      "mode": "self_review"
+    },
+    {
+      "sourceId": "R5",
+      "exerciseId": "a1-c5-r5",
+      "lessonId": "a1-c5-a-shopping-list",
+      "mode": "self_review"
+    },
+    {
+      "sourceId": "K1",
+      "exerciseId": "a1-c5-k1",
+      "lessonId": "a1-c5-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K2",
+      "exerciseId": "a1-c5-k2",
+      "lessonId": "a1-c5-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K3",
+      "exerciseId": "a1-c5-k3",
+      "lessonId": "a1-c5-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K4",
+      "exerciseId": "a1-c5-k4",
+      "lessonId": "a1-c5-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K5",
+      "exerciseId": "a1-c5-k5",
+      "lessonId": "a1-c5-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K6",
+      "exerciseId": "a1-c5-k6",
+      "lessonId": "a1-c5-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K7",
+      "exerciseId": "a1-c5-k7",
+      "lessonId": "a1-c5-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K8",
+      "exerciseId": "a1-c5-k8",
+      "lessonId": "a1-c5-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K9",
+      "exerciseId": "a1-c5-k9",
+      "lessonId": "a1-c5-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K10",
+      "exerciseId": "a1-c5-k10",
+      "lessonId": "a1-c5-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K11",
+      "exerciseId": "a1-c5-k11",
+      "lessonId": "a1-c5-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K12",
+      "exerciseId": "a1-c5-k12",
+      "lessonId": "a1-c5-review",
+      "mode": "recognition"
+    }
+  ],
+  "reviewStatus": "pending"
+}

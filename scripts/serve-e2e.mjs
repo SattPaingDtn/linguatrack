@@ -6,6 +6,8 @@ const env = {
   NEXT_DIST_DIR: ".next-e2e",
   NEXT_PUBLIC_SUPABASE_URL: "",
   NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: "",
+  LINGUATRACK_V2_HISTORY_ENABLED: "false",
+  LINGUATRACK_V2_MCQ_ENABLED: "false",
 };
 let child;
 let stopping = false;

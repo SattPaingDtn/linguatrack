@@ -1,0 +1,338 @@
+{
+  "basedOnVersion": "1.4.0",
+  "chapter1Reuse": {
+    "chapterId": "a1-chapter-1",
+    "lessonIds": [
+      "a1-c1-introductions",
+      "a1-c1-be",
+      "a1-c1-subject-pronouns",
+      "a1-c1-meet-colleagues",
+      "a1-c1-speaking-at-work",
+      "a1-c1-new-team",
+      "a1-c1-professional-introduction",
+      "a1-c1-check"
+    ]
+  },
+  "chapters": [
+    {
+      "number": 2,
+      "chapterId": "a1-chapter-2",
+      "slug": "people-family-possessions",
+      "sourceFile": "content-authoring/A1_Chapter_02_Full_Lesson_Pack.md",
+      "sourceSha256": "2aede0c5e5c307e82dac134f6135c63ed7ff84483550606286076e3336fa9e4b",
+      "lessonIds": [
+        "a1-c2-family-words",
+        "a1-c2-have-and-possessions",
+        "a1-c2-family-scripts",
+        "a1-c2-describing-people",
+        "a1-c2-family-and-colleagues",
+        "a1-c2-writing-about-family",
+        "a1-c2-review"
+      ],
+      "audioStatus": "audio_pending",
+      "questions": [
+        {
+          "sourceId": "L1.1",
+          "exerciseId": "a1-c2-l1-1",
+          "lessonId": "a1-c2-family-scripts",
+          "audioStatus": "audio_pending"
+        },
+        {
+          "sourceId": "L1.2",
+          "exerciseId": "a1-c2-l1-2",
+          "lessonId": "a1-c2-family-scripts",
+          "audioStatus": "audio_pending"
+        },
+        {
+          "sourceId": "L1.3",
+          "exerciseId": "a1-c2-l1-3",
+          "lessonId": "a1-c2-family-scripts",
+          "audioStatus": "audio_pending"
+        },
+        {
+          "sourceId": "L2.1",
+          "exerciseId": "a1-c2-l2-1",
+          "lessonId": "a1-c2-family-scripts",
+          "audioStatus": "audio_pending"
+        },
+        {
+          "sourceId": "L2.2",
+          "exerciseId": "a1-c2-l2-2",
+          "lessonId": "a1-c2-family-scripts",
+          "audioStatus": "audio_pending"
+        },
+        {
+          "sourceId": "R1.1",
+          "exerciseId": "a1-c2-r1-1",
+          "lessonId": "a1-c2-family-and-colleagues",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "R1.2",
+          "exerciseId": "a1-c2-r1-2",
+          "lessonId": "a1-c2-family-and-colleagues",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "R1.3",
+          "exerciseId": "a1-c2-r1-3",
+          "lessonId": "a1-c2-family-and-colleagues",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "R2.1",
+          "exerciseId": "a1-c2-r2-1",
+          "lessonId": "a1-c2-family-and-colleagues",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "R2.2",
+          "exerciseId": "a1-c2-r2-2",
+          "lessonId": "a1-c2-family-and-colleagues",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K1",
+          "exerciseId": "a1-c2-k1",
+          "lessonId": "a1-c2-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K2",
+          "exerciseId": "a1-c2-k2",
+          "lessonId": "a1-c2-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K3",
+          "exerciseId": "a1-c2-k3",
+          "lessonId": "a1-c2-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K4",
+          "exerciseId": "a1-c2-k4",
+          "lessonId": "a1-c2-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K5",
+          "exerciseId": "a1-c2-k5",
+          "lessonId": "a1-c2-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K6",
+          "exerciseId": "a1-c2-k6",
+          "lessonId": "a1-c2-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K7",
+          "exerciseId": "a1-c2-k7",
+          "lessonId": "a1-c2-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K8",
+          "exerciseId": "a1-c2-k8",
+          "lessonId": "a1-c2-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K9",
+          "exerciseId": "a1-c2-k9",
+          "lessonId": "a1-c2-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K10",
+          "exerciseId": "a1-c2-k10",
+          "lessonId": "a1-c2-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K11",
+          "exerciseId": "a1-c2-k11",
+          "lessonId": "a1-c2-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K12",
+          "exerciseId": "a1-c2-k12",
+          "lessonId": "a1-c2-review",
+          "audioStatus": "not_applicable"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "chapterId": "a1-chapter-3",
+      "slug": "daily-routines-time",
+      "sourceFile": "content-authoring/A1_Chapter_03_Full_Lesson_Pack.md",
+      "sourceSha256": "b5313ba683c19f864962e770e572a42ed403dc2668d6c689d43a77a20edb9322",
+      "lessonIds": [
+        "a1-c3-routine-words",
+        "a1-c3-present-simple-routines",
+        "a1-c3-routine-scripts",
+        "a1-c3-talking-about-routines",
+        "a1-c3-routine-reading",
+        "a1-c3-writing-my-day",
+        "a1-c3-review"
+      ],
+      "audioStatus": "audio_pending",
+      "questions": [
+        {
+          "sourceId": "L1.1",
+          "exerciseId": "a1-c3-l1-1",
+          "lessonId": "a1-c3-routine-scripts",
+          "audioStatus": "audio_pending"
+        },
+        {
+          "sourceId": "L1.2",
+          "exerciseId": "a1-c3-l1-2",
+          "lessonId": "a1-c3-routine-scripts",
+          "audioStatus": "audio_pending"
+        },
+        {
+          "sourceId": "L1.3",
+          "exerciseId": "a1-c3-l1-3",
+          "lessonId": "a1-c3-routine-scripts",
+          "audioStatus": "audio_pending"
+        },
+        {
+          "sourceId": "L2.1",
+          "exerciseId": "a1-c3-l2-1",
+          "lessonId": "a1-c3-routine-scripts",
+          "audioStatus": "audio_pending"
+        },
+        {
+          "sourceId": "L2.2",
+          "exerciseId": "a1-c3-l2-2",
+          "lessonId": "a1-c3-routine-scripts",
+          "audioStatus": "audio_pending"
+        },
+        {
+          "sourceId": "R1.1",
+          "exerciseId": "a1-c3-r1-1",
+          "lessonId": "a1-c3-routine-reading",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "R1.2",
+          "exerciseId": "a1-c3-r1-2",
+          "lessonId": "a1-c3-routine-reading",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "R1.3",
+          "exerciseId": "a1-c3-r1-3",
+          "lessonId": "a1-c3-routine-reading",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "R2.1",
+          "exerciseId": "a1-c3-r2-1",
+          "lessonId": "a1-c3-routine-reading",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "R2.2",
+          "exerciseId": "a1-c3-r2-2",
+          "lessonId": "a1-c3-routine-reading",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K1",
+          "exerciseId": "a1-c3-k1",
+          "lessonId": "a1-c3-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K2",
+          "exerciseId": "a1-c3-k2",
+          "lessonId": "a1-c3-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K3",
+          "exerciseId": "a1-c3-k3",
+          "lessonId": "a1-c3-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K4",
+          "exerciseId": "a1-c3-k4",
+          "lessonId": "a1-c3-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K5",
+          "exerciseId": "a1-c3-k5",
+          "lessonId": "a1-c3-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K6",
+          "exerciseId": "a1-c3-k6",
+          "lessonId": "a1-c3-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K7",
+          "exerciseId": "a1-c3-k7",
+          "lessonId": "a1-c3-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K8",
+          "exerciseId": "a1-c3-k8",
+          "lessonId": "a1-c3-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K9",
+          "exerciseId": "a1-c3-k9",
+          "lessonId": "a1-c3-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K10",
+          "exerciseId": "a1-c3-k10",
+          "lessonId": "a1-c3-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K11",
+          "exerciseId": "a1-c3-k11",
+          "lessonId": "a1-c3-review",
+          "audioStatus": "not_applicable"
+        },
+        {
+          "sourceId": "K12",
+          "exerciseId": "a1-c3-k12",
+          "lessonId": "a1-c3-review",
+          "audioStatus": "not_applicable"
+        }
+      ]
+    }
+  ],
+  "clarifications": [
+    {
+      "chapter": 2,
+      "sourceId": "K4",
+      "field": "prompt",
+      "sourceText": "That is Ko’s book. It is ___ book.",
+      "authoredText": "That is Ko’s book. Ko uses he/him pronouns. It is ___ book.",
+      "reason": "Clarify the intended construct without changing options or the teacher key; pending editorial review."
+    },
+    {
+      "chapter": 3,
+      "sourceId": "K10",
+      "field": "prompt",
+      "sourceText": "Choose the correct sentence.",
+      "authoredText": "Choose the sentence with the usual neutral placement of usually after be.",
+      "reason": "Clarify the intended construct without changing options or the teacher key; pending editorial review."
+    }
+  ]
+}

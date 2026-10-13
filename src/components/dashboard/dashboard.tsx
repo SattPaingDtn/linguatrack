@@ -1,4 +1,5 @@
 "use client";
+import { LocalStudyEntry } from "@/components/preview/local-study-entry";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -89,6 +90,7 @@ export function Dashboard() {
           Explore courses <ArrowUpRight size={15} aria-hidden="true" />
         </Link>
       </div>
+      <LocalStudyEntry />
       <section
         className="relative mb-6 flex items-center overflow-hidden rounded-2xl border border-[#dce5ce] bg-[#e9efdd] px-6 py-7 sm:px-8"
         aria-labelledby="welcome-title"

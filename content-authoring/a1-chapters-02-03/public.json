@@ -1,0 +1,5766 @@
+{
+  "courses": [],
+  "chapters": [
+    {
+      "kind": "chapter",
+      "id": "a1-chapter-2",
+      "revision": 1,
+      "courseRef": {
+        "kind": "course",
+        "id": "general-a1",
+        "revision": 4
+      },
+      "slug": "people-family-possessions",
+      "order": 2,
+      "title": {
+        "en": "People, family and possessions",
+        "my": "လူများ၊ မိသားစုနှင့် ပိုင်ဆိုင်မှုများ"
+      },
+      "description": {
+        "en": "Seven editorial lessons. Listening audio and independent review are pending; no proficiency award.",
+        "my": "အယ်ဒီတာ ရေးသားထားသော သင်ခန်းစာ ခုနစ်ခု ပါသည်။ နားထောင်အသံဖိုင်နှင့် လွတ်လပ်သော သုံးသပ်မှု လိုသေးသည်။ ကျွမ်းကျင်မှုအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-1",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-2",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-3",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-4",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-5",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-6",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-7",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [
+        {
+          "target": {
+            "kind": "lesson",
+            "id": "a1-c1-be",
+            "revision": 4
+          },
+          "requirement": "completed",
+          "enforcement": "advisory"
+        },
+        {
+          "target": {
+            "kind": "lesson",
+            "id": "a1-c1-subject-pronouns",
+            "revision": 3
+          },
+          "requirement": "completed",
+          "enforcement": "advisory"
+        }
+      ],
+      "lessonRefs": [
+        {
+          "kind": "lesson",
+          "id": "a1-c2-family-words",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c2-have-and-possessions",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c2-family-scripts",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c2-describing-people",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c2-family-and-colleagues",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c2-writing-about-family",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c2-review",
+          "revision": 1
+        }
+      ],
+      "assessmentRefs": [],
+      "coverageTargets": []
+    },
+    {
+      "kind": "chapter",
+      "id": "a1-chapter-3",
+      "revision": 1,
+      "courseRef": {
+        "kind": "course",
+        "id": "general-a1",
+        "revision": 4
+      },
+      "slug": "daily-routines-time",
+      "order": 3,
+      "title": {
+        "en": "Daily routines and time",
+        "my": "နေ့စဉ် လုပ်ရိုးလုပ်စဉ်များနှင့် အချိန်"
+      },
+      "description": {
+        "en": "Seven editorial lessons. Listening audio and independent review are pending; no proficiency award.",
+        "my": "အယ်ဒီတာ ရေးသားထားသော သင်ခန်းစာ ခုနစ်ခု ပါသည်။ နားထောင်အသံဖိုင်နှင့် လွတ်လပ်သော သုံးသပ်မှု လိုသေးသည်။ ကျွမ်းကျင်မှုအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-1",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-2",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-3",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-4",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-5",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-6",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-7",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [
+        {
+          "target": {
+            "kind": "lesson",
+            "id": "a1-c1-be",
+            "revision": 4
+          },
+          "requirement": "completed",
+          "enforcement": "advisory"
+        },
+        {
+          "target": {
+            "kind": "lesson",
+            "id": "a1-c1-subject-pronouns",
+            "revision": 3
+          },
+          "requirement": "completed",
+          "enforcement": "advisory"
+        }
+      ],
+      "lessonRefs": [
+        {
+          "kind": "lesson",
+          "id": "a1-c3-routine-words",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c3-present-simple-routines",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c3-routine-scripts",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c3-talking-about-routines",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c3-routine-reading",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c3-writing-my-day",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c3-review",
+          "revision": 1
+        }
+      ],
+      "assessmentRefs": [],
+      "coverageTargets": []
+    }
+  ],
+  "lessons": [
+    {
+      "kind": "lesson",
+      "id": "a1-c2-family-words",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-2",
+        "revision": 1
+      },
+      "slug": "family-words",
+      "title": {
+        "en": "Family words and useful phrases",
+        "my": "မိသားစု စကားလုံးများနှင့် အသုံးဝင်သော စကားစုများ"
+      },
+      "description": {
+        "en": "Learn and practise with English examples and Burmese support. This preview is unsaved and does not award proficiency.",
+        "my": "အင်္ဂလိပ် ဥပမာများနှင့် မြန်မာလို အကူအညီဖြင့် လေ့လာလေ့ကျင့်ပါ။ ဤစမ်းကြည့်စာမျက်နှာတွင် မသိမ်းဆည်းပါ၊ ကျွမ်းကျင်မှုအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["vocabulary"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-1",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c2-vocabulary",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c2-vocabulary-production",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c2-have-and-possessions",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-2",
+        "revision": 1
+      },
+      "slug": "have-and-possessive-adjectives",
+      "title": {
+        "en": "Have, has and possessive adjectives",
+        "my": "Have၊ has နှင့် ပိုင်ဆိုင်မှုညွှန်းသော နာမဝိသေသနများ"
+      },
+      "description": {
+        "en": "Learn and practise with English examples and Burmese support. This preview is unsaved and does not award proficiency.",
+        "my": "အင်္ဂလိပ် ဥပမာများနှင့် မြန်မာလို အကူအညီဖြင့် လေ့လာလေ့ကျင့်ပါ။ ဤစမ်းကြည့်စာမျက်နှာတွင် မသိမ်းဆည်းပါ၊ ကျွမ်းကျင်မှုအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-2",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c2-grammar",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c2-mistakes",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c2-grammar-production",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c2-family-scripts",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-2",
+        "revision": 1
+      },
+      "slug": "meet-my-family-scripts",
+      "title": {
+        "en": "Meet my family · scripts awaiting audio",
+        "my": "ကျွန်ုပ်၏ မိသားစုနှင့် တွေ့ဆုံခြင်း · အသံဖိုင် စောင့်ဆိုင်းဆဲ"
+      },
+      "description": {
+        "en": "Learn and practise with English examples and Burmese support. This preview is unsaved and does not award proficiency.",
+        "my": "အင်္ဂလိပ် ဥပမာများနှင့် မြန်မာလို အကူအညီဖြင့် လေ့လာလေ့ကျင့်ပါ။ ဤစမ်းကြည့်စာမျက်နှာတွင် မသိမ်းဆည်းပါ၊ ကျွမ်းကျင်မှုအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-3",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c2-audio-pending",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c2-script-1",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c2-listening-questions-1",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c2-script-2",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c2-listening-questions-2",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c2-describing-people",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-2",
+        "revision": 1
+      },
+      "slug": "describe-people-and-possessions",
+      "title": {
+        "en": "Describe people and possessions",
+        "my": "လူများနှင့် ပိုင်ဆိုင်မှုများအကြောင်း ပြောခြင်း"
+      },
+      "description": {
+        "en": "Learn and practise with English examples and Burmese support. This preview is unsaved and does not award proficiency.",
+        "my": "အင်္ဂလိပ် ဥပမာများနှင့် မြန်မာလို အကူအညီဖြင့် လေ့လာလေ့ကျင့်ပါ။ ဤစမ်းကြည့်စာမျက်နှာတွင် မသိမ်းဆည်းပါ၊ ကျွမ်းကျင်မှုအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["speaking"],
+        "coreSkills": ["speaking"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-4",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c2-speaking-task-1",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c2-speaking-task-2",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c2-speaking-task-3",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c2-speaking-reflection",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c2-family-and-colleagues",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-2",
+        "revision": 1
+      },
+      "slug": "my-family-and-my-work",
+      "title": {
+        "en": "My family and my work",
+        "my": "ကျွန်ုပ်၏ မိသားစုနှင့် အလုပ်"
+      },
+      "description": {
+        "en": "Learn and practise with English examples and Burmese support. This preview is unsaved and does not award proficiency.",
+        "my": "အင်္ဂလိပ် ဥပမာများနှင့် မြန်မာလို အကူအညီဖြင့် လေ့လာလေ့ကျင့်ပါ။ ဤစမ်းကြည့်စာမျက်နှာတွင် မသိမ်းဆည်းပါ၊ ကျွမ်းကျင်မှုအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-5",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c2-reading-passage-1",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c2-reading-questions-1",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c2-reading-passage-2",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c2-reading-questions-2",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c2-reading-strategy",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c2-writing-about-family",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-2",
+        "revision": 1
+      },
+      "slug": "write-about-family-and-friends",
+      "title": {
+        "en": "Write about family and friends",
+        "my": "မိသားစုနှင့် သူငယ်ချင်းများအကြောင်း ရေးခြင်း"
+      },
+      "description": {
+        "en": "Learn and practise with English examples and Burmese support. This preview is unsaved and does not award proficiency.",
+        "my": "အင်္ဂလိပ် ဥပမာများနှင့် မြန်မာလို အကူအညီဖြင့် လေ့လာလေ့ကျင့်ပါ။ ဤစမ်းကြည့်စာမျက်နှာတွင် မသိမ်းဆည်းပါ၊ ကျွမ်းကျင်မှုအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["writing"],
+        "coreSkills": ["writing"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-6",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c2-writing-first-draft",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c2-writing-repair",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c2-writing-edit",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c2-writing-rewrite",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c2-review",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-2",
+        "revision": 1
+      },
+      "slug": "chapter-review",
+      "title": {
+        "en": "Chapter knowledge check and skill review",
+        "my": "အခန်းပါ အခြေခံသိရှိမှုနှင့် လေ့ကျင့်မှုကို ပြန်ကြည့်ခြင်း"
+      },
+      "description": {
+        "en": "Learn and practise with English examples and Burmese support. This preview is unsaved and does not award proficiency.",
+        "my": "အင်္ဂလိပ် ဥပမာများနှင့် မြန်မာလို အကူအညီဖြင့် လေ့လာလေ့ကျင့်ပါ။ ဤစမ်းကြည့်စာမျက်နှာတွင် မသိမ်းဆည်းပါ၊ ကျွမ်းကျင်မှုအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-7",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c2-knowledge-check",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c2-skill-review",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c3-routine-words",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-3",
+        "revision": 1
+      },
+      "slug": "routine-words",
+      "title": {
+        "en": "Routine words and useful phrases",
+        "my": "နေ့စဉ်သုံး စကားလုံးများနှင့် အသုံးဝင်သော စကားစုများ"
+      },
+      "description": {
+        "en": "Learn and practise with English examples and Burmese support. This preview is unsaved and does not award proficiency.",
+        "my": "အင်္ဂလိပ် ဥပမာများနှင့် မြန်မာလို အကူအညီဖြင့် လေ့လာလေ့ကျင့်ပါ။ ဤစမ်းကြည့်စာမျက်နှာတွင် မသိမ်းဆည်းပါ၊ ကျွမ်းကျင်မှုအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["vocabulary"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-1",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c3-vocabulary",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c3-vocabulary-production",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c3-present-simple-routines",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-3",
+        "revision": 1
+      },
+      "slug": "present-simple-and-time",
+      "title": {
+        "en": "Present simple and time",
+        "my": "ပစ္စုပ္ပန်ရိုးရိုးနှင့် အချိန်ပြစကားများ"
+      },
+      "description": {
+        "en": "Learn and practise with English examples and Burmese support. This preview is unsaved and does not award proficiency.",
+        "my": "အင်္ဂလိပ် ဥပမာများနှင့် မြန်မာလို အကူအညီဖြင့် လေ့လာလေ့ကျင့်ပါ။ ဤစမ်းကြည့်စာမျက်နှာတွင် မသိမ်းဆည်းပါ၊ ကျွမ်းကျင်မှုအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-2",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c3-grammar",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c3-mistakes",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c3-grammar-production",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c3-routine-scripts",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-3",
+        "revision": 1
+      },
+      "slug": "routine-scripts-awaiting-audio",
+      "title": {
+        "en": "Routine dialogues · scripts awaiting audio",
+        "my": "လုပ်ရိုးလုပ်စဉ် စကားပြောများ · အသံဖိုင် စောင့်ဆိုင်းဆဲ"
+      },
+      "description": {
+        "en": "Learn and practise with English examples and Burmese support. This preview is unsaved and does not award proficiency.",
+        "my": "အင်္ဂလိပ် ဥပမာများနှင့် မြန်မာလို အကူအညီဖြင့် လေ့လာလေ့ကျင့်ပါ။ ဤစမ်းကြည့်စာမျက်နှာတွင် မသိမ်းဆည်းပါ၊ ကျွမ်းကျင်မှုအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-3",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c3-audio-pending",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c3-script-1",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c3-listening-questions-1",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c3-script-2",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c3-listening-questions-2",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c3-talking-about-routines",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-3",
+        "revision": 1
+      },
+      "slug": "talk-about-your-routine",
+      "title": {
+        "en": "Talk about your routine",
+        "my": "ကိုယ့်လုပ်ရိုးလုပ်စဉ်အကြောင်း ပြောခြင်း"
+      },
+      "description": {
+        "en": "Learn and practise with English examples and Burmese support. This preview is unsaved and does not award proficiency.",
+        "my": "အင်္ဂလိပ် ဥပမာများနှင့် မြန်မာလို အကူအညီဖြင့် လေ့လာလေ့ကျင့်ပါ။ ဤစမ်းကြည့်စာမျက်နှာတွင် မသိမ်းဆည်းပါ၊ ကျွမ်းကျင်မှုအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["speaking"],
+        "coreSkills": ["speaking"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-4",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c3-speaking-task-1",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c3-speaking-task-2",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c3-speaking-task-3",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c3-speaking-reflection",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c3-routine-reading",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-3",
+        "revision": 1
+      },
+      "slug": "a-developers-weekday",
+      "title": {
+        "en": "A developer’s weekday and Saturday routines",
+        "my": "Developer ၏ အလုပ်လုပ်ရက်နှင့် စနေနေ့ လုပ်ရိုးလုပ်စဉ်များ"
+      },
+      "description": {
+        "en": "Learn and practise with English examples and Burmese support. This preview is unsaved and does not award proficiency.",
+        "my": "အင်္ဂလိပ် ဥပမာများနှင့် မြန်မာလို အကူအညီဖြင့် လေ့လာလေ့ကျင့်ပါ။ ဤစမ်းကြည့်စာမျက်နှာတွင် မသိမ်းဆည်းပါ၊ ကျွမ်းကျင်မှုအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-5",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c3-reading-passage-1",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c3-reading-questions-1",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c3-reading-passage-2",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c3-reading-questions-2",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c3-reading-strategy",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c3-writing-my-day",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-3",
+        "revision": 1
+      },
+      "slug": "write-about-your-day",
+      "title": {
+        "en": "Write about your day",
+        "my": "ကိုယ့်တစ်နေ့တာအကြောင်း ရေးခြင်း"
+      },
+      "description": {
+        "en": "Learn and practise with English examples and Burmese support. This preview is unsaved and does not award proficiency.",
+        "my": "အင်္ဂလိပ် ဥပမာများနှင့် မြန်မာလို အကူအညီဖြင့် လေ့လာလေ့ကျင့်ပါ။ ဤစမ်းကြည့်စာမျက်နှာတွင် မသိမ်းဆည်းပါ၊ ကျွမ်းကျင်မှုအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["writing"],
+        "coreSkills": ["writing"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-6",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c3-writing-first-draft",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c3-writing-repair",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c3-writing-edit",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c3-writing-rewrite",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c3-review",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-3",
+        "revision": 1
+      },
+      "slug": "chapter-review",
+      "title": {
+        "en": "Chapter knowledge check and skill review",
+        "my": "အခန်းပါ အခြေခံသိရှိမှုနှင့် လေ့ကျင့်မှုကို ပြန်ကြည့်ခြင်း"
+      },
+      "description": {
+        "en": "Learn and practise with English examples and Burmese support. This preview is unsaved and does not award proficiency.",
+        "my": "အင်္ဂလိပ် ဥပမာများနှင့် မြန်မာလို အကူအညီဖြင့် လေ့လာလေ့ကျင့်ပါ။ ဤစမ်းကြည့်စာမျက်နှာတွင် မသိမ်းဆည်းပါ၊ ကျွမ်းကျင်မှုအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-7",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c3-knowledge-check",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c3-skill-review",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "kind": "block",
+      "id": "a1-c2-vocabulary",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-family-words",
+        "revision": 1
+      },
+      "title": {
+        "en": "Words in context",
+        "my": "အခြေအနေနှင့် တွဲလေ့လာသော စကားလုံးများ"
+      },
+      "type": "vocabulary",
+      "words": [
+        {
+          "word": "family",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "family",
+            "my": "မိသားစု"
+          },
+          "example": {
+            "language": "en",
+            "text": "My family is small."
+          }
+        },
+        {
+          "word": "mother",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "mother",
+            "my": "အမေ"
+          },
+          "example": {
+            "language": "en",
+            "text": "My mother is kind."
+          }
+        },
+        {
+          "word": "father",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "father",
+            "my": "အဖေ"
+          },
+          "example": {
+            "language": "en",
+            "text": "My father is a teacher."
+          }
+        },
+        {
+          "word": "sister",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "sister",
+            "my": "အစ်မ/ညီမ"
+          },
+          "example": {
+            "language": "en",
+            "text": "My sister has a bike."
+          }
+        },
+        {
+          "word": "brother",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "brother",
+            "my": "အစ်ကို/ညီ"
+          },
+          "example": {
+            "language": "en",
+            "text": "My brother is at school."
+          }
+        },
+        {
+          "word": "parents",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "parents",
+            "my": "မိဘများ"
+          },
+          "example": {
+            "language": "en",
+            "text": "My parents live in Yangon."
+          }
+        },
+        {
+          "word": "friend",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "friend",
+            "my": "သူငယ်ချင်း"
+          },
+          "example": {
+            "language": "en",
+            "text": "This is my friend."
+          }
+        },
+        {
+          "word": "colleague",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "colleague",
+            "my": "လုပ်ဖော်ကိုင်ဖက်"
+          },
+          "example": {
+            "language": "en",
+            "text": "Our colleague is helpful."
+          }
+        },
+        {
+          "word": "kind",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "kind",
+            "my": "ကြင်နာသော"
+          },
+          "example": {
+            "language": "en",
+            "text": "She is kind."
+          }
+        },
+        {
+          "word": "young",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "young",
+            "my": "ငယ်ရွယ်သော"
+          },
+          "example": {
+            "language": "en",
+            "text": "He is young."
+          }
+        },
+        {
+          "word": "bag",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "bag",
+            "my": "အိတ်"
+          },
+          "example": {
+            "language": "en",
+            "text": "This is her bag."
+          }
+        },
+        {
+          "word": "laptop",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "laptop",
+            "my": "လက်ပ်တော့"
+          },
+          "example": {
+            "language": "en",
+            "text": "I have a laptop."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-vocabulary-production",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-family-words",
+        "revision": 1
+      },
+      "title": {
+        "en": "Five new sentences",
+        "my": "ဝါကျအသစ် ငါးကြောင်း"
+      },
+      "type": "writing",
+      "prompt": {
+        "en": "Choose five words and create five new simple sentences. Read them aloud.",
+        "my": "စကားလုံး ငါးလုံး ရွေးပြီး ရိုးရှင်းသော ဝါကျအသစ် ငါးကြောင်း ဖွဲ့ပါ။ အသံထွက် ဖတ်ပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Use your own information. Many answers are possible."
+      },
+      "minWords": 15,
+      "maxWords": 90
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-grammar",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-have-and-possessions",
+        "revision": 1
+      },
+      "title": {
+        "en": "Grammar foundations",
+        "my": "အခြေခံ သဒ္ဒါ"
+      },
+      "type": "grammar",
+      "rule": {
+        "en": "Have / has: I, you, we, they have. He, she, it has. I have a brother. / She has a laptop.\n\nPossessive adjectives: my, your, his, her, its, our, their come before a noun. This is my bag. / That is her desk. We do not say This is me bag.\n\nSingular/plural nouns: one book → two books, one child → two children. Before a singular countable noun, use an article or another determiner: I have a sister. Not I have sister.\n\nBe vs have: She is a teacher. (identity); She has a laptop. (possession). Do not say She is a laptop. to mean ownership.",
+        "my": "ပိုင်ဆိုင်မှုကို ပြောသည့်အခါ have/has ကို သုံးပါ။ I/you/we/they နှင့် have၊ he/she/it နှင့် has ကို တွဲသုံးသည်။ My/your/his/her/its/our/their သည် ပိုင်ရှင်ကို ညွှန်းပြီး နာမ်ရှေ့၌ ရှိသည် — my phone၊ her book။ Its သည် it ၏ ပိုင်ဆိုင်မှုညွှန်းစကား ဖြစ်ပြီး it's (it is) နှင့် မတူပါ။ Is သည် လူတစ်ယောက် ဘယ်သူဖြစ်သည်၊ ဘယ်လိုဖြစ်သည်ကို ဖော်ပြ၍ has သည် ပိုင်ဆိုင်မှုကို ဖော်ပြသည်။ အနည်းကိန်း ရေတွက်နိုင်သော နာမ်ရှေ့တွင် a/an သို့မဟုတ် အခြားအညွှန်းစကား လိုသည်။ Book ၏ အများကိန်းမှာ books၊ child ၏ အများကိန်းမှာ children ဖြစ်သည်။"
+      },
+      "examples": [
+        {
+          "pattern": "Subject + have/has + object",
+          "example": {
+            "language": "en",
+            "text": "She has a laptop."
+          },
+          "translation": "သူမတွင် လက်ပ်တော့ ရှိသည်။"
+        },
+        {
+          "pattern": "Possessive adjective + noun",
+          "example": {
+            "language": "en",
+            "text": "This is my bag."
+          },
+          "translation": "ဤသည် ကျွန်ုပ်၏ အိတ် ဖြစ်သည်။"
+        },
+        {
+          "pattern": "Singular → plural",
+          "example": {
+            "language": "en",
+            "text": "I have two children."
+          },
+          "translation": "ကျွန်ုပ်တွင် ကလေး နှစ်ယောက် ရှိသည်။"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-mistakes",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-have-and-possessions",
+        "revision": 1
+      },
+      "title": {
+        "en": "Common mistakes",
+        "my": "အဖြစ်များသော အမှားများ"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "My sister has a phone. / Incorrect: My sister have a phone.\nThis is his bag. / Incorrect: This is he bag.\nThey are my friends. / Incorrect: They is my friends.\nI have two children. / Incorrect: I have two childs.",
+        "my": "My sister နှင့် has၊ his နှင့် နာမ်၊ they နှင့် are ကို တွဲသုံးပါ။ Child ၏ အများကိန်းကို childs မဟုတ်ဘဲ children ဟု သုံးပါ။ အမှန်နှင့် အမှား ဘာကွာသည်ကို မြန်မာလို ရှင်းပြပြီး ကိုယ်ပိုင် ဝါကျအသစ် လေးကြောင်း ရေးပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-grammar-production",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-have-and-possessions",
+        "revision": 1
+      },
+      "title": {
+        "en": "Explain and write four sentences",
+        "my": "ရှင်းပြပြီး ဝါကျ လေးကြောင်း ရေးပါ"
+      },
+      "type": "writing",
+      "prompt": {
+        "en": "Explain the differences between the correct and incorrect sentences in Burmese. Then make four new English sentences.",
+        "my": "အမှန်နှင့် အမှား ဘာကွာသည်ကို မြန်မာလို ရှင်းပြပါ။ ထို့နောက် အင်္ဂလိပ် ဝါကျအသစ် လေးကြောင်း ဖွဲ့ပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Use the patterns from Learn with your own information."
+      },
+      "minWords": 10,
+      "maxWords": 120
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-audio-pending",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-family-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "Audio pending · script-reading preparation",
+        "my": "အသံဖိုင် စောင့်ဆိုင်းဆဲ · စာသားဖတ်၍ ကြိုတင်လေ့လာခြင်း"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "These are scripts awaiting actual audio. You may read them for preparation. No audio playback or listening checks are available. Once matching audio exists, listen twice before opening the transcript. Script reading is not assessed listening.",
+        "my": "အသံဖိုင် မရှိသေး၍ စာသားဖတ်လေ့ကျင့်မှုအဖြစ်သာ သတ်မှတ်ပါ။ အသံဖွင့်ခြင်းနှင့် နားထောင်မေးခွန်း အဖြေစစ်ခြင်း မရနိုင်သေးပါ။ ကိုက်ညီသော အသံဖိုင် ရရှိပါက စာသား မကြည့်ဘဲ နှစ်ကြိမ် နားထောင်ပြီးမှ မေးခွန်း ဖြေပါ။ စာသားဖတ်ခြင်းသည် နားထောင်နိုင်စွမ်း စစ်ဆေးမှု မဟုတ်ပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-script-1",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-family-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "Meet my family · awaiting audio",
+        "my": "စကားပြောစာသား 1 · အသံဖိုင် စောင့်ဆိုင်းဆဲ"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "A: Who is this in the photo?\nB: This is my sister, May.\nA: Is she a student?\nB: Yes, she is. She has a small blue bag.\nA: And who are they?\nB: They are my parents.",
+        "my": "အသံဖိုင် စောင့်ဆိုင်းနေစဉ် စာသားကို ဖတ်ပြီး have/has နှင့် ပိုင်ဆိုင်မှုညွှန်းစကားများကို ရှာပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-listening-questions-1",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-family-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "Planned questions 1 · awaiting audio",
+        "my": "အသံဖိုင် စောင့်ဆိုင်းဆဲ မေးခွန်းများ 1"
+      },
+      "type": "exercise_set",
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c2-l1-1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c2-l1-2",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c2-l1-3",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-script-2",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-family-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "At the office · awaiting audio",
+        "my": "စကားပြောစာသား 2 · အသံဖိုင် စောင့်ဆိုင်းဆဲ"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "A: Is this your laptop?\nB: No, it is not my laptop. It is our manager’s laptop.\nA: Where is your laptop?\nB: My laptop is on my desk.",
+        "my": "အသံဖိုင် စောင့်ဆိုင်းနေစဉ် စာသားကို ဖတ်ပြီး have/has နှင့် ပိုင်ဆိုင်မှုညွှန်းစကားများကို ရှာပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-listening-questions-2",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-family-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "Planned questions 2 · awaiting audio",
+        "my": "အသံဖိုင် စောင့်ဆိုင်းဆဲ မေးခွန်းများ 2"
+      },
+      "type": "exercise_set",
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c2-l2-1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c2-l2-2",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-reading-passage-1",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-family-and-colleagues",
+        "revision": 1
+      },
+      "title": {
+        "en": "My family and my work",
+        "my": "စာပိုဒ် 1"
+      },
+      "type": "reading",
+      "stimulusRef": {
+        "kind": "stimulus",
+        "id": "a1-c2-reading-stimulus-1",
+        "revision": 1
+      },
+      "explanation": {
+        "en": "Read first. Open Burmese support after reading. This is supported practice, not an independent assessment.",
+        "my": "Min သည် Yokohama တွင် နေသည်။ အစ်မ/ညီမ တစ်ယောက်နှင့် အစ်ကို/ညီ တစ်ယောက် ရှိသည်။ အစ်မ/ညီမသည် ကျောင်းသူ ဖြစ်ပြီး အစ်ကို/ညီသည် ဒီဇိုင်နာ ဖြစ်သည်။ Min သည် web developer ဖြစ်သည်။ သူနှင့် လုပ်ဖော်ကိုင်ဖက်များတွင် လက်ပ်တော့များ ရှိသည်။"
+      }
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-reading-questions-1",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-family-and-colleagues",
+        "revision": 1
+      },
+      "title": {
+        "en": "Passage 1 questions",
+        "my": "စာပိုဒ် 1 မေးခွန်းများ"
+      },
+      "type": "exercise_set",
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c2-reading-group-1",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-reading-passage-2",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-family-and-colleagues",
+        "revision": 1
+      },
+      "title": {
+        "en": "A new colleague",
+        "my": "စာပိုဒ် 2"
+      },
+      "type": "reading",
+      "stimulusRef": {
+        "kind": "stimulus",
+        "id": "a1-c2-reading-stimulus-2",
+        "revision": 1
+      },
+      "explanation": {
+        "en": "Read first. Open Burmese support after reading. This is supported practice, not an independent assessment.",
+        "my": "Hana သည် သဘောကောင်းပြီး ဖော်ရွေသော လုပ်ဖော်ကိုင်ဖက်အသစ် ဖြစ်သည်။ သူမ၏ စားပွဲသည် ပြောသူ၏ စားပွဲဘေးတွင် ရှိသည်။ မှတ်စုစာအုပ် နှစ်အုပ်နှင့် ဖုန်းတစ်လုံး ရှိသည်။ သူတို့သည် အဖွဲ့တစ်ဖွဲ့တည်း၌ အလုပ်လုပ်ကြသည်။"
+      }
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-reading-questions-2",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-family-and-colleagues",
+        "revision": 1
+      },
+      "title": {
+        "en": "Passage 2 questions",
+        "my": "စာပိုဒ် 2 မေးခွန်းများ"
+      },
+      "type": "exercise_set",
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c2-reading-group-2",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-reading-strategy",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-family-and-colleagues",
+        "revision": 1
+      },
+      "title": {
+        "en": "Read for evidence",
+        "my": "အထောက်အထား ရှာဖတ်ပါ"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "Underline the words that directly support your answer before selecting an option.",
+        "my": "အဖြေ မရွေးမီ အဖြေကို တိုက်ရိုက် ထောက်ခံသော စကားလုံးများကို ရှာပြီး မျဉ်းသားပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-speaking-task-1",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-describing-people",
+        "revision": 1
+      },
+      "title": {
+        "en": "Speaking task 1",
+        "my": "ပြောဆိုလေ့ကျင့်မှု 1"
+      },
+      "type": "speaking",
+      "prompt": {
+        "en": "Show a family photo or imagine one. Say four short sentences: “This is my…”, “He/She is…”, “He/She has…”, and “We…”",
+        "my": "မိသားစုဓာတ်ပုံကို ကြည့်၍ သို့မဟုတ် စိတ်ကူး၍ This is my…၊ He/She is…၊ He/She has…၊ We… ပုံစံများဖြင့် ဝါကျတို လေးကြောင်း ပြောပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "This is my sister. She is a student. She has a bag. We live in Japan."
+      },
+      "checklist": [
+        {
+          "language": "en",
+          "text": "Can I speak without stopping for 30 seconds?"
+        },
+        {
+          "language": "en",
+          "text": "Are my verbs and pronouns correct?"
+        },
+        {
+          "language": "en",
+          "text": "Could another person understand me?"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-speaking-task-2",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-describing-people",
+        "revision": 1
+      },
+      "title": {
+        "en": "Speaking task 2",
+        "my": "ပြောဆိုလေ့ကျင့်မှု 2"
+      },
+      "type": "speaking",
+      "prompt": {
+        "en": "Role-play: Person A asks “Who is this?” and “Is this your…?” Person B answers, then switch roles.",
+        "my": "တစ်ဦးက Who is this? နှင့် Is this your…? ဟု မေး၍ အခြားတစ်ဦးက ဖြေပါ။ ပြီးလျှင် အခန်းကဏ္ဍ လဲပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "A: Who is this?\nB: This is my brother.\nA: Is this your bag?\nB: Yes, it is my bag."
+      },
+      "checklist": [
+        {
+          "language": "en",
+          "text": "Can I speak without stopping for 30 seconds?"
+        },
+        {
+          "language": "en",
+          "text": "Are my verbs and pronouns correct?"
+        },
+        {
+          "language": "en",
+          "text": "Could another person understand me?"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-speaking-task-3",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-describing-people",
+        "revision": 1
+      },
+      "title": {
+        "en": "Speaking task 3",
+        "my": "ပြောဆိုလေ့ကျင့်မှု 3"
+      },
+      "type": "speaking",
+      "prompt": {
+        "en": "Record 30–45 seconds describing one family member and one colleague. Check have/has and my/his/her. Recording is a future activity; this preview only supports speaking aloud, with no recording or upload.",
+        "my": "မိသားစုဝင် တစ်ဦးနှင့် လုပ်ဖော်ကိုင်ဖက် တစ်ဦးအကြောင်း စက္ကန့် ၃၀–၄၅ ခန့် ပြောပါ။ Have/has၊ my/his/her ကို ပြန်စစ်ပါ။ လက်ရှိ စမ်းကြည့်စာမျက်နှာ၌ အသံသွင်းခြင်း မရနိုင်သေးပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "My colleague is kind. He has a laptop. My sister is a student. She has a phone."
+      },
+      "checklist": [
+        {
+          "language": "en",
+          "text": "Can I speak without stopping for 30 seconds?"
+        },
+        {
+          "language": "en",
+          "text": "Are my verbs and pronouns correct?"
+        },
+        {
+          "language": "en",
+          "text": "Could another person understand me?"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-speaking-reflection",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-describing-people",
+        "revision": 1
+      },
+      "title": {
+        "en": "Speak first, reflect afterwards",
+        "my": "အရင် ပြောပြီးမှ ပြန်စစ်ပါ"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "Speak first; correct after finishing. Do not stop because you fear mistakes. Self-review is not a CEFR speaking score.",
+        "my": "အမှားကြောက်၍ မရပ်ပါနှင့်။ အရင် အဆုံးအထိ ပြောပြီးမှ Grammar ကို ပြန်စစ်ပါ။ ကိုယ်တိုင် ပြန်စစ်ခြင်းသည် CEFR Speaking အမှတ် မဟုတ်ပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-writing-first-draft",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-writing-about-family",
+        "revision": 1
+      },
+      "title": {
+        "en": "Your paragraph",
+        "my": "ကိုယ်ပိုင် စာပိုဒ်"
+      },
+      "type": "writing",
+      "prompt": {
+        "en": "Write 6–8 sentences about your family or friends. Include two possessive adjectives, two examples of have/has, and at least one plural noun.",
+        "my": "မိသားစု သို့မဟုတ် သူငယ်ချင်းများအကြောင်း ဝါကျ ၆–၈ ကြောင်း ရေးပါ။ ပိုင်ဆိုင်မှုညွှန်းစကား နှစ်ခု၊ have/has ဥပမာ နှစ်ခုနှင့် အများကိန်း နာမ် အနည်းဆုံး တစ်ခု ပါဝင်ရမည်။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "My name is Aye. I have one brother. His name is Ko. He is a student. My mother is kind. My parents live in Mandalay. I have a laptop. My friends have laptops too."
+      },
+      "minWords": 25,
+      "maxWords": 130
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-writing-repair",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-writing-about-family",
+        "revision": 1
+      },
+      "title": {
+        "en": "Edit the examples",
+        "my": "ဥပမာများ ပြင်ရေးပါ"
+      },
+      "type": "writing",
+      "prompt": {
+        "en": "Edit and rewrite these examples: “My brother have a bike.” “She is my friend. His name is May.” (For a woman named May, use her name/her.)",
+        "my": "ဥပမာဝါကျများ၏ ကြိယာနှင့် နာမ်စား အမှားများကို ပြင်ရေးပါ။ မမှန်သော ပုံစံနှင့် မှန်သော ပုံစံကို ယှဉ်ကြည့်ပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "My brother has a bike. She is my friend. Her name is May."
+      },
+      "minWords": 8,
+      "maxWords": 70
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-writing-edit",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-writing-about-family",
+        "revision": 1
+      },
+      "title": {
+        "en": "Self-edit your own draft",
+        "my": "ကိုယ်ပိုင် စာမူကို စစ်ဆေးပါ"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "The model is one possible answer. Check verb agreement, word order and spelling. Rewrite your own paragraph and compare both versions. Neither draft is saved or automatically graded.",
+        "my": "ဥပမာသည် အဖြေမှန် တစ်မျိုးတည်း မဟုတ်ပါ။ ကိုယ့်အကြောင်းနှင့် ကိုက်ညီအောင် ရေးပါ။ ကြိယာနှင့် ကတ္တား ကိုက်ညီမှု၊ စကားလုံးအစီအစဉ်နှင့် စာလုံးပေါင်းကို ပြန်စစ်ပါ။ စာပိုဒ်ကို ပြန်ရေးပြီး စာမူနှစ်ခု ယှဉ်ကြည့်ပါ။ စာမူနှစ်ခုလုံးကို မသိမ်းပါ၊ အလိုအလျောက် အမှတ်မပေးပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-writing-rewrite",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-writing-about-family",
+        "revision": 1
+      },
+      "title": {
+        "en": "Rewrite and compare",
+        "my": "ပြန်ရေးပြီး ယှဉ်ကြည့်ပါ"
+      },
+      "type": "writing",
+      "prompt": {
+        "en": "Rewrite your own paragraph after self-editing. Compare it with your first draft.",
+        "my": "ကိုယ်တိုင် စစ်ဆေးပြီး ကိုယ်ပိုင် စာပိုဒ်ကို ပြန်ရေးပါ။ ပထမမူနှင့် ယှဉ်ကြည့်ပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "My name is Aye. I have one brother. His name is Ko. He is a student. My mother is kind. My parents live in Mandalay. I have a laptop. My friends have laptops too."
+      },
+      "minWords": 25,
+      "maxWords": 130
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-knowledge-check",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-review",
+        "revision": 1
+      },
+      "title": {
+        "en": "Knowledge practice · 12 questions",
+        "my": "အခြေခံသိရှိမှု လေ့ကျင့်ခြင်း · မေးခွန်း ၁၂ ခု"
+      },
+      "type": "exercise_set",
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c2-k1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c2-k2",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c2-k3",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c2-k4",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c2-k5",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c2-k6",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c2-k7",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c2-k8",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c2-k9",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c2-k10",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c2-k11",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c2-k12",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c2-skill-review",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c2-review",
+        "revision": 1
+      },
+      "title": {
+        "en": "Integrated self-review",
+        "my": "လေ့ကျင့်မှုများကို ပေါင်းစပ် ပြန်ကြည့်ခြင်း"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "Listening: wait for verified audio; scripts are reading preparation only. Speaking: perform the role-play and self-review; recording is not available here. Reading: use explicit evidence from both texts. Writing: finish and self-edit your paragraph. Grammar/vocabulary: check the 12 MCQs and review feedback. These are formative practice, not a formal chapter pass or proficiency award.",
+        "my": "နားထောင်မှုအတွက် အတည်ပြုထားသော အသံဖိုင်ကို စောင့်ပါ။ စာသားသည် ကြိုတင်ဖတ်ရှုလေ့ကျင့်မှုသာ ဖြစ်သည်။ ပြောဆိုမှုကို အပြန်အလှန် ပြောပြီး ကိုယ်တိုင် ပြန်စစ်ပါ။ အသံသွင်းခြင်း မရနိုင်သေးပါ။ ဖတ်ရှုမှုကို စာပိုဒ်နှစ်ပုဒ်ပါ အချက်အလက်နှင့် ဖြေပါ။ ရေးသားမှုကို ပြီးအောင်ရေး၍ ကိုယ်တိုင် ပြင်ပါ။ မေးခွန်း ၁၂ ခုကို စစ်ပြီး ရှင်းလင်းချက်ကို ပြန်ကြည့်ပါ။ ဤသည် လေ့ကျင့်မှုသာ ဖြစ်ပြီး အခန်းအောင်မြင်မှု သို့မဟုတ် ကျွမ်းကျင်မှုအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-vocabulary",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-routine-words",
+        "revision": 1
+      },
+      "title": {
+        "en": "Words in context",
+        "my": "အခြေအနေနှင့် တွဲလေ့လာသော စကားလုံးများ"
+      },
+      "type": "vocabulary",
+      "words": [
+        {
+          "word": "wake up",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "wake up",
+            "my": "အိပ်ရာထသည်"
+          },
+          "example": {
+            "language": "en",
+            "text": "I wake up at seven."
+          }
+        },
+        {
+          "word": "breakfast",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "breakfast",
+            "my": "မနက်စာ"
+          },
+          "example": {
+            "language": "en",
+            "text": "I eat breakfast at eight."
+          }
+        },
+        {
+          "word": "start",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "start",
+            "my": "စတင်သည်"
+          },
+          "example": {
+            "language": "en",
+            "text": "Work starts at ten."
+          }
+        },
+        {
+          "word": "finish",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "finish",
+            "my": "ပြီးဆုံးသည်"
+          },
+          "example": {
+            "language": "en",
+            "text": "I finish work at seven."
+          }
+        },
+        {
+          "word": "commute",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "commute",
+            "my": "အလုပ်သွားလာသည်"
+          },
+          "example": {
+            "language": "en",
+            "text": "I commute by train."
+          }
+        },
+        {
+          "word": "usually",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "usually",
+            "my": "များသောအားဖြင့်"
+          },
+          "example": {
+            "language": "en",
+            "text": "I usually work at home."
+          }
+        },
+        {
+          "word": "sometimes",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "sometimes",
+            "my": "တစ်ခါတလေ"
+          },
+          "example": {
+            "language": "en",
+            "text": "I sometimes go to the office."
+          }
+        },
+        {
+          "word": "always",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "always",
+            "my": "အမြဲ"
+          },
+          "example": {
+            "language": "en",
+            "text": "I always drink water."
+          }
+        },
+        {
+          "word": "never",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "never",
+            "my": "ဘယ်တော့မှ မ…"
+          },
+          "example": {
+            "language": "en",
+            "text": "I never work on Sundays."
+          }
+        },
+        {
+          "word": "meeting",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "meeting",
+            "my": "အစည်းအဝေး"
+          },
+          "example": {
+            "language": "en",
+            "text": "My meeting starts at eleven."
+          }
+        },
+        {
+          "word": "schedule",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "schedule",
+            "my": "အချိန်ဇယား"
+          },
+          "example": {
+            "language": "en",
+            "text": "My schedule is busy."
+          }
+        },
+        {
+          "word": "practice",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "practice",
+            "my": "လေ့ကျင့်သည်"
+          },
+          "example": {
+            "language": "en",
+            "text": "I practice English every day."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-vocabulary-production",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-routine-words",
+        "revision": 1
+      },
+      "title": {
+        "en": "Five new sentences",
+        "my": "ဝါကျအသစ် ငါးကြောင်း"
+      },
+      "type": "writing",
+      "prompt": {
+        "en": "Choose five words and create five new simple sentences. Read them aloud.",
+        "my": "စကားလုံး ငါးလုံး ရွေးပြီး ရိုးရှင်းသော ဝါကျအသစ် ငါးကြောင်း ဖွဲ့ပါ။ အသံထွက် ဖတ်ပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Use your own information. Many answers are possible."
+      },
+      "minWords": 15,
+      "maxWords": 90
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-grammar",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-present-simple-routines",
+        "revision": 1
+      },
+      "title": {
+        "en": "Grammar foundations",
+        "my": "အခြေခံ သဒ္ဒါ"
+      },
+      "type": "grammar",
+      "rule": {
+        "en": "Present simple for habits: I start work at ten. / She starts work at nine. Add -s or -es with he/she/it in affirmative clauses: He watches TV.\n\nNegative: I do not (don't) work on Sunday. / She does not (doesn't) work on Sunday. After doesn't, use the base form: doesn't work, not doesn't works.\n\nQuestion: Do you work from home? / Does she work from home? Answers: Yes, I do. / No, she doesn't.\n\nTime: at 8:30, on Monday, in the morning, every day. Usually, often, sometimes, and never commonly go before a main verb: I usually study at night. With be: She is usually early.",
+        "my": "နေ့တိုင်း လုပ်နေကျ အလေ့အကျင့်ကို ပြောရန် Present Simple သုံးပါ။ I work ဖြစ်သော်လည်း she works၊ he watches ဟု -s/-es ထည့်သည်။ မလုပ်ကြောင်း ပြောရန် don't/doesn't၊ မေးရန် Do/Does ကို သုံးပါ။ Doesn't နှင့် Does နောက်တွင် ကြိယာ၏ မူရင်းပုံစံ သုံးပါ — doesn't work၊ Does she study…?။ နာရီအချိန်နှင့် at၊ နေ့နှင့် on၊ မနက်/ညနေနှင့် in ကို တွဲသုံးပါ။ Usually/often/sometimes/never သည် လုပ်ဆောင်မှုကြိယာရှေ့တွင် ရှိတတ်သည်။ Be ပါလျှင် be နောက်တွင် ထားသည် — She is usually early။"
+      },
+      "examples": [
+        {
+          "pattern": "Subject + present-simple verb",
+          "example": {
+            "language": "en",
+            "text": "She starts work at nine."
+          },
+          "translation": "သူမသည် ၉ နာရီတွင် အလုပ်စသည်။"
+        },
+        {
+          "pattern": "Subject + does not + base verb",
+          "example": {
+            "language": "en",
+            "text": "He does not work on Sunday."
+          },
+          "translation": "သူသည် တနင်္ဂနွေနေ့တွင် အလုပ်မလုပ်ပါ။"
+        },
+        {
+          "pattern": "Does + subject + base verb?",
+          "example": {
+            "language": "en",
+            "text": "Does she study English?"
+          },
+          "translation": "သူမ အင်္ဂလိပ်စာ လေ့လာသလား။"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-mistakes",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-present-simple-routines",
+        "revision": 1
+      },
+      "title": {
+        "en": "Common mistakes",
+        "my": "အဖြစ်များသော အမှားများ"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "She works at nine. / Incorrect: She work at nine.\nHe doesn't work on Sunday. / Incorrect: He doesn't works on Sunday.\nDoes she study English? / Incorrect: Does she studies English?\nI start at 10:00. / Incorrect: I start on 10:00.",
+        "my": "She နှင့် works၊ doesn't နောက်တွင် work၊ Does she နောက်တွင် study ကို သုံးပါ။ နာရီအချိန် 10:00 နှင့် at ကို သုံးသည်။ အမှန်နှင့် အမှား ဘာကွာသည်ကို မြန်မာလို ရှင်းပြပြီး ကိုယ်ပိုင် ဝါကျအသစ် လေးကြောင်း ရေးပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-grammar-production",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-present-simple-routines",
+        "revision": 1
+      },
+      "title": {
+        "en": "Explain and write four sentences",
+        "my": "ရှင်းပြပြီး ဝါကျ လေးကြောင်း ရေးပါ"
+      },
+      "type": "writing",
+      "prompt": {
+        "en": "Explain the differences between the correct and incorrect sentences in Burmese. Then make four new English sentences.",
+        "my": "အမှန်နှင့် အမှား ဘာကွာသည်ကို မြန်မာလို ရှင်းပြပါ။ ထို့နောက် အင်္ဂလိပ် ဝါကျအသစ် လေးကြောင်း ဖွဲ့ပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Use the patterns from Learn with your own information."
+      },
+      "minWords": 10,
+      "maxWords": 120
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-audio-pending",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-routine-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "Audio pending · script-reading preparation",
+        "my": "အသံဖိုင် စောင့်ဆိုင်းဆဲ · စာသားဖတ်၍ ကြိုတင်လေ့လာခြင်း"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "These are scripts awaiting actual audio. You may read them for preparation. No audio playback or listening checks are available. Once matching audio exists, listen twice before opening the transcript. Script reading is not assessed listening.",
+        "my": "အသံဖိုင် မရှိသေး၍ စာသားဖတ်လေ့ကျင့်မှုအဖြစ်သာ သတ်မှတ်ပါ။ အသံဖွင့်ခြင်းနှင့် နားထောင်မေးခွန်း အဖြေစစ်ခြင်း မရနိုင်သေးပါ။ ကိုက်ညီသော အသံဖိုင် ရရှိပါက စာသား မကြည့်ဘဲ နှစ်ကြိမ် နားထောင်ပြီးမှ မေးခွန်း ဖြေပါ။ စာသားဖတ်ခြင်းသည် နားထောင်နိုင်စွမ်း စစ်ဆေးမှု မဟုတ်ပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-script-1",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-routine-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "Morning schedule · awaiting audio",
+        "my": "စကားပြောစာသား 1 · အသံဖိုင် စောင့်ဆိုင်းဆဲ"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "A: What time do you start work?\nB: I usually start at ten in the morning.\nA: Do you work from home?\nB: Yes, I do. But I go to the office on Wednesday.\nA: What time do you finish?\nB: I finish at seven in the evening.",
+        "my": "အသံဖိုင် စောင့်ဆိုင်းနေစဉ် စာသားကို ဖတ်ပြီး နာရီအချိန်၊ နေ့၊ do/does တို့ကို ရှာပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-listening-questions-1",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-routine-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "Planned questions 1 · awaiting audio",
+        "my": "အသံဖိုင် စောင့်ဆိုင်းဆဲ မေးခွန်းများ 1"
+      },
+      "type": "exercise_set",
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c3-l1-1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c3-l1-2",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c3-l1-3",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-script-2",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-routine-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "Study routine · awaiting audio",
+        "my": "စကားပြောစာသား 2 · အသံဖိုင် စောင့်ဆိုင်းဆဲ"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "A: Does your sister study English?\nB: Yes, she does. She studies after dinner.\nA: Does she study every night?\nB: No, she doesn’t. She studies on Monday, Wednesday, and Friday.",
+        "my": "အသံဖိုင် စောင့်ဆိုင်းနေစဉ် စာသားကို ဖတ်ပြီး နာရီအချိန်၊ နေ့၊ do/does တို့ကို ရှာပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-listening-questions-2",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-routine-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "Planned questions 2 · awaiting audio",
+        "my": "အသံဖိုင် စောင့်ဆိုင်းဆဲ မေးခွန်းများ 2"
+      },
+      "type": "exercise_set",
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c3-l2-1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c3-l2-2",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-reading-passage-1",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-routine-reading",
+        "revision": 1
+      },
+      "title": {
+        "en": "A developer’s weekday",
+        "my": "စာပိုဒ် 1"
+      },
+      "type": "reading",
+      "stimulusRef": {
+        "kind": "stimulus",
+        "id": "a1-c3-reading-stimulus-1",
+        "revision": 1
+      },
+      "explanation": {
+        "en": "Read first. Open Burmese support after reading. This is supported practice, not an independent assessment.",
+        "my": "Lin သည် ဂျပန်နိုင်ငံရှိ front-end developer ဖြစ်သည်။ နံနက် ၁၀ နာရီတွင် အလုပ်စပြီး အများအားဖြင့် အိမ်မှ အလုပ်လုပ်သည်။ မွန်းတည့်ချိန်တွင် နေ့လယ်စာ စားသည်။ မွန်းလွဲ ၂ နာရီတွင် အဖွဲ့အစည်းအဝေးတို ရှိပြီး ည ၇ နာရီတွင် အလုပ်ပြီးသည်။ တစ်ခါတလေ ညစာစားပြီးနောက် အင်္ဂလိပ်စာ လေ့လာသည်။"
+      }
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-reading-questions-1",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-routine-reading",
+        "revision": 1
+      },
+      "title": {
+        "en": "Passage 1 questions",
+        "my": "စာပိုဒ် 1 မေးခွန်းများ"
+      },
+      "type": "exercise_set",
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c3-reading-group-1",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-reading-passage-2",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-routine-reading",
+        "revision": 1
+      },
+      "title": {
+        "en": "Saturday routine",
+        "my": "စာပိုဒ် 2"
+      },
+      "type": "reading",
+      "stimulusRef": {
+        "kind": "stimulus",
+        "id": "a1-c3-reading-stimulus-2",
+        "revision": 1
+      },
+      "explanation": {
+        "en": "Read first. Open Burmese support after reading. This is supported practice, not an independent assessment.",
+        "my": "စနေနေ့များတွင် Mika သည် ၈ နာရီ၌ အိပ်ရာထပြီး မနက်စာ စားသည်။ ၁၀ နာရီတွင် ဘာသာစကားသင်တန်း သွားသည်။ စနေနေ့၌ အလုပ်မလုပ်ပါ။ နေ့လယ်ပိုင်းတွင် စာဖတ်လေ့ရှိပြီး ညနေပိုင်းတွင် မိသားစုကို ဖုန်းခေါ်သည်။"
+      }
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-reading-questions-2",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-routine-reading",
+        "revision": 1
+      },
+      "title": {
+        "en": "Passage 2 questions",
+        "my": "စာပိုဒ် 2 မေးခွန်းများ"
+      },
+      "type": "exercise_set",
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c3-reading-group-2",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-reading-strategy",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-routine-reading",
+        "revision": 1
+      },
+      "title": {
+        "en": "Read for evidence",
+        "my": "အထောက်အထား ရှာဖတ်ပါ"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "Underline the words that directly support your answer before selecting an option.",
+        "my": "အဖြေ မရွေးမီ အဖြေကို တိုက်ရိုက် ထောက်ခံသော စကားလုံးများကို ရှာပြီး မျဉ်းသားပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-speaking-task-1",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-talking-about-routines",
+        "revision": 1
+      },
+      "title": {
+        "en": "Speaking task 1",
+        "my": "ပြောဆိုလေ့ကျင့်မှု 1"
+      },
+      "type": "speaking",
+      "prompt": {
+        "en": "Describe your usual weekday using five times and at least two frequency adverbs.",
+        "my": "နာရီအချိန် ငါးခုနှင့် အကြိမ်ရေပြစကား အနည်းဆုံး နှစ်ခု ပါဝင်အောင် ကိုယ့်အလုပ်လုပ်ရက်အကြောင်း ပြောပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "I wake up at seven. I usually eat breakfast at eight. I start work at ten. I have lunch at noon. I finish at seven. I sometimes study after dinner."
+      },
+      "checklist": [
+        {
+          "language": "en",
+          "text": "Can I speak without stopping for 30 seconds?"
+        },
+        {
+          "language": "en",
+          "text": "Are my verbs and pronouns correct?"
+        },
+        {
+          "language": "en",
+          "text": "Could another person understand me?"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-speaking-task-2",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-talking-about-routines",
+        "revision": 1
+      },
+      "title": {
+        "en": "Speaking task 2",
+        "my": "ပြောဆိုလေ့ကျင့်မှု 2"
+      },
+      "type": "speaking",
+      "prompt": {
+        "en": "Role-play: ask a colleague “What time do you start?”, “Do you work from home?”, and “When do you finish?” Switch roles.",
+        "my": "လုပ်ဖော်ကိုင်ဖက်ကို အလုပ်စချိန်၊ အိမ်မှ အလုပ်လုပ်သလားနှင့် အလုပ်ပြီးချိန် မေးပါ။ အခန်းကဏ္ဍ လဲပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "A: What time do you start?\nB: I start at ten.\nA: Do you work from home?\nB: Yes, I do.\nA: When do you finish?\nB: I finish at seven."
+      },
+      "checklist": [
+        {
+          "language": "en",
+          "text": "Can I speak without stopping for 30 seconds?"
+        },
+        {
+          "language": "en",
+          "text": "Are my verbs and pronouns correct?"
+        },
+        {
+          "language": "en",
+          "text": "Could another person understand me?"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-speaking-task-3",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-talking-about-routines",
+        "revision": 1
+      },
+      "title": {
+        "en": "Speaking task 3",
+        "my": "ပြောဆိုလေ့ကျင့်မှု 3"
+      },
+      "type": "speaking",
+      "prompt": {
+        "en": "Record a one-minute routine. Listen again and check he/she -s, at/on/in, and do/does. Recording is a future activity; this preview only supports speaking aloud, with no recording or upload.",
+        "my": "လုပ်ရိုးလုပ်စဉ်အကြောင်း တစ်မိနစ် ပြောပြီး he/she နောက်က -s၊ at/on/in၊ do/does ကို ပြန်စစ်ပါ။ ဤစမ်းကြည့်စာမျက်နှာတွင် အသံသွင်းခြင်း မရနိုင်သေးပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "I usually work from home. My sister studies English after dinner. She does not study every night."
+      },
+      "checklist": [
+        {
+          "language": "en",
+          "text": "Can I speak without stopping for 30 seconds?"
+        },
+        {
+          "language": "en",
+          "text": "Are my verbs and pronouns correct?"
+        },
+        {
+          "language": "en",
+          "text": "Could another person understand me?"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-speaking-reflection",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-talking-about-routines",
+        "revision": 1
+      },
+      "title": {
+        "en": "Speak first, reflect afterwards",
+        "my": "အရင် ပြောပြီးမှ ပြန်စစ်ပါ"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "Speak first; correct after finishing. Do not stop because you fear mistakes. Self-review is not a CEFR speaking score.",
+        "my": "အမှားကြောက်၍ မရပ်ပါနှင့်။ အရင် အဆုံးအထိ ပြောပြီးမှ Grammar ကို ပြန်စစ်ပါ။ ကိုယ်တိုင် ပြန်စစ်ခြင်းသည် CEFR Speaking အမှတ် မဟုတ်ပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-writing-first-draft",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-writing-my-day",
+        "revision": 1
+      },
+      "title": {
+        "en": "Your paragraph",
+        "my": "ကိုယ်ပိုင် စာပိုဒ်"
+      },
+      "type": "writing",
+      "prompt": {
+        "en": "Write 7–9 sentences about your day. Include three clock times, one negative statement and one question.",
+        "my": "ကိုယ့်တစ်နေ့တာအကြောင်း ဝါကျ ၇–၉ ကြောင်း ရေးပါ။ နာရီအချိန် သုံးခု၊ အငြင်းဝါကျ တစ်ကြောင်းနှင့် မေးခွန်း တစ်ခု ပါဝင်ရမည်။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "I wake up at seven. I eat breakfast at eight. I start work at ten. I usually work from home. I have lunch at noon. I finish at seven. I do not work on Sunday. Do you work from home?"
+      },
+      "minWords": 25,
+      "maxWords": 130
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-writing-repair",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-writing-my-day",
+        "revision": 1
+      },
+      "title": {
+        "en": "Edit the examples",
+        "my": "ဥပမာများ ပြင်ရေးပါ"
+      },
+      "type": "writing",
+      "prompt": {
+        "en": "Rewrite: “She start work at ten.” “He doesn’t goes to the office.” “Does she works from home?”",
+        "my": "ဥပမာဝါကျများ၏ ကြိယာနှင့် နာမ်စား အမှားများကို ပြင်ရေးပါ။ မမှန်သော ပုံစံနှင့် မှန်သော ပုံစံကို ယှဉ်ကြည့်ပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "She starts work at ten. He doesn’t go to the office. Does she work from home?"
+      },
+      "minWords": 8,
+      "maxWords": 70
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-writing-edit",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-writing-my-day",
+        "revision": 1
+      },
+      "title": {
+        "en": "Self-edit your own draft",
+        "my": "ကိုယ်ပိုင် စာမူကို စစ်ဆေးပါ"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "The model is one possible answer. Check verb agreement, word order and spelling. Rewrite your own paragraph and compare both versions. Neither draft is saved or automatically graded.",
+        "my": "ဥပမာသည် အဖြေမှန် တစ်မျိုးတည်း မဟုတ်ပါ။ ကိုယ့်အကြောင်းနှင့် ကိုက်ညီအောင် ရေးပါ။ ကြိယာနှင့် ကတ္တား ကိုက်ညီမှု၊ စကားလုံးအစီအစဉ်နှင့် စာလုံးပေါင်းကို ပြန်စစ်ပါ။ စာပိုဒ်ကို ပြန်ရေးပြီး စာမူနှစ်ခု ယှဉ်ကြည့်ပါ။ စာမူနှစ်ခုလုံးကို မသိမ်းပါ၊ အလိုအလျောက် အမှတ်မပေးပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-writing-rewrite",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-writing-my-day",
+        "revision": 1
+      },
+      "title": {
+        "en": "Rewrite and compare",
+        "my": "ပြန်ရေးပြီး ယှဉ်ကြည့်ပါ"
+      },
+      "type": "writing",
+      "prompt": {
+        "en": "Rewrite your own paragraph after self-editing. Compare it with your first draft.",
+        "my": "ကိုယ်တိုင် စစ်ဆေးပြီး ကိုယ်ပိုင် စာပိုဒ်ကို ပြန်ရေးပါ။ ပထမမူနှင့် ယှဉ်ကြည့်ပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "I wake up at seven. I eat breakfast at eight. I start work at ten. I usually work from home. I have lunch at noon. I finish at seven. I do not work on Sunday. Do you work from home?"
+      },
+      "minWords": 25,
+      "maxWords": 130
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-knowledge-check",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-review",
+        "revision": 1
+      },
+      "title": {
+        "en": "Knowledge practice · 12 questions",
+        "my": "အခြေခံသိရှိမှု လေ့ကျင့်ခြင်း · မေးခွန်း ၁၂ ခု"
+      },
+      "type": "exercise_set",
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c3-k1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c3-k2",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c3-k3",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c3-k4",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c3-k5",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c3-k6",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c3-k7",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c3-k8",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c3-k9",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c3-k10",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c3-k11",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c3-k12",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c3-skill-review",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c3-review",
+        "revision": 1
+      },
+      "title": {
+        "en": "Integrated self-review",
+        "my": "လေ့ကျင့်မှုများကို ပေါင်းစပ် ပြန်ကြည့်ခြင်း"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "Listening: wait for verified audio; scripts are reading preparation only. Speaking: perform the role-play and self-review; recording is not available here. Reading: use explicit evidence from both texts. Writing: finish and self-edit your paragraph. Grammar/vocabulary: check the 12 MCQs and review feedback. These are formative practice, not a formal chapter pass or proficiency award.",
+        "my": "နားထောင်မှုအတွက် အတည်ပြုထားသော အသံဖိုင်ကို စောင့်ပါ။ စာသားသည် ကြိုတင်ဖတ်ရှုလေ့ကျင့်မှုသာ ဖြစ်သည်။ ပြောဆိုမှုကို အပြန်အလှန် ပြောပြီး ကိုယ်တိုင် ပြန်စစ်ပါ။ အသံသွင်းခြင်း မရနိုင်သေးပါ။ ဖတ်ရှုမှုကို စာပိုဒ်နှစ်ပုဒ်ပါ အချက်အလက်နှင့် ဖြေပါ။ ရေးသားမှုကို ပြီးအောင်ရေး၍ ကိုယ်တိုင် ပြင်ပါ။ မေးခွန်း ၁၂ ခုကို စစ်ပြီး ရှင်းလင်းချက်ကို ပြန်ကြည့်ပါ။ ဤသည် လေ့ကျင့်မှုသာ ဖြစ်ပြီး အခန်းအောင်မြင်မှု သို့မဟုတ် ကျွမ်းကျင်မှုအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "examples": []
+    }
+  ],
+  "objectives": [
+    {
+      "kind": "objective",
+      "id": "a1-c2-objective-1",
+      "revision": 1,
+      "statement": {
+        "en": "Use family and possession words in five new sentences.",
+        "my": "မိသားစုနှင့် ပိုင်ဆိုင်မှုဆိုင်ရာ စကားလုံးများဖြင့် ဝါကျအသစ် ငါးကြောင်း ရေးရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["vocabulary"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked activities and reflect on your answers; no CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ကိုယ့်အဖြေကို ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["recognition"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c2-objective-2",
+      "revision": 1,
+      "statement": {
+        "en": "Recognize have/has, possessive adjectives and singular/plural forms.",
+        "my": "Have/has၊ ပိုင်ဆိုင်မှုညွှန်းသော စကားများနှင့် အနည်းကိန်း/အများကိန်း ပုံစံများကို ခွဲခြားရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked activities and reflect on your answers; no CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ကိုယ့်အဖြေကို ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["recognition"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c2-objective-3",
+      "revision": 1,
+      "statement": {
+        "en": "Read two dialogue scripts as preparation while matching audio is pending.",
+        "my": "ကိုက်ညီသော အသံဖိုင် မရှိသေးစဉ် စကားပြောစာသား နှစ်ပုဒ်ကို ကြိုတင် ဖတ်လေ့လာရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked activities and reflect on your answers; no CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ကိုယ့်အဖြေကို ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c2-objective-4",
+      "revision": 1,
+      "statement": {
+        "en": "Describe people and possessions aloud and self-review your grammar.",
+        "my": "လူများနှင့် ပိုင်ဆိုင်မှုအကြောင်း အသံထွက် ပြောပြီး ကိုယ့်သဒ္ဒါကို ပြန်စစ်ရန်။"
+      },
+      "action": "produce",
+      "tags": {
+        "areas": ["speaking"],
+        "coreSkills": ["speaking"]
+      },
+      "successCriterion": {
+        "en": "Use the linked activities and reflect on your answers; no CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ကိုယ့်အဖြေကို ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c2-objective-5",
+      "revision": 1,
+      "statement": {
+        "en": "Find explicit family, job and possession facts in two short passages.",
+        "my": "စာပိုဒ်တို နှစ်ပုဒ်မှ မိသားစု၊ အလုပ်နှင့် ပိုင်ဆိုင်မှု အချက်အလက်များကို ရှာရန်။"
+      },
+      "action": "interpret",
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "successCriterion": {
+        "en": "Use the linked activities and reflect on your answers; no CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ကိုယ့်အဖြေကို ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["comprehension"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c2-objective-6",
+      "revision": 1,
+      "statement": {
+        "en": "Write and self-edit 6–8 sentences using possessions and plural nouns.",
+        "my": "ပိုင်ဆိုင်မှုနှင့် အများကိန်းနာမ်များ ပါသော ဝါကျ ၆–၈ ကြောင်း ရေးပြီး ကိုယ်တိုင် ပြင်ဆင်ရန်။"
+      },
+      "action": "produce",
+      "tags": {
+        "areas": ["writing"],
+        "coreSkills": ["writing"]
+      },
+      "successCriterion": {
+        "en": "Use the linked activities and reflect on your answers; no CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ကိုယ့်အဖြေကို ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c2-objective-7",
+      "revision": 1,
+      "statement": {
+        "en": "Check chapter grammar knowledge and review your skill practice.",
+        "my": "အခန်းပါ သဒ္ဒါသိရှိမှုကို စစ်ပြီး ကိုယ့်လေ့ကျင့်မှုကို ပြန်ကြည့်ရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked activities and reflect on your answers; no CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ကိုယ့်အဖြေကို ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["recognition"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c3-objective-1",
+      "revision": 1,
+      "statement": {
+        "en": "Use routine and time words in five new sentences.",
+        "my": "လုပ်ရိုးလုပ်စဉ်နှင့် အချိန် စကားလုံးများဖြင့် ဝါကျအသစ် ငါးကြောင်း ရေးရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["vocabulary"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked activities and reflect on your answers; no CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ကိုယ့်အဖြေကို ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["recognition"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c3-objective-2",
+      "revision": 1,
+      "statement": {
+        "en": "Recognize present-simple statements, negatives, questions and time phrases.",
+        "my": "ပစ္စုပ္ပန်ရိုးရိုး ပြောဝါကျ၊ အငြင်းဝါကျ၊ မေးခွန်းနှင့် အချိန်ပြစကားများကို ခွဲခြားရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked activities and reflect on your answers; no CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ကိုယ့်အဖြေကို ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["recognition"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c3-objective-3",
+      "revision": 1,
+      "statement": {
+        "en": "Read two routine scripts as preparation while matching audio is pending.",
+        "my": "ကိုက်ညီသော အသံဖိုင် မရှိသေးစဉ် လုပ်ရိုးလုပ်စဉ် စာသား နှစ်ပုဒ်ကို ဖတ်လေ့လာရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked activities and reflect on your answers; no CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ကိုယ့်အဖြေကို ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c3-objective-4",
+      "revision": 1,
+      "statement": {
+        "en": "Describe your routine, ask questions and self-review aloud.",
+        "my": "ကိုယ့်လုပ်ရိုးလုပ်စဉ်ကို ပြောရန်၊ မေးခွန်းမေးရန်နှင့် အသံထွက် ပြန်စစ်ရန်။"
+      },
+      "action": "produce",
+      "tags": {
+        "areas": ["speaking"],
+        "coreSkills": ["speaking"]
+      },
+      "successCriterion": {
+        "en": "Use the linked activities and reflect on your answers; no CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ကိုယ့်အဖြေကို ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c3-objective-5",
+      "revision": 1,
+      "statement": {
+        "en": "Find explicitly stated times and activities in two routine passages.",
+        "my": "စာပိုဒ် နှစ်ပုဒ်မှ တိတိကျကျ ဖော်ပြထားသော အချိန်နှင့် လုပ်ဆောင်မှုများကို ရှာရန်။"
+      },
+      "action": "interpret",
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "successCriterion": {
+        "en": "Use the linked activities and reflect on your answers; no CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ကိုယ့်အဖြေကို ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["comprehension"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c3-objective-6",
+      "revision": 1,
+      "statement": {
+        "en": "Write and self-edit 7–9 sentences with times, a negative and a question.",
+        "my": "နာရီအချိန်၊ အငြင်းဝါကျနှင့် မေးခွန်း ပါသော ဝါကျ ၇–၉ ကြောင်း ရေးပြီး ကိုယ်တိုင် ပြင်ဆင်ရန်။"
+      },
+      "action": "produce",
+      "tags": {
+        "areas": ["writing"],
+        "coreSkills": ["writing"]
+      },
+      "successCriterion": {
+        "en": "Use the linked activities and reflect on your answers; no CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ကိုယ့်အဖြေကို ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c3-objective-7",
+      "revision": 1,
+      "statement": {
+        "en": "Check present-simple knowledge and review your skill practice.",
+        "my": "ပစ္စုပ္ပန်ရိုးရိုး သိရှိမှုကို စစ်ပြီး ကိုယ့်လေ့ကျင့်မှုကို ပြန်ကြည့်ရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked activities and reflect on your answers; no CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ကိုယ့်အဖြေကို ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["recognition"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    }
+  ],
+  "exercises": [
+    {
+      "kind": "exercise",
+      "id": "a1-c2-l1-1",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-3",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Who is May?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-l1-1-a",
+          "text": {
+            "language": "en",
+            "text": "A sister"
+          }
+        },
+        {
+          "id": "a1-c2-l1-1-b",
+          "text": {
+            "language": "en",
+            "text": "A teacher"
+          }
+        },
+        {
+          "id": "a1-c2-l1-1-c",
+          "text": {
+            "language": "en",
+            "text": "A friend"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-l1-2",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-3",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "What does May have?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-l1-2-a",
+          "text": {
+            "language": "en",
+            "text": "A red car"
+          }
+        },
+        {
+          "id": "a1-c2-l1-2-b",
+          "text": {
+            "language": "en",
+            "text": "A small blue bag"
+          }
+        },
+        {
+          "id": "a1-c2-l1-2-c",
+          "text": {
+            "language": "en",
+            "text": "Two phones"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-l1-3",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-3",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Who are the two other people?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-l1-3-a",
+          "text": {
+            "language": "en",
+            "text": "Colleagues"
+          }
+        },
+        {
+          "id": "a1-c2-l1-3-b",
+          "text": {
+            "language": "en",
+            "text": "Parents"
+          }
+        },
+        {
+          "id": "a1-c2-l1-3-c",
+          "text": {
+            "language": "en",
+            "text": "Teachers"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-l2-1",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-3",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Who owns the first laptop?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-l2-1-a",
+          "text": {
+            "language": "en",
+            "text": "The speaker"
+          }
+        },
+        {
+          "id": "a1-c2-l2-1-b",
+          "text": {
+            "language": "en",
+            "text": "Their manager"
+          }
+        },
+        {
+          "id": "a1-c2-l2-1-c",
+          "text": {
+            "language": "en",
+            "text": "The receptionist"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-l2-2",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-3",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Where is the speaker’s laptop?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-l2-2-a",
+          "text": {
+            "language": "en",
+            "text": "On the desk"
+          }
+        },
+        {
+          "id": "a1-c2-l2-2-b",
+          "text": {
+            "language": "en",
+            "text": "At home"
+          }
+        },
+        {
+          "id": "a1-c2-l2-2-c",
+          "text": {
+            "language": "en",
+            "text": "In a bag"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-r1-1",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-5",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "How many siblings does Min have?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-r1-1-a",
+          "text": {
+            "language": "en",
+            "text": "One"
+          }
+        },
+        {
+          "id": "a1-c2-r1-1-b",
+          "text": {
+            "language": "en",
+            "text": "Two"
+          }
+        },
+        {
+          "id": "a1-c2-r1-1-c",
+          "text": {
+            "language": "en",
+            "text": "Three"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-r1-2",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-5",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "What does Min do?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-r1-2-a",
+          "text": {
+            "language": "en",
+            "text": "Web developer"
+          }
+        },
+        {
+          "id": "a1-c2-r1-2-b",
+          "text": {
+            "language": "en",
+            "text": "Teacher"
+          }
+        },
+        {
+          "id": "a1-c2-r1-2-c",
+          "text": {
+            "language": "en",
+            "text": "Driver"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-r1-3",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-5",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Who is a designer?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-r1-3-a",
+          "text": {
+            "language": "en",
+            "text": "Min’s sister"
+          }
+        },
+        {
+          "id": "a1-c2-r1-3-b",
+          "text": {
+            "language": "en",
+            "text": "Min’s brother"
+          }
+        },
+        {
+          "id": "a1-c2-r1-3-c",
+          "text": {
+            "language": "en",
+            "text": "Min’s father"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-reading-group-1",
+      "revision": 1,
+      "type": "reading_comprehension",
+      "instructions": {
+        "en": "Answer with explicit evidence from the passage.",
+        "my": "စာပိုဒ်တွင် ဖော်ပြထားသော အချက်အလက်ဖြင့် ဖြေပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-5",
+          "revision": 1
+        }
+      ],
+      "stimulusRef": {
+        "kind": "stimulus",
+        "id": "a1-c2-reading-stimulus-1",
+        "revision": 1
+      },
+      "itemRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c2-r1-1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c2-r1-2",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c2-r1-3",
+          "revision": 1
+        }
+      ],
+      "assistance": "practice_with_support"
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-r2-1",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-5",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Is Hana a new colleague?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-r2-1-a",
+          "text": {
+            "language": "en",
+            "text": "Yes"
+          }
+        },
+        {
+          "id": "a1-c2-r2-1-b",
+          "text": {
+            "language": "en",
+            "text": "No"
+          }
+        },
+        {
+          "id": "a1-c2-r2-1-c",
+          "text": {
+            "language": "en",
+            "text": "Not stated"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-r2-2",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-5",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "How many notebooks does Hana have?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-r2-2-a",
+          "text": {
+            "language": "en",
+            "text": "One"
+          }
+        },
+        {
+          "id": "a1-c2-r2-2-b",
+          "text": {
+            "language": "en",
+            "text": "Two"
+          }
+        },
+        {
+          "id": "a1-c2-r2-2-c",
+          "text": {
+            "language": "en",
+            "text": "Three"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-reading-group-2",
+      "revision": 1,
+      "type": "reading_comprehension",
+      "instructions": {
+        "en": "Answer with explicit evidence from the passage.",
+        "my": "စာပိုဒ်တွင် ဖော်ပြထားသော အချက်အလက်ဖြင့် ဖြေပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-5",
+          "revision": 1
+        }
+      ],
+      "stimulusRef": {
+        "kind": "stimulus",
+        "id": "a1-c2-reading-stimulus-2",
+        "revision": 1
+      },
+      "itemRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c2-r2-1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c2-r2-2",
+          "revision": 1
+        }
+      ],
+      "assistance": "practice_with_support"
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-k1",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "My sister ___ a laptop."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-k1-a",
+          "text": {
+            "language": "en",
+            "text": "have"
+          }
+        },
+        {
+          "id": "a1-c2-k1-b",
+          "text": {
+            "language": "en",
+            "text": "has"
+          }
+        },
+        {
+          "id": "a1-c2-k1-c",
+          "text": {
+            "language": "en",
+            "text": "are"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-k2",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "I ___ two brothers."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-k2-a",
+          "text": {
+            "language": "en",
+            "text": "has"
+          }
+        },
+        {
+          "id": "a1-c2-k2-b",
+          "text": {
+            "language": "en",
+            "text": "have"
+          }
+        },
+        {
+          "id": "a1-c2-k2-c",
+          "text": {
+            "language": "en",
+            "text": "am"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-k3",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "This is ___ bag. I own it."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-k3-a",
+          "text": {
+            "language": "en",
+            "text": "my"
+          }
+        },
+        {
+          "id": "a1-c2-k3-b",
+          "text": {
+            "language": "en",
+            "text": "me"
+          }
+        },
+        {
+          "id": "a1-c2-k3-c",
+          "text": {
+            "language": "en",
+            "text": "I"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-k4",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "That is Ko’s book. Ko uses he/him pronouns. It is ___ book."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-k4-a",
+          "text": {
+            "language": "en",
+            "text": "her"
+          }
+        },
+        {
+          "id": "a1-c2-k4-b",
+          "text": {
+            "language": "en",
+            "text": "his"
+          }
+        },
+        {
+          "id": "a1-c2-k4-c",
+          "text": {
+            "language": "en",
+            "text": "their"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-k5",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "___ parents live in Yangon. (We are their children.)"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-k5-a",
+          "text": {
+            "language": "en",
+            "text": "Our"
+          }
+        },
+        {
+          "id": "a1-c2-k5-b",
+          "text": {
+            "language": "en",
+            "text": "Us"
+          }
+        },
+        {
+          "id": "a1-c2-k5-c",
+          "text": {
+            "language": "en",
+            "text": "We"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-k6",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "She ___ a teacher."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-k6-a",
+          "text": {
+            "language": "en",
+            "text": "has"
+          }
+        },
+        {
+          "id": "a1-c2-k6-b",
+          "text": {
+            "language": "en",
+            "text": "are"
+          }
+        },
+        {
+          "id": "a1-c2-k6-c",
+          "text": {
+            "language": "en",
+            "text": "is"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-k7",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "They ___ two phones."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-k7-a",
+          "text": {
+            "language": "en",
+            "text": "have"
+          }
+        },
+        {
+          "id": "a1-c2-k7-b",
+          "text": {
+            "language": "en",
+            "text": "has"
+          }
+        },
+        {
+          "id": "a1-c2-k7-c",
+          "text": {
+            "language": "en",
+            "text": "is"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-k8",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "One child; two ___."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-k8-a",
+          "text": {
+            "language": "en",
+            "text": "childs"
+          }
+        },
+        {
+          "id": "a1-c2-k8-b",
+          "text": {
+            "language": "en",
+            "text": "children"
+          }
+        },
+        {
+          "id": "a1-c2-k8-c",
+          "text": {
+            "language": "en",
+            "text": "childes"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-k9",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "I have ___ sister."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-k9-a",
+          "text": {
+            "language": "en",
+            "text": "a"
+          }
+        },
+        {
+          "id": "a1-c2-k9-b",
+          "text": {
+            "language": "en",
+            "text": "an"
+          }
+        },
+        {
+          "id": "a1-c2-k9-c",
+          "text": {
+            "language": "en",
+            "text": "are"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-k10",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "This is ___ desk. It belongs to her."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-k10-a",
+          "text": {
+            "language": "en",
+            "text": "she"
+          }
+        },
+        {
+          "id": "a1-c2-k10-b",
+          "text": {
+            "language": "en",
+            "text": "her"
+          }
+        },
+        {
+          "id": "a1-c2-k10-c",
+          "text": {
+            "language": "en",
+            "text": "hers"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-k11",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "My colleagues ___ friendly."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-k11-a",
+          "text": {
+            "language": "en",
+            "text": "is"
+          }
+        },
+        {
+          "id": "a1-c2-k11-b",
+          "text": {
+            "language": "en",
+            "text": "am"
+          }
+        },
+        {
+          "id": "a1-c2-k11-c",
+          "text": {
+            "language": "en",
+            "text": "are"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c2-k12",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c2-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Choose the correct sentence."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c2-k12-a",
+          "text": {
+            "language": "en",
+            "text": "He has a bag."
+          }
+        },
+        {
+          "id": "a1-c2-k12-b",
+          "text": {
+            "language": "en",
+            "text": "He have a bag."
+          }
+        },
+        {
+          "id": "a1-c2-k12-c",
+          "text": {
+            "language": "en",
+            "text": "He is bag."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-l1-1",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-3",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "When does B usually start work?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-l1-1-a",
+          "text": {
+            "language": "en",
+            "text": "At nine"
+          }
+        },
+        {
+          "id": "a1-c3-l1-1-b",
+          "text": {
+            "language": "en",
+            "text": "At ten"
+          }
+        },
+        {
+          "id": "a1-c3-l1-1-c",
+          "text": {
+            "language": "en",
+            "text": "At eleven"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-l1-2",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-3",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "When does B go to the office?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-l1-2-a",
+          "text": {
+            "language": "en",
+            "text": "Monday"
+          }
+        },
+        {
+          "id": "a1-c3-l1-2-b",
+          "text": {
+            "language": "en",
+            "text": "Wednesday"
+          }
+        },
+        {
+          "id": "a1-c3-l1-2-c",
+          "text": {
+            "language": "en",
+            "text": "Friday"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-l1-3",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-3",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Does B usually work from home?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-l1-3-a",
+          "text": {
+            "language": "en",
+            "text": "Yes"
+          }
+        },
+        {
+          "id": "a1-c3-l1-3-b",
+          "text": {
+            "language": "en",
+            "text": "No"
+          }
+        },
+        {
+          "id": "a1-c3-l1-3-c",
+          "text": {
+            "language": "en",
+            "text": "Not stated"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-l2-1",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-3",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "When does she study?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-l2-1-a",
+          "text": {
+            "language": "en",
+            "text": "Before breakfast"
+          }
+        },
+        {
+          "id": "a1-c3-l2-1-b",
+          "text": {
+            "language": "en",
+            "text": "After dinner"
+          }
+        },
+        {
+          "id": "a1-c3-l2-1-c",
+          "text": {
+            "language": "en",
+            "text": "At lunchtime"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-l2-2",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-3",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Does she study every night?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-l2-2-a",
+          "text": {
+            "language": "en",
+            "text": "Yes"
+          }
+        },
+        {
+          "id": "a1-c3-l2-2-b",
+          "text": {
+            "language": "en",
+            "text": "No"
+          }
+        },
+        {
+          "id": "a1-c3-l2-2-c",
+          "text": {
+            "language": "en",
+            "text": "Not stated"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-r1-1",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-5",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "What time does Lin start?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-r1-1-a",
+          "text": {
+            "language": "en",
+            "text": "9:00"
+          }
+        },
+        {
+          "id": "a1-c3-r1-1-b",
+          "text": {
+            "language": "en",
+            "text": "10:00"
+          }
+        },
+        {
+          "id": "a1-c3-r1-1-c",
+          "text": {
+            "language": "en",
+            "text": "11:00"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-r1-2",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-5",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Where does Lin usually work?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-r1-2-a",
+          "text": {
+            "language": "en",
+            "text": "From home"
+          }
+        },
+        {
+          "id": "a1-c3-r1-2-b",
+          "text": {
+            "language": "en",
+            "text": "At a café"
+          }
+        },
+        {
+          "id": "a1-c3-r1-2-c",
+          "text": {
+            "language": "en",
+            "text": "In a hospital"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-r1-3",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-5",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "When is the team meeting?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-r1-3-a",
+          "text": {
+            "language": "en",
+            "text": "Noon"
+          }
+        },
+        {
+          "id": "a1-c3-r1-3-b",
+          "text": {
+            "language": "en",
+            "text": "2:00 p.m."
+          }
+        },
+        {
+          "id": "a1-c3-r1-3-c",
+          "text": {
+            "language": "en",
+            "text": "7:00 p.m."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-reading-group-1",
+      "revision": 1,
+      "type": "reading_comprehension",
+      "instructions": {
+        "en": "Answer with explicit evidence from the passage.",
+        "my": "စာပိုဒ်တွင် ဖော်ပြထားသော အချက်အလက်ဖြင့် ဖြေပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-5",
+          "revision": 1
+        }
+      ],
+      "stimulusRef": {
+        "kind": "stimulus",
+        "id": "a1-c3-reading-stimulus-1",
+        "revision": 1
+      },
+      "itemRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c3-r1-1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c3-r1-2",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c3-r1-3",
+          "revision": 1
+        }
+      ],
+      "assistance": "practice_with_support"
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-r2-1",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-5",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Does Mika work on Saturday?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-r2-1-a",
+          "text": {
+            "language": "en",
+            "text": "Yes"
+          }
+        },
+        {
+          "id": "a1-c3-r2-1-b",
+          "text": {
+            "language": "en",
+            "text": "No"
+          }
+        },
+        {
+          "id": "a1-c3-r2-1-c",
+          "text": {
+            "language": "en",
+            "text": "Not stated"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-r2-2",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-5",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "What does she usually do in the afternoon?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-r2-2-a",
+          "text": {
+            "language": "en",
+            "text": "Read"
+          }
+        },
+        {
+          "id": "a1-c3-r2-2-b",
+          "text": {
+            "language": "en",
+            "text": "Call her family"
+          }
+        },
+        {
+          "id": "a1-c3-r2-2-c",
+          "text": {
+            "language": "en",
+            "text": "Work"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-reading-group-2",
+      "revision": 1,
+      "type": "reading_comprehension",
+      "instructions": {
+        "en": "Answer with explicit evidence from the passage.",
+        "my": "စာပိုဒ်တွင် ဖော်ပြထားသော အချက်အလက်ဖြင့် ဖြေပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-5",
+          "revision": 1
+        }
+      ],
+      "stimulusRef": {
+        "kind": "stimulus",
+        "id": "a1-c3-reading-stimulus-2",
+        "revision": 1
+      },
+      "itemRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c3-r2-1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c3-r2-2",
+          "revision": 1
+        }
+      ],
+      "assistance": "practice_with_support"
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-k1",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "She ___ work at nine."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-k1-a",
+          "text": {
+            "language": "en",
+            "text": "start"
+          }
+        },
+        {
+          "id": "a1-c3-k1-b",
+          "text": {
+            "language": "en",
+            "text": "starts"
+          }
+        },
+        {
+          "id": "a1-c3-k1-c",
+          "text": {
+            "language": "en",
+            "text": "starting"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-k2",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "I ___ from home."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-k2-a",
+          "text": {
+            "language": "en",
+            "text": "works"
+          }
+        },
+        {
+          "id": "a1-c3-k2-b",
+          "text": {
+            "language": "en",
+            "text": "working"
+          }
+        },
+        {
+          "id": "a1-c3-k2-c",
+          "text": {
+            "language": "en",
+            "text": "work"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-k3",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "He ___ work on Sunday."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-k3-a",
+          "text": {
+            "language": "en",
+            "text": "doesn’t"
+          }
+        },
+        {
+          "id": "a1-c3-k3-b",
+          "text": {
+            "language": "en",
+            "text": "don’t"
+          }
+        },
+        {
+          "id": "a1-c3-k3-c",
+          "text": {
+            "language": "en",
+            "text": "isn’t"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-k4",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "She doesn’t ___ on Friday."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-k4-a",
+          "text": {
+            "language": "en",
+            "text": "works"
+          }
+        },
+        {
+          "id": "a1-c3-k4-b",
+          "text": {
+            "language": "en",
+            "text": "work"
+          }
+        },
+        {
+          "id": "a1-c3-k4-c",
+          "text": {
+            "language": "en",
+            "text": "working"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-k5",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "___ you study English?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-k5-a",
+          "text": {
+            "language": "en",
+            "text": "Do"
+          }
+        },
+        {
+          "id": "a1-c3-k5-b",
+          "text": {
+            "language": "en",
+            "text": "Does"
+          }
+        },
+        {
+          "id": "a1-c3-k5-c",
+          "text": {
+            "language": "en",
+            "text": "Are"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-k6",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "___ he go to the office?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-k6-a",
+          "text": {
+            "language": "en",
+            "text": "Do"
+          }
+        },
+        {
+          "id": "a1-c3-k6-b",
+          "text": {
+            "language": "en",
+            "text": "Is"
+          }
+        },
+        {
+          "id": "a1-c3-k6-c",
+          "text": {
+            "language": "en",
+            "text": "Does"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-k7",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "I start ___ 10:00."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-k7-a",
+          "text": {
+            "language": "en",
+            "text": "on"
+          }
+        },
+        {
+          "id": "a1-c3-k7-b",
+          "text": {
+            "language": "en",
+            "text": "at"
+          }
+        },
+        {
+          "id": "a1-c3-k7-c",
+          "text": {
+            "language": "en",
+            "text": "in"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-k8",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "We meet ___ Monday."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-k8-a",
+          "text": {
+            "language": "en",
+            "text": "on"
+          }
+        },
+        {
+          "id": "a1-c3-k8-b",
+          "text": {
+            "language": "en",
+            "text": "in"
+          }
+        },
+        {
+          "id": "a1-c3-k8-c",
+          "text": {
+            "language": "en",
+            "text": "at"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-k9",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "I work ___ the morning."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-k9-a",
+          "text": {
+            "language": "en",
+            "text": "at"
+          }
+        },
+        {
+          "id": "a1-c3-k9-b",
+          "text": {
+            "language": "en",
+            "text": "on"
+          }
+        },
+        {
+          "id": "a1-c3-k9-c",
+          "text": {
+            "language": "en",
+            "text": "in"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-k10",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Choose the sentence with the usual neutral placement of usually after be."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-k10-a",
+          "text": {
+            "language": "en",
+            "text": "She usually is late."
+          }
+        },
+        {
+          "id": "a1-c3-k10-b",
+          "text": {
+            "language": "en",
+            "text": "She is usually late."
+          }
+        },
+        {
+          "id": "a1-c3-k10-c",
+          "text": {
+            "language": "en",
+            "text": "She late usually is."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-k11",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "My friend ___ English every day."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-k11-a",
+          "text": {
+            "language": "en",
+            "text": "studies"
+          }
+        },
+        {
+          "id": "a1-c3-k11-b",
+          "text": {
+            "language": "en",
+            "text": "study"
+          }
+        },
+        {
+          "id": "a1-c3-k11-c",
+          "text": {
+            "language": "en",
+            "text": "studys"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c3-k12",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Supported formative practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c3-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Do you work on Sunday? No, I ___."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c3-k12-a",
+          "text": {
+            "language": "en",
+            "text": "doesn’t"
+          }
+        },
+        {
+          "id": "a1-c3-k12-b",
+          "text": {
+            "language": "en",
+            "text": "don’t"
+          }
+        },
+        {
+          "id": "a1-c3-k12-c",
+          "text": {
+            "language": "en",
+            "text": "am not"
+          }
+        }
+      ]
+    }
+  ],
+  "assessments": [],
+  "stimuli": [
+    {
+      "kind": "stimulus",
+      "id": "a1-c2-reading-stimulus-1",
+      "revision": 1,
+      "type": "reading",
+      "passage": {
+        "language": "en",
+        "text": "My name is Min. I live in Yokohama. I have one sister and one brother. My sister is a student. My brother is a designer. I work as a web developer. I have a laptop, and my colleagues have laptops too."
+      },
+      "sourceAttribution": "A1 Chapter 2 Full Lesson Pack · Passage 1"
+    },
+    {
+      "kind": "stimulus",
+      "id": "a1-c2-reading-stimulus-2",
+      "revision": 1,
+      "type": "reading",
+      "passage": {
+        "language": "en",
+        "text": "This is Hana. She is a new colleague. She is kind and friendly. Her desk is next to my desk. She has two notebooks and one phone. We work on the same team."
+      },
+      "sourceAttribution": "A1 Chapter 2 Full Lesson Pack · Passage 2"
+    },
+    {
+      "kind": "stimulus",
+      "id": "a1-c3-reading-stimulus-1",
+      "revision": 1,
+      "type": "reading",
+      "passage": {
+        "language": "en",
+        "text": "I am Lin. I work as a front-end developer in Japan. I start work at 10:00 a.m. I usually work from home. At noon, I eat lunch. I have a short team meeting at 2:00 p.m. I finish at 7:00 p.m. I sometimes study English after dinner."
+      },
+      "sourceAttribution": "A1 Chapter 3 Full Lesson Pack · Passage 1"
+    },
+    {
+      "kind": "stimulus",
+      "id": "a1-c3-reading-stimulus-2",
+      "revision": 1,
+      "type": "reading",
+      "passage": {
+        "language": "en",
+        "text": "On Saturdays, Mika wakes up at eight. She eats breakfast and goes to a language class at ten. She does not work on Saturday. She usually reads in the afternoon and calls her family in the evening."
+      },
+      "sourceAttribution": "A1 Chapter 3 Full Lesson Pack · Passage 2"
+    }
+  ],
+  "transcripts": [],
+  "assets": []
+}

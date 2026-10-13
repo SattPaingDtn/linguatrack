@@ -1,0 +1,146 @@
+{
+  "number": 6,
+  "chapterId": "a1-chapter-6",
+  "slug": "work-study",
+  "sourceFile": "content-authoring/A1_Chapter_06_Full_Lesson_Pack.md",
+  "sourceSha256": "01c73d1aa69221af5f49d09b80320ecefc585e5e651383429e58402100f664e1",
+  "audioStatus": "awaiting_audio",
+  "lessonIds": [
+    "a1-c6-work-words",
+    "a1-c6-can-and-requests",
+    "a1-c6-work-scripts",
+    "a1-c6-talk-about-work",
+    "a1-c6-my-workday",
+    "a1-c6-write-a-work-update",
+    "a1-c6-review"
+  ],
+  "questions": [
+    {
+      "sourceId": "L1-1",
+      "exerciseId": "a1-c6-l1-1",
+      "lessonId": "a1-c6-work-scripts",
+      "mode": "awaiting_audio"
+    },
+    {
+      "sourceId": "L1-2",
+      "exerciseId": "a1-c6-l1-2",
+      "lessonId": "a1-c6-work-scripts",
+      "mode": "awaiting_audio"
+    },
+    {
+      "sourceId": "L2-1",
+      "exerciseId": "a1-c6-l2-1",
+      "lessonId": "a1-c6-work-scripts",
+      "mode": "awaiting_audio"
+    },
+    {
+      "sourceId": "L2-2",
+      "exerciseId": "a1-c6-l2-2",
+      "lessonId": "a1-c6-work-scripts",
+      "mode": "awaiting_audio"
+    },
+    {
+      "sourceId": "R1",
+      "exerciseId": "a1-c6-r1",
+      "lessonId": "a1-c6-my-workday",
+      "mode": "self_review"
+    },
+    {
+      "sourceId": "R2",
+      "exerciseId": "a1-c6-r2",
+      "lessonId": "a1-c6-my-workday",
+      "mode": "self_review"
+    },
+    {
+      "sourceId": "R3",
+      "exerciseId": "a1-c6-r3",
+      "lessonId": "a1-c6-my-workday",
+      "mode": "self_review"
+    },
+    {
+      "sourceId": "R4",
+      "exerciseId": "a1-c6-r4",
+      "lessonId": "a1-c6-my-workday",
+      "mode": "self_review"
+    },
+    {
+      "sourceId": "R5",
+      "exerciseId": "a1-c6-r5",
+      "lessonId": "a1-c6-my-workday",
+      "mode": "self_review"
+    },
+    {
+      "sourceId": "K1",
+      "exerciseId": "a1-c6-k1",
+      "lessonId": "a1-c6-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K2",
+      "exerciseId": "a1-c6-k2",
+      "lessonId": "a1-c6-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K3",
+      "exerciseId": "a1-c6-k3",
+      "lessonId": "a1-c6-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K4",
+      "exerciseId": "a1-c6-k4",
+      "lessonId": "a1-c6-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K5",
+      "exerciseId": "a1-c6-k5",
+      "lessonId": "a1-c6-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K6",
+      "exerciseId": "a1-c6-k6",
+      "lessonId": "a1-c6-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K7",
+      "exerciseId": "a1-c6-k7",
+      "lessonId": "a1-c6-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K8",
+      "exerciseId": "a1-c6-k8",
+      "lessonId": "a1-c6-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K9",
+      "exerciseId": "a1-c6-k9",
+      "lessonId": "a1-c6-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K10",
+      "exerciseId": "a1-c6-k10",
+      "lessonId": "a1-c6-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K11",
+      "exerciseId": "a1-c6-k11",
+      "lessonId": "a1-c6-review",
+      "mode": "recognition"
+    },
+    {
+      "sourceId": "K12",
+      "exerciseId": "a1-c6-k12",
+      "lessonId": "a1-c6-review",
+      "mode": "recognition"
+    }
+  ],
+  "reviewStatus": "pending"
+}

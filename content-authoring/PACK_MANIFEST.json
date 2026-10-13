@@ -1,0 +1,31 @@
+{
+  "name": "LinguaTrack A1 Chapters 4–6 editorial pack",
+  "chapters": [
+    {
+      "number": 4,
+      "title": "Home & Neighborhood",
+      "lessonSections": 7,
+      "mcqCount": 12,
+      "listeningScripts": 2,
+      "readingQuestions": 5
+    },
+    {
+      "number": 5,
+      "title": "Food, Drinks & Shopping",
+      "lessonSections": 7,
+      "mcqCount": 12,
+      "listeningScripts": 2,
+      "readingQuestions": 5
+    },
+    {
+      "number": 6,
+      "title": "Work & Study",
+      "lessonSections": 7,
+      "mcqCount": 12,
+      "listeningScripts": 2,
+      "readingQuestions": 5
+    }
+  ],
+  "status": "original editorial Markdown, not validated curriculum v2 releases",
+  "source_blueprint": "A1_12_Chapter_Curriculum_Blueprint.json"
+}

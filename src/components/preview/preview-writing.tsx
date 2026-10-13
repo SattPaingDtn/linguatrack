@@ -3,7 +3,15 @@ import { useState } from "react";
 import type { PreviewBlock } from "@/lib/curriculum/preview/contracts";
 import { BilingualText } from "./bilingual-text";
 
-export function PreviewWriting({ block }: { block: Extract<PreviewBlock, { type: "writing" }> }) {
+export function PreviewWriting({
+  block,
+  label = "Your two sentences",
+  revealAfterWriting = false,
+}: {
+  block: Extract<PreviewBlock, { type: "writing" }>;
+  label?: string;
+  revealAfterWriting?: boolean;
+}) {
   const [draft, setDraft] = useState("");
   const id = `${block.id}-draft`;
   const words = draft.trim() ? draft.trim().split(/\s+/).length : 0;
@@ -13,7 +21,7 @@ export function PreviewWriting({ block }: { block: Extract<PreviewBlock, { type:
       <div className="mt-6 grid gap-5 lg:grid-cols-2">
         <div className="min-w-0 rounded-xl border bg-background p-4">
           <label htmlFor={id} className="mb-3 block text-base font-semibold">
-            Your two sentences
+            {label}
           </label>
           <textarea
             id={id}
@@ -35,18 +43,27 @@ export function PreviewWriting({ block }: { block: Extract<PreviewBlock, { type:
             အလိုအလျောက် အမှတ်ပေးခြင်း မရှိပါ။ စာမျက်နှာကို ပြန်ဖွင့်လျှင် ပျောက်သွားပါမည်။
           </p>
         </div>
-        <details open className="min-w-0 self-start rounded-xl border bg-background px-4">
-          <summary className="text-base font-semibold">Compare with an example</summary>
-          <div className="border-t pb-4 pt-4">
-            <p className="mb-4 whitespace-pre-line rounded-lg bg-white p-4 text-lg leading-8">
-              {block.modelAnswer.text}
-            </p>
-            <BilingualText
-              en="This is an example, not the only possible answer. Compare your subject, verb and word order with the model."
-              my="ဤဝါကျများသည် ဥပမာသာ ဖြစ်ပြီး ဖြစ်နိုင်သော အဖြေအားလုံး မဟုတ်ပါ။ သင်ရေးထားသော ဝါကျ၏ ကတ္တား၊ ကြိယာနှင့် စကားလုံးအစီအစဉ်ကို ဥပမာနှင့် ယှဉ်ကြည့်ပါ။"
-            />
-          </div>
-        </details>
+        {!revealAfterWriting || draft.trim() ? (
+          <details
+            open={!revealAfterWriting}
+            className="min-w-0 self-start rounded-xl border bg-background px-4"
+          >
+            <summary className="text-base font-semibold">Compare with an example</summary>
+            <div className="border-t pb-4 pt-4">
+              <p className="mb-4 whitespace-pre-line rounded-lg bg-white p-4 text-lg leading-8">
+                {block.modelAnswer.text}
+              </p>
+              <BilingualText
+                en="This is an example, not the only possible answer. Compare your subject, verb and word order with the model."
+                my="ဤဝါကျများသည် ဥပမာသာ ဖြစ်ပြီး ဖြစ်နိုင်သော အဖြေအားလုံး မဟုတ်ပါ။ သင်ရေးထားသော ဝါကျ၏ ကတ္တား၊ ကြိယာနှင့် စကားလုံးအစီအစဉ်ကို ဥပမာနှင့် ယှဉ်ကြည့်ပါ။"
+              />
+            </div>
+          </details>
+        ) : (
+          <p className="rounded-xl border bg-background p-4 leading-7">
+            Write your own draft first. Then open the example for comparison.
+          </p>
+        )}
       </div>
     </>
   );

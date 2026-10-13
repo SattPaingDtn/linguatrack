@@ -1,0 +1,332 @@
+{
+  "sourceFile": "content-authoring/A1_Chapter_01_Full_Lesson_Pack.md",
+  "sourceSha256": "f4754519aea27855b3c6d48c403b5924e68d27a0857d2f5b9553fa58160507dc",
+  "sourceQuestionCount": 41,
+  "lessonAssignments": {
+    "a1-c1-introductions": {
+      "blockIds": [
+        "a1-c1-pack-greetings-context",
+        "a1-c1-pack-greetings-vocabulary",
+        "a1-c1-pack-greetings-dialogue",
+        "a1-c1-pack-greetings-production",
+        "a1-c1-pack-v-practice"
+      ],
+      "objectiveIds": ["a1-c1-pack-objective-v"]
+    },
+    "a1-c1-be": {
+      "blockIds": [
+        "a1-c1-pack-grammar-sentence-patterns",
+        "a1-c1-pack-grammar-pronoun-table",
+        "a1-c1-pack-grammar-articles-questions",
+        "a1-c1-pack-grammar-repair",
+        "a1-c1-pack-grammar-production",
+        "a1-c1-pack-g-practice"
+      ],
+      "objectiveIds": ["a1-c1-pack-objective-g"]
+    },
+    "a1-c1-meet-colleagues": {
+      "blockIds": [
+        "a1-c1-pack-audio-awaiting",
+        "a1-c1-pack-script-first-day",
+        "a1-c1-pack-script-personal-introduction",
+        "a1-c1-pack-l-practice"
+      ],
+      "objectiveIds": ["a1-c1-pack-objective-l"]
+    },
+    "a1-c1-speaking-at-work": {
+      "blockIds": [
+        "a1-c1-pack-speaking-patterns",
+        "a1-c1-pack-speaking-s1",
+        "a1-c1-pack-speaking-s2",
+        "a1-c1-pack-speaking-s3"
+      ],
+      "objectiveIds": ["a1-c1-pack-objective-s"]
+    },
+    "a1-c1-new-team": {
+      "blockIds": [
+        "a1-c1-pack-reading-passage-a",
+        "a1-c1-pack-reading-passage-b",
+        "a1-c1-pack-reading-strategy",
+        "a1-c1-pack-r-practice"
+      ],
+      "objectiveIds": ["a1-c1-pack-objective-r"]
+    },
+    "a1-c1-professional-introduction": {
+      "blockIds": [
+        "a1-c1-pack-writing-build",
+        "a1-c1-pack-writing-guided",
+        "a1-c1-pack-writing-first-draft",
+        "a1-c1-pack-writing-edit",
+        "a1-c1-pack-writing-second-draft"
+      ],
+      "objectiveIds": ["a1-c1-pack-objective-w"]
+    },
+    "a1-c1-check": {
+      "blockIds": [
+        "a1-c1-pack-review-blueprint",
+        "a1-c1-pack-review-speaking",
+        "a1-c1-pack-review-writing",
+        "a1-c1-pack-t-practice"
+      ],
+      "objectiveIds": ["a1-c1-pack-objective-t"]
+    }
+  },
+  "questions": [
+    {
+      "sourceId": "V1",
+      "exerciseId": "a1-c1-pack-v01",
+      "lessonId": "a1-c1-introductions",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "V2",
+      "exerciseId": "a1-c1-pack-v02",
+      "lessonId": "a1-c1-introductions",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "V3",
+      "exerciseId": "a1-c1-pack-v03",
+      "lessonId": "a1-c1-introductions",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "V4",
+      "exerciseId": "a1-c1-pack-v04",
+      "lessonId": "a1-c1-introductions",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "V5",
+      "exerciseId": "a1-c1-pack-v05",
+      "lessonId": "a1-c1-introductions",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "G1",
+      "exerciseId": "a1-c1-pack-g01",
+      "lessonId": "a1-c1-be",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "G2",
+      "exerciseId": "a1-c1-pack-g02",
+      "lessonId": "a1-c1-be",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "G3",
+      "exerciseId": "a1-c1-pack-g03",
+      "lessonId": "a1-c1-be",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "G4",
+      "exerciseId": "a1-c1-pack-g04",
+      "lessonId": "a1-c1-be",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "G5",
+      "exerciseId": "a1-c1-pack-g05",
+      "lessonId": "a1-c1-be",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "G6",
+      "exerciseId": "a1-c1-pack-g06",
+      "lessonId": "a1-c1-be",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "G7",
+      "exerciseId": "a1-c1-pack-g07",
+      "lessonId": "a1-c1-be",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "G8",
+      "exerciseId": "a1-c1-pack-g08",
+      "lessonId": "a1-c1-be",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "G9",
+      "exerciseId": "a1-c1-pack-g09",
+      "lessonId": "a1-c1-be",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "G10",
+      "exerciseId": "a1-c1-pack-g10",
+      "lessonId": "a1-c1-be",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "L1",
+      "exerciseId": "a1-c1-pack-l01",
+      "lessonId": "a1-c1-meet-colleagues",
+      "awaitingAudio": true
+    },
+    {
+      "sourceId": "L2",
+      "exerciseId": "a1-c1-pack-l02",
+      "lessonId": "a1-c1-meet-colleagues",
+      "awaitingAudio": true
+    },
+    {
+      "sourceId": "L3",
+      "exerciseId": "a1-c1-pack-l03",
+      "lessonId": "a1-c1-meet-colleagues",
+      "awaitingAudio": true
+    },
+    {
+      "sourceId": "L4",
+      "exerciseId": "a1-c1-pack-l04",
+      "lessonId": "a1-c1-meet-colleagues",
+      "awaitingAudio": true
+    },
+    {
+      "sourceId": "L5",
+      "exerciseId": "a1-c1-pack-l05",
+      "lessonId": "a1-c1-meet-colleagues",
+      "awaitingAudio": true
+    },
+    {
+      "sourceId": "L6",
+      "exerciseId": "a1-c1-pack-l06",
+      "lessonId": "a1-c1-meet-colleagues",
+      "awaitingAudio": true
+    },
+    {
+      "sourceId": "L7",
+      "exerciseId": "a1-c1-pack-l07",
+      "lessonId": "a1-c1-meet-colleagues",
+      "awaitingAudio": true
+    },
+    {
+      "sourceId": "L8",
+      "exerciseId": "a1-c1-pack-l08",
+      "lessonId": "a1-c1-meet-colleagues",
+      "awaitingAudio": true
+    },
+    {
+      "sourceId": "R1",
+      "exerciseId": "a1-c1-pack-r01",
+      "lessonId": "a1-c1-new-team",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "R2",
+      "exerciseId": "a1-c1-pack-r02",
+      "lessonId": "a1-c1-new-team",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "R3",
+      "exerciseId": "a1-c1-pack-r03",
+      "lessonId": "a1-c1-new-team",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "R4",
+      "exerciseId": "a1-c1-pack-r04",
+      "lessonId": "a1-c1-new-team",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "R5",
+      "exerciseId": "a1-c1-pack-r05",
+      "lessonId": "a1-c1-new-team",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "R6",
+      "exerciseId": "a1-c1-pack-r06",
+      "lessonId": "a1-c1-new-team",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "R7",
+      "exerciseId": "a1-c1-pack-r07",
+      "lessonId": "a1-c1-new-team",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "R8",
+      "exerciseId": "a1-c1-pack-r08",
+      "lessonId": "a1-c1-new-team",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "T1",
+      "exerciseId": "a1-c1-pack-t01",
+      "lessonId": "a1-c1-check",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "T2",
+      "exerciseId": "a1-c1-pack-t02",
+      "lessonId": "a1-c1-check",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "T3",
+      "exerciseId": "a1-c1-pack-t03",
+      "lessonId": "a1-c1-check",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "T4",
+      "exerciseId": "a1-c1-pack-t04",
+      "lessonId": "a1-c1-check",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "T5",
+      "exerciseId": "a1-c1-pack-t05",
+      "lessonId": "a1-c1-check",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "T6",
+      "exerciseId": "a1-c1-pack-t06",
+      "lessonId": "a1-c1-check",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "T7",
+      "exerciseId": "a1-c1-pack-t07",
+      "lessonId": "a1-c1-check",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "T8",
+      "exerciseId": "a1-c1-pack-t08",
+      "lessonId": "a1-c1-check",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "T9",
+      "exerciseId": "a1-c1-pack-t09",
+      "lessonId": "a1-c1-check",
+      "awaitingAudio": false
+    },
+    {
+      "sourceId": "T10",
+      "exerciseId": "a1-c1-pack-t10",
+      "lessonId": "a1-c1-check",
+      "awaitingAudio": false
+    }
+  ],
+  "pedagogicalOrder": [
+    "a1-c1-introductions",
+    "a1-c1-be",
+    "a1-c1-meet-colleagues",
+    "a1-c1-speaking-at-work",
+    "a1-c1-new-team",
+    "a1-c1-professional-introduction",
+    "a1-c1-check"
+  ],
+  "supplementaryLessonId": "a1-c1-subject-pronouns"
+}

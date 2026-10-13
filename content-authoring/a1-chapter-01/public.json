@@ -1,0 +1,3931 @@
+{
+  "courses": [],
+  "chapters": [],
+  "lessons": [
+    {
+      "kind": "lesson",
+      "id": "a1-c1-meet-colleagues",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-1",
+        "revision": 1
+      },
+      "slug": "meet-the-new-colleague",
+      "title": {
+        "en": "Meet the new colleague · awaiting audio",
+        "my": "လုပ်ဖော်ကိုင်ဖက်အသစ်နှင့် တွေ့ဆုံခြင်း · အသံဖိုင် စောင့်ဆိုင်းဆဲ"
+      },
+      "description": {
+        "en": "Two scripts and eight planned questions. Audio-dependent checks are unavailable.",
+        "my": "စာသား နှစ်ပုဒ်နှင့် မေးခွန်း ရှစ်ခု ပါဝင်သည်။ အသံဖိုင် မရှိသေးသဖြင့် အဖြေစစ်ဆေးခြင်း မရနိုင်သေးပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-l",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c1-pack-audio-awaiting",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c1-pack-script-first-day",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c1-pack-script-personal-introduction",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c1-pack-l-practice",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c1-speaking-at-work",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-1",
+        "revision": 1
+      },
+      "slug": "introduce-yourself-at-work",
+      "title": {
+        "en": "Introduce yourself at work",
+        "my": "အလုပ်ခွင်၌ ကိုယ့်ကိုယ်ကို မိတ်ဆက်ခြင်း"
+      },
+      "description": {
+        "en": "Practise a short introduction, role-play and repairs aloud. Unsaved and ungraded.",
+        "my": "မိတ်ဆက်စကားတို၊ အပြန်အလှန် စကားပြောခြင်းနှင့် အမှားပြင်ခြင်းကို အသံထွက် လေ့ကျင့်ပါ။ မသိမ်းဆည်းပါ၊ အမှတ်မပေးပါ။"
+      },
+      "tags": {
+        "areas": ["speaking"],
+        "coreSkills": ["speaking"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 35
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-s",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c1-pack-speaking-patterns",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c1-pack-speaking-s1",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c1-pack-speaking-s2",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c1-pack-speaking-s3",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c1-new-team",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-1",
+        "revision": 1
+      },
+      "slug": "our-new-team-members",
+      "title": {
+        "en": "Our new team members",
+        "my": "ကျွန်ုပ်တို့၏ အဖွဲ့ဝင်အသစ်များ"
+      },
+      "description": {
+        "en": "Read two short introductions and find explicitly stated facts. Supported practice only.",
+        "my": "မိတ်ဆက်စာတို နှစ်ပုဒ်ကို ဖတ်ပြီး ဖော်ပြထားသော အချက်အလက်များကို ရှာပါ။ အကူအညီပါသော လေ့ကျင့်မှုသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 25
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-r",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c1-pack-reading-passage-a",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c1-pack-reading-passage-b",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c1-pack-reading-strategy",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c1-pack-r-practice",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c1-professional-introduction",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-1",
+        "revision": 1
+      },
+      "slug": "my-first-professional-introduction",
+      "title": {
+        "en": "My first professional introduction",
+        "my": "ကျွန်ုပ်၏ ပထမဆုံး အလုပ်ခွင်မိတ်ဆက်စာ"
+      },
+      "description": {
+        "en": "Build 5–7 short sentences, check them and rewrite. Unsaved and ungraded.",
+        "my": "ဝါကျတို ၅–၇ ကြောင်း ရေးပြီး စစ်ဆေးကာ ပြန်ရေးပါ။ မသိမ်းဆည်းပါ၊ အမှတ်မပေးပါ။"
+      },
+      "tags": {
+        "areas": ["writing"],
+        "coreSkills": ["writing"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 35
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-w",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c1-pack-writing-build",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c1-pack-writing-guided",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c1-pack-writing-first-draft",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c1-pack-writing-edit",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c1-pack-writing-second-draft",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-greetings-context",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-introductions",
+        "revision": 1
+      },
+      "title": {
+        "en": "Greetings for different situations",
+        "my": "အခြေအနေနှင့် လိုက်ဖက်သော နှုတ်ဆက်စကား"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "In English, greetings depend on the situation. Hi and Hello are both common. Good morning is a polite greeting in the morning. Nice to meet you is useful when you meet a person for the first time. I'm means I am. I'm a developer requires a before the singular job noun.",
+        "my": "လူသစ်နှင့် တွေ့သည့်အခါ Hello / Hi ဟု နှုတ်ဆက်နိုင်သည်။ မနက်ပိုင်းတွင် Good morning ဟု ပြောနိုင်သည်။ ပထမဆုံး တွေ့သည့်အခါ Nice to meet you (တွေ့ရတာ ဝမ်းသာပါတယ်) ဟု ပြောပါ။ I'm သည် I am ၏ အတိုကောက် ဖြစ်သည်။ I'm a developer တွင် အနည်းကိန်း အလုပ်အကိုင်နာမ်ရှေ့၌ a လိုသည်။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-greetings-vocabulary",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-introductions",
+        "revision": 1
+      },
+      "title": {
+        "en": "Useful words · British pronunciation guide",
+        "my": "အသုံးဝင်သော စကားလုံးများ · ဗြိတိသျှ အသံထွက် လမ်းညွှန်"
+      },
+      "type": "vocabulary",
+      "words": [
+        {
+          "word": "Hello / Hi",
+          "pronunciation": "/həˈləʊ/ · /haɪ/",
+          "meaning": {
+            "en": "Hello / Hi",
+            "my": "မင်္ဂလာပါ / ဟိုင်း"
+          },
+          "example": {
+            "language": "en",
+            "text": "Hello, I'm Min."
+          }
+        },
+        {
+          "word": "Good morning",
+          "pronunciation": "/ɡʊd ˈmɔːnɪŋ/",
+          "meaning": {
+            "en": "Good morning",
+            "my": "မင်္ဂလာနံနက်ခင်းပါ"
+          },
+          "example": {
+            "language": "en",
+            "text": "Good morning, Aye."
+          }
+        },
+        {
+          "word": "Nice to meet you",
+          "pronunciation": "/naɪs tə miːt juː/",
+          "meaning": {
+            "en": "Nice to meet you",
+            "my": "တွေ့ရတာ ဝမ်းသာပါတယ်"
+          },
+          "example": {
+            "language": "en",
+            "text": "Nice to meet you, too."
+          }
+        },
+        {
+          "word": "My name is...",
+          "pronunciation": "/maɪ neɪm ɪz/",
+          "meaning": {
+            "en": "My name is...",
+            "my": "ကျွန်တော့်/ကျွန်မ နာမည်က…"
+          },
+          "example": {
+            "language": "en",
+            "text": "My name is Su."
+          }
+        },
+        {
+          "word": "I'm...",
+          "pronunciation": "/aɪm/",
+          "meaning": {
+            "en": "I'm...",
+            "my": "ကျွန်တော်/ကျွန်မက…"
+          },
+          "example": {
+            "language": "en",
+            "text": "I'm a developer."
+          }
+        },
+        {
+          "word": "from",
+          "pronunciation": "/frɒm/",
+          "meaning": {
+            "en": "from a place",
+            "my": "…က လာတာ / …က ဖြစ်တာ"
+          },
+          "example": {
+            "language": "en",
+            "text": "I'm from Myanmar."
+          }
+        },
+        {
+          "word": "work",
+          "pronunciation": "/wɜːk/",
+          "meaning": {
+            "en": "do a job",
+            "my": "အလုပ်လုပ်သည်"
+          },
+          "example": {
+            "language": "en",
+            "text": "I work in Tokyo."
+          }
+        },
+        {
+          "word": "a developer",
+          "pronunciation": "/ə dɪˈveləpə/",
+          "meaning": {
+            "en": "a developer",
+            "my": "ဆော့ဖ်ဝဲ/ဝဘ်ရေးသူ"
+          },
+          "example": {
+            "language": "en",
+            "text": "I am a developer."
+          }
+        },
+        {
+          "word": "a designer",
+          "pronunciation": "/ə dɪˈzaɪnə/",
+          "meaning": {
+            "en": "a designer",
+            "my": "ဒီဇိုင်နာ"
+          },
+          "example": {
+            "language": "en",
+            "text": "She is a designer."
+          }
+        },
+        {
+          "word": "a manager",
+          "pronunciation": "/ə ˈmænɪdʒə/",
+          "meaning": {
+            "en": "a manager",
+            "my": "မန်နေဂျာ"
+          },
+          "example": {
+            "language": "en",
+            "text": "He is a manager."
+          }
+        },
+        {
+          "word": "colleague",
+          "pronunciation": "/ˈkɒliːɡ/",
+          "meaning": {
+            "en": "a person you work with",
+            "my": "လုပ်ဖော်ကိုင်ဖက်"
+          },
+          "example": {
+            "language": "en",
+            "text": "She is my colleague."
+          }
+        },
+        {
+          "word": "Goodbye / See you",
+          "pronunciation": "/ɡʊdˈbaɪ/ · /siː juː/",
+          "meaning": {
+            "en": "Goodbye / See you",
+            "my": "နုတ်ဆက်ပါတယ် / နောက်မှတွေ့မယ်"
+          },
+          "example": {
+            "language": "en",
+            "text": "See you tomorrow."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-greetings-dialogue",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-introductions",
+        "revision": 1
+      },
+      "title": {
+        "en": "A first meeting",
+        "my": "ပထမဆုံး တွေ့ဆုံခြင်း"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "A: Hello! I'm Min. What's your name?\nB: Hi, Min. My name is Su.\nA: Nice to meet you, Su.\nB: Nice to meet you, too.",
+        "my": "ကိုယ့်နာမည် ပြောပြီး တစ်ဖက်လူ၏ နာမည်ကို မေးသည်။ ပထမဆုံး တွေ့၍ ဝမ်းသာကြောင်း ပြောသည်။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-greetings-production",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-introductions",
+        "revision": 1
+      },
+      "title": {
+        "en": "Say your introduction",
+        "my": "မိတ်ဆက်စကား ပြောကြည့်ပါ"
+      },
+      "type": "speaking",
+      "prompt": {
+        "en": "Say aloud using your own information. This is ungraded self-practice.",
+        "my": "ကိုယ့်အချက်အလက်များကို ဖြည့်ပြီး အသံထွက် ပြောပါ။ အမှတ်မပေးသော ကိုယ်တိုင်လေ့ကျင့်မှု ဖြစ်သည်။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Hello. My name is ____. I'm from ____. I'm a ____. Nice to meet you."
+      },
+      "checklist": [
+        {
+          "language": "en",
+          "text": "Say your name."
+        },
+        {
+          "language": "en",
+          "text": "Say your country."
+        },
+        {
+          "language": "en",
+          "text": "Use a/an for your job."
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-grammar-sentence-patterns",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-be",
+        "revision": 1
+      },
+      "title": {
+        "en": "Subject, be and action verbs",
+        "my": "ကတ္တား၊ be နှင့် လုပ်ဆောင်မှုကြိယာ"
+      },
+      "type": "grammar",
+      "rule": {
+        "en": "Match the subject with be: I am; you/we/they are; he/she/it is. You takes are even for one person. A complement describes who someone is; an object receives an action. Not every sentence needs an object: I work. For present-simple actions use I write, but he/she writes; do not say I am write.",
+        "my": "ကတ္တားနှင့် ကိုက်ညီသော be ကို သုံးပါ။ I am၊ you/we/they are၊ he/she/it is ဟု မှတ်ပါ။ You က လူတစ်ယောက်ကို ရည်ညွှန်းသော်လည်း are ကို သုံးသည်။ Complement သည် ကတ္တား၏ အကြောင်းကို ဖြည့်ဖော်ပြသည်။ Object သည် လုပ်ဆောင်မှုခံရသော အရာ ဖြစ်သည်။ ဝါကျတိုင်း၌ Object မလိုပါ — I work. လည်း ပြည့်စုံသည်။ ပစ္စုပ္ပန်ရိုးရိုး လုပ်ဆောင်မှုအတွက် I write၊ he/she writes ဟု သုံးပါ။ I am write ဟု မသုံးပါနှင့်။"
+      },
+      "examples": [
+        {
+          "pattern": "Subject + Be + Complement",
+          "example": {
+            "language": "en",
+            "text": "She is a designer."
+          },
+          "translation": "သူမသည် ဒီဇိုင်နာတစ်ယောက် ဖြစ်သည်။"
+        },
+        {
+          "pattern": "Subject + Verb + Object",
+          "example": {
+            "language": "en",
+            "text": "I write code."
+          },
+          "translation": "ကျွန်တော်/ကျွန်မ ကုဒ်ရေးသည်။"
+        },
+        {
+          "pattern": "Subject + Verb",
+          "example": {
+            "language": "en",
+            "text": "I work."
+          },
+          "translation": "ကျွန်တော်/ကျွန်မ အလုပ်လုပ်သည်။"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-grammar-pronoun-table",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-be",
+        "revision": 1
+      },
+      "title": {
+        "en": "Subject pronouns with be",
+        "my": "ကတ္တားနာမ်စားများနှင့် be"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "Use the linked Subject pronouns and simple sentences lesson for guided pronoun practice.\nI am a developer. You are my colleague. He is a manager. She is a designer. It is a laptop. We are developers. They are students.",
+        "my": "နာမ်စားများကို အသေးစိတ် လေ့ကျင့်ရန် ဆက်စပ်ထားသော Subject pronouns and simple sentences သင်ခန်းစာကို ကြည့်ပါ။ I နှင့် am၊ you/we/they နှင့် are၊ he/she/it နှင့် is ကို တွဲသုံးပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-grammar-articles-questions",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-be",
+        "revision": 1
+      },
+      "title": {
+        "en": "One job and basic questions",
+        "my": "အလုပ်အကိုင်တစ်ခုနှင့် အခြေခံမေးခွန်းများ"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "Use a before a singular countable job noun and an before a vowel sound: a developer, an engineer, a manager.\nWhat is your name? — My name is Min.\nWhere are you from? — I'm from Myanmar.\nWhat do you do? — I'm a web developer.\nAre you a designer? — No, I'm not. I'm a developer.\nWhat do you do? asks about a job here. What are you doing? asks about the action happening now.",
+        "my": "ရေတွက်နိုင်သော အနည်းကိန်း အလုပ်အကိုင်နာမ်ရှေ့တွင် a သို့မဟုတ် an သုံးပါ။ သရအသံနှင့် စလျှင် an သုံးသည် — an engineer။ What is your name? သည် နာမည်ကို မေးသည်။ Where are you from? သည် မည်သည့်နိုင်ငံမှ ဖြစ်သလဲဟု မေးသည်။ What do you do? သည် ဤအခြေအနေတွင် ဘာအလုပ်လုပ်သလဲဟု မေးခြင်း ဖြစ်သည်။ ယခု ဘာလုပ်နေသလဲဟု မေးသော What are you doing? နှင့် မတူပါ။ Are you a designer? ကို No, I'm not. I'm a developer. ဟု ပြန်ဖြေနိုင်သည်။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-grammar-repair",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-be",
+        "revision": 1
+      },
+      "title": {
+        "en": "Common mistakes",
+        "my": "အဖြစ်များသော အမှားများ"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "I is a developer. → I am a developer. (I + am)\nShe are a manager. → She is a manager. (she + is)\nI am developer. → I am a developer. (one job needs a)\nI from Myanmar. → I am from Myanmar. (use am)\nHe write code. → He writes code. (he + -s)\nI am write code. → I write code. (no am before the base present-simple action verb)",
+        "my": "I နှင့် am၊ she နှင့် is ကို တွဲသုံးပါ။ အနည်းကိန်း အလုပ်အကိုင်နာမ်ရှေ့တွင် a လိုသည်။ နိုင်ငံမှ ဖြစ်ကြောင်း ပြောသည့် I am from Myanmar တွင် am ကို မချန်ပါနှင့်။ ပစ္စုပ္ပန်ရိုးရိုး လုပ်ဆောင်မှု၌ he/she/it နောက်က ကြိယာတွင် -s ထည့်ပါ။ I write code တွင် am မလိုပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-grammar-production",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-be",
+        "revision": 1
+      },
+      "title": {
+        "en": "Three sentences about you",
+        "my": "ကိုယ့်အကြောင်း ဝါကျ သုံးကြောင်း"
+      },
+      "type": "writing",
+      "prompt": {
+        "en": "Write three sentences: I am…; I am from…; I + action verb + object. Use your own information.",
+        "my": "I am…၊ I am from…၊ I + လုပ်ဆောင်မှုကြိယာ + ကံ ပုံစံတို့ဖြင့် ကိုယ့်အကြောင်း ဝါကျ သုံးကြောင်း ရေးပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "I am a developer. I am from Myanmar. I write code."
+      },
+      "minWords": 8,
+      "maxWords": 50
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-audio-awaiting",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-meet-colleagues",
+        "revision": 1
+      },
+      "title": {
+        "en": "Audio is not available yet",
+        "my": "အသံဖိုင် မရရှိသေးပါ"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "Awaiting audio for these two scripts. No playback or listening answer checks are available. Reading the scripts is preparation only, not listening proficiency evidence. When audio is ready: listen twice without the transcript, answer, then replay with the transcript and repeat three phrases.",
+        "my": "ဤစာသား နှစ်ပုဒ်အတွက် အသံဖိုင် စောင့်ဆိုင်းနေဆဲ ဖြစ်သည်။ အသံဖွင့်ခြင်းနှင့် နားထောင်မေးခွန်း အဖြေစစ်ခြင်း မရနိုင်သေးပါ။ စာသားဖတ်ခြင်းသည် ကြိုတင်လေ့လာမှုသာ ဖြစ်ပြီး နားထောင်နားလည်နိုင်စွမ်း အထောက်အထား မဟုတ်ပါ။ အသံရရှိပါက စာသား မကြည့်ဘဲ နှစ်ခေါက် နားထောင်ပြီး မေးခွန်းဖြေပါ။ ထို့နောက် စာသားနှင့်အတူ ပြန်နားထောင်ကာ စကားစု သုံးခု အသံထွက် ပြောပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-script-first-day",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-meet-colleagues",
+        "revision": 1
+      },
+      "title": {
+        "en": "Script L1 · First day at work",
+        "my": "စာသား L1 · အလုပ်စဝင်သောနေ့"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "Min: Good morning. I'm Min. What's your name?\nAnna: Hi, Min. My name is Anna. Nice to meet you.\nMin: Nice to meet you, too. Are you a designer?\nAnna: No, I'm not. I'm a developer.\nMin: Great! I'm a developer, too.",
+        "my": "Min နှင့် Anna တို့ ပထမဆုံး တွေ့ပြီး နာမည်နှင့် အလုပ်အကိုင်ကို မေးပြောကြသည်။ Anna သည် developer ဖြစ်ပြီး Min လည်း developer ဖြစ်သည်။ ဤစာသားနှင့် ကိုက်ညီသော အသံဖိုင် မရှိသေးပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-script-personal-introduction",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-meet-colleagues",
+        "revision": 1
+      },
+      "title": {
+        "en": "Script L2 · A personal introduction",
+        "my": "စာသား L2 · ကိုယ့်ကိုယ်ကို မိတ်ဆက်ခြင်း"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "Su: Hello. My name is Su. I'm from Myanmar. I live in Japan. I work in Tokyo. I'm a web designer. My colleague Ken is a developer. We work together. Nice to meet you.",
+        "my": "Su သည် မြန်မာနိုင်ငံမှ ဖြစ်ပြီး ဂျပန်နိုင်ငံတွင် နေထိုင်သည်။ တိုကျို၌ အလုပ်လုပ်သော web designer ဖြစ်သည်။ သူ၏ လုပ်ဖော်ကိုင်ဖက် Ken သည် developer ဖြစ်သည်။ ဤစာသားအတွက် အသံဖိုင် မရှိသေးပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-speaking-patterns",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-speaking-at-work",
+        "revision": 1
+      },
+      "title": {
+        "en": "Useful speaking patterns",
+        "my": "ပြောဆိုရာတွင် အသုံးဝင်သော ပုံစံများ"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "Hello, my name is ____.\nI'm from ____.\nI live in ____.\nI'm a ____.\nI work in ____.\nNice to meet you.",
+        "my": "ကိုယ့်နာမည်၊ မည်သည့်နိုင်ငံမှ ဖြစ်သည်၊ မည်သည့်နေရာတွင် နေသည်၊ ဘာအလုပ်လုပ်သည်နှင့် မည်သည့်နေရာတွင် အလုပ်လုပ်သည်တို့ကို ပြောပါ။ Grammar မှားမည်ကို ကြောက်၍ မရပ်ပါနှင့်။ ပထမအကြိမ် အဆုံးအထိ ပြောပါ။ ဒုတိယအကြိမ်တွင် အမှား ၁–၂ ခု ပြင်ပါ။ ကိုယ်တိုင်စစ်ဆေးသည့် စာရင်းသည် CEFR Speaking အမှတ် မဟုတ်ပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-speaking-s1",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-speaking-at-work",
+        "revision": 1
+      },
+      "title": {
+        "en": "S1 · A short introduction",
+        "my": "S1 · မိတ်ဆက်စကားတို"
+      },
+      "type": "speaking",
+      "prompt": {
+        "en": "Say 4–6 short sentences in about 30 seconds.",
+        "my": "စက္ကန့် ၃၀ ခန့်အတွင်း ဝါကျတို ၄–၆ ကြောင်း ပြောပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Hello! My name is Min. I'm from Myanmar. I live in Japan. I'm a web developer. I work in Tokyo. Nice to meet you."
+      },
+      "checklist": [
+        {
+          "language": "en",
+          "text": "I said my name clearly."
+        },
+        {
+          "language": "en",
+          "text": "I said where I am from."
+        },
+        {
+          "language": "en",
+          "text": "I said my job using a/an correctly."
+        },
+        {
+          "language": "en",
+          "text": "I used am/is/are correctly in the prepared sentences."
+        },
+        {
+          "language": "en",
+          "text": "By the final try, I spoke without reading every word."
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-speaking-s2",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-speaking-at-work",
+        "revision": 1
+      },
+      "title": {
+        "en": "S2 · Role-play",
+        "my": "S2 · အပြန်အလှန် စကားပြောခြင်း"
+      },
+      "type": "speaking",
+      "prompt": {
+        "en": "Take two turns each. Switch roles and ask What do you do?",
+        "my": "တစ်ယောက်လျှင် နှစ်လှည့်စီ ပြောပါ။ အခန်းကဏ္ဍ လဲပြီး What do you do? ဟု အလုပ်အကိုင် မေးပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "A: Hello! What's your name?\nB: My name is ____. What's your name?\nA: I'm ____. Where are you from?\nB: I'm from ____. Nice to meet you."
+      },
+      "checklist": [
+        {
+          "language": "en",
+          "text": "Ask a name."
+        },
+        {
+          "language": "en",
+          "text": "Ask where your partner is from."
+        },
+        {
+          "language": "en",
+          "text": "Switch roles and ask about a job."
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-speaking-s3",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-speaking-at-work",
+        "revision": 1
+      },
+      "title": {
+        "en": "S3 · Repair a mistake aloud",
+        "my": "S3 · အမှားကို အသံထွက် ပြင်ပြောခြင်း"
+      },
+      "type": "speaking",
+      "prompt": {
+        "en": "Say each corrected sentence naturally three times.",
+        "my": "ပြင်ထားသော ဝါကျတစ်ကြောင်းစီကို သဘာဝကျကျ သုံးခေါက် ပြောပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "I is a developer. → I am a developer.\nShe are a manager. → She is a manager.\nI from Myanmar. → I am from Myanmar."
+      },
+      "checklist": [
+        {
+          "language": "en",
+          "text": "Use I am."
+        },
+        {
+          "language": "en",
+          "text": "Use she is."
+        },
+        {
+          "language": "en",
+          "text": "Include am before from."
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-reading-passage-a",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-new-team",
+        "revision": 1
+      },
+      "title": {
+        "en": "Passage A",
+        "my": "စာပိုဒ် A"
+      },
+      "type": "reading",
+      "stimulusRef": {
+        "kind": "stimulus",
+        "id": "a1-c1-pack-reading-a",
+        "revision": 1
+      },
+      "explanation": {
+        "en": "Read first. Open Burmese support after reading. This is supported practice, not an independent assessment.",
+        "my": "Maya သည် အိန္ဒိယနိုင်ငံမှ ဖြစ်ပြီး တိုကျိုတွင် နေသည်။ ဒီဇိုင်နာ ဖြစ်သည်။ Min နှင့် Ken ဟူသော developer နှစ်ယောက်နှင့် အလုပ်လုပ်သည်။ Min သည် မြန်မာနိုင်ငံမှ ဖြစ်ပြီး Ken သည် ဂျပန်နိုင်ငံမှ ဖြစ်သည်။ သူတို့သည် လုပ်ဖော်ကိုင်ဖက်များ ဖြစ်ပြီး ဝက်ဘ်ဆိုက်များကို အတူတူ လုပ်ကြသည်။"
+      }
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-reading-passage-b",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-new-team",
+        "revision": 1
+      },
+      "title": {
+        "en": "Passage B",
+        "my": "စာပိုဒ် B"
+      },
+      "type": "reading",
+      "stimulusRef": {
+        "kind": "stimulus",
+        "id": "a1-c1-pack-reading-b",
+        "revision": 1
+      },
+      "explanation": {
+        "en": "Read first. Open Burmese support after reading. This is supported practice, not an independent assessment.",
+        "my": "Ken သည် တိုကျို၌ အလုပ်လုပ်သော developer ဖြစ်သည်။ လုပ်ဖော်ကိုင်ဖက် Anna လည်း developer ဖြစ်သည်။ သူတို့၏ မန်နေဂျာမှာ Mr. Sato ဖြစ်ပြီး သဘောကောင်းသည်။ သူတို့သည် အဖွဲ့ငယ်တစ်ဖွဲ့ ဖြစ်သည်။"
+      }
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-reading-strategy",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-new-team",
+        "revision": 1
+      },
+      "title": {
+        "en": "Find explicit facts",
+        "my": "ရှင်းလင်းစွာ ဖော်ပြထားသော အချက်အလက်များကို ရှာပါ"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "Underline names, places, and jobs. Answer using only information clearly stated in the passage, not guesses.",
+        "my": "ဖတ်သည့်အခါ နာမည်၊ နေရာနှင့် အလုပ်အကိုင် စကားလုံးများကို ရှာပါ။ စာထဲတွင် မပါသော အချက်ကို ကိုယ့်ဘာသာ မခန့်မှန်းပါနှင့်။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-writing-build",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-professional-introduction",
+        "revision": 1
+      },
+      "title": {
+        "en": "Build a paragraph",
+        "my": "စာပိုဒ်တစ်ပိုဒ် ရေးပါ"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "Write 5–7 short sentences: What is your name? Where are you from? Where do you live? What do you do? Where do you work? (optional) What do you like? (optional) Add a polite closing.",
+        "my": "နာမည်၊ မည်သည့်နိုင်ငံမှ ဖြစ်သည်၊ မည်သည့်နေရာတွင် နေသည်နှင့် ဘာအလုပ်လုပ်သည်တို့ကို ဝါကျတို ၅–၇ ကြောင်းဖြင့် ရေးပါ။ အလုပ်လုပ်သည့်နေရာနှင့် နှစ်သက်သည့်အရာကို လိုလျှင် ထည့်ပါ။ ယဉ်ကျေးသော အဆုံးသတ်စကား ထည့်ပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-writing-guided",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-professional-introduction",
+        "revision": 1
+      },
+      "title": {
+        "en": "W1–W3 · Guided writing",
+        "my": "W1–W3 · လမ်းညွှန်ဖြင့် ရေးခြင်း"
+      },
+      "type": "writing",
+      "prompt": {
+        "en": "W1: My name ____ ____.\nW2: I ____ from ____.\nW3: I ____ a ____.\nUse your own information. Many different answers are valid.",
+        "my": "ကိုယ့်အချက်အလက်များ ဖြည့်၍ ဝါကျများ ရေးပါ။ အဖြေမှန် တစ်မျိုးတည်း မဟုတ်ပါ။ အလိုအလျောက် အမှတ်မပေးပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "My name is Min. I am from Myanmar. I am a developer."
+      },
+      "minWords": 8,
+      "maxWords": 50
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-writing-first-draft",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-professional-introduction",
+        "revision": 1
+      },
+      "title": {
+        "en": "Your first introduction",
+        "my": "ပထမမိတ်ဆက်စာမူ"
+      },
+      "type": "writing",
+      "prompt": {
+        "en": "Write your own 5–7 short sentences. The source model has eight sentences; it is an example of useful phrases, not a sentence-count target.",
+        "my": "ကိုယ့်အကြောင်း ဝါကျတို ၅–၇ ကြောင်း ရေးပါ။ မူရင်း ဥပမာတွင် ဝါကျ ရှစ်ကြောင်း ပါသည်။ အသုံးဝင်သော စကားစုများကို ပြရန် ဖြစ်ပြီး ဝါကျအရေအတွက် နမူနာ မဟုတ်ပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Hello! My name is Min. I'm from Myanmar. I live in Japan. I'm a front-end web developer. I work on websites. I like learning new things. Nice to meet you."
+      },
+      "minWords": 20,
+      "maxWords": 90
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-writing-edit",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-professional-introduction",
+        "revision": 1
+      },
+      "title": {
+        "en": "Self-edit before rewriting",
+        "my": "ပြန်မရေးမီ ကိုယ်တိုင် စစ်ဆေးပါ"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "Each sentence begins with a capital letter. Each statement ends with a full stop. Use I am / I'm, not I is. Use a/an before a singular job noun. Make your sentences understandable and about you. I work on websites is a natural phrase.",
+        "my": "ဝါကျအစတွင် စာလုံးကြီး၊ ပြောဝါကျအဆုံးတွင် ပုဒ်မ (.) သုံးပါ။ I is မဟုတ်ဘဲ I am / I'm သုံးပါ။ အနည်းကိန်း အလုပ်အကိုင်နာမ်ရှေ့တွင် a/an ထည့်ပါ။ ကိုယ့်အချက်အလက်ကို နားလည်ရလွယ်စွာ ရေးပါ။ I work on websites သည် သဘာဝကျသော အသုံးအနှုန်း ဖြစ်သည်။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-writing-second-draft",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-professional-introduction",
+        "revision": 1
+      },
+      "title": {
+        "en": "Rewrite and compare both drafts",
+        "my": "ပြန်ရေးပြီး စာမူနှစ်ခု ယှဉ်ကြည့်ပါ"
+      },
+      "type": "writing",
+      "prompt": {
+        "en": "Write a second version without looking at the model. Compare both drafts and note one improvement. Both drafts are memory-only and lost on refresh.",
+        "my": "ဥပမာ မကြည့်ဘဲ ဒုတိယမူ ပြန်ရေးပါ။ စာမူနှစ်ခု ယှဉ်ကြည့်ပြီး တိုးတက်သည့် အချက်တစ်ခု မှတ်ပါ။ စာမူနှစ်ခုလုံးကို မသိမ်းပါ။ စာမျက်နှာ ပြန်ဖွင့်လျှင် ပျောက်သွားပါမည်။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Hello! My name is Min. I'm from Myanmar. I live in Japan. I'm a front-end web developer. I work on websites. I like learning new things. Nice to meet you."
+      },
+      "minWords": 20,
+      "maxWords": 90
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-review-blueprint",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-check",
+        "revision": 1
+      },
+      "title": {
+        "en": "Chapter review and future assessment",
+        "my": "အခန်းပြန်လေ့ကျင့်ခြင်းနှင့် အနာဂတ် စစ်ဆေးမှု"
+      },
+      "type": "explanation",
+      "body": {
+        "en": "Practise the ten knowledge questions. Existing five-question chapter-check scoring remains unchanged (80%); these ten new questions have no chapter pass threshold.\nListening: real audio and four unseen questions are needed; transcript-visible practice is not an unseen assessment.\nSpeaking: a 30–45-second introduction and two questions require a future recording/reviewer workflow; practise aloud for now.\nReading: a new 60–90-word passage with five explicit-fact questions must be authored before assessment.\nWriting: write 5–7 original sentences; future authorized manual review is needed. No CEFR certification or proficiency award.",
+        "my": "အခြေခံသိရှိမှု မေးခွန်း ဆယ်ခုကို လေ့ကျင့်ပါ။ မူလ မေးခွန်း ငါးခု၏ ၈၀% အောင်မှတ် စည်းမျဉ်းကို မပြောင်းပါ။ အသစ် ဆယ်ခုအတွက် အခန်းအောင်မှတ် မသတ်မှတ်ထားပါ။ နားထောင်မှု စစ်ဆေးရန် အသံအစစ်နှင့် မမြင်ဖူးသော မေးခွန်း လေးခု လိုသည်။ ပြောဆိုမှု စစ်ဆေးရန် အသံသွင်းခြင်းနှင့် သုံးသပ်သူ စနစ် လိုသေးသည်။ ဖတ်ရှုမှု စစ်ဆေးရန် မမြင်ဖူးသော စကားလုံး ၆၀–၉၀ စာပိုဒ်နှင့် မေးခွန်း ငါးခု ရေးသားရန် လိုသေးသည်။ ရေးသားမှုအတွက် ကိုယ်ပိုင် ဝါကျ ၅–၇ ကြောင်းကို အနာဂတ် သုံးသပ်သူက စစ်ဆေးရန် လိုသည်။ လက်ရှိ လေ့ကျင့်မှုက CEFR အဆင့် သို့မဟုတ် ကျွမ်းကျင်မှုကို မသတ်မှတ်ပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-review-speaking",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-check",
+        "revision": 1
+      },
+      "title": {
+        "en": "Speaking evidence preparation",
+        "my": "ပြောဆိုမှု အထောက်အထားအတွက် ကြိုတင်လေ့ကျင့်ခြင်း"
+      },
+      "type": "speaking",
+      "prompt": {
+        "en": "Practise a 30–45-second introduction. Ask a partner to ask two questions. No recording or grading is available.",
+        "my": "စက္ကန့် ၃၀–၄၅ ခန့် မိတ်ဆက်စကား ပြောပါ။ အဖော်ကို မေးခွန်း နှစ်ခု မေးခိုင်းပါ။ အသံသွင်းခြင်းနှင့် အမှတ်ပေးခြင်း မရနိုင်သေးပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "My name is ____. I'm from ____. I'm a ____.\nWhat is your name? Where are you from?"
+      },
+      "checklist": [
+        {
+          "language": "en",
+          "text": "Use your own information."
+        },
+        {
+          "language": "en",
+          "text": "Answer two questions."
+        },
+        {
+          "language": "en",
+          "text": "Self-practice only."
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-review-writing",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-check",
+        "revision": 1
+      },
+      "title": {
+        "en": "Original writing practice",
+        "my": "ကိုယ်ပိုင်စာ ရေးလေ့ကျင့်ခြင်း"
+      },
+      "type": "writing",
+      "prompt": {
+        "en": "Write 5–7 original sentences without copying a model. No saving or manual review is available in this preview.",
+        "my": "ဥပမာကို မကူးဘဲ ကိုယ်ပိုင် ဝါကျ ၅–၇ ကြောင်း ရေးပါ။ ဤစမ်းကြည့်စာမျက်နှာတွင် သိမ်းဆည်းခြင်းနှင့် သုံးသပ်သူ စစ်ဆေးခြင်း မရနိုင်သေးပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Use your own name, country, home and job. There is no single model answer."
+      },
+      "minWords": 20,
+      "maxWords": 90
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-v-practice",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-introductions",
+        "revision": 1
+      },
+      "title": {
+        "en": "Practice questions",
+        "my": "လေ့ကျင့်မေးခွန်းများ"
+      },
+      "type": "exercise_set",
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-v01",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-v02",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-v03",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-v04",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-v05",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-g-practice",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-be",
+        "revision": 1
+      },
+      "title": {
+        "en": "Practice questions",
+        "my": "လေ့ကျင့်မေးခွန်းများ"
+      },
+      "type": "exercise_set",
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-g01",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-g02",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-g03",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-g04",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-g05",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-g06",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-g07",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-g08",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-g09",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-g10",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-l-practice",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-meet-colleagues",
+        "revision": 1
+      },
+      "title": {
+        "en": "Planned questions · awaiting audio",
+        "my": "အသံဖိုင် စောင့်ဆိုင်းဆဲ မေးခွန်းများ"
+      },
+      "type": "exercise_set",
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-l01",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-l02",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-l03",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-l04",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-l05",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-l06",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-l07",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-l08",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-t-practice",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-check",
+        "revision": 1
+      },
+      "title": {
+        "en": "Practice questions",
+        "my": "လေ့ကျင့်မေးခွန်းများ"
+      },
+      "type": "exercise_set",
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-t01",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-t02",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-t03",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-t04",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-t05",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-t06",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-t07",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-t08",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-t09",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-t10",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c1-pack-r-practice",
+      "revision": 1,
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c1-new-team",
+        "revision": 1
+      },
+      "title": {
+        "en": "Reading questions",
+        "my": "ဖတ်ရှုနားလည်မှု မေးခွန်းများ"
+      },
+      "type": "exercise_set",
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-reading-group-a",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-reading-group-b",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "kind": "objective",
+      "id": "a1-c1-pack-objective-v",
+      "revision": 1,
+      "statement": {
+        "en": "Recognize greetings and job words; introduce yourself politely.",
+        "my": "နှုတ်ဆက်စကားနှင့် အလုပ်အကိုင်စကားလုံးများကို ခွဲခြားပြီး ကိုယ့်ကိုယ်ကို ယဉ်ကျေးစွာ မိတ်ဆက်ပြောဆိုရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["vocabulary"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Practise the linked activities and review feedback; no proficiency award.",
+        "my": "သက်ဆိုင်ရာ လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ရှင်းလင်းချက်များကို ပြန်ကြည့်ပါ။ ဘာသာစကားအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "expectedEvidence": ["recognition"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 3
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c1-pack-objective-g",
+      "revision": 1,
+      "statement": {
+        "en": "Choose subject–be agreement, a/an and basic sentence order.",
+        "my": "ကတ္တားနှင့် ကိုက်ညီသော am/is/are၊ a/an နှင့် အခြေခံဝါကျအစီအစဉ်ကို ရွေးချယ်ရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Practise the linked activities and review feedback; no proficiency award.",
+        "my": "သက်ဆိုင်ရာ လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ရှင်းလင်းချက်များကို ပြန်ကြည့်ပါ။ ဘာသာစကားအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "expectedEvidence": ["recognition"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 3
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c1-pack-objective-l",
+      "revision": 1,
+      "statement": {
+        "en": "Study introduction scripts while awaiting actual audio; this is not listening evidence.",
+        "my": "အသံဖိုင် စောင့်ဆိုင်းနေစဉ် မိတ်ဆက်စကားပြောစာသားများကို လေ့လာရန်။ ဤလေ့ကျင့်မှုကို နားထောင်နားလည်နိုင်စွမ်း အထောက်အထားအဖြစ် မသတ်မှတ်ပါ။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Practise the linked activities and review feedback; no proficiency award.",
+        "my": "သက်ဆိုင်ရာ လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ရှင်းလင်းချက်များကို ပြန်ကြည့်ပါ။ ဘာသာစကားအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 3
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c1-pack-objective-s",
+      "revision": 1,
+      "statement": {
+        "en": "Give a short introduction, exchange questions and self-correct.",
+        "my": "တိုတောင်းသော မိတ်ဆက်စကားပြောရန်၊ အပြန်အလှန် မေးခွန်းမေးဖြေရန်နှင့် ကိုယ့်အမှားကို ပြန်ပြင်ရန်။"
+      },
+      "action": "produce",
+      "tags": {
+        "areas": ["speaking"],
+        "coreSkills": ["speaking"]
+      },
+      "successCriterion": {
+        "en": "Practise the linked activities and review feedback; no proficiency award.",
+        "my": "သက်ဆိုင်ရာ လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ရှင်းလင်းချက်များကို ပြန်ကြည့်ပါ။ ဘာသာစကားအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 3
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c1-pack-objective-r",
+      "revision": 1,
+      "statement": {
+        "en": "Find names, countries, jobs and explicit facts in two short passages.",
+        "my": "စာပိုဒ်တို နှစ်ပုဒ်ထဲမှ နာမည်၊ နိုင်ငံ၊ အလုပ်အကိုင်နှင့် တိတိကျကျ ဖော်ပြထားသော အချက်အလက်များကို ရှာရန်။"
+      },
+      "action": "interpret",
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "successCriterion": {
+        "en": "Practise the linked activities and review feedback; no proficiency award.",
+        "my": "သက်ဆိုင်ရာ လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ရှင်းလင်းချက်များကို ပြန်ကြည့်ပါ။ ဘာသာစကားအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "expectedEvidence": ["comprehension"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 3
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c1-pack-objective-w",
+      "revision": 1,
+      "statement": {
+        "en": "Write an introduction, self-edit and compare a second draft.",
+        "my": "မိတ်ဆက်စာ ရေးရန်၊ ကိုယ်တိုင် စစ်ဆေးပြင်ဆင်ရန်နှင့် ဒုတိယမူနှင့် ယှဉ်ကြည့်ရန်။"
+      },
+      "action": "produce",
+      "tags": {
+        "areas": ["writing"],
+        "coreSkills": ["writing"]
+      },
+      "successCriterion": {
+        "en": "Practise the linked activities and review feedback; no proficiency award.",
+        "my": "သက်ဆိုင်ရာ လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ရှင်းလင်းချက်များကို ပြန်ကြည့်ပါ။ ဘာသာစကားအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 3
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c1-pack-objective-t",
+      "revision": 1,
+      "statement": {
+        "en": "Review chapter knowledge without inferring CEFR proficiency.",
+        "my": "CEFR အဆင့် မသတ်မှတ်ဘဲ အခန်းပါ အခြေခံသိရှိမှုကို ပြန်လေ့ကျင့်ရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Practise the linked activities and review feedback; no proficiency award.",
+        "my": "သက်ဆိုင်ရာ လေ့ကျင့်ခန်းများကို လေ့ကျင့်ပြီး ရှင်းလင်းချက်များကို ပြန်ကြည့်ပါ။ ဘာသာစကားအဆင့် မသတ်မှတ်ပါ။"
+      },
+      "expectedEvidence": ["recognition"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 3
+      },
+      "descriptorRefs": []
+    }
+  ],
+  "exercises": [
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-v01",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["vocabulary"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-v",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "You meet someone for the first time. Which phrase is best?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-v01-a",
+          "text": {
+            "language": "en",
+            "text": "Nice to meet you."
+          }
+        },
+        {
+          "id": "a1-c1-pack-v01-b",
+          "text": {
+            "language": "en",
+            "text": "Good night, yesterday."
+          }
+        },
+        {
+          "id": "a1-c1-pack-v01-c",
+          "text": {
+            "language": "en",
+            "text": "I name is Min."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-v02",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["vocabulary"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-v",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Complete: My name ___ Su."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-v02-a",
+          "text": {
+            "language": "en",
+            "text": "am"
+          }
+        },
+        {
+          "id": "a1-c1-pack-v02-b",
+          "text": {
+            "language": "en",
+            "text": "is"
+          }
+        },
+        {
+          "id": "a1-c1-pack-v02-c",
+          "text": {
+            "language": "en",
+            "text": "are"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-v03",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["vocabulary"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-v",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Which sentence describes a job correctly?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-v03-a",
+          "text": {
+            "language": "en",
+            "text": "I'm developer."
+          }
+        },
+        {
+          "id": "a1-c1-pack-v03-b",
+          "text": {
+            "language": "en",
+            "text": "I a developer."
+          }
+        },
+        {
+          "id": "a1-c1-pack-v03-c",
+          "text": {
+            "language": "en",
+            "text": "I'm a developer."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-v04",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["vocabulary"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-v",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "A colleague says, “Nice to meet you.” Choose a suitable reply."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-v04-a",
+          "text": {
+            "language": "en",
+            "text": "Nice to meet you, too."
+          }
+        },
+        {
+          "id": "a1-c1-pack-v04-b",
+          "text": {
+            "language": "en",
+            "text": "I name is job."
+          }
+        },
+        {
+          "id": "a1-c1-pack-v04-c",
+          "text": {
+            "language": "en",
+            "text": "You from?"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-v05",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["vocabulary"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-v",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Which word means a person you work with?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-v05-a",
+          "text": {
+            "language": "en",
+            "text": "colleague"
+          }
+        },
+        {
+          "id": "a1-c1-pack-v05-b",
+          "text": {
+            "language": "en",
+            "text": "country"
+          }
+        },
+        {
+          "id": "a1-c1-pack-v05-c",
+          "text": {
+            "language": "en",
+            "text": "morning"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-g01",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-g",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "He ___ a designer."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-g01-a",
+          "text": {
+            "language": "en",
+            "text": "am"
+          }
+        },
+        {
+          "id": "a1-c1-pack-g01-b",
+          "text": {
+            "language": "en",
+            "text": "are"
+          }
+        },
+        {
+          "id": "a1-c1-pack-g01-c",
+          "text": {
+            "language": "en",
+            "text": "is"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-g02",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-g",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "They ___ colleagues."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-g02-a",
+          "text": {
+            "language": "en",
+            "text": "are"
+          }
+        },
+        {
+          "id": "a1-c1-pack-g02-b",
+          "text": {
+            "language": "en",
+            "text": "is"
+          }
+        },
+        {
+          "id": "a1-c1-pack-g02-c",
+          "text": {
+            "language": "en",
+            "text": "am"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-g03",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-g",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Choose correct:"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-g03-a",
+          "text": {
+            "language": "en",
+            "text": "I'm engineer."
+          }
+        },
+        {
+          "id": "a1-c1-pack-g03-b",
+          "text": {
+            "language": "en",
+            "text": "I'm an engineer."
+          }
+        },
+        {
+          "id": "a1-c1-pack-g03-c",
+          "text": {
+            "language": "en",
+            "text": "I an engineer."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-g04",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-g",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "___ you from Japan?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-g04-a",
+          "text": {
+            "language": "en",
+            "text": "Is"
+          }
+        },
+        {
+          "id": "a1-c1-pack-g04-b",
+          "text": {
+            "language": "en",
+            "text": "Am"
+          }
+        },
+        {
+          "id": "a1-c1-pack-g04-c",
+          "text": {
+            "language": "en",
+            "text": "Are"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-g05",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-g",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Choose correct:"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-g05-a",
+          "text": {
+            "language": "en",
+            "text": "I write code."
+          }
+        },
+        {
+          "id": "a1-c1-pack-g05-b",
+          "text": {
+            "language": "en",
+            "text": "I am write code."
+          }
+        },
+        {
+          "id": "a1-c1-pack-g05-c",
+          "text": {
+            "language": "en",
+            "text": "I code write."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-g06",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-g",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "She ___ code."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-g06-a",
+          "text": {
+            "language": "en",
+            "text": "write"
+          }
+        },
+        {
+          "id": "a1-c1-pack-g06-b",
+          "text": {
+            "language": "en",
+            "text": "writes"
+          }
+        },
+        {
+          "id": "a1-c1-pack-g06-c",
+          "text": {
+            "language": "en",
+            "text": "writing"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-g07",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-g",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "In She is a designer, a designer is:"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-g07-a",
+          "text": {
+            "language": "en",
+            "text": "subject"
+          }
+        },
+        {
+          "id": "a1-c1-pack-g07-b",
+          "text": {
+            "language": "en",
+            "text": "complement"
+          }
+        },
+        {
+          "id": "a1-c1-pack-g07-c",
+          "text": {
+            "language": "en",
+            "text": "action object"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-g08",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-g",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "In I read books, books is:"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-g08-a",
+          "text": {
+            "language": "en",
+            "text": "object"
+          }
+        },
+        {
+          "id": "a1-c1-pack-g08-b",
+          "text": {
+            "language": "en",
+            "text": "subject"
+          }
+        },
+        {
+          "id": "a1-c1-pack-g08-c",
+          "text": {
+            "language": "en",
+            "text": "verb"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-g09",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-g",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "My name ___ Aye."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-g09-a",
+          "text": {
+            "language": "en",
+            "text": "are"
+          }
+        },
+        {
+          "id": "a1-c1-pack-g09-b",
+          "text": {
+            "language": "en",
+            "text": "am"
+          }
+        },
+        {
+          "id": "a1-c1-pack-g09-c",
+          "text": {
+            "language": "en",
+            "text": "is"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-g10",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-g",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Choose correct:"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-g10-a",
+          "text": {
+            "language": "en",
+            "text": "He a manager is."
+          }
+        },
+        {
+          "id": "a1-c1-pack-g10-b",
+          "text": {
+            "language": "en",
+            "text": "He is a manager."
+          }
+        },
+        {
+          "id": "a1-c1-pack-g10-c",
+          "text": {
+            "language": "en",
+            "text": "Is he a manager."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-l01",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-l",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "What is the new colleague's name?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-l01-a",
+          "text": {
+            "language": "en",
+            "text": "Anna"
+          }
+        },
+        {
+          "id": "a1-c1-pack-l01-b",
+          "text": {
+            "language": "en",
+            "text": "Aye"
+          }
+        },
+        {
+          "id": "a1-c1-pack-l01-c",
+          "text": {
+            "language": "en",
+            "text": "Mina"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-l02",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-l",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "What does Anna do?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-l02-a",
+          "text": {
+            "language": "en",
+            "text": "Designer"
+          }
+        },
+        {
+          "id": "a1-c1-pack-l02-b",
+          "text": {
+            "language": "en",
+            "text": "Developer"
+          }
+        },
+        {
+          "id": "a1-c1-pack-l02-c",
+          "text": {
+            "language": "en",
+            "text": "Manager"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-l03",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-l",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Is Min also a developer?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-l03-a",
+          "text": {
+            "language": "en",
+            "text": "Yes"
+          }
+        },
+        {
+          "id": "a1-c1-pack-l03-b",
+          "text": {
+            "language": "en",
+            "text": "No"
+          }
+        },
+        {
+          "id": "a1-c1-pack-l03-c",
+          "text": {
+            "language": "en",
+            "text": "Not mentioned"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-l04",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-l",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Which greeting do they use?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-l04-a",
+          "text": {
+            "language": "en",
+            "text": "Good morning"
+          }
+        },
+        {
+          "id": "a1-c1-pack-l04-b",
+          "text": {
+            "language": "en",
+            "text": "Good evening"
+          }
+        },
+        {
+          "id": "a1-c1-pack-l04-c",
+          "text": {
+            "language": "en",
+            "text": "Goodbye"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-l05",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-l",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Where is Su from?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-l05-a",
+          "text": {
+            "language": "en",
+            "text": "Japan"
+          }
+        },
+        {
+          "id": "a1-c1-pack-l05-b",
+          "text": {
+            "language": "en",
+            "text": "Myanmar"
+          }
+        },
+        {
+          "id": "a1-c1-pack-l05-c",
+          "text": {
+            "language": "en",
+            "text": "Korea"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-l06",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-l",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Where does Su work?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-l06-a",
+          "text": {
+            "language": "en",
+            "text": "Osaka"
+          }
+        },
+        {
+          "id": "a1-c1-pack-l06-b",
+          "text": {
+            "language": "en",
+            "text": "Yangon"
+          }
+        },
+        {
+          "id": "a1-c1-pack-l06-c",
+          "text": {
+            "language": "en",
+            "text": "Tokyo"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-l07",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-l",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "What is Su's job?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-l07-a",
+          "text": {
+            "language": "en",
+            "text": "Web designer"
+          }
+        },
+        {
+          "id": "a1-c1-pack-l07-b",
+          "text": {
+            "language": "en",
+            "text": "Project manager"
+          }
+        },
+        {
+          "id": "a1-c1-pack-l07-c",
+          "text": {
+            "language": "en",
+            "text": "Engineer"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-l08",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-l",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "What is Ken's job?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-l08-a",
+          "text": {
+            "language": "en",
+            "text": "Teacher"
+          }
+        },
+        {
+          "id": "a1-c1-pack-l08-b",
+          "text": {
+            "language": "en",
+            "text": "Developer"
+          }
+        },
+        {
+          "id": "a1-c1-pack-l08-c",
+          "text": {
+            "language": "en",
+            "text": "Student"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-r01",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-r",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Where is Maya from?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-r01-a",
+          "text": {
+            "language": "en",
+            "text": "India"
+          }
+        },
+        {
+          "id": "a1-c1-pack-r01-b",
+          "text": {
+            "language": "en",
+            "text": "Japan"
+          }
+        },
+        {
+          "id": "a1-c1-pack-r01-c",
+          "text": {
+            "language": "en",
+            "text": "Myanmar"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-r02",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-r",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "What is Maya's job?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-r02-a",
+          "text": {
+            "language": "en",
+            "text": "Manager"
+          }
+        },
+        {
+          "id": "a1-c1-pack-r02-b",
+          "text": {
+            "language": "en",
+            "text": "Designer"
+          }
+        },
+        {
+          "id": "a1-c1-pack-r02-c",
+          "text": {
+            "language": "en",
+            "text": "Teacher"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-r03",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-r",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Who is from Myanmar?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-r03-a",
+          "text": {
+            "language": "en",
+            "text": "Ken"
+          }
+        },
+        {
+          "id": "a1-c1-pack-r03-b",
+          "text": {
+            "language": "en",
+            "text": "Maya"
+          }
+        },
+        {
+          "id": "a1-c1-pack-r03-c",
+          "text": {
+            "language": "en",
+            "text": "Min"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-r04",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-r",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "How many developers are named?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-r04-a",
+          "text": {
+            "language": "en",
+            "text": "One"
+          }
+        },
+        {
+          "id": "a1-c1-pack-r04-b",
+          "text": {
+            "language": "en",
+            "text": "Three"
+          }
+        },
+        {
+          "id": "a1-c1-pack-r04-c",
+          "text": {
+            "language": "en",
+            "text": "Two"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-r05",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-r",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "What do they work on?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-r05-a",
+          "text": {
+            "language": "en",
+            "text": "Websites"
+          }
+        },
+        {
+          "id": "a1-c1-pack-r05-b",
+          "text": {
+            "language": "en",
+            "text": "Cars"
+          }
+        },
+        {
+          "id": "a1-c1-pack-r05-c",
+          "text": {
+            "language": "en",
+            "text": "Books"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-r06",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-r",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Is Anna a developer?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-r06-a",
+          "text": {
+            "language": "en",
+            "text": "Yes"
+          }
+        },
+        {
+          "id": "a1-c1-pack-r06-b",
+          "text": {
+            "language": "en",
+            "text": "No"
+          }
+        },
+        {
+          "id": "a1-c1-pack-r06-c",
+          "text": {
+            "language": "en",
+            "text": "Not stated"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-r07",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-r",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Who is the manager?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-r07-a",
+          "text": {
+            "language": "en",
+            "text": "Anna"
+          }
+        },
+        {
+          "id": "a1-c1-pack-r07-b",
+          "text": {
+            "language": "en",
+            "text": "Mr. Sato"
+          }
+        },
+        {
+          "id": "a1-c1-pack-r07-c",
+          "text": {
+            "language": "en",
+            "text": "Ken"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-r08",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-r",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Is the team small?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-r08-a",
+          "text": {
+            "language": "en",
+            "text": "No"
+          }
+        },
+        {
+          "id": "a1-c1-pack-r08-b",
+          "text": {
+            "language": "en",
+            "text": "Not stated"
+          }
+        },
+        {
+          "id": "a1-c1-pack-r08-c",
+          "text": {
+            "language": "en",
+            "text": "Yes"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-t01",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-t",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "I ___ a developer."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-t01-a",
+          "text": {
+            "language": "en",
+            "text": "am"
+          }
+        },
+        {
+          "id": "a1-c1-pack-t01-b",
+          "text": {
+            "language": "en",
+            "text": "is"
+          }
+        },
+        {
+          "id": "a1-c1-pack-t01-c",
+          "text": {
+            "language": "en",
+            "text": "are"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-t02",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-t",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "She ___ from Japan."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-t02-a",
+          "text": {
+            "language": "en",
+            "text": "are"
+          }
+        },
+        {
+          "id": "a1-c1-pack-t02-b",
+          "text": {
+            "language": "en",
+            "text": "is"
+          }
+        },
+        {
+          "id": "a1-c1-pack-t02-c",
+          "text": {
+            "language": "en",
+            "text": "am"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-t03",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-t",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "They ___ my colleagues."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-t03-a",
+          "text": {
+            "language": "en",
+            "text": "is"
+          }
+        },
+        {
+          "id": "a1-c1-pack-t03-b",
+          "text": {
+            "language": "en",
+            "text": "am"
+          }
+        },
+        {
+          "id": "a1-c1-pack-t03-c",
+          "text": {
+            "language": "en",
+            "text": "are"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-t04",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-t",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Choose correct:"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-t04-a",
+          "text": {
+            "language": "en",
+            "text": "I'm manager."
+          }
+        },
+        {
+          "id": "a1-c1-pack-t04-b",
+          "text": {
+            "language": "en",
+            "text": "I'm a manager."
+          }
+        },
+        {
+          "id": "a1-c1-pack-t04-c",
+          "text": {
+            "language": "en",
+            "text": "I manager."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-t05",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-t",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Which asks about a person's job?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-t05-a",
+          "text": {
+            "language": "en",
+            "text": "Where are you from?"
+          }
+        },
+        {
+          "id": "a1-c1-pack-t05-b",
+          "text": {
+            "language": "en",
+            "text": "What's your name?"
+          }
+        },
+        {
+          "id": "a1-c1-pack-t05-c",
+          "text": {
+            "language": "en",
+            "text": "What do you do?"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-t06",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-t",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "___ you a web developer?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-t06-a",
+          "text": {
+            "language": "en",
+            "text": "Are"
+          }
+        },
+        {
+          "id": "a1-c1-pack-t06-b",
+          "text": {
+            "language": "en",
+            "text": "Is"
+          }
+        },
+        {
+          "id": "a1-c1-pack-t06-c",
+          "text": {
+            "language": "en",
+            "text": "Am"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-t07",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-t",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Choose correct:"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-t07-a",
+          "text": {
+            "language": "en",
+            "text": "I am like tea."
+          }
+        },
+        {
+          "id": "a1-c1-pack-t07-b",
+          "text": {
+            "language": "en",
+            "text": "I like tea."
+          }
+        },
+        {
+          "id": "a1-c1-pack-t07-c",
+          "text": {
+            "language": "en",
+            "text": "I tea like."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-t08",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-t",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "My colleague ___ a designer."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-t08-a",
+          "text": {
+            "language": "en",
+            "text": "am"
+          }
+        },
+        {
+          "id": "a1-c1-pack-t08-b",
+          "text": {
+            "language": "en",
+            "text": "are"
+          }
+        },
+        {
+          "id": "a1-c1-pack-t08-c",
+          "text": {
+            "language": "en",
+            "text": "is"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-t09",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-t",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Choose correct:"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-t09-a",
+          "text": {
+            "language": "en",
+            "text": "We work on websites."
+          }
+        },
+        {
+          "id": "a1-c1-pack-t09-b",
+          "text": {
+            "language": "en",
+            "text": "We works on websites."
+          }
+        },
+        {
+          "id": "a1-c1-pack-t09-c",
+          "text": {
+            "language": "en",
+            "text": "We working websites."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-t10",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-t",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Choose a polite first-meeting phrase."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c1-pack-t10-a",
+          "text": {
+            "language": "en",
+            "text": "Who are now?"
+          }
+        },
+        {
+          "id": "a1-c1-pack-t10-b",
+          "text": {
+            "language": "en",
+            "text": "Nice to meet you."
+          }
+        },
+        {
+          "id": "a1-c1-pack-t10-c",
+          "text": {
+            "language": "en",
+            "text": "You job is?"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-reading-group-a",
+      "revision": 1,
+      "type": "reading_comprehension",
+      "instructions": {
+        "en": "Use the passage to answer. Burmese support is available after reading.",
+        "my": "စာပိုဒ်ထဲမှ အချက်အလက်ကို အသုံးပြု၍ ဖြေပါ။ ဖတ်ပြီးမှ မြန်မာလို အကူအညီကို ကြည့်နိုင်သည်။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-r",
+          "revision": 1
+        }
+      ],
+      "stimulusRef": {
+        "kind": "stimulus",
+        "id": "a1-c1-pack-reading-a",
+        "revision": 1
+      },
+      "itemRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-r01",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-r02",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-r03",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-r04",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-r05",
+          "revision": 1
+        }
+      ],
+      "assistance": "practice_with_support"
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c1-pack-reading-group-b",
+      "revision": 1,
+      "type": "reading_comprehension",
+      "instructions": {
+        "en": "Use the passage to answer. Burmese support is available after reading.",
+        "my": "စာပိုဒ်ထဲမှ အချက်အလက်ကို အသုံးပြု၍ ဖြေပါ။ ဖတ်ပြီးမှ မြန်မာလို အကူအညီကို ကြည့်နိုင်သည်။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c1-pack-objective-r",
+          "revision": 1
+        }
+      ],
+      "stimulusRef": {
+        "kind": "stimulus",
+        "id": "a1-c1-pack-reading-b",
+        "revision": 1
+      },
+      "itemRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-r06",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-r07",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c1-pack-r08",
+          "revision": 1
+        }
+      ],
+      "assistance": "practice_with_support"
+    }
+  ],
+  "assessments": [],
+  "stimuli": [
+    {
+      "kind": "stimulus",
+      "id": "a1-c1-pack-reading-a",
+      "revision": 1,
+      "type": "reading",
+      "passage": {
+        "language": "en",
+        "text": "Hello! My name is Maya. I'm from India. I live in Tokyo. I'm a designer. I work with two developers, Min and Ken. Min is from Myanmar. Ken is from Japan. We are colleagues. We work on websites."
+      },
+      "sourceAttribution": "A1 Chapter 01 Full Lesson Pack · Passage A"
+    },
+    {
+      "kind": "stimulus",
+      "id": "a1-c1-pack-reading-b",
+      "revision": 1,
+      "type": "reading",
+      "passage": {
+        "language": "en",
+        "text": "My name is Ken. I am a developer. I work in Tokyo. Anna is my colleague. She is a developer, too. Our manager is Mr. Sato. He is kind. We are a small team."
+      },
+      "sourceAttribution": "A1 Chapter 01 Full Lesson Pack · Passage B"
+    }
+  ],
+  "transcripts": [],
+  "assets": []
+}

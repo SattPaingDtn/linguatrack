@@ -2,7 +2,13 @@ import Link from "next/link";
 import { Sprout, FlaskConical, ArrowLeft } from "lucide-react";
 
 // Pure presentation. The live session provider is deliberately absent in this shell.
-export function PreviewShell({ children }: { children: React.ReactNode }) {
+export function PreviewShell({
+  children,
+  version = "1.3.0",
+}: {
+  children: React.ReactNode;
+  version?: string;
+}) {
   return (
     <div className="min-h-screen">
       <a
@@ -25,7 +31,7 @@ export function PreviewShell({ children }: { children: React.ReactNode }) {
         </Link>
         <p className="eyebrow mt-12">Local lesson preview</p>
         <p className="mt-4 text-sm leading-7 text-muted-foreground">
-          An authoring workspace for draft 1.3.0.
+          An authoring workspace for draft {version}.
         </p>
         <p className="mt-4 text-xs leading-6 text-muted-foreground">
           Answers and writing stay on this page. Nothing is added to your learning history.
@@ -55,7 +61,7 @@ export function PreviewShell({ children }: { children: React.ReactNode }) {
           {children}
         </main>
         <footer className="px-5 pb-6 text-xs text-muted-foreground sm:px-9 xl:px-12">
-          LinguaTrack Academy · English + <span lang="my">မြန်မာ</span> · Inactive draft 1.3.0
+          LinguaTrack Academy · English + <span lang="my">မြန်မာ</span> · Inactive draft {version}
         </footer>
       </div>
     </div>

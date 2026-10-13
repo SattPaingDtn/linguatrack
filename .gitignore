@@ -43,6 +43,8 @@ yarn-error.log*
 next-env.d.ts
 
 !.env.example
+!.env.staging.example
+.next-staging/
 /supabase/.temp/
 /supabase/.branches/
 /backups/
@@ -51,3 +53,4 @@ next-env.d.ts
 
 # Curriculum v2 authoring drafts (never activated automatically)
 /.curriculum-drafts/
+/.curriculum-registry-local/

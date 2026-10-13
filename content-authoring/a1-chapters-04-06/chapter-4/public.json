@@ -1,0 +1,2424 @@
+{
+  "courses": [],
+  "chapters": [
+    {
+      "kind": "chapter",
+      "id": "a1-chapter-4",
+      "revision": 1,
+      "courseRef": {
+        "kind": "course",
+        "id": "general-a1",
+        "revision": 1
+      },
+      "slug": "home-neighborhood",
+      "order": 4,
+      "title": {
+        "en": "Home and neighborhood",
+        "my": "အိမ်နှင့် အနီးအနားပတ်ဝန်းကျင်"
+      },
+      "description": {
+        "en": "Seven local editorial lessons. Actual audio and independent review remain pending. No progress or proficiency is awarded.",
+        "my": "အယ်ဒီတာ ရေးသားထားသော သင်ခန်းစာ ခုနစ်ခု ပါသည်။ အသံဖိုင်နှင့် လွတ်လပ်သော သုံးသပ်မှု လိုသေးသည်။ တိုးတက်မှုနှင့် ကျွမ်းကျင်မှုအဆင့်ကို မသတ်မှတ်ပါ။"
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-1",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-2",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-3",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-4",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-5",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-6",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-7",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [
+        {
+          "target": {
+            "kind": "lesson",
+            "id": "a1-c2-review",
+            "revision": 1
+          },
+          "requirement": "completed",
+          "enforcement": "advisory"
+        },
+        {
+          "target": {
+            "kind": "lesson",
+            "id": "a1-c3-review",
+            "revision": 1
+          },
+          "requirement": "completed",
+          "enforcement": "advisory"
+        }
+      ],
+      "lessonRefs": [
+        {
+          "kind": "lesson",
+          "id": "a1-c4-home-words",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c4-there-is-and-place",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c4-home-scripts",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c4-describe-your-home",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c4-my-new-room",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c4-write-about-home",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c4-review",
+          "revision": 1
+        }
+      ],
+      "assessmentRefs": [],
+      "coverageTargets": []
+    }
+  ],
+  "lessons": [
+    {
+      "kind": "lesson",
+      "id": "a1-c4-home-words",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-4",
+        "revision": 1
+      },
+      "slug": "home-words",
+      "title": {
+        "en": "Words in context",
+        "my": "အခြေအနေနှင့် တွဲလေ့လာသော စကားလုံးများ"
+      },
+      "description": {
+        "en": "Use home and neighborhood words in five original sentences.",
+        "my": "အိမ်နှင့် အနီးအနားဆိုင်ရာ စကားလုံးများဖြင့် ကိုယ်ပိုင် ဝါကျ ငါးကြောင်း ရေးရန်။"
+      },
+      "tags": {
+        "areas": ["vocabulary"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-1",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c4-vocabulary",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c4-vocabulary-production",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c4-there-is-and-place",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-4",
+        "revision": 1
+      },
+      "slug": "there-is-and-place",
+      "title": {
+        "en": "Grammar foundations",
+        "my": "သဒ္ဒါအခြေခံ"
+      },
+      "description": {
+        "en": "Use there is/are, articles and place prepositions.",
+        "my": "There is/are၊ a/an/some နှင့် နေရာပြစကားများကို ဝါကျတိုများတွင် သုံးရန်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-2",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c4-grammar-1",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c4-mistakes",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c4-grammar-production",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c4-home-scripts",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-4",
+        "revision": 1
+      },
+      "slug": "home-scripts",
+      "title": {
+        "en": "Dialogue scripts · awaiting audio",
+        "my": "စကားပြောစာသားများ · အသံဖိုင် စောင့်ဆိုင်းဆဲ"
+      },
+      "description": {
+        "en": "Read two scripts while actual audio is pending.",
+        "my": "အသံဖိုင် မရှိသေးစဉ် စကားပြောစာသား နှစ်ပုဒ်ကို ကြိုတင် ဖတ်လေ့လာရန်။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-3",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c4-audio-pending",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c4-script-1",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c4-script-2",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c4-listening-checks",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c4-describe-your-home",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-4",
+        "revision": 1
+      },
+      "slug": "describe-your-home",
+      "title": {
+        "en": "Speaking and role-play",
+        "my": "ပြောဆိုခြင်းနှင့် အပြန်အလှန် လေ့ကျင့်ခြင်း"
+      },
+      "description": {
+        "en": "Describe your home aloud and self-review.",
+        "my": "အခန်းနှင့် အိမ်အနီးရှိ နေရာများအကြောင်း အသံထွက် ပြောပြီး ကိုယ်တိုင် ပြန်စစ်ရန်။"
+      },
+      "tags": {
+        "areas": ["speaking"],
+        "coreSkills": ["speaking"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-4",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c4-speaking-a",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c4-speaking-b",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c4-my-new-room",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-4",
+        "revision": 1
+      },
+      "slug": "my-new-room",
+      "title": {
+        "en": "Reading and short-answer self-review",
+        "my": "ဖတ်ရှုခြင်းနှင့် တိုတောင်းသော အဖြေများကို ကိုယ်တိုင် ပြန်စစ်ခြင်း"
+      },
+      "description": {
+        "en": "Find explicit room facts and self-review short answers.",
+        "my": "အခန်းအကြောင်း စာပိုဒ်မှ အချက်အလက်များကို ရှာပြီး တိုတောင်းသော အဖြေများကို ကိုယ်တိုင် ပြန်စစ်ရန်။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-5",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c4-reading-passage",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c4-reading-checks",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c4-write-about-home",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-4",
+        "revision": 1
+      },
+      "slug": "write-about-home",
+      "title": {
+        "en": "Writing and self-editing",
+        "my": "ရေးသားခြင်းနှင့် ကိုယ်တိုင် ပြင်ဆင်ခြင်း"
+      },
+      "description": {
+        "en": "Write and edit 5–7 original sentences about home.",
+        "my": "နေရာပြစကား နှစ်ခုပါသော ကိုယ်ပိုင် ဝါကျ ၅–၇ ကြောင်း ရေးပြီး ပြင်ဆင်ရန်။"
+      },
+      "tags": {
+        "areas": ["writing"],
+        "coreSkills": ["writing"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-6",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c4-writing-first-draft",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c4-writing-edit",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c4-writing-rewrite",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c4-review",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-4",
+        "revision": 1
+      },
+      "slug": "review",
+      "title": {
+        "en": "Chapter recognition practice",
+        "my": "အခန်းပါ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်း"
+      },
+      "description": {
+        "en": "Check 12 grammar/vocabulary recognition questions.",
+        "my": "သဒ္ဒါနှင့် စကားလုံးသိရှိမှု မေးခွန်း ၁၂ ခုကို လေ့ကျင့်ပြီး ရှင်းလင်းချက် ပြန်ကြည့်ရန်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-7",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c4-knowledge-check",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c4-skill-review",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "kind": "block",
+      "id": "a1-c4-vocabulary",
+      "revision": 1,
+      "type": "vocabulary",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c4-home-words",
+        "revision": 1
+      },
+      "title": {
+        "en": "Words in context",
+        "my": "စကားလုံးများ"
+      },
+      "words": [
+        {
+          "word": "room",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "room",
+            "my": "အခန်း"
+          },
+          "example": {
+            "language": "en",
+            "text": "My room is small."
+          }
+        },
+        {
+          "word": "kitchen",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "kitchen",
+            "my": "မီးဖိုချောင်"
+          },
+          "example": {
+            "language": "en",
+            "text": "The kitchen is clean."
+          }
+        },
+        {
+          "word": "bathroom",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "bathroom",
+            "my": "ရေချိုးခန်း"
+          },
+          "example": {
+            "language": "en",
+            "text": "The bathroom is next to my room."
+          }
+        },
+        {
+          "word": "bedroom",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "bedroom",
+            "my": "အိပ်ခန်း"
+          },
+          "example": {
+            "language": "en",
+            "text": "There is a bed in my bedroom."
+          }
+        },
+        {
+          "word": "desk",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "desk",
+            "my": "စာရေးစားပွဲ"
+          },
+          "example": {
+            "language": "en",
+            "text": "My laptop is on the desk."
+          }
+        },
+        {
+          "word": "chair",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "chair",
+            "my": "ကုလားထိုင်"
+          },
+          "example": {
+            "language": "en",
+            "text": "The chair is near the desk."
+          }
+        },
+        {
+          "word": "window",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "window",
+            "my": "ပြတင်းပေါက်"
+          },
+          "example": {
+            "language": "en",
+            "text": "There are two windows."
+          }
+        },
+        {
+          "word": "station",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "station",
+            "my": "ဘူတာရုံ"
+          },
+          "example": {
+            "language": "en",
+            "text": "The station is near my home."
+          }
+        },
+        {
+          "word": "supermarket",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "supermarket",
+            "my": "စူပါမားကတ်"
+          },
+          "example": {
+            "language": "en",
+            "text": "There is a supermarket nearby."
+          }
+        },
+        {
+          "word": "park",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "park",
+            "my": "ပန်းခြံ"
+          },
+          "example": {
+            "language": "en",
+            "text": "The park is across from the station."
+          }
+        },
+        {
+          "word": "between",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "between",
+            "my": "နှစ်ခုကြား"
+          },
+          "example": {
+            "language": "en",
+            "text": "The cafe is between the bank and the shop."
+          }
+        },
+        {
+          "word": "behind",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "behind",
+            "my": "နောက်ဘက်"
+          },
+          "example": {
+            "language": "en",
+            "text": "The bag is behind the chair."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c4-vocabulary-production",
+      "revision": 1,
+      "type": "writing",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c4-home-words",
+        "revision": 1
+      },
+      "title": {
+        "en": "Five original sentences",
+        "my": "ကိုယ်ပိုင် ဝါကျ ငါးကြောင်း"
+      },
+      "prompt": {
+        "en": "Read each example aloud twice. Write five NEW sentences using these words.",
+        "my": "ဥပမာတစ်ခုစီကို နှစ်ခေါက် အသံထွက် ဖတ်ပါ။ စကားလုံး ငါးလုံး ရွေး၍ ကိုယ်ပိုင် ဝါကျအသစ် ငါးကြောင်း ရေးပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Use your own information. There is no single correct model."
+      },
+      "minWords": 15,
+      "maxWords": 100
+    },
+    {
+      "kind": "block",
+      "id": "a1-c4-grammar-1",
+      "revision": 1,
+      "type": "grammar",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c4-there-is-and-place",
+        "revision": 1
+      },
+      "title": {
+        "en": "There is / There are\n\n**English:** There is + one thing: There is a desk. There are + plural things: There are two chairs. Negative: There isn’t a desk. / There aren’t two chairs. Questions: Is there a desk? / Are there any chairs?\n\n**မြန်မာလို:** ရှိတာ တစ်ခုဆို There is၊ အများဆို There are သုံးပါ။ မရှိဘူးဆို isn’t / aren’t၊ မေးခွန်းဆို Is there ...? / Are there ...? သုံးပါ။\n\n### Prepositions of place\n\n**English:** in = inside; on = touching a surface; under = below; next to = beside; between = in the middle of two things; behind = at the back; across from = opposite.\n\n**မြန်မာလို:** in = အတွင်း၊ on = အပေါ်၊ under = အောက်၊ next to = ဘေး၊ between = နှစ်ခုကြား၊ behind = နောက်ဘက်၊ across from = မျက်နှာချင်းဆိုင်။\n\n### A/an and some",
+        "my": "သဒ္ဒါပုံစံ 1"
+      },
+      "rule": {
+        "en": "There is a chair. There is an apple on the table. There are some books. Do not use “a” with plural books.",
+        "my": "တစ်ခုတည်းသော ရေတွက်လို့ရတဲ့ နာမ်ရှေ့ a/an သုံးနိုင်တယ်။ အများကိန်း books ရှေ့မှာ a မသုံးပါနဲ့။"
+      },
+      "examples": [
+        {
+          "pattern": "There is + singular noun",
+          "example": {
+            "language": "en",
+            "text": "There is a desk."
+          },
+          "translation": "စားပွဲတစ်လုံး ရှိသည်။"
+        },
+        {
+          "pattern": "There are + plural noun",
+          "example": {
+            "language": "en",
+            "text": "There are two chairs."
+          },
+          "translation": "ကုလားထိုင် နှစ်လုံး ရှိသည်။"
+        },
+        {
+          "pattern": "Subject + be + place",
+          "example": {
+            "language": "en",
+            "text": "My laptop is on the desk."
+          },
+          "translation": "လက်ပ်တော့သည် စားပွဲပေါ်တွင် ရှိသည်။"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c4-mistakes",
+      "revision": 1,
+      "type": "explanation",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c4-there-is-and-place",
+        "revision": 1
+      },
+      "title": {
+        "en": "Common mistakes",
+        "my": "အဖြစ်များသော အမှားများ"
+      },
+      "body": {
+        "en": "There is two rooms. → There are two rooms.\nThere are a bed. → There is a bed.\nThe laptop is in the desk. → The laptop is on the desk. (if it rests on top)\nIs there two chairs? → Are there two chairs?",
+        "my": "အမှားနှင့် ပြင်ထားသော ဝါကျကို ယှဉ်ကြည့်ပါ။ ဥပမာ မကြည့်ဘဲ ပြန်ပြင်ပြီး ကိုယ့်အကြောင်း မှန်ကန်သော ဝါကျ သုံးကြောင်း အသံထွက် ပြောပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c4-grammar-production",
+      "revision": 1,
+      "type": "writing",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c4-there-is-and-place",
+        "revision": 1
+      },
+      "title": {
+        "en": "Repair and apply",
+        "my": "ပြင်ဆင်ပြီး သုံးကြည့်ပါ"
+      },
+      "prompt": {
+        "en": "Correct the mistake sentences without looking. Then write and say three true sentences about your own life.",
+        "my": "ဥပမာ မကြည့်ဘဲ အမှားဝါကျများကို ပြန်ပြင်ပါ။ ကိုယ့်အကြောင်း မှန်ကန်သော ဝါကျ သုံးကြောင်း ရေး၍ အသံထွက် ပြောပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Use the patterns in Learn. Your own information can vary."
+      },
+      "minWords": 10,
+      "maxWords": 100
+    },
+    {
+      "kind": "block",
+      "id": "a1-c4-audio-pending",
+      "revision": 1,
+      "type": "explanation",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c4-home-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "Awaiting audio · script reading only",
+        "my": "အသံဖိုင် စောင့်ဆိုင်းဆဲ · စာသားဖတ်ရန်သာ"
+      },
+      "body": {
+        "en": "Actual audio is unavailable. Read the scripts for preparation only; listening checks and shadowing are unavailable. Once matching audio exists, listen twice without the transcript, respond, then reveal the transcript and shadow each line. No listening score is awarded from reading.",
+        "my": "အသံဖိုင် မရနိုင်သေးပါ။ စာသားကို ကြိုတင် ဖတ်လေ့လာရန်သာ သုံးပါ။ နားထောင်မေးခွန်း စစ်ခြင်းနှင့် အသံနောက်မှ လိုက်ပြောခြင်း မရနိုင်သေးပါ။ အသံရရှိပါက စာသား မကြည့်ဘဲ နှစ်ကြိမ် နားထောင်၍ ဖြေပြီးမှ စာသားဖွင့်ပါ။ စာသားဖတ်ခြင်းမှ နားထောင်နိုင်စွမ်း အမှတ် မပေးပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c4-script-1",
+      "revision": 1,
+      "type": "explanation",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c4-home-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "Finding an apartment · awaiting audio",
+        "my": "စကားပြောစာသား 1 · အသံဖိုင် စောင့်ဆိုင်းဆဲ"
+      },
+      "body": {
+        "en": "Mina: Is there a station near your apartment?\nKo: Yes, there is. It is across from the supermarket.\nMina: Are there any parks nearby?\nKo: Yes, there are two small parks.",
+        "my": "အသံဖိုင် မရှိသေးစဉ် စာသားဖတ်လေ့လာနိုင်သည်။ ဤစာသားဖတ်ခြင်းကို နားထောင်နိုင်စွမ်း စစ်ဆေးမှုအဖြစ် မသတ်မှတ်ပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c4-script-2",
+      "revision": 1,
+      "type": "explanation",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c4-home-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "At home · awaiting audio",
+        "my": "စကားပြောစာသား 2 · အသံဖိုင် စောင့်ဆိုင်းဆဲ"
+      },
+      "body": {
+        "en": "Aye: Where is my notebook?\nSu: It is on the desk, next to your laptop.\nAye: And where is my bag?\nSu: It is behind the chair.",
+        "my": "အသံဖိုင် မရှိသေးစဉ် စာသားဖတ်လေ့လာနိုင်သည်။ ဤစာသားဖတ်ခြင်းကို နားထောင်နိုင်စွမ်း စစ်ဆေးမှုအဖြစ် မသတ်မှတ်ပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c4-listening-checks",
+      "revision": 1,
+      "type": "exercise_set",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c4-home-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "Planned listening questions · unavailable",
+        "my": "နားထောင်မေးခွန်းများ · မရနိုင်သေးပါ"
+      },
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c4-l1-1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c4-l1-2",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c4-l2-1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c4-l2-2",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c4-speaking-a",
+      "revision": 1,
+      "type": "speaking",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c4-describe-your-home",
+        "revision": 1
+      },
+      "title": {
+        "en": "Speaking A",
+        "my": "ပြောဆိုလေ့ကျင့်မှု A"
+      },
+      "prompt": {
+        "en": "Answer aloud in your own words for 30–45 seconds:\nWhat is in your room?\nWhere is your desk?\nIs there a station near your home? Recording/upload is unavailable here; practise aloud. Locally recording with another tool is optional and outside this preview.",
+        "my": "ကိုယ့်အခန်းတွင် ဘာရှိသလဲ၊ စားပွဲ ဘယ်မှာရှိသလဲ၊ အိမ်အနီး ဘူတာရှိသလား ဆိုသည်ကို ကိုယ့်စကားဖြင့် စက္ကန့် ၃၀–၄၅ ခန့် ပြောပါ။ ဤစမ်းကြည့်မှုတွင် အသံသွင်းခြင်းနှင့် ပေးပို့ခြင်း မရှိပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Use your own information; this is not a graded answer."
+      },
+      "checklist": [
+        {
+          "language": "en",
+          "text": "Did I finish my idea?"
+        },
+        {
+          "language": "en",
+          "text": "Was my grammar understandable?"
+        },
+        {
+          "language": "en",
+          "text": "Did I use the target phrases?"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c4-speaking-b",
+      "revision": 1,
+      "type": "speaking",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c4-describe-your-home",
+        "revision": 1
+      },
+      "title": {
+        "en": "Speaking B",
+        "my": "ပြောဆိုလေ့ကျင့်မှု B"
+      },
+      "prompt": {
+        "en": "Read Dialogue 1 with a partner (or alone in two voices). Switch roles, then replace at least two details with your own information. Recording/upload is unavailable here; practise aloud. Locally recording with another tool is optional and outside this preview.",
+        "my": "အဖော်နှင့် သို့မဟုတ် ကိုယ်တိုင် လူနှစ်ဦးအသံဖြင့် စကားပြော ၁ ကို ပြောပါ။ အခန်းကဏ္ဍ လဲ၍ ကိုယ့်အချက်အလက် အနည်းဆုံး နှစ်ခု ထည့်ပြောပါ။ ဤစမ်းကြည့်မှုတွင် အသံသွင်းခြင်းနှင့် ပေးပို့ခြင်း မရှိပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Use Dialogue 1 from Learn. Replace two details."
+      },
+      "checklist": [
+        {
+          "language": "en",
+          "text": "Did I finish my idea?"
+        },
+        {
+          "language": "en",
+          "text": "Was my grammar understandable?"
+        },
+        {
+          "language": "en",
+          "text": "Did I use the target phrases?"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c4-reading-passage",
+      "revision": 1,
+      "type": "reading",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c4-my-new-room",
+        "revision": 1
+      },
+      "title": {
+        "en": "Read for explicit facts",
+        "my": "ဖော်ပြထားသော အချက်အလက်များကို ရှာဖတ်ပါ"
+      },
+      "stimulusRef": {
+        "kind": "stimulus",
+        "id": "a1-c4-reading-stimulus",
+        "revision": 1
+      },
+      "explanation": {
+        "en": "Read once without a dictionary. Read again to find explicit facts, then answer. Supported self-review only, not an independent assessment.",
+        "my": "ပထမတစ်ခေါက် အဘိဓာန် မကြည့်ဘဲ ဖတ်ပါ။ ဒုတိယအခေါက် အချက်အလက်များကို ရှာ၍ မေးခွန်းများ ဖြေပါ။ အကူအညီပါသော ကိုယ်တိုင် ပြန်စစ်မှုသာ ဖြစ်ပြီး လွတ်လပ်သော စစ်ဆေးမှု မဟုတ်ပါ။"
+      }
+    },
+    {
+      "kind": "block",
+      "id": "a1-c4-reading-checks",
+      "revision": 1,
+      "type": "exercise_set",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c4-my-new-room",
+        "revision": 1
+      },
+      "title": {
+        "en": "Short-answer self-review",
+        "my": "တိုတောင်းသော အဖြေများကို ကိုယ်တိုင် ပြန်စစ်ခြင်း"
+      },
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c4-reading-group",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c4-writing-first-draft",
+      "revision": 1,
+      "type": "writing",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c4-write-about-home",
+        "revision": 1
+      },
+      "title": {
+        "en": "Write your own response",
+        "my": "ကိုယ်ပိုင် အဖြေ ရေးပါ"
+      },
+      "prompt": {
+        "en": "Write 5–7 sentences about your room and neighborhood. Use There is, There are and two prepositions of place.",
+        "my": "ကိုယ့်အခန်းနှင့် အနီးအနားအကြောင်း ဝါကျ ၅–၇ ကြောင်း ရေးပါ။ There is၊ There are နှင့် နေရာပြစကား နှစ်ခုကို သုံးပါ။ ဥပမာကို မကူးပါနှင့်။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "There is a desk in my room. My laptop is on the desk. There are two chairs. There is a supermarket near my home. The station is across from a cafe."
+      },
+      "minWords": 20,
+      "maxWords": 130
+    },
+    {
+      "kind": "block",
+      "id": "a1-c4-writing-edit",
+      "revision": 1,
+      "type": "explanation",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c4-write-about-home",
+        "revision": 1
+      },
+      "title": {
+        "en": "Self-edit your draft",
+        "my": "ကိုယ့်စာမူကို ပြင်ဆင်ပါ"
+      },
+      "body": {
+        "en": "Underline subjects and verbs; check punctuation and the chapter grammar. The model is one possible answer; compare only after writing. Nothing is graded or saved.",
+        "my": "ကတ္တားနှင့် ကြိယာကို မျဉ်းသားပြီး ပုဒ်ဖြတ်ပုဒ်ရပ်နှင့် သဒ္ဒါကို စစ်ပါ။ ဥပမာသည် အဖြေမှန် တစ်မျိုးတည်း မဟုတ်ပါ။ ကိုယ်တိုင် ရေးပြီးမှ ယှဉ်ကြည့်ပါ။ မသိမ်းဆည်းပါ၊ အမှတ်မပေးပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c4-writing-rewrite",
+      "revision": 1,
+      "type": "writing",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c4-write-about-home",
+        "revision": 1
+      },
+      "title": {
+        "en": "Rewrite and compare",
+        "my": "ပြန်ရေးပြီး ယှဉ်ကြည့်ပါ"
+      },
+      "prompt": {
+        "en": "Rewrite after self-editing. Compare both drafts and note an improvement.",
+        "my": "ကိုယ်တိုင် ပြင်ဆင်ပြီး ပြန်ရေးပါ။ စာမူနှစ်ခု ယှဉ်ကြည့်၍ တိုးတက်သည့် အချက်တစ်ခု မှတ်ပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "There is a desk in my room. My laptop is on the desk. There are two chairs. There is a supermarket near my home. The station is across from a cafe."
+      },
+      "minWords": 20,
+      "maxWords": 130
+    },
+    {
+      "kind": "block",
+      "id": "a1-c4-knowledge-check",
+      "revision": 1,
+      "type": "exercise_set",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c4-review",
+        "revision": 1
+      },
+      "title": {
+        "en": "12 recognition questions",
+        "my": "အခြေခံသိရှိမှု မေးခွန်း ၁၂ ခု"
+      },
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c4-k1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c4-k2",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c4-k3",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c4-k4",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c4-k5",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c4-k6",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c4-k7",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c4-k8",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c4-k9",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c4-k10",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c4-k11",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c4-k12",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c4-skill-review",
+      "revision": 1,
+      "type": "explanation",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c4-review",
+        "revision": 1
+      },
+      "title": {
+        "en": "Skills review and future assessment",
+        "my": "လေ့ကျင့်မှုကို ပြန်ကြည့်ခြင်းနှင့် အနာဂတ် စစ်ဆေးမှု"
+      },
+      "body": {
+        "en": "Listening requires actual new audio without a visible transcript; it is unavailable now. Speaking is 30–45-second aloud self-practice; recording is unavailable. Reading responses are self-reviewed after using the passage; no proficiency score. Writing is original, unsaved and ungraded. MCQs demonstrate recognition only; there is no new chapter pass threshold or CEFR award.",
+        "my": "နားထောင်မှုအတွက် အသံအစစ် လိုသေး၍ ယခု မရနိုင်သေးပါ။ ပြောဆိုမှုကို စက္ကန့် ၃၀–၄၅ အသံထွက် လေ့ကျင့်ပါ။ အသံသွင်းခြင်း မရှိပါ။ ဖတ်ရှုအဖြေများကို စာပိုဒ်နှင့် ယှဉ်၍ ကိုယ်တိုင် ပြန်စစ်ပါ။ ရေးသားမှုသည် ကိုယ်ပိုင်ဖြစ်ပြီး မသိမ်းဆည်းပါ၊ အမှတ်မပေးပါ။ MCQ များသည် သိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်ပြီး အခန်းအောင်မှတ်နှင့် CEFR အဆင့် မသတ်မှတ်ပါ။"
+      },
+      "examples": []
+    }
+  ],
+  "objectives": [
+    {
+      "kind": "objective",
+      "id": "a1-c4-objective-1",
+      "revision": 1,
+      "statement": {
+        "en": "Use home and neighborhood words in five original sentences.",
+        "my": "အိမ်နှင့် အနီးအနားဆိုင်ရာ စကားလုံးများဖြင့် ကိုယ်ပိုင် ဝါကျ ငါးကြောင်း ရေးရန်။"
+      },
+      "action": "produce",
+      "tags": {
+        "areas": ["vocabulary"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c4-objective-2",
+      "revision": 1,
+      "statement": {
+        "en": "Use there is/are, articles and place prepositions.",
+        "my": "There is/are၊ a/an/some နှင့် နေရာပြစကားများကို ဝါကျတိုများတွင် သုံးရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["recognition"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c4-objective-3",
+      "revision": 1,
+      "statement": {
+        "en": "Read two scripts while actual audio is pending.",
+        "my": "အသံဖိုင် မရှိသေးစဉ် စကားပြောစာသား နှစ်ပုဒ်ကို ကြိုတင် ဖတ်လေ့လာရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c4-objective-4",
+      "revision": 1,
+      "statement": {
+        "en": "Describe your home aloud and self-review.",
+        "my": "အခန်းနှင့် အိမ်အနီးရှိ နေရာများအကြောင်း အသံထွက် ပြောပြီး ကိုယ်တိုင် ပြန်စစ်ရန်။"
+      },
+      "action": "produce",
+      "tags": {
+        "areas": ["speaking"],
+        "coreSkills": ["speaking"]
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c4-objective-5",
+      "revision": 1,
+      "statement": {
+        "en": "Find explicit room facts and self-review short answers.",
+        "my": "အခန်းအကြောင်း စာပိုဒ်မှ အချက်အလက်များကို ရှာပြီး တိုတောင်းသော အဖြေများကို ကိုယ်တိုင် ပြန်စစ်ရန်။"
+      },
+      "action": "interpret",
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c4-objective-6",
+      "revision": 1,
+      "statement": {
+        "en": "Write and edit 5–7 original sentences about home.",
+        "my": "နေရာပြစကား နှစ်ခုပါသော ကိုယ်ပိုင် ဝါကျ ၅–၇ ကြောင်း ရေးပြီး ပြင်ဆင်ရန်။"
+      },
+      "action": "produce",
+      "tags": {
+        "areas": ["writing"],
+        "coreSkills": ["writing"]
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c4-objective-7",
+      "revision": 1,
+      "statement": {
+        "en": "Check 12 grammar/vocabulary recognition questions.",
+        "my": "သဒ္ဒါနှင့် စကားလုံးသိရှိမှု မေးခွန်း ၁၂ ခုကို လေ့ကျင့်ပြီး ရှင်းလင်းချက် ပြန်ကြည့်ရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["recognition"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    }
+  ],
+  "exercises": [
+    {
+      "kind": "exercise",
+      "id": "a1-c4-l1-1",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-3",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "What is near the apartment? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-l1-2",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-3",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "How many parks are nearby? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-l2-1",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-3",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "Where is the notebook? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-l2-2",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-3",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "Where is the bag? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-r1",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-5",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "Is the apartment large? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-r2",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-5",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "How many windows are in the bedroom? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-r3",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-5",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "Where is the desk? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-r4",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-5",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "What is on the desk? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-r5",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-5",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "What is across from the building? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-reading-group",
+      "revision": 1,
+      "type": "reading_comprehension",
+      "instructions": {
+        "en": "Read, respond briefly, then self-review.",
+        "my": "ဖတ်၍ တိုတောင်းစွာ ဖြေပြီး ကိုယ်တိုင် ပြန်စစ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 10
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-5",
+          "revision": 1
+        }
+      ],
+      "stimulusRef": {
+        "kind": "stimulus",
+        "id": "a1-c4-reading-stimulus",
+        "revision": 1
+      },
+      "itemRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c4-r1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c4-r2",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c4-r3",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c4-r4",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c4-r5",
+          "revision": 1
+        }
+      ],
+      "assistance": "practice_with_support"
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-k1",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "There ___ a desk in my room."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c4-k1-a",
+          "text": {
+            "language": "en",
+            "text": "is"
+          }
+        },
+        {
+          "id": "a1-c4-k1-b",
+          "text": {
+            "language": "en",
+            "text": "are"
+          }
+        },
+        {
+          "id": "a1-c4-k1-c",
+          "text": {
+            "language": "en",
+            "text": "am"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-k2",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "There ___ two windows."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c4-k2-a",
+          "text": {
+            "language": "en",
+            "text": "is"
+          }
+        },
+        {
+          "id": "a1-c4-k2-b",
+          "text": {
+            "language": "en",
+            "text": "are"
+          }
+        },
+        {
+          "id": "a1-c4-k2-c",
+          "text": {
+            "language": "en",
+            "text": "be"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-k3",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "My bag is ___ the chair. It is below it."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c4-k3-a",
+          "text": {
+            "language": "en",
+            "text": "on"
+          }
+        },
+        {
+          "id": "a1-c4-k3-b",
+          "text": {
+            "language": "en",
+            "text": "under"
+          }
+        },
+        {
+          "id": "a1-c4-k3-c",
+          "text": {
+            "language": "en",
+            "text": "between"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-k4",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "The cafe is ___ the bank and the shop."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c4-k4-a",
+          "text": {
+            "language": "en",
+            "text": "between"
+          }
+        },
+        {
+          "id": "a1-c4-k4-b",
+          "text": {
+            "language": "en",
+            "text": "under"
+          }
+        },
+        {
+          "id": "a1-c4-k4-c",
+          "text": {
+            "language": "en",
+            "text": "in"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-k5",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "___ there any parks nearby?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c4-k5-a",
+          "text": {
+            "language": "en",
+            "text": "Is"
+          }
+        },
+        {
+          "id": "a1-c4-k5-b",
+          "text": {
+            "language": "en",
+            "text": "Are"
+          }
+        },
+        {
+          "id": "a1-c4-k5-c",
+          "text": {
+            "language": "en",
+            "text": "Am"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-k6",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "The laptop is ___ the desk. It rests on top."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c4-k6-a",
+          "text": {
+            "language": "en",
+            "text": "in"
+          }
+        },
+        {
+          "id": "a1-c4-k6-b",
+          "text": {
+            "language": "en",
+            "text": "on"
+          }
+        },
+        {
+          "id": "a1-c4-k6-c",
+          "text": {
+            "language": "en",
+            "text": "behind"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-k7",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "There is ___ apple on the table."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c4-k7-a",
+          "text": {
+            "language": "en",
+            "text": "a"
+          }
+        },
+        {
+          "id": "a1-c4-k7-b",
+          "text": {
+            "language": "en",
+            "text": "an"
+          }
+        },
+        {
+          "id": "a1-c4-k7-c",
+          "text": {
+            "language": "en",
+            "text": "some"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-k8",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "There are ___ books on the shelf."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c4-k8-a",
+          "text": {
+            "language": "en",
+            "text": "a"
+          }
+        },
+        {
+          "id": "a1-c4-k8-b",
+          "text": {
+            "language": "en",
+            "text": "some"
+          }
+        },
+        {
+          "id": "a1-c4-k8-c",
+          "text": {
+            "language": "en",
+            "text": "an"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-k9",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Is there a station nearby? Yes, there ___."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c4-k9-a",
+          "text": {
+            "language": "en",
+            "text": "are"
+          }
+        },
+        {
+          "id": "a1-c4-k9-b",
+          "text": {
+            "language": "en",
+            "text": "is"
+          }
+        },
+        {
+          "id": "a1-c4-k9-c",
+          "text": {
+            "language": "en",
+            "text": "am"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-k10",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "There ___ any chairs here."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c4-k10-a",
+          "text": {
+            "language": "en",
+            "text": "isn’t"
+          }
+        },
+        {
+          "id": "a1-c4-k10-b",
+          "text": {
+            "language": "en",
+            "text": "aren’t"
+          }
+        },
+        {
+          "id": "a1-c4-k10-c",
+          "text": {
+            "language": "en",
+            "text": "doesn’t"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-k11",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Where is the book? It is ___ the box (inside)."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c4-k11-a",
+          "text": {
+            "language": "en",
+            "text": "in"
+          }
+        },
+        {
+          "id": "a1-c4-k11-b",
+          "text": {
+            "language": "en",
+            "text": "on"
+          }
+        },
+        {
+          "id": "a1-c4-k11-c",
+          "text": {
+            "language": "en",
+            "text": "between"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c4-k12",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c4-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "The park is ___ from the station."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c4-k12-a",
+          "text": {
+            "language": "en",
+            "text": "behind"
+          }
+        },
+        {
+          "id": "a1-c4-k12-b",
+          "text": {
+            "language": "en",
+            "text": "across"
+          }
+        },
+        {
+          "id": "a1-c4-k12-c",
+          "text": {
+            "language": "en",
+            "text": "under"
+          }
+        }
+      ]
+    }
+  ],
+  "assessments": [],
+  "stimuli": [
+    {
+      "kind": "stimulus",
+      "id": "a1-c4-reading-stimulus",
+      "revision": 1,
+      "type": "reading",
+      "passage": {
+        "language": "en",
+        "text": "My apartment is small, but it is comfortable. There is one bedroom and one kitchen. There are two windows in my bedroom. My desk is next to the window, and my laptop is on the desk. There is a supermarket across from my building. The station is near my home."
+      },
+      "sourceAttribution": "A1 Chapter 4 Full Lesson Pack"
+    }
+  ],
+  "transcripts": [],
+  "assets": []
+}

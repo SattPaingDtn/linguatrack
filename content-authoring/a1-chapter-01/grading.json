@@ -1,0 +1,702 @@
+{
+  "exerciseRules": [
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-v01",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "First-meeting greeting",
+        "my": "ပထမဆုံး တွေ့သည့်အခါ Nice to meet you ဟု ယဉ်ကျေးစွာ နှုတ်ဆက်ပါ။"
+      },
+      "correctOptionIds": ["a1-c1-pack-v01-a"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-v02",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "My name is",
+        "my": "My name သည် အနည်းကိန်း ဖြစ်၍ is ကို သုံးပါ။"
+      },
+      "correctOptionIds": ["a1-c1-pack-v02-b"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-v03",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "One job noun requires a",
+        "my": "အနည်းကိန်း အလုပ်အကိုင်နာမ် developer ရှေ့၌ a လိုသည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-v03-c"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-v04",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Polite reciprocal phrase",
+        "my": "Nice to meet you, too ဟု ဝမ်းသာကြောင်း ပြန်ပြောနိုင်သည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-v04-a"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-v05",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "colleague = coworker",
+        "my": "Colleague ဆိုသည်မှာ ကိုယ်နှင့် အတူ အလုပ်လုပ်သော လုပ်ဖော်ကိုင်ဖက် ဖြစ်သည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-v05-a"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-g01",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "he is",
+        "my": "He နှင့် is ကို တွဲသုံးပါ။"
+      },
+      "correctOptionIds": ["a1-c1-pack-g01-c"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-g02",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "they are",
+        "my": "They နှင့် are ကို တွဲသုံးပါ။"
+      },
+      "correctOptionIds": ["a1-c1-pack-g02-a"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-g03",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "an engineer",
+        "my": "Engineer သည် သရအသံနှင့် စသဖြင့် an engineer ဟု သုံးပါ။"
+      },
+      "correctOptionIds": ["a1-c1-pack-g03-b"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-g04",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Are you...?",
+        "my": "You ကို မေးခွန်းဖွဲ့လျှင် Are you…? ဟု သုံးပါ။"
+      },
+      "correctOptionIds": ["a1-c1-pack-g04-c"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-g05",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Present-simple main verb write",
+        "my": "I write code တွင် write သည် ပစ္စုပ္ပန်ရိုးရိုး ကြိယာ ဖြစ်သည်။ am မလိုပါ။"
+      },
+      "correctOptionIds": ["a1-c1-pack-g05-a"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-g06",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "she writes",
+        "my": "ပစ္စုပ္ပန်ရိုးရိုး ဝါကျ၌ he/she/it နောက်က ကြိယာတွင် -s ထည့်၍ she writes ဟု သုံးပါ။"
+      },
+      "correctOptionIds": ["a1-c1-pack-g06-b"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-g07",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Identity complement",
+        "my": "A designer သည် သူမ ဘယ်သူဖြစ်သည်ကို ဖြည့်ဖော်ပြသော Complement ဖြစ်သည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-g07-b"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-g08",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "books receives the action",
+        "my": "Books သည် ဖတ်ခြင်း၏ လုပ်ဆောင်မှုခံရသော အရာ ဖြစ်၍ ကံ (Object) ဖြစ်သည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-g08-a"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-g09",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "My name is",
+        "my": "My name သည် အနည်းကိန်း ဖြစ်၍ is ကို သုံးပါ။"
+      },
+      "correctOptionIds": ["a1-c1-pack-g09-c"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-g10",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Affirmative S + be + complement",
+        "my": "ရိုးရိုးပြောဝါကျကို Subject + be + complement ပုံစံဖြင့် He is a manager. ဟု ဖွဲ့ပါ။"
+      },
+      "correctOptionIds": ["a1-c1-pack-g10-b"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-l01",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Anna is named",
+        "my": "စကားပြောစာသားတွင် လူသစ်က My name is Anna ဟု ပြောသည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-l01-a"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-l02",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Anna says developer",
+        "my": "Anna သည် I'm a developer ဟု ပြောသည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-l02-b"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-l03",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Min says developer too",
+        "my": "Min သည် I'm a developer, too ဟု ပြောသဖြင့် သူလည်း developer ဖြစ်သည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-l03-a"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-l04",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Says good morning",
+        "my": "Min သည် Good morning ဟု နှုတ်ဆက်သည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-l04-a"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-l05",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Su is from Myanmar",
+        "my": "Su သည် I'm from Myanmar ဟု ပြောသည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-l05-b"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-l06",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Works in Tokyo",
+        "my": "Su သည် I work in Tokyo ဟု ပြောသည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-l06-c"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-l07",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Web designer",
+        "my": "Su သည် I'm a web designer ဟု ပြောသည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-l07-a"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-l08",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Ken is a developer",
+        "my": "Su ၏ လုပ်ဖော်ကိုင်ဖက် Ken သည် developer ဖြစ်သည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-l08-b"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-r01",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "India stated",
+        "my": "Maya သည် I'm from India ဟု ပြောထားသည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-r01-a"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-r02",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Designer stated",
+        "my": "Maya သည် I'm a designer ဟု ဖော်ပြထားသည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-r02-b"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-r03",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Min from Myanmar",
+        "my": "စာပိုဒ်တွင် Min is from Myanmar ဟု ဖော်ပြထားသည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-r03-c"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-r04",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Min and Ken = two",
+        "my": "ဖော်ပြထားသော developer များမှာ Min နှင့် Ken ဖြစ်၍ နှစ်ယောက် ဖြစ်သည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-r04-c"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-r05",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Websites stated",
+        "my": "စာပိုဒ်တွင် We work on websites ဟု ဖော်ပြထားသည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-r05-a"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-r06",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Anna is developer",
+        "my": "Anna သည် developer ဖြစ်ကြောင်း She is a developer, too ဟု ဖော်ပြထားသည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-r06-a"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-r07",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Mr. Sato is manager",
+        "my": "စာပိုဒ်တွင် မန်နေဂျာသည် Mr. Sato ဖြစ်ကြောင်း ဖော်ပြထားသည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-r07-b"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-r08",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Explicit small team",
+        "my": "We are a small team ဟု ဖော်ပြထားသဖြင့် အဖွဲ့ငယ် ဖြစ်သည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-r08-c"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-t01",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "I am",
+        "my": "I နှင့် am ကို တွဲသုံးပါ။"
+      },
+      "correctOptionIds": ["a1-c1-pack-t01-a"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-t02",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "She is",
+        "my": "She နှင့် is ကို တွဲသုံးပါ။"
+      },
+      "correctOptionIds": ["a1-c1-pack-t02-b"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-t03",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "They are",
+        "my": "They နှင့် are ကို တွဲသုံးပါ။"
+      },
+      "correctOptionIds": ["a1-c1-pack-t03-c"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-t04",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "a manager",
+        "my": "အနည်းကိန်း manager ရှေ့တွင် a လိုသည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-t04-b"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-t05",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Asks job",
+        "my": "အလုပ်မေးတာ"
+      },
+      "correctOptionIds": ["a1-c1-pack-t05-c"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-t06",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Are you",
+        "my": "You နှင့် မေးခွန်းဖွဲ့လျှင် Are you…? ကို သုံးပါ။"
+      },
+      "correctOptionIds": ["a1-c1-pack-t06-a"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-t07",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "I like tea",
+        "my": "I like tea တွင် like သည် ကြိယာ ဖြစ်သည်။ am မလိုပါ။"
+      },
+      "correctOptionIds": ["a1-c1-pack-t07-b"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-t08",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Colleague is",
+        "my": "My colleague သည် အနည်းကိန်း ဖြစ်၍ is ကို သုံးပါ။"
+      },
+      "correctOptionIds": ["a1-c1-pack-t08-c"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-t09",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "We work",
+        "my": "We နောက်တွင် work ကို သုံးပြီး -s မထည့်ပါ။"
+      },
+      "correctOptionIds": ["a1-c1-pack-t09-a"],
+      "scoring": "exact_set"
+    },
+    {
+      "type": "multiple_choice",
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c1-pack-t10",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "explanation": {
+        "en": "Nice to meet you",
+        "my": "Nice to meet you သည် ပထမဆုံး တွေ့သည့်အခါ ယဉ်ကျေးသော နှုတ်ဆက်စကား ဖြစ်သည်။"
+      },
+      "correctOptionIds": ["a1-c1-pack-t10-b"],
+      "scoring": "exact_set"
+    }
+  ],
+  "assessmentPolicies": []
+}

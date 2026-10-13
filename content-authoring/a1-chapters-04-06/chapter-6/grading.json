@@ -1,0 +1,416 @@
+{
+  "exerciseRules": [
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-l1-1",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "fill-in-blank-variants-v1",
+      "maxPoints": 1,
+      "type": "fill_in_blank",
+      "scoring": "exact_set",
+      "normalizerVersion": "en-nfc-trim-ascii-space-casefold-v1",
+      "acceptedByBlank": [
+        {
+          "blankId": "answer",
+          "variants": ["Update the home page"]
+        }
+      ],
+      "explanation": {
+        "en": "Compare this example with the explicit text. Other wording can also be valid. This preview does not judge correctness.",
+        "my": "စာသားထဲတွင် ဖော်ပြထားသော အချက်နှင့် ဥပမာကို ယှဉ်ကြည့်ပါ။ အခြားစကားလုံးဖြင့် ဖြေခြင်းလည်း မှန်နိုင်သည်။ ဤစမ်းကြည့်မှုက အမှား/အမှန် မသတ်မှတ်ပါ။ အသံအစစ်ဖြင့် ပြန်စစ်ရန် လိုသေးသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-l1-2",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "fill-in-blank-variants-v1",
+      "maxPoints": 1,
+      "type": "fill_in_blank",
+      "scoring": "exact_set",
+      "normalizerVersion": "en-nfc-trim-ascii-space-casefold-v1",
+      "acceptedByBlank": [
+        {
+          "blankId": "answer",
+          "variants": ["The new text"]
+        }
+      ],
+      "explanation": {
+        "en": "Compare this example with the explicit text. Other wording can also be valid. This preview does not judge correctness.",
+        "my": "စာသားထဲတွင် ဖော်ပြထားသော အချက်နှင့် ဥပမာကို ယှဉ်ကြည့်ပါ။ အခြားစကားလုံးဖြင့် ဖြေခြင်းလည်း မှန်နိုင်သည်။ ဤစမ်းကြည့်မှုက အမှား/အမှန် မသတ်မှတ်ပါ။ အသံအစစ်ဖြင့် ပြန်စစ်ရန် လိုသေးသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-l2-1",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "fill-in-blank-variants-v1",
+      "maxPoints": 1,
+      "type": "fill_in_blank",
+      "scoring": "exact_set",
+      "normalizerVersion": "en-nfc-trim-ascii-space-casefold-v1",
+      "acceptedByBlank": [
+        {
+          "blankId": "answer",
+          "variants": ["A file"]
+        }
+      ],
+      "explanation": {
+        "en": "Compare this example with the explicit text. Other wording can also be valid. This preview does not judge correctness.",
+        "my": "စာသားထဲတွင် ဖော်ပြထားသော အချက်နှင့် ဥပမာကို ယှဉ်ကြည့်ပါ။ အခြားစကားလုံးဖြင့် ဖြေခြင်းလည်း မှန်နိုင်သည်။ ဤစမ်းကြည့်မှုက အမှား/အမှန် မသတ်မှတ်ပါ။ အသံအစစ်ဖြင့် ပြန်စစ်ရန် လိုသေးသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-l2-2",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "fill-in-blank-variants-v1",
+      "maxPoints": 1,
+      "type": "fill_in_blank",
+      "scoring": "exact_set",
+      "normalizerVersion": "en-nfc-trim-ascii-space-casefold-v1",
+      "acceptedByBlank": [
+        {
+          "blankId": "answer",
+          "variants": ["After the meeting"]
+        }
+      ],
+      "explanation": {
+        "en": "Compare this example with the explicit text. Other wording can also be valid. This preview does not judge correctness.",
+        "my": "စာသားထဲတွင် ဖော်ပြထားသော အချက်နှင့် ဥပမာကို ယှဉ်ကြည့်ပါ။ အခြားစကားလုံးဖြင့် ဖြေခြင်းလည်း မှန်နိုင်သည်။ ဤစမ်းကြည့်မှုက အမှား/အမှန် မသတ်မှတ်ပါ။ အသံအစစ်ဖြင့် ပြန်စစ်ရန် လိုသေးသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-r1",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "fill-in-blank-variants-v1",
+      "maxPoints": 1,
+      "type": "fill_in_blank",
+      "scoring": "exact_set",
+      "normalizerVersion": "en-nfc-trim-ascii-space-casefold-v1",
+      "acceptedByBlank": [
+        {
+          "blankId": "answer",
+          "variants": ["Junior web developer."]
+        }
+      ],
+      "explanation": {
+        "en": "Compare this example with the explicit text. Other wording can also be valid. This preview does not judge correctness.",
+        "my": "စာသားထဲတွင် ဖော်ပြထားသော အချက်နှင့် ဥပမာကို ယှဉ်ကြည့်ပါ။ အခြားစကားလုံးဖြင့် ဖြေခြင်းလည်း မှန်နိုင်သည်။ ဤစမ်းကြည့်မှုက အမှား/အမှန် မသတ်မှတ်ပါ။ ကိုယ့်အဖြေကို စာပိုဒ်နှင့် ယှဉ်ကြည့်ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-r2",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "fill-in-blank-variants-v1",
+      "maxPoints": 1,
+      "type": "fill_in_blank",
+      "scoring": "exact_set",
+      "normalizerVersion": "en-nfc-trim-ascii-space-casefold-v1",
+      "acceptedByBlank": [
+        {
+          "blankId": "answer",
+          "variants": ["At ten."]
+        }
+      ],
+      "explanation": {
+        "en": "Compare this example with the explicit text. Other wording can also be valid. This preview does not judge correctness.",
+        "my": "စာသားထဲတွင် ဖော်ပြထားသော အချက်နှင့် ဥပမာကို ယှဉ်ကြည့်ပါ။ အခြားစကားလုံးဖြင့် ဖြေခြင်းလည်း မှန်နိုင်သည်။ ဤစမ်းကြည့်မှုက အမှား/အမှန် မသတ်မှတ်ပါ။ ကိုယ့်အဖြေကို စာပိုဒ်နှင့် ယှဉ်ကြည့်ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-r3",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "fill-in-blank-variants-v1",
+      "maxPoints": 1,
+      "type": "fill_in_blank",
+      "scoring": "exact_set",
+      "normalizerVersion": "en-nfc-trim-ascii-space-casefold-v1",
+      "acceptedByBlank": [
+        {
+          "blankId": "answer",
+          "variants": ["Update the home page and check two links."]
+        }
+      ],
+      "explanation": {
+        "en": "Compare this example with the explicit text. Other wording can also be valid. This preview does not judge correctness.",
+        "my": "စာသားထဲတွင် ဖော်ပြထားသော အချက်နှင့် ဥပမာကို ယှဉ်ကြည့်ပါ။ အခြားစကားလုံးဖြင့် ဖြေခြင်းလည်း မှန်နိုင်သည်။ ဤစမ်းကြည့်မှုက အမှား/အမှန် မသတ်မှတ်ပါ။ ကိုယ့်အဖြေကို စာပိုဒ်နှင့် ယှဉ်ကြည့်ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-r4",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "fill-in-blank-variants-v1",
+      "maxPoints": 1,
+      "type": "fill_in_blank",
+      "scoring": "exact_set",
+      "normalizerVersion": "en-nfc-trim-ascii-space-casefold-v1",
+      "acceptedByBlank": [
+        {
+          "blankId": "answer",
+          "variants": ["No."]
+        }
+      ],
+      "explanation": {
+        "en": "Compare this example with the explicit text. Other wording can also be valid. This preview does not judge correctness.",
+        "my": "စာသားထဲတွင် ဖော်ပြထားသော အချက်နှင့် ဥပမာကို ယှဉ်ကြည့်ပါ။ အခြားစကားလုံးဖြင့် ဖြေခြင်းလည်း မှန်နိုင်သည်။ ဤစမ်းကြည့်မှုက အမှား/အမှန် မသတ်မှတ်ပါ။ ကိုယ့်အဖြေကို စာပိုဒ်နှင့် ယှဉ်ကြည့်ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-r5",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "fill-in-blank-variants-v1",
+      "maxPoints": 1,
+      "type": "fill_in_blank",
+      "scoring": "exact_set",
+      "normalizerVersion": "en-nfc-trim-ascii-space-casefold-v1",
+      "acceptedByBlank": [
+        {
+          "blankId": "answer",
+          "variants": ["Friday."]
+        }
+      ],
+      "explanation": {
+        "en": "Compare this example with the explicit text. Other wording can also be valid. This preview does not judge correctness.",
+        "my": "စာသားထဲတွင် ဖော်ပြထားသော အချက်နှင့် ဥပမာကို ယှဉ်ကြည့်ပါ။ အခြားစကားလုံးဖြင့် ဖြေခြင်းလည်း မှန်နိုင်သည်။ ဤစမ်းကြည့်မှုက အမှား/အမှန် မသတ်မှတ်ပါ။ ကိုယ့်အဖြေကို စာပိုဒ်နှင့် ယှဉ်ကြည့်ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-k1",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c6-k1-b"],
+      "explanation": {
+        "en": "Use speak in this context. Review the pattern in Learn.",
+        "my": "can နောက်မှာ verb base form သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-k2",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c6-k2-a"],
+      "explanation": {
+        "en": "Use cannot in this context. Review the pattern in Learn.",
+        "my": "မလုပ်နိုင်ရင် cannot + verb ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-k3",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c6-k3-b"],
+      "explanation": {
+        "en": "Use Can in this context. Review the pattern in Learn.",
+        "my": "Can you + verb? နဲ့ request လုပ်ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-k4",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c6-k4-c"],
+      "explanation": {
+        "en": "Use check in this context. Review the pattern in Learn.",
+        "my": "Please နောက်မှာ base verb သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-k5",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c6-k5-a"],
+      "explanation": {
+        "en": "Use close in this context. Review the pattern in Learn.",
+        "my": "Don’t + base verb ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-k6",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c6-k6-b"],
+      "explanation": {
+        "en": "Use at in this context. Review the pattern in Learn.",
+        "my": "နာရီရှေ့မှာ at သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-k7",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c6-k7-c"],
+      "explanation": {
+        "en": "Use on in this context. Review the pattern in Learn.",
+        "my": "နေ့ရှေ့မှာ on သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-k8",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c6-k8-a"],
+      "explanation": {
+        "en": "Use with in this context. Review the pattern in Learn.",
+        "my": "help with a problem ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-k9",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c6-k9-b"],
+      "explanation": {
+        "en": "Use Could you send the file, please? in this context. Review the pattern in Learn.",
+        "my": "Could you...please? က ပိုယဉ်ကျေးတယ်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-k10",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c6-k10-a"],
+      "explanation": {
+        "en": "Use build in this context. Review the pattern in Learn.",
+        "my": "can + base verb build ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-k11",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c6-k11-b"],
+      "explanation": {
+        "en": "Use has in this context. Review the pattern in Learn.",
+        "my": "manager singular ဖြစ်လို့ has သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c6-k12",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c6-k12-b"],
+      "explanation": {
+        "en": "Use have in this context. Review the pattern in Learn.",
+        "my": "We နဲ့ have သုံးပါ။"
+      }
+    }
+  ],
+  "assessmentPolicies": []
+}

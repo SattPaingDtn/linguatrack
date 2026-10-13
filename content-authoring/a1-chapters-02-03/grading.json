@@ -1,0 +1,753 @@
+{
+  "exerciseRules": [
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-l1-1",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-l1-1-a"],
+      "explanation": {
+        "en": "The text explicitly states: A sister.",
+        "my": "May သည် စကားပြောသူ၏ အစ်မ/ညီမ ဖြစ်သည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-l1-2",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-l1-2-b"],
+      "explanation": {
+        "en": "The text explicitly states: A small blue bag.",
+        "my": "May တွင် အပြာရောင် အိတ်ငယ် ရှိသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-l1-3",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-l1-3-b"],
+      "explanation": {
+        "en": "The text explicitly states: Parents.",
+        "my": "အခြားလူ နှစ်ဦးမှာ စကားပြောသူ၏ မိဘများ ဖြစ်သည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-l2-1",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-l2-1-b"],
+      "explanation": {
+        "en": "The text explicitly states: Their manager.",
+        "my": "ပထမ လက်ပ်တော့ကို မန်နေဂျာက ပိုင်ဆိုင်သည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-l2-2",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-l2-2-a"],
+      "explanation": {
+        "en": "The text explicitly states: On the desk.",
+        "my": "စကားပြောသူ၏ လက်ပ်တော့သည် သူ၏ စားပွဲပေါ်တွင် ရှိသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-r1-1",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-r1-1-b"],
+      "explanation": {
+        "en": "The text explicitly states: Two.",
+        "my": "Min တွင် အစ်မ/ညီမ တစ်ယောက်နှင့် အစ်ကို/ညီ တစ်ယောက် ရှိ၍ မောင်နှမ နှစ်ယောက် ရှိသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-r1-2",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-r1-2-a"],
+      "explanation": {
+        "en": "The text explicitly states: Web developer.",
+        "my": "Min သည် web developer အဖြစ် အလုပ်လုပ်ကြောင်း ဖော်ပြထားသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-r1-3",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-r1-3-b"],
+      "explanation": {
+        "en": "The text explicitly states: Min’s brother.",
+        "my": "Min ၏ အစ်ကို/ညီသည် ဒီဇိုင်နာ ဖြစ်သည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-r2-1",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-r2-1-a"],
+      "explanation": {
+        "en": "The text explicitly states: Yes.",
+        "my": "Hana သည် လုပ်ဖော်ကိုင်ဖက်အသစ် ဖြစ်ကြောင်း ဖော်ပြထားသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-r2-2",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-r2-2-b"],
+      "explanation": {
+        "en": "The text explicitly states: Two.",
+        "my": "Hana တွင် မှတ်စုစာအုပ် နှစ်အုပ် ရှိသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-k1",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-k1-b"],
+      "explanation": {
+        "en": "has. She / my sister takes has.",
+        "my": "My sister သည် အနည်းကိန်း ဖြစ်၍ has ကို သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-k2",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-k2-b"],
+      "explanation": {
+        "en": "have. I takes have.",
+        "my": "I နှင့် have ကို တွဲသုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-k3",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-k3-a"],
+      "explanation": {
+        "en": "my. Use my before a noun.",
+        "my": "ကိုယ့်အိတ်ကို ပြောရန် နာမ် bag ရှေ့တွင် my ကို သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-k4",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-k4-b"],
+      "explanation": {
+        "en": "his. His shows possession by Ko in this example.",
+        "my": "ဤမေးခွန်း၌ Ko ကို he/him ဖြင့် ရည်ညွှန်းထားသဖြင့် his ကို သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-k5",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-k5-a"],
+      "explanation": {
+        "en": "Our. Our goes before parents.",
+        "my": "မိဘများသည် ကျွန်ုပ်တို့၏ မိဘများ ဖြစ်သဖြင့် parents ရှေ့တွင် Our ကို သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-k6",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-k6-c"],
+      "explanation": {
+        "en": "is. Use is for an identity.",
+        "my": "လူတစ်ယောက်၏ အလုပ်အကိုင်ကို ဖော်ပြရန် She is a teacher ဟု သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-k7",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-k7-a"],
+      "explanation": {
+        "en": "have. They takes have.",
+        "my": "They နှင့် have ကို တွဲသုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-k8",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-k8-b"],
+      "explanation": {
+        "en": "children. Children is the irregular plural.",
+        "my": "Child ၏ အများကိန်းမှာ children ဖြစ်သည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-k9",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-k9-a"],
+      "explanation": {
+        "en": "a. A singular countable noun needs a determiner.",
+        "my": "Sister သည် အနည်းကိန်း ဖြစ်ပြီး ဗျည်းအသံနှင့် စ၍ a ကို သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-k10",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-k10-b"],
+      "explanation": {
+        "en": "her. Her is the possessive adjective before desk.",
+        "my": "အမျိုးသမီး၏ ပိုင်ဆိုင်မှုကို နာမ် desk ရှေ့တွင် her ဖြင့် ဖော်ပြပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-k11",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-k11-c"],
+      "explanation": {
+        "en": "are. Plural colleagues takes are.",
+        "my": "Colleagues သည် အများကိန်း ဖြစ်၍ are ကို သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c2-k12",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c2-k12-a"],
+      "explanation": {
+        "en": "He has a bag. Use has for he and a for one bag.",
+        "my": "He နှင့် has၊ အိတ်တစ်လုံးကို ပြောရန် a bag ကို သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-l1-1",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-l1-1-b"],
+      "explanation": {
+        "en": "The text explicitly states: At ten.",
+        "my": "စကားပြောသူ B သည် နံနက် ၁၀ နာရီတွင် အလုပ်စလေ့ ရှိသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-l1-2",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-l1-2-b"],
+      "explanation": {
+        "en": "The text explicitly states: Wednesday.",
+        "my": "B သည် ဗုဒ္ဓဟူးနေ့တွင် ရုံးသို့ သွားသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-l1-3",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-l1-3-a"],
+      "explanation": {
+        "en": "The text explicitly states: Yes.",
+        "my": "B သည် အများအားဖြင့် အိမ်မှ အလုပ်လုပ်ကြောင်း Yes, I do ဟု ဖြေသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-l2-1",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-l2-1-b"],
+      "explanation": {
+        "en": "The text explicitly states: After dinner.",
+        "my": "အစ်မ/ညီမသည် ညစာစားပြီးနောက် စာလေ့လာသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-l2-2",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-l2-2-b"],
+      "explanation": {
+        "en": "The text explicitly states: No.",
+        "my": "သူမသည် ညတိုင်း မလေ့လာပါ။ တနင်္လာ၊ ဗုဒ္ဓဟူးနှင့် သောကြာနေ့များတွင် လေ့လာသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-r1-1",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-r1-1-b"],
+      "explanation": {
+        "en": "The text explicitly states: 10:00.",
+        "my": "Lin သည် နံနက် ၁၀ နာရီတွင် အလုပ်စကြောင်း ဖော်ပြထားသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-r1-2",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-r1-2-a"],
+      "explanation": {
+        "en": "The text explicitly states: From home.",
+        "my": "Lin သည် အများအားဖြင့် အိမ်မှ အလုပ်လုပ်သည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-r1-3",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-r1-3-b"],
+      "explanation": {
+        "en": "The text explicitly states: 2:00 p.m.",
+        "my": "အဖွဲ့အစည်းအဝေးသည် မွန်းလွဲ ၂ နာရီတွင် ဖြစ်သည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-r2-1",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-r2-1-b"],
+      "explanation": {
+        "en": "The text explicitly states: No.",
+        "my": "Mika သည် စနေနေ့တွင် အလုပ်မလုပ်ကြောင်း ဖော်ပြထားသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-r2-2",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-r2-2-a"],
+      "explanation": {
+        "en": "The text explicitly states: Read.",
+        "my": "Mika သည် နေ့လယ်ပိုင်းတွင် စာဖတ်လေ့ ရှိသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-k1",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-k1-b"],
+      "explanation": {
+        "en": "starts. She takes starts in an affirmative present-simple statement.",
+        "my": "She နှင့် ပစ္စုပ္ပန်ရိုးရိုး ပြောဝါကျ ဖွဲ့လျှင် starts ဟု -s ထည့်ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-k2",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-k2-c"],
+      "explanation": {
+        "en": "work. With I, use base form work.",
+        "my": "I နှင့် work ၏ မူရင်းပုံစံကို သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-k3",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-k3-a"],
+      "explanation": {
+        "en": "doesn’t. He takes does not / doesn’t.",
+        "my": "He နှင့် အငြင်းဝါကျ ဖွဲ့လျှင် does not / doesn’t ကို သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-k4",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-k4-b"],
+      "explanation": {
+        "en": "work. After doesn’t use base form.",
+        "my": "Doesn’t နောက်တွင် ကြိယာ၏ မူရင်းပုံစံ work ကို သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-k5",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-k5-a"],
+      "explanation": {
+        "en": "Do. Do forms a present-simple question with you.",
+        "my": "You နှင့် ပစ္စုပ္ပန်ရိုးရိုး မေးခွန်း ဖွဲ့လျှင် Do ကို သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-k6",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-k6-c"],
+      "explanation": {
+        "en": "Does. Use Does with he.",
+        "my": "He နှင့် မေးခွန်း ဖွဲ့လျှင် Does ကို သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-k7",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-k7-b"],
+      "explanation": {
+        "en": "at. At is used with clock time.",
+        "my": "နာရီအချိန်နှင့် at ကို သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-k8",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-k8-a"],
+      "explanation": {
+        "en": "on. On is used with days.",
+        "my": "နေ့နာမည် Monday နှင့် on ကို သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-k9",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-k9-c"],
+      "explanation": {
+        "en": "in. In the morning is the standard time phrase.",
+        "my": "In the morning သည် မနက်ပိုင်းကို ပြောသော အသုံးအနှုန်း ဖြစ်သည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-k10",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-k10-b"],
+      "explanation": {
+        "en": "Usually commonly follows be in neutral word order: She is usually late. She usually is late can also be grammatical with emphasis; this question asks for the usual neutral placement.",
+        "my": "အများသုံး ရိုးရိုးအစီအစဉ်၌ usually ကို be ကြိယာ is နောက်တွင် ထားပါ။ She usually is late လည်း အလေးပေးသော အခြေအနေတချို့၌ သဒ္ဒါအရ မှန်နိုင်သည်။ ဤမေးခွန်းသည် သာမန် အစီအစဉ်ကို မေးခြင်း ဖြစ်သည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-k11",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-k11-a"],
+      "explanation": {
+        "en": "studies. Study → studies with she/he/it.",
+        "my": "My friend သည် အနည်းကိန်း ဖြစ်၍ study မှ studies သို့ ပြောင်းပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c3-k12",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c3-k12-b"],
+      "explanation": {
+        "en": "don’t. Short response to Do you is I don’t.",
+        "my": "Do you…? ကို အငြင်းတိုတို ဖြေရန် No, I don’t ဟု သုံးပါ။"
+      }
+    }
+  ],
+  "assessmentPolicies": []
+}

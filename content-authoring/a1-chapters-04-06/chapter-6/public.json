@@ -1,0 +1,2442 @@
+{
+  "courses": [],
+  "chapters": [
+    {
+      "kind": "chapter",
+      "id": "a1-chapter-6",
+      "revision": 1,
+      "courseRef": {
+        "kind": "course",
+        "id": "general-a1",
+        "revision": 1
+      },
+      "slug": "work-study",
+      "order": 6,
+      "title": {
+        "en": "Work and study",
+        "my": "အလုပ်နှင့် လေ့လာရေး"
+      },
+      "description": {
+        "en": "Seven local editorial lessons. Actual audio and independent review remain pending. No progress or proficiency is awarded.",
+        "my": "အယ်ဒီတာ ရေးသားထားသော သင်ခန်းစာ ခုနစ်ခု ပါသည်။ အသံဖိုင်နှင့် လွတ်လပ်သော သုံးသပ်မှု လိုသေးသည်။ တိုးတက်မှုနှင့် ကျွမ်းကျင်မှုအဆင့်ကို မသတ်မှတ်ပါ။"
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-1",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-2",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-3",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-4",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-5",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-6",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-7",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [
+        {
+          "target": {
+            "kind": "lesson",
+            "id": "a1-c2-review",
+            "revision": 1
+          },
+          "requirement": "completed",
+          "enforcement": "advisory"
+        },
+        {
+          "target": {
+            "kind": "lesson",
+            "id": "a1-c3-review",
+            "revision": 1
+          },
+          "requirement": "completed",
+          "enforcement": "advisory"
+        },
+        {
+          "target": {
+            "kind": "lesson",
+            "id": "a1-c4-review",
+            "revision": 1
+          },
+          "requirement": "completed",
+          "enforcement": "advisory"
+        },
+        {
+          "target": {
+            "kind": "lesson",
+            "id": "a1-c5-review",
+            "revision": 1
+          },
+          "requirement": "completed",
+          "enforcement": "advisory"
+        }
+      ],
+      "lessonRefs": [
+        {
+          "kind": "lesson",
+          "id": "a1-c6-work-words",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c6-can-and-requests",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c6-work-scripts",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c6-talk-about-work",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c6-my-workday",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c6-write-a-work-update",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c6-review",
+          "revision": 1
+        }
+      ],
+      "assessmentRefs": [],
+      "coverageTargets": []
+    }
+  ],
+  "lessons": [
+    {
+      "kind": "lesson",
+      "id": "a1-c6-work-words",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-6",
+        "revision": 1
+      },
+      "slug": "work-words",
+      "title": {
+        "en": "Words in context",
+        "my": "အခြေအနေနှင့် တွဲလေ့လာသော စကားလုံးများ"
+      },
+      "description": {
+        "en": "Use work and study words in five original sentences.",
+        "my": "အလုပ်နှင့် လေ့လာရေး စကားလုံးများဖြင့် ကိုယ်ပိုင် ဝါကျ ငါးကြောင်း ရေးရန်။"
+      },
+      "tags": {
+        "areas": ["vocabulary"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-1",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c6-vocabulary",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c6-vocabulary-production",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c6-can-and-requests",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-6",
+        "revision": 1
+      },
+      "slug": "can-and-requests",
+      "title": {
+        "en": "Grammar foundations",
+        "my": "သဒ္ဒါအခြေခံ"
+      },
+      "description": {
+        "en": "Use can/cannot, imperatives and polite requests.",
+        "my": "Can/cannot၊ ညွှန်ကြားဝါကျနှင့် ယဉ်ကျေးသော အကူအညီတောင်းစကားများကို သုံးရန်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-2",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c6-grammar-1",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c6-mistakes",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c6-grammar-production",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c6-work-scripts",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-6",
+        "revision": 1
+      },
+      "slug": "work-scripts",
+      "title": {
+        "en": "Dialogue scripts · awaiting audio",
+        "my": "စကားပြောစာသားများ · အသံဖိုင် စောင့်ဆိုင်းဆဲ"
+      },
+      "description": {
+        "en": "Read two work scripts while actual audio is pending.",
+        "my": "အသံဖိုင် မရှိသေးစဉ် အလုပ်တာဝန်နှင့် အကူအညီတောင်း စာသားများကို ဖတ်လေ့လာရန်။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-3",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c6-audio-pending",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c6-script-1",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c6-script-2",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c6-listening-checks",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c6-talk-about-work",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-6",
+        "revision": 1
+      },
+      "slug": "talk-about-work",
+      "title": {
+        "en": "Speaking and role-play",
+        "my": "ပြောဆိုခြင်းနှင့် အပြန်အလှန် လေ့ကျင့်ခြင်း"
+      },
+      "description": {
+        "en": "Discuss work and abilities; ask politely for help.",
+        "my": "ကိုယ့်အလုပ်၊ လုပ်နိုင်စွမ်းနှင့် အကူအညီတောင်းစကားကို အသံထွက် ပြောရန်။"
+      },
+      "tags": {
+        "areas": ["speaking"],
+        "coreSkills": ["speaking"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-4",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c6-speaking-a",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c6-speaking-b",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c6-my-workday",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-6",
+        "revision": 1
+      },
+      "slug": "my-workday",
+      "title": {
+        "en": "Reading and short-answer self-review",
+        "my": "ဖတ်ရှုခြင်းနှင့် တိုတောင်းသော အဖြေများကို ကိုယ်တိုင် ပြန်စစ်ခြင်း"
+      },
+      "description": {
+        "en": "Find explicit workday facts and self-review short answers.",
+        "my": "အလုပ်နေ့အကြောင်း စာပိုဒ်မှ အချက်အလက်များကို ရှာ၍ ကိုယ်တိုင် ပြန်စစ်ရန်။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-5",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c6-reading-passage",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c6-reading-checks",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c6-write-a-work-update",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-6",
+        "revision": 1
+      },
+      "slug": "write-a-work-update",
+      "title": {
+        "en": "Writing and self-editing",
+        "my": "ရေးသားခြင်းနှင့် ကိုယ်တိုင် ပြင်ဆင်ခြင်း"
+      },
+      "description": {
+        "en": "Write a work update and a polite request.",
+        "my": "Can/cannot/please ပါသော အလုပ်အခြေအနေစာနှင့် အကူအညီတောင်းစာ ရေးရန်။"
+      },
+      "tags": {
+        "areas": ["writing"],
+        "coreSkills": ["writing"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-6",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c6-writing-first-draft",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c6-writing-edit",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c6-writing-rewrite",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c6-review",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-6",
+        "revision": 1
+      },
+      "slug": "review",
+      "title": {
+        "en": "Chapter recognition practice",
+        "my": "အခန်းပါ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်း"
+      },
+      "description": {
+        "en": "Check 12 grammar/vocabulary recognition questions.",
+        "my": "သဒ္ဒါနှင့် စကားလုံးသိရှိမှု မေးခွန်း ၁၂ ခုကို လေ့ကျင့်ပြီး ပြန်ကြည့်ရန်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-7",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c6-knowledge-check",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c6-skill-review",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "kind": "block",
+      "id": "a1-c6-vocabulary",
+      "revision": 1,
+      "type": "vocabulary",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c6-work-words",
+        "revision": 1
+      },
+      "title": {
+        "en": "Words in context",
+        "my": "စကားလုံးများ"
+      },
+      "words": [
+        {
+          "word": "task",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "task",
+            "my": "တာဝန် / လုပ်စရာ"
+          },
+          "example": {
+            "language": "en",
+            "text": "I have a new task."
+          }
+        },
+        {
+          "word": "project",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "project",
+            "my": "ပရောဂျက်"
+          },
+          "example": {
+            "language": "en",
+            "text": "Our project is small."
+          }
+        },
+        {
+          "word": "team",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "team",
+            "my": "အဖွဲ့"
+          },
+          "example": {
+            "language": "en",
+            "text": "My team has four people."
+          }
+        },
+        {
+          "word": "website",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "website",
+            "my": "ဝက်ဘ်ဆိုက်"
+          },
+          "example": {
+            "language": "en",
+            "text": "I work on a website."
+          }
+        },
+        {
+          "word": "page",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "page",
+            "my": "စာမျက်နှာ"
+          },
+          "example": {
+            "language": "en",
+            "text": "I can update this page."
+          }
+        },
+        {
+          "word": "file",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "file",
+            "my": "ဖိုင်"
+          },
+          "example": {
+            "language": "en",
+            "text": "Please open the file."
+          }
+        },
+        {
+          "word": "meeting",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "meeting",
+            "my": "အစည်းအဝေး"
+          },
+          "example": {
+            "language": "en",
+            "text": "We have a meeting today."
+          }
+        },
+        {
+          "word": "deadline",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "deadline",
+            "my": "နောက်ဆုံးသတ်မှတ်ရက်"
+          },
+          "example": {
+            "language": "en",
+            "text": "The deadline is Friday."
+          }
+        },
+        {
+          "word": "problem",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "problem",
+            "my": "ပြဿနာ"
+          },
+          "example": {
+            "language": "en",
+            "text": "I have a small problem."
+          }
+        },
+        {
+          "word": "help",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "help",
+            "my": "ကူညီသည်"
+          },
+          "example": {
+            "language": "en",
+            "text": "Can you help me?"
+          }
+        },
+        {
+          "word": "check",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "check",
+            "my": "စစ်ဆေးသည်"
+          },
+          "example": {
+            "language": "en",
+            "text": "Please check this page."
+          }
+        },
+        {
+          "word": "send",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "send",
+            "my": "ပို့သည်"
+          },
+          "example": {
+            "language": "en",
+            "text": "I can send the file."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c6-vocabulary-production",
+      "revision": 1,
+      "type": "writing",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c6-work-words",
+        "revision": 1
+      },
+      "title": {
+        "en": "Five original sentences",
+        "my": "ကိုယ်ပိုင် ဝါကျ ငါးကြောင်း"
+      },
+      "prompt": {
+        "en": "Read each example aloud twice. Write five NEW sentences using these words.",
+        "my": "ဥပမာတစ်ခုစီကို နှစ်ခေါက် အသံထွက် ဖတ်ပါ။ စကားလုံး ငါးလုံး ရွေး၍ ကိုယ်ပိုင် ဝါကျအသစ် ငါးကြောင်း ရေးပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Use your own information. There is no single correct model."
+      },
+      "minWords": 15,
+      "maxWords": 100
+    },
+    {
+      "kind": "block",
+      "id": "a1-c6-grammar-1",
+      "revision": 1,
+      "type": "grammar",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c6-can-and-requests",
+        "revision": 1
+      },
+      "title": {
+        "en": "Can / Cannot for ability\n\n**English:** I can write HTML. She can speak English. I cannot (can’t) join today. The base verb follows can/can’t: can write, not can writes.\n\n**မြန်မာလို:** လုပ်နိုင်စွမ်းကို can / cannot နဲ့ပြောပါ။ can နောက်မှာ Verb မူရင်းပုံစံသုံးပါ။ He can code. (can codes မဟုတ်)။\n\n### Can for polite requests\n\n**English:** Can you check this page, please? Could you send the file, please? Could you... is often more polite.\n\n**မြန်မာလို:** အကူအညီတောင်းရင် Can you ...? သို့မဟုတ် ပိုယဉ်ကျေးတဲ့ Could you ...? ကို သုံးနိုင်တယ်။\n\n### Simple imperatives\n\n**English:** Open the file. Please check the link. Don’t close this window. Requests sound friendlier with please.\n\n**မြန်မာလို:** ညွှန်ကြားတဲ့အခါ Verb နဲ့စတယ်။ ယဉ်ကျေးဖို့ please ထည့်နိုင်တယ်။ မလုပ်စေချင်ရင် Don’t + verb သုံးပါ။\n\n### Simple time and work updates",
+        "my": "သဒ္ဒါပုံစံ 1"
+      },
+      "rule": {
+        "en": "I have a meeting at ten. My task is ready. The deadline is on Friday. I need help with this problem.",
+        "my": "အလုပ်မှာ ရိုးရှင်းတဲ့ update ပေးနိုင်ဖို့ I have..., My task is..., I need help... စတဲ့ပုံစံတွေသုံးပါ။"
+      },
+      "examples": [
+        {
+          "pattern": "Subject + can + base verb",
+          "example": {
+            "language": "en",
+            "text": "She can speak English."
+          },
+          "translation": "သူမ အင်္ဂလိပ်စကား ပြောနိုင်သည်။"
+        },
+        {
+          "pattern": "Could you + base verb?",
+          "example": {
+            "language": "en",
+            "text": "Could you check the file?"
+          },
+          "translation": "ဖိုင်ကို စစ်ပေးနိုင်မလား။"
+        },
+        {
+          "pattern": "Don’t + base verb",
+          "example": {
+            "language": "en",
+            "text": "Don’t close this window."
+          },
+          "translation": "ဤဝင်းဒိုးကို မပိတ်ပါနှင့်။"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c6-mistakes",
+      "revision": 1,
+      "type": "explanation",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c6-can-and-requests",
+        "revision": 1
+      },
+      "title": {
+        "en": "Common mistakes",
+        "my": "အဖြစ်များသော အမှားများ"
+      },
+      "body": {
+        "en": "He can writes code. → He can write code.\nCan you to help me? → Can you help me?\nPlease to open the file. → Please open the file.\nI can not attends. → I cannot attend.",
+        "my": "အမှားနှင့် ပြင်ထားသော ဝါကျကို ယှဉ်ကြည့်ပါ။ ဥပမာ မကြည့်ဘဲ ပြန်ပြင်ပြီး ကိုယ့်အကြောင်း မှန်ကန်သော ဝါကျ သုံးကြောင်း အသံထွက် ပြောပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c6-grammar-production",
+      "revision": 1,
+      "type": "writing",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c6-can-and-requests",
+        "revision": 1
+      },
+      "title": {
+        "en": "Repair and apply",
+        "my": "ပြင်ဆင်ပြီး သုံးကြည့်ပါ"
+      },
+      "prompt": {
+        "en": "Correct the mistake sentences without looking. Then write and say three true sentences about your own life.",
+        "my": "ဥပမာ မကြည့်ဘဲ အမှားဝါကျများကို ပြန်ပြင်ပါ။ ကိုယ့်အကြောင်း မှန်ကန်သော ဝါကျ သုံးကြောင်း ရေး၍ အသံထွက် ပြောပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Use the patterns in Learn. Your own information can vary."
+      },
+      "minWords": 10,
+      "maxWords": 100
+    },
+    {
+      "kind": "block",
+      "id": "a1-c6-audio-pending",
+      "revision": 1,
+      "type": "explanation",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c6-work-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "Awaiting audio · script reading only",
+        "my": "အသံဖိုင် စောင့်ဆိုင်းဆဲ · စာသားဖတ်ရန်သာ"
+      },
+      "body": {
+        "en": "Actual audio is unavailable. Read the scripts for preparation only; listening checks and shadowing are unavailable. Once matching audio exists, listen twice without the transcript, respond, then reveal the transcript and shadow each line. No listening score is awarded from reading.",
+        "my": "အသံဖိုင် မရနိုင်သေးပါ။ စာသားကို ကြိုတင် ဖတ်လေ့လာရန်သာ သုံးပါ။ နားထောင်မေးခွန်း စစ်ခြင်းနှင့် အသံနောက်မှ လိုက်ပြောခြင်း မရနိုင်သေးပါ။ အသံရရှိပါက စာသား မကြည့်ဘဲ နှစ်ကြိမ် နားထောင်၍ ဖြေပြီးမှ စာသားဖွင့်ပါ။ စာသားဖတ်ခြင်းမှ နားထောင်နိုင်စွမ်း အမှတ် မပေးပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c6-script-1",
+      "revision": 1,
+      "type": "explanation",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c6-work-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "A small task · awaiting audio",
+        "my": "စကားပြောစာသား 1 · အသံဖိုင် စောင့်ဆိုင်းဆဲ"
+      },
+      "body": {
+        "en": "Manager: Can you update the home page today?\nDeveloper: Yes, I can. Can you send me the new text?\nManager: Of course. I can send it now.\nDeveloper: Thank you. I can finish the page this afternoon.",
+        "my": "အသံဖိုင် မရှိသေးစဉ် စာသားဖတ်လေ့လာနိုင်သည်။ ဤစာသားဖတ်ခြင်းကို နားထောင်နိုင်စွမ်း စစ်ဆေးမှုအဖြစ် မသတ်မှတ်ပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c6-script-2",
+      "revision": 1,
+      "type": "explanation",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c6-work-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "Asking for help · awaiting audio",
+        "my": "စကားပြောစာသား 2 · အသံဖိုင် စောင့်ဆိုင်းဆဲ"
+      },
+      "body": {
+        "en": "Aye: I have a problem with this file.\nMin: Can I help you?\nAye: Yes, please. Could you check the file?\nMin: Sure. I can check it after the meeting.",
+        "my": "အသံဖိုင် မရှိသေးစဉ် စာသားဖတ်လေ့လာနိုင်သည်။ ဤစာသားဖတ်ခြင်းကို နားထောင်နိုင်စွမ်း စစ်ဆေးမှုအဖြစ် မသတ်မှတ်ပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c6-listening-checks",
+      "revision": 1,
+      "type": "exercise_set",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c6-work-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "Planned listening questions · unavailable",
+        "my": "နားထောင်မေးခွန်းများ · မရနိုင်သေးပါ"
+      },
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c6-l1-1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c6-l1-2",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c6-l2-1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c6-l2-2",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c6-speaking-a",
+      "revision": 1,
+      "type": "speaking",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c6-talk-about-work",
+        "revision": 1
+      },
+      "title": {
+        "en": "Speaking A",
+        "my": "ပြောဆိုလေ့ကျင့်မှု A"
+      },
+      "prompt": {
+        "en": "Answer aloud in your own words for 30–45 seconds:\nWhat is your job or field of study?\nWhat can you do well?\nHow do you politely ask a colleague for help? Recording/upload is unavailable here; practise aloud. Locally recording with another tool is optional and outside this preview.",
+        "my": "ကိုယ့်အလုပ် သို့မဟုတ် လေ့လာသည့် ဘာသာရပ်၊ ကောင်းစွာ လုပ်နိုင်သောအရာနှင့် လုပ်ဖော်ကိုင်ဖက်ထံ ယဉ်ကျေးစွာ အကူအညီတောင်းနည်းကို စက္ကန့် ၃၀–၄၅ ခန့် ပြောပါ။ ဤစမ်းကြည့်မှုတွင် အသံသွင်းခြင်းနှင့် ပေးပို့ခြင်း မရှိပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Use your own information; this is not a graded answer."
+      },
+      "checklist": [
+        {
+          "language": "en",
+          "text": "Did I finish my idea?"
+        },
+        {
+          "language": "en",
+          "text": "Was my grammar understandable?"
+        },
+        {
+          "language": "en",
+          "text": "Did I use the target phrases?"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c6-speaking-b",
+      "revision": 1,
+      "type": "speaking",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c6-talk-about-work",
+        "revision": 1
+      },
+      "title": {
+        "en": "Speaking B",
+        "my": "ပြောဆိုလေ့ကျင့်မှု B"
+      },
+      "prompt": {
+        "en": "Read Dialogue 1 with a partner (or alone in two voices). Switch roles, then replace at least two details with your own information. Recording/upload is unavailable here; practise aloud. Locally recording with another tool is optional and outside this preview.",
+        "my": "အဖော်နှင့် စကားပြော ၁ ကို ပြောပြီး အခန်းကဏ္ဍ လဲပါ။ ကိုယ့်အချက်အလက် အနည်းဆုံး နှစ်ခု ထည့်ပြောပါ။ ဤစမ်းကြည့်မှုတွင် အသံသွင်းခြင်းနှင့် ပေးပို့ခြင်း မရှိပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Use Dialogue 1 from Learn. Replace two details."
+      },
+      "checklist": [
+        {
+          "language": "en",
+          "text": "Did I finish my idea?"
+        },
+        {
+          "language": "en",
+          "text": "Was my grammar understandable?"
+        },
+        {
+          "language": "en",
+          "text": "Did I use the target phrases?"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c6-reading-passage",
+      "revision": 1,
+      "type": "reading",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c6-my-workday",
+        "revision": 1
+      },
+      "title": {
+        "en": "Read for explicit facts",
+        "my": "ဖော်ပြထားသော အချက်အလက်များကို ရှာဖတ်ပါ"
+      },
+      "stimulusRef": {
+        "kind": "stimulus",
+        "id": "a1-c6-reading-stimulus",
+        "revision": 1
+      },
+      "explanation": {
+        "en": "Read once without a dictionary. Read again to find explicit facts, then answer. Supported self-review only, not an independent assessment.",
+        "my": "ပထမတစ်ခေါက် အဘိဓာန် မကြည့်ဘဲ ဖတ်ပါ။ ဒုတိယအခေါက် အချက်အလက်များကို ရှာ၍ မေးခွန်းများ ဖြေပါ။ အကူအညီပါသော ကိုယ်တိုင် ပြန်စစ်မှုသာ ဖြစ်ပြီး လွတ်လပ်သော စစ်ဆေးမှု မဟုတ်ပါ။"
+      }
+    },
+    {
+      "kind": "block",
+      "id": "a1-c6-reading-checks",
+      "revision": 1,
+      "type": "exercise_set",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c6-my-workday",
+        "revision": 1
+      },
+      "title": {
+        "en": "Short-answer self-review",
+        "my": "တိုတောင်းသော အဖြေများကို ကိုယ်တိုင် ပြန်စစ်ခြင်း"
+      },
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c6-reading-group",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c6-writing-first-draft",
+      "revision": 1,
+      "type": "writing",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c6-write-a-work-update",
+        "revision": 1
+      },
+      "title": {
+        "en": "Write your own response",
+        "my": "ကိုယ်ပိုင် အဖြေ ရေးပါ"
+      },
+      "prompt": {
+        "en": "Write a simple 5–7 sentence work update and one polite request for help. Include can, cannot, and please.",
+        "my": "ရိုးရှင်းသော အလုပ်အခြေအနေစာ ဝါကျ ၅–၇ ကြောင်းနှင့် ယဉ်ကျေးသော အကူအညီတောင်းစကား တစ်ခု ရေးပါ။ Can၊ cannot နှင့် please ကို ထည့်သုံးပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "I work on a website. Today I can update the home page. I cannot fix one bug alone. The deadline is Friday. Could you check this file, please? Thank you."
+      },
+      "minWords": 20,
+      "maxWords": 130
+    },
+    {
+      "kind": "block",
+      "id": "a1-c6-writing-edit",
+      "revision": 1,
+      "type": "explanation",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c6-write-a-work-update",
+        "revision": 1
+      },
+      "title": {
+        "en": "Self-edit your draft",
+        "my": "ကိုယ့်စာမူကို ပြင်ဆင်ပါ"
+      },
+      "body": {
+        "en": "Underline subjects and verbs; check punctuation and the chapter grammar. The model is one possible answer; compare only after writing. Nothing is graded or saved.",
+        "my": "ကတ္တားနှင့် ကြိယာကို မျဉ်းသားပြီး ပုဒ်ဖြတ်ပုဒ်ရပ်နှင့် သဒ္ဒါကို စစ်ပါ။ ဥပမာသည် အဖြေမှန် တစ်မျိုးတည်း မဟုတ်ပါ။ ကိုယ်တိုင် ရေးပြီးမှ ယှဉ်ကြည့်ပါ။ မသိမ်းဆည်းပါ၊ အမှတ်မပေးပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c6-writing-rewrite",
+      "revision": 1,
+      "type": "writing",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c6-write-a-work-update",
+        "revision": 1
+      },
+      "title": {
+        "en": "Rewrite and compare",
+        "my": "ပြန်ရေးပြီး ယှဉ်ကြည့်ပါ"
+      },
+      "prompt": {
+        "en": "Rewrite after self-editing. Compare both drafts and note an improvement.",
+        "my": "ကိုယ်တိုင် ပြင်ဆင်ပြီး ပြန်ရေးပါ။ စာမူနှစ်ခု ယှဉ်ကြည့်၍ တိုးတက်သည့် အချက်တစ်ခု မှတ်ပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "I work on a website. Today I can update the home page. I cannot fix one bug alone. The deadline is Friday. Could you check this file, please? Thank you."
+      },
+      "minWords": 20,
+      "maxWords": 130
+    },
+    {
+      "kind": "block",
+      "id": "a1-c6-knowledge-check",
+      "revision": 1,
+      "type": "exercise_set",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c6-review",
+        "revision": 1
+      },
+      "title": {
+        "en": "12 recognition questions",
+        "my": "အခြေခံသိရှိမှု မေးခွန်း ၁၂ ခု"
+      },
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c6-k1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c6-k2",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c6-k3",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c6-k4",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c6-k5",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c6-k6",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c6-k7",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c6-k8",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c6-k9",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c6-k10",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c6-k11",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c6-k12",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c6-skill-review",
+      "revision": 1,
+      "type": "explanation",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c6-review",
+        "revision": 1
+      },
+      "title": {
+        "en": "Skills review and future assessment",
+        "my": "လေ့ကျင့်မှုကို ပြန်ကြည့်ခြင်းနှင့် အနာဂတ် စစ်ဆေးမှု"
+      },
+      "body": {
+        "en": "Listening requires actual new audio without a visible transcript; it is unavailable now. Speaking is 30–45-second aloud self-practice; recording is unavailable. Reading responses are self-reviewed after using the passage; no proficiency score. Writing is original, unsaved and ungraded. MCQs demonstrate recognition only; there is no new chapter pass threshold or CEFR award.",
+        "my": "နားထောင်မှုအတွက် အသံအစစ် လိုသေး၍ ယခု မရနိုင်သေးပါ။ ပြောဆိုမှုကို စက္ကန့် ၃၀–၄၅ အသံထွက် လေ့ကျင့်ပါ။ အသံသွင်းခြင်း မရှိပါ။ ဖတ်ရှုအဖြေများကို စာပိုဒ်နှင့် ယှဉ်၍ ကိုယ်တိုင် ပြန်စစ်ပါ။ ရေးသားမှုသည် ကိုယ်ပိုင်ဖြစ်ပြီး မသိမ်းဆည်းပါ၊ အမှတ်မပေးပါ။ MCQ များသည် သိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်ပြီး အခန်းအောင်မှတ်နှင့် CEFR အဆင့် မသတ်မှတ်ပါ။"
+      },
+      "examples": []
+    }
+  ],
+  "objectives": [
+    {
+      "kind": "objective",
+      "id": "a1-c6-objective-1",
+      "revision": 1,
+      "statement": {
+        "en": "Use work and study words in five original sentences.",
+        "my": "အလုပ်နှင့် လေ့လာရေး စကားလုံးများဖြင့် ကိုယ်ပိုင် ဝါကျ ငါးကြောင်း ရေးရန်။"
+      },
+      "action": "produce",
+      "tags": {
+        "areas": ["vocabulary"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c6-objective-2",
+      "revision": 1,
+      "statement": {
+        "en": "Use can/cannot, imperatives and polite requests.",
+        "my": "Can/cannot၊ ညွှန်ကြားဝါကျနှင့် ယဉ်ကျေးသော အကူအညီတောင်းစကားများကို သုံးရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["recognition"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c6-objective-3",
+      "revision": 1,
+      "statement": {
+        "en": "Read two work scripts while actual audio is pending.",
+        "my": "အသံဖိုင် မရှိသေးစဉ် အလုပ်တာဝန်နှင့် အကူအညီတောင်း စာသားများကို ဖတ်လေ့လာရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c6-objective-4",
+      "revision": 1,
+      "statement": {
+        "en": "Discuss work and abilities; ask politely for help.",
+        "my": "ကိုယ့်အလုပ်၊ လုပ်နိုင်စွမ်းနှင့် အကူအညီတောင်းစကားကို အသံထွက် ပြောရန်။"
+      },
+      "action": "produce",
+      "tags": {
+        "areas": ["speaking"],
+        "coreSkills": ["speaking"]
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c6-objective-5",
+      "revision": 1,
+      "statement": {
+        "en": "Find explicit workday facts and self-review short answers.",
+        "my": "အလုပ်နေ့အကြောင်း စာပိုဒ်မှ အချက်အလက်များကို ရှာ၍ ကိုယ်တိုင် ပြန်စစ်ရန်။"
+      },
+      "action": "interpret",
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c6-objective-6",
+      "revision": 1,
+      "statement": {
+        "en": "Write a work update and a polite request.",
+        "my": "Can/cannot/please ပါသော အလုပ်အခြေအနေစာနှင့် အကူအညီတောင်းစာ ရေးရန်။"
+      },
+      "action": "produce",
+      "tags": {
+        "areas": ["writing"],
+        "coreSkills": ["writing"]
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c6-objective-7",
+      "revision": 1,
+      "statement": {
+        "en": "Check 12 grammar/vocabulary recognition questions.",
+        "my": "သဒ္ဒါနှင့် စကားလုံးသိရှိမှု မေးခွန်း ၁၂ ခုကို လေ့ကျင့်ပြီး ပြန်ကြည့်ရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["recognition"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    }
+  ],
+  "exercises": [
+    {
+      "kind": "exercise",
+      "id": "a1-c6-l1-1",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-3",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "What is the task? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-l1-2",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-3",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "What does the developer ask for? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-l2-1",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-3",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "What is the problem about? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-l2-2",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-3",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "When can Min check it? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-r1",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-5",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "What is the writer’s job? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-r2",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-5",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "When is the meeting? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-r3",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-5",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "What two tasks are mentioned? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-r4",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-5",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "Can the writer fix every problem alone? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-r5",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-5",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "When is the deadline? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-reading-group",
+      "revision": 1,
+      "type": "reading_comprehension",
+      "instructions": {
+        "en": "Read, respond briefly, then self-review.",
+        "my": "ဖတ်၍ တိုတောင်းစွာ ဖြေပြီး ကိုယ်တိုင် ပြန်စစ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 10
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-5",
+          "revision": 1
+        }
+      ],
+      "stimulusRef": {
+        "kind": "stimulus",
+        "id": "a1-c6-reading-stimulus",
+        "revision": 1
+      },
+      "itemRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c6-r1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c6-r2",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c6-r3",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c6-r4",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c6-r5",
+          "revision": 1
+        }
+      ],
+      "assistance": "practice_with_support"
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-k1",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "She can ___ English."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c6-k1-a",
+          "text": {
+            "language": "en",
+            "text": "speaks"
+          }
+        },
+        {
+          "id": "a1-c6-k1-b",
+          "text": {
+            "language": "en",
+            "text": "speak"
+          }
+        },
+        {
+          "id": "a1-c6-k1-c",
+          "text": {
+            "language": "en",
+            "text": "speaking"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-k2",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "I ___ join the meeting today. I am sick."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c6-k2-a",
+          "text": {
+            "language": "en",
+            "text": "cannot"
+          }
+        },
+        {
+          "id": "a1-c6-k2-b",
+          "text": {
+            "language": "en",
+            "text": "can to"
+          }
+        },
+        {
+          "id": "a1-c6-k2-c",
+          "text": {
+            "language": "en",
+            "text": "am can"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-k3",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "___ you send me the file, please?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c6-k3-a",
+          "text": {
+            "language": "en",
+            "text": "Are"
+          }
+        },
+        {
+          "id": "a1-c6-k3-b",
+          "text": {
+            "language": "en",
+            "text": "Can"
+          }
+        },
+        {
+          "id": "a1-c6-k3-c",
+          "text": {
+            "language": "en",
+            "text": "Do can"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-k4",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Please ___ the page."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c6-k4-a",
+          "text": {
+            "language": "en",
+            "text": "checking"
+          }
+        },
+        {
+          "id": "a1-c6-k4-b",
+          "text": {
+            "language": "en",
+            "text": "to check"
+          }
+        },
+        {
+          "id": "a1-c6-k4-c",
+          "text": {
+            "language": "en",
+            "text": "check"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-k5",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Don’t ___ the window."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c6-k5-a",
+          "text": {
+            "language": "en",
+            "text": "close"
+          }
+        },
+        {
+          "id": "a1-c6-k5-b",
+          "text": {
+            "language": "en",
+            "text": "closes"
+          }
+        },
+        {
+          "id": "a1-c6-k5-c",
+          "text": {
+            "language": "en",
+            "text": "closing"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-k6",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "I have a meeting ___ ten."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c6-k6-a",
+          "text": {
+            "language": "en",
+            "text": "on"
+          }
+        },
+        {
+          "id": "a1-c6-k6-b",
+          "text": {
+            "language": "en",
+            "text": "at"
+          }
+        },
+        {
+          "id": "a1-c6-k6-c",
+          "text": {
+            "language": "en",
+            "text": "in"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-k7",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "The deadline is ___ Friday."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c6-k7-a",
+          "text": {
+            "language": "en",
+            "text": "at"
+          }
+        },
+        {
+          "id": "a1-c6-k7-b",
+          "text": {
+            "language": "en",
+            "text": "in"
+          }
+        },
+        {
+          "id": "a1-c6-k7-c",
+          "text": {
+            "language": "en",
+            "text": "on"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-k8",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "I need help ___ this problem."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c6-k8-a",
+          "text": {
+            "language": "en",
+            "text": "with"
+          }
+        },
+        {
+          "id": "a1-c6-k8-b",
+          "text": {
+            "language": "en",
+            "text": "at"
+          }
+        },
+        {
+          "id": "a1-c6-k8-c",
+          "text": {
+            "language": "en",
+            "text": "to"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-k9",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Choose the polite request."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c6-k9-a",
+          "text": {
+            "language": "en",
+            "text": "Send me the file now."
+          }
+        },
+        {
+          "id": "a1-c6-k9-b",
+          "text": {
+            "language": "en",
+            "text": "Could you send the file, please?"
+          }
+        },
+        {
+          "id": "a1-c6-k9-c",
+          "text": {
+            "language": "en",
+            "text": "You send file."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-k10",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "He can ___ a website."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c6-k10-a",
+          "text": {
+            "language": "en",
+            "text": "build"
+          }
+        },
+        {
+          "id": "a1-c6-k10-b",
+          "text": {
+            "language": "en",
+            "text": "builds"
+          }
+        },
+        {
+          "id": "a1-c6-k10-c",
+          "text": {
+            "language": "en",
+            "text": "to build"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-k11",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "The manager ___ a new task."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c6-k11-a",
+          "text": {
+            "language": "en",
+            "text": "have"
+          }
+        },
+        {
+          "id": "a1-c6-k11-b",
+          "text": {
+            "language": "en",
+            "text": "has"
+          }
+        },
+        {
+          "id": "a1-c6-k11-c",
+          "text": {
+            "language": "en",
+            "text": "having"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c6-k12",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c6-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "We ___ a meeting today."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c6-k12-a",
+          "text": {
+            "language": "en",
+            "text": "has"
+          }
+        },
+        {
+          "id": "a1-c6-k12-b",
+          "text": {
+            "language": "en",
+            "text": "have"
+          }
+        },
+        {
+          "id": "a1-c6-k12-c",
+          "text": {
+            "language": "en",
+            "text": "haves"
+          }
+        }
+      ]
+    }
+  ],
+  "assessments": [],
+  "stimuli": [
+    {
+      "kind": "stimulus",
+      "id": "a1-c6-reading-stimulus",
+      "revision": 1,
+      "type": "reading",
+      "passage": {
+        "language": "en",
+        "text": "I am a junior web developer. I work with a small team. We have a meeting at ten. Today I need to update the home page and check two links. I can update the page, but I cannot fix one problem alone. I ask my teammate for help. Our deadline is Friday."
+      },
+      "sourceAttribution": "A1 Chapter 6 Full Lesson Pack"
+    }
+  ],
+  "transcripts": [],
+  "assets": []
+}

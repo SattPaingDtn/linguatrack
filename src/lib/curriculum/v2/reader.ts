@@ -3,7 +3,8 @@ import { lstat, readdir, readFile, realpath } from "node:fs/promises";
 import { resolve, relative, sep } from "node:path";
 import { z } from "zod";
 import { LIMITS } from "./common";
-import { ContentValidationError, fail, fingerprint, parseJson, sha256 } from "./json";
+import { ContentValidationError, fail, parseJson, sha256 } from "./json";
+import { filePackageHash } from "./file-hash";
 import { compatibilitySchema, manifestSchema, type CurriculumPackage } from "./package";
 import { publicEntitySchemas, type Asset, type PublicCollections } from "./public";
 import { gradingSchema, rubricSchema } from "./private";
@@ -240,9 +241,7 @@ export async function loadPackage(directory: string, options: FileValidationOpti
       (pkg.public[key] as unknown[]).push(...parsed);
     }
   }
-  const releaseHash = fingerprint(
-    digests.sort((a, b) => (a.path < b.path ? -1 : a.path > b.path ? 1 : 0)),
-  );
+  const releaseHash = filePackageHash(digests);
   let validated: CurriculumPackage;
   try {
     validated = validatePackage(pkg, { ...options, releaseHash });

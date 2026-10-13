@@ -1,0 +1,2458 @@
+{
+  "courses": [],
+  "chapters": [
+    {
+      "kind": "chapter",
+      "id": "a1-chapter-5",
+      "revision": 1,
+      "courseRef": {
+        "kind": "course",
+        "id": "general-a1",
+        "revision": 1
+      },
+      "slug": "food-drinks-shopping",
+      "order": 5,
+      "title": {
+        "en": "Food, drinks and shopping",
+        "my": "အစားအစာ၊ သောက်စရာနှင့် ဈေးဝယ်ခြင်း"
+      },
+      "description": {
+        "en": "Seven local editorial lessons. Actual audio and independent review remain pending. No progress or proficiency is awarded.",
+        "my": "အယ်ဒီတာ ရေးသားထားသော သင်ခန်းစာ ခုနစ်ခု ပါသည်။ အသံဖိုင်နှင့် လွတ်လပ်သော သုံးသပ်မှု လိုသေးသည်။ တိုးတက်မှုနှင့် ကျွမ်းကျင်မှုအဆင့်ကို မသတ်မှတ်ပါ။"
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-1",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-2",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-3",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-4",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-5",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-6",
+          "revision": 1
+        },
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-7",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [
+        {
+          "target": {
+            "kind": "lesson",
+            "id": "a1-c2-review",
+            "revision": 1
+          },
+          "requirement": "completed",
+          "enforcement": "advisory"
+        },
+        {
+          "target": {
+            "kind": "lesson",
+            "id": "a1-c3-review",
+            "revision": 1
+          },
+          "requirement": "completed",
+          "enforcement": "advisory"
+        },
+        {
+          "target": {
+            "kind": "lesson",
+            "id": "a1-c4-review",
+            "revision": 1
+          },
+          "requirement": "completed",
+          "enforcement": "advisory"
+        }
+      ],
+      "lessonRefs": [
+        {
+          "kind": "lesson",
+          "id": "a1-c5-food-words",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c5-quantities-and-orders",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c5-shopping-scripts",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c5-order-and-shop",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c5-a-shopping-list",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c5-write-an-order",
+          "revision": 1
+        },
+        {
+          "kind": "lesson",
+          "id": "a1-c5-review",
+          "revision": 1
+        }
+      ],
+      "assessmentRefs": [],
+      "coverageTargets": []
+    }
+  ],
+  "lessons": [
+    {
+      "kind": "lesson",
+      "id": "a1-c5-food-words",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-5",
+        "revision": 1
+      },
+      "slug": "food-words",
+      "title": {
+        "en": "Words in context",
+        "my": "အခြေအနေနှင့် တွဲလေ့လာသော စကားလုံးများ"
+      },
+      "description": {
+        "en": "Use food and shopping words in five original sentences.",
+        "my": "အစားအစာနှင့် ဈေးဝယ်ဆိုင်ရာ စကားလုံးများဖြင့် ကိုယ်ပိုင် ဝါကျ ငါးကြောင်း ရေးရန်။"
+      },
+      "tags": {
+        "areas": ["vocabulary"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-1",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c5-vocabulary",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c5-vocabulary-production",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c5-quantities-and-orders",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-5",
+        "revision": 1
+      },
+      "slug": "quantities-and-orders",
+      "title": {
+        "en": "Grammar foundations",
+        "my": "သဒ္ဒါအခြေခံ"
+      },
+      "description": {
+        "en": "Use countable/uncountable nouns, some/any and quantity/price questions.",
+        "my": "ရေတွက်နိုင်သော/မရေတွက်နိုင်သော နာမ်၊ some/any နှင့် how much/many ကို သုံးရန်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-2",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c5-grammar-1",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c5-mistakes",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c5-some-in-questions",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c5-grammar-production",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c5-shopping-scripts",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-5",
+        "revision": 1
+      },
+      "slug": "shopping-scripts",
+      "title": {
+        "en": "Dialogue scripts · awaiting audio",
+        "my": "စကားပြောစာသားများ · အသံဖိုင် စောင့်ဆိုင်းဆဲ"
+      },
+      "description": {
+        "en": "Read two shopping scripts while actual audio is pending.",
+        "my": "အသံဖိုင် မရှိသေးစဉ် စားသောက်ဆိုင်နှင့် ဆိုင် စကားပြောစာသားများကို ဖတ်လေ့လာရန်။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-3",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c5-audio-pending",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c5-script-1",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c5-script-2",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c5-listening-checks",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c5-order-and-shop",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-5",
+        "revision": 1
+      },
+      "slug": "order-and-shop",
+      "title": {
+        "en": "Speaking and role-play",
+        "my": "ပြောဆိုခြင်းနှင့် အပြန်အလှန် လေ့ကျင့်ခြင်း"
+      },
+      "description": {
+        "en": "Order food and ask quantities/prices aloud.",
+        "my": "အစားအစာ မှာခြင်း၊ အရေအတွက်နှင့် ဈေးနှုန်းမေးခြင်းကို အသံထွက် လေ့ကျင့်ရန်။"
+      },
+      "tags": {
+        "areas": ["speaking"],
+        "coreSkills": ["speaking"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-4",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c5-speaking-a",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c5-speaking-b",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c5-a-shopping-list",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-5",
+        "revision": 1
+      },
+      "slug": "a-shopping-list",
+      "title": {
+        "en": "Reading and short-answer self-review",
+        "my": "ဖတ်ရှုခြင်းနှင့် တိုတောင်းသော အဖြေများကို ကိုယ်တိုင် ပြန်စစ်ခြင်း"
+      },
+      "description": {
+        "en": "Find explicit shopping facts and self-review short answers.",
+        "my": "ဈေးဝယ်စာရင်းပါ စာပိုဒ်၏ အချက်အလက်များကို ရှာပြီး ကိုယ်တိုင် ပြန်စစ်ရန်။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-5",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c5-reading-passage",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c5-reading-checks",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c5-write-an-order",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-5",
+        "revision": 1
+      },
+      "slug": "write-an-order",
+      "title": {
+        "en": "Writing and self-editing",
+        "my": "ရေးသားခြင်းနှင့် ကိုယ်တိုင် ပြင်ဆင်ခြင်း"
+      },
+      "description": {
+        "en": "Write an order and a three-item shopping list.",
+        "my": "ယဉ်ကျေးသော အမှာစာနှင့် ပစ္စည်း သုံးမျိုးပါသော ဈေးဝယ်စာရင်း ရေးရန်။"
+      },
+      "tags": {
+        "areas": ["writing"],
+        "coreSkills": ["writing"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-6",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c5-writing-first-draft",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c5-writing-edit",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c5-writing-rewrite",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    },
+    {
+      "kind": "lesson",
+      "id": "a1-c5-review",
+      "revision": 1,
+      "chapterRef": {
+        "kind": "chapter",
+        "id": "a1-chapter-5",
+        "revision": 1
+      },
+      "slug": "review",
+      "title": {
+        "en": "Chapter recognition practice",
+        "my": "အခန်းပါ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်း"
+      },
+      "description": {
+        "en": "Check 12 grammar/vocabulary recognition questions.",
+        "my": "သဒ္ဒါနှင့် စကားလုံးသိရှိမှု မေးခွန်း ၁၂ ခုကို လေ့ကျင့်ပြီး ပြန်ကြည့်ရန်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 30
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-7",
+          "revision": 1
+        }
+      ],
+      "prerequisites": [],
+      "blockRefs": [
+        {
+          "kind": "block",
+          "id": "a1-c5-knowledge-check",
+          "revision": 1
+        },
+        {
+          "kind": "block",
+          "id": "a1-c5-skill-review",
+          "revision": 1
+        }
+      ],
+      "completionPolicy": {
+        "type": "self_reported"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "kind": "block",
+      "id": "a1-c5-vocabulary",
+      "revision": 1,
+      "type": "vocabulary",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c5-food-words",
+        "revision": 1
+      },
+      "title": {
+        "en": "Words in context",
+        "my": "စကားလုံးများ"
+      },
+      "words": [
+        {
+          "word": "menu",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "menu",
+            "my": "မီနူး"
+          },
+          "example": {
+            "language": "en",
+            "text": "Can I see the menu?"
+          }
+        },
+        {
+          "word": "rice",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "rice",
+            "my": "ထမင်း"
+          },
+          "example": {
+            "language": "en",
+            "text": "I would like some rice."
+          }
+        },
+        {
+          "word": "chicken",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "chicken",
+            "my": "ကြက်သား"
+          },
+          "example": {
+            "language": "en",
+            "text": "I would like chicken, please."
+          }
+        },
+        {
+          "word": "water",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "water",
+            "my": "ရေ"
+          },
+          "example": {
+            "language": "en",
+            "text": "Can I have some water?"
+          }
+        },
+        {
+          "word": "coffee",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "coffee",
+            "my": "ကော်ဖီ"
+          },
+          "example": {
+            "language": "en",
+            "text": "I drink coffee in the morning."
+          }
+        },
+        {
+          "word": "milk",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "milk",
+            "my": "နို့"
+          },
+          "example": {
+            "language": "en",
+            "text": "Do we have any milk?"
+          }
+        },
+        {
+          "word": "egg",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "egg",
+            "my": "ကြက်ဥ"
+          },
+          "example": {
+            "language": "en",
+            "text": "I need two eggs."
+          }
+        },
+        {
+          "word": "banana",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "banana",
+            "my": "ငှက်ပျောသီး"
+          },
+          "example": {
+            "language": "en",
+            "text": "I want a banana."
+          }
+        },
+        {
+          "word": "bottle",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "bottle",
+            "my": "ပုလင်း"
+          },
+          "example": {
+            "language": "en",
+            "text": "A bottle of water, please."
+          }
+        },
+        {
+          "word": "price",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "price",
+            "my": "ဈေးနှုန်း"
+          },
+          "example": {
+            "language": "en",
+            "text": "What is the price?"
+          }
+        },
+        {
+          "word": "cheap",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "cheap",
+            "my": "ဈေးသက်သာသော"
+          },
+          "example": {
+            "language": "en",
+            "text": "This sandwich is cheap."
+          }
+        },
+        {
+          "word": "receipt",
+          "pronunciation": "Pronunciation guide pending editorial review",
+          "meaning": {
+            "en": "receipt",
+            "my": "ပြေစာ"
+          },
+          "example": {
+            "language": "en",
+            "text": "Can I have a receipt?"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c5-vocabulary-production",
+      "revision": 1,
+      "type": "writing",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c5-food-words",
+        "revision": 1
+      },
+      "title": {
+        "en": "Five original sentences",
+        "my": "ကိုယ်ပိုင် ဝါကျ ငါးကြောင်း"
+      },
+      "prompt": {
+        "en": "Read each example aloud twice. Write five NEW sentences using these words.",
+        "my": "ဥပမာတစ်ခုစီကို နှစ်ခေါက် အသံထွက် ဖတ်ပါ။ စကားလုံး ငါးလုံး ရွေး၍ ကိုယ်ပိုင် ဝါကျအသစ် ငါးကြောင်း ရေးပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Use your own information. There is no single correct model."
+      },
+      "minWords": 15,
+      "maxWords": 100
+    },
+    {
+      "kind": "block",
+      "id": "a1-c5-grammar-1",
+      "revision": 1,
+      "type": "grammar",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c5-quantities-and-orders",
+        "revision": 1
+      },
+      "title": {
+        "en": "Countable and uncountable\n\n**English:** Countable: an egg, two eggs, three bananas. Uncountable in this context: water, rice, milk. Use a bottle of water or a bowl of rice to count containers/servings.\n\n**မြန်မာလို:** egg, banana တို့ကို တစ်လုံး၊ နှစ်လုံး ရေတွက်နိုင်တယ်။ water, rice, milk တို့က ပုံမှန်အသုံးမှာ မရေတွက်တဲ့ noun ဖြစ်တယ်။ တိုင်းတာရင် a bottle of water လိုပြောပါ။\n\n### Some / Any\n\n**English:** Use some in many positive statements: I have some rice. Use any in many questions/negatives: Do you have any milk? I don’t have any milk. Polite offers/requests can use some: Can I have some water?\n\n**မြန်မာလို:** ရိုးရိုးအပြောဝါကျမှာ some၊ မေးခွန်းနဲ့ အငြင်းမှာ any ကို မကြာခဏ သုံးတယ်။ ယဉ်ကျေးစွာ တောင်းတဲ့အခါ Can I have some water? လို့ သုံးနိုင်တယ်။\n\n### How much / How many\n\n**English:** How many eggs do you want? (countable plural). How much water do you want? (uncountable). How much is this sandwich? asks price.\n\n**မြန်မာလို:** အရေအတွက်ရေတွက်ရလျှင် How many၊ မရေတွက်တဲ့အရာနဲ့ စျေးနှုန်းမေးလျှင် How much သုံးပါ။\n\n### Polite ordering",
+        "my": "သဒ္ဒါပုံစံ 1"
+      },
+      "rule": {
+        "en": "I’d like a sandwich, please. / Could I have some water, please? / That’s all, thank you.",
+        "my": "စားသောက်ဆိုင်မှာ I’d like... / Could I have... ကိုသုံးရင် ပိုယဉ်ကျေးတယ်။"
+      },
+      "examples": [
+        {
+          "pattern": "Countable plural",
+          "example": {
+            "language": "en",
+            "text": "I need two eggs."
+          },
+          "translation": "ကြက်ဥ နှစ်လုံး လိုသည်။"
+        },
+        {
+          "pattern": "Polite request",
+          "example": {
+            "language": "en",
+            "text": "Could I have some water?"
+          },
+          "translation": "ရေ အနည်းငယ် ရနိုင်မလား။"
+        },
+        {
+          "pattern": "Price question",
+          "example": {
+            "language": "en",
+            "text": "How much is this sandwich?"
+          },
+          "translation": "ဤအသားညှပ်ပေါင်မုန့် ဈေးဘယ်လောက်လဲ။"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c5-mistakes",
+      "revision": 1,
+      "type": "explanation",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c5-quantities-and-orders",
+        "revision": 1
+      },
+      "title": {
+        "en": "Common mistakes",
+        "my": "အဖြစ်များသော အမှားများ"
+      },
+      "body": {
+        "en": "I want two rice. → I want two bowls of rice.\nHow many water? → How much water?\nDo you have some milk? → Do you have any milk? (neutral question)\nI would like an banana. → I would like a banana.",
+        "my": "အမှားနှင့် ပြင်ထားသော ဝါကျကို ယှဉ်ကြည့်ပါ။ ဥပမာ မကြည့်ဘဲ ပြန်ပြင်ပြီး ကိုယ့်အကြောင်း မှန်ကန်သော ဝါကျ သုံးကြောင်း အသံထွက် ပြောပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c5-some-in-questions",
+      "revision": 1,
+      "type": "explanation",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c5-quantities-and-orders",
+        "revision": 1
+      },
+      "title": {
+        "en": "Some in questions can be correct",
+        "my": "မေးခွန်းတွင် some သုံးခြင်းလည်း မှန်နိုင်သည်"
+      },
+      "body": {
+        "en": "Do you have some milk? can be grammatical when expecting or suggesting a positive answer. Do you have any milk? is the neutral availability question used in this lesson. The source mistake table contrasts these contexts; some is not universally wrong.",
+        "my": "Do you have some milk? သည် ရှိမည်ဟု မျှော်လင့်၍ မေးသည့် အခြေအနေ၌ မှန်နိုင်သည်။ ဤသင်ခန်းစာတွင် ဘက်မလိုက်ဘဲ ရှိမရှိ မေးရန် Do you have any milk? ကို သုံးသည်။ Some ကို မေးခွန်းတိုင်း၌ မှားသည်ဟု မယူဆပါနှင့်။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c5-grammar-production",
+      "revision": 1,
+      "type": "writing",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c5-quantities-and-orders",
+        "revision": 1
+      },
+      "title": {
+        "en": "Repair and apply",
+        "my": "ပြင်ဆင်ပြီး သုံးကြည့်ပါ"
+      },
+      "prompt": {
+        "en": "Correct the mistake sentences without looking. Then write and say three true sentences about your own life.",
+        "my": "ဥပမာ မကြည့်ဘဲ အမှားဝါကျများကို ပြန်ပြင်ပါ။ ကိုယ့်အကြောင်း မှန်ကန်သော ဝါကျ သုံးကြောင်း ရေး၍ အသံထွက် ပြောပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Use the patterns in Learn. Your own information can vary."
+      },
+      "minWords": 10,
+      "maxWords": 100
+    },
+    {
+      "kind": "block",
+      "id": "a1-c5-audio-pending",
+      "revision": 1,
+      "type": "explanation",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c5-shopping-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "Awaiting audio · script reading only",
+        "my": "အသံဖိုင် စောင့်ဆိုင်းဆဲ · စာသားဖတ်ရန်သာ"
+      },
+      "body": {
+        "en": "Actual audio is unavailable. Read the scripts for preparation only; listening checks and shadowing are unavailable. Once matching audio exists, listen twice without the transcript, respond, then reveal the transcript and shadow each line. No listening score is awarded from reading.",
+        "my": "အသံဖိုင် မရနိုင်သေးပါ။ စာသားကို ကြိုတင် ဖတ်လေ့လာရန်သာ သုံးပါ။ နားထောင်မေးခွန်း စစ်ခြင်းနှင့် အသံနောက်မှ လိုက်ပြောခြင်း မရနိုင်သေးပါ။ အသံရရှိပါက စာသား မကြည့်ဘဲ နှစ်ကြိမ် နားထောင်၍ ဖြေပြီးမှ စာသားဖွင့်ပါ။ စာသားဖတ်ခြင်းမှ နားထောင်နိုင်စွမ်း အမှတ် မပေးပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c5-script-1",
+      "revision": 1,
+      "type": "explanation",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c5-shopping-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "Ordering lunch · awaiting audio",
+        "my": "စကားပြောစာသား 1 · အသံဖိုင် စောင့်ဆိုင်းဆဲ"
+      },
+      "body": {
+        "en": "Staff: Hello. What would you like?\nCustomer: I’d like chicken and rice, please.\nStaff: Would you like a drink?\nCustomer: Could I have some water, please?\nStaff: Of course. Anything else?\nCustomer: No, thank you. That’s all.",
+        "my": "အသံဖိုင် မရှိသေးစဉ် စာသားဖတ်လေ့လာနိုင်သည်။ ဤစာသားဖတ်ခြင်းကို နားထောင်နိုင်စွမ်း စစ်ဆေးမှုအဖြစ် မသတ်မှတ်ပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c5-script-2",
+      "revision": 1,
+      "type": "explanation",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c5-shopping-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "At the grocery store · awaiting audio",
+        "my": "စကားပြောစာသား 2 · အသံဖိုင် စောင့်ဆိုင်းဆဲ"
+      },
+      "body": {
+        "en": "Customer: How much are these bananas?\nClerk: They are 300 yen for three.\nCustomer: Okay. I’ll take three bananas.\nClerk: Would you like a bag?\nCustomer: No, thank you.",
+        "my": "အသံဖိုင် မရှိသေးစဉ် စာသားဖတ်လေ့လာနိုင်သည်။ ဤစာသားဖတ်ခြင်းကို နားထောင်နိုင်စွမ်း စစ်ဆေးမှုအဖြစ် မသတ်မှတ်ပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c5-listening-checks",
+      "revision": 1,
+      "type": "exercise_set",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c5-shopping-scripts",
+        "revision": 1
+      },
+      "title": {
+        "en": "Planned listening questions · unavailable",
+        "my": "နားထောင်မေးခွန်းများ · မရနိုင်သေးပါ"
+      },
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c5-l1-1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c5-l1-2",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c5-l2-1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c5-l2-2",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c5-speaking-a",
+      "revision": 1,
+      "type": "speaking",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c5-order-and-shop",
+        "revision": 1
+      },
+      "title": {
+        "en": "Speaking A",
+        "my": "ပြောဆိုလေ့ကျင့်မှု A"
+      },
+      "prompt": {
+        "en": "Answer aloud in your own words for 30–45 seconds:\nWhat would you like to order?\nHow much is your favorite drink?\nWhat do you need from the supermarket? Recording/upload is unavailable here; practise aloud. Locally recording with another tool is optional and outside this preview.",
+        "my": "ဘာစားစရာ မှာလိုသလဲ၊ ကြိုက်သော သောက်စရာ ဈေးနှုန်းနှင့် ဆိုင်မှ ဘာလိုသလဲတို့ကို ကိုယ့်စကားဖြင့် စက္ကန့် ၃၀–၄၅ ခန့် ပြောပါ။ ဤစမ်းကြည့်မှုတွင် အသံသွင်းခြင်းနှင့် ပေးပို့ခြင်း မရှိပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Use your own information; this is not a graded answer."
+      },
+      "checklist": [
+        {
+          "language": "en",
+          "text": "Did I finish my idea?"
+        },
+        {
+          "language": "en",
+          "text": "Was my grammar understandable?"
+        },
+        {
+          "language": "en",
+          "text": "Did I use the target phrases?"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c5-speaking-b",
+      "revision": 1,
+      "type": "speaking",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c5-order-and-shop",
+        "revision": 1
+      },
+      "title": {
+        "en": "Speaking B",
+        "my": "ပြောဆိုလေ့ကျင့်မှု B"
+      },
+      "prompt": {
+        "en": "Read Dialogue 1 with a partner (or alone in two voices). Switch roles, then replace at least two details with your own information. Recording/upload is unavailable here; practise aloud. Locally recording with another tool is optional and outside this preview.",
+        "my": "စကားပြော ၁ ကို အဖော်နှင့် ပြောပြီး အခန်းကဏ္ဍ လဲပါ။ ကိုယ့်အချက်အလက် အနည်းဆုံး နှစ်ခု ထည့်ပြောပါ။ ဤစမ်းကြည့်မှုတွင် အသံသွင်းခြင်းနှင့် ပေးပို့ခြင်း မရှိပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Use Dialogue 1 from Learn. Replace two details."
+      },
+      "checklist": [
+        {
+          "language": "en",
+          "text": "Did I finish my idea?"
+        },
+        {
+          "language": "en",
+          "text": "Was my grammar understandable?"
+        },
+        {
+          "language": "en",
+          "text": "Did I use the target phrases?"
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c5-reading-passage",
+      "revision": 1,
+      "type": "reading",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c5-a-shopping-list",
+        "revision": 1
+      },
+      "title": {
+        "en": "Read for explicit facts",
+        "my": "ဖော်ပြထားသော အချက်အလက်များကို ရှာဖတ်ပါ"
+      },
+      "stimulusRef": {
+        "kind": "stimulus",
+        "id": "a1-c5-reading-stimulus",
+        "revision": 1
+      },
+      "explanation": {
+        "en": "Read once without a dictionary. Read again to find explicit facts, then answer. Supported self-review only, not an independent assessment.",
+        "my": "ပထမတစ်ခေါက် အဘိဓာန် မကြည့်ဘဲ ဖတ်ပါ။ ဒုတိယအခေါက် အချက်အလက်များကို ရှာ၍ မေးခွန်းများ ဖြေပါ။ အကူအညီပါသော ကိုယ်တိုင် ပြန်စစ်မှုသာ ဖြစ်ပြီး လွတ်လပ်သော စစ်ဆေးမှု မဟုတ်ပါ။"
+      }
+    },
+    {
+      "kind": "block",
+      "id": "a1-c5-reading-checks",
+      "revision": 1,
+      "type": "exercise_set",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c5-a-shopping-list",
+        "revision": 1
+      },
+      "title": {
+        "en": "Short-answer self-review",
+        "my": "တိုတောင်းသော အဖြေများကို ကိုယ်တိုင် ပြန်စစ်ခြင်း"
+      },
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c5-reading-group",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c5-writing-first-draft",
+      "revision": 1,
+      "type": "writing",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c5-write-an-order",
+        "revision": 1
+      },
+      "title": {
+        "en": "Write your own response",
+        "my": "ကိုယ်ပိုင် အဖြေ ရေးပါ"
+      },
+      "prompt": {
+        "en": "Write a short order (4–6 sentences) for a cafe or restaurant and a three-item shopping list. Use I’d like, some/any and how much or how many.",
+        "my": "စားသောက်ဆိုင်အတွက် ဝါကျ ၄–၆ ကြောင်းပါသော အမှာစာနှင့် ပစ္စည်း သုံးမျိုးပါသော ဈေးဝယ်စာရင်း ရေးပါ။ I’d like၊ some/any နှင့် how much သို့မဟုတ် how many ကို သုံးပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Hello. I’d like a chicken sandwich, please. Could I have some water? How much is the sandwich? That’s all, thank you. Shopping list: two eggs, three bananas, a bottle of milk."
+      },
+      "minWords": 20,
+      "maxWords": 130
+    },
+    {
+      "kind": "block",
+      "id": "a1-c5-writing-edit",
+      "revision": 1,
+      "type": "explanation",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c5-write-an-order",
+        "revision": 1
+      },
+      "title": {
+        "en": "Self-edit your draft",
+        "my": "ကိုယ့်စာမူကို ပြင်ဆင်ပါ"
+      },
+      "body": {
+        "en": "Underline subjects and verbs; check punctuation and the chapter grammar. The model is one possible answer; compare only after writing. Nothing is graded or saved.",
+        "my": "ကတ္တားနှင့် ကြိယာကို မျဉ်းသားပြီး ပုဒ်ဖြတ်ပုဒ်ရပ်နှင့် သဒ္ဒါကို စစ်ပါ။ ဥပမာသည် အဖြေမှန် တစ်မျိုးတည်း မဟုတ်ပါ။ ကိုယ်တိုင် ရေးပြီးမှ ယှဉ်ကြည့်ပါ။ မသိမ်းဆည်းပါ၊ အမှတ်မပေးပါ။"
+      },
+      "examples": []
+    },
+    {
+      "kind": "block",
+      "id": "a1-c5-writing-rewrite",
+      "revision": 1,
+      "type": "writing",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c5-write-an-order",
+        "revision": 1
+      },
+      "title": {
+        "en": "Rewrite and compare",
+        "my": "ပြန်ရေးပြီး ယှဉ်ကြည့်ပါ"
+      },
+      "prompt": {
+        "en": "Rewrite after self-editing. Compare both drafts and note an improvement.",
+        "my": "ကိုယ်တိုင် ပြင်ဆင်ပြီး ပြန်ရေးပါ။ စာမူနှစ်ခု ယှဉ်ကြည့်၍ တိုးတက်သည့် အချက်တစ်ခု မှတ်ပါ။"
+      },
+      "modelAnswer": {
+        "language": "en",
+        "text": "Hello. I’d like a chicken sandwich, please. Could I have some water? How much is the sandwich? That’s all, thank you. Shopping list: two eggs, three bananas, a bottle of milk."
+      },
+      "minWords": 20,
+      "maxWords": 130
+    },
+    {
+      "kind": "block",
+      "id": "a1-c5-knowledge-check",
+      "revision": 1,
+      "type": "exercise_set",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c5-review",
+        "revision": 1
+      },
+      "title": {
+        "en": "12 recognition questions",
+        "my": "အခြေခံသိရှိမှု မေးခွန်း ၁၂ ခု"
+      },
+      "exerciseRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c5-k1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c5-k2",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c5-k3",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c5-k4",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c5-k5",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c5-k6",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c5-k7",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c5-k8",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c5-k9",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c5-k10",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c5-k11",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c5-k12",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "id": "a1-c5-skill-review",
+      "revision": 1,
+      "type": "explanation",
+      "lessonRef": {
+        "kind": "lesson",
+        "id": "a1-c5-review",
+        "revision": 1
+      },
+      "title": {
+        "en": "Skills review and future assessment",
+        "my": "လေ့ကျင့်မှုကို ပြန်ကြည့်ခြင်းနှင့် အနာဂတ် စစ်ဆေးမှု"
+      },
+      "body": {
+        "en": "Listening requires actual new audio without a visible transcript; it is unavailable now. Speaking is 30–45-second aloud self-practice; recording is unavailable. Reading responses are self-reviewed after using the passage; no proficiency score. Writing is original, unsaved and ungraded. MCQs demonstrate recognition only; there is no new chapter pass threshold or CEFR award.",
+        "my": "နားထောင်မှုအတွက် အသံအစစ် လိုသေး၍ ယခု မရနိုင်သေးပါ။ ပြောဆိုမှုကို စက္ကန့် ၃၀–၄၅ အသံထွက် လေ့ကျင့်ပါ။ အသံသွင်းခြင်း မရှိပါ။ ဖတ်ရှုအဖြေများကို စာပိုဒ်နှင့် ယှဉ်၍ ကိုယ်တိုင် ပြန်စစ်ပါ။ ရေးသားမှုသည် ကိုယ်ပိုင်ဖြစ်ပြီး မသိမ်းဆည်းပါ၊ အမှတ်မပေးပါ။ MCQ များသည် သိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်ပြီး အခန်းအောင်မှတ်နှင့် CEFR အဆင့် မသတ်မှတ်ပါ။"
+      },
+      "examples": []
+    }
+  ],
+  "objectives": [
+    {
+      "kind": "objective",
+      "id": "a1-c5-objective-1",
+      "revision": 1,
+      "statement": {
+        "en": "Use food and shopping words in five original sentences.",
+        "my": "အစားအစာနှင့် ဈေးဝယ်ဆိုင်ရာ စကားလုံးများဖြင့် ကိုယ်ပိုင် ဝါကျ ငါးကြောင်း ရေးရန်။"
+      },
+      "action": "produce",
+      "tags": {
+        "areas": ["vocabulary"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c5-objective-2",
+      "revision": 1,
+      "statement": {
+        "en": "Use countable/uncountable nouns, some/any and quantity/price questions.",
+        "my": "ရေတွက်နိုင်သော/မရေတွက်နိုင်သော နာမ်၊ some/any နှင့် how much/many ကို သုံးရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["recognition"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c5-objective-3",
+      "revision": 1,
+      "statement": {
+        "en": "Read two shopping scripts while actual audio is pending.",
+        "my": "အသံဖိုင် မရှိသေးစဉ် စားသောက်ဆိုင်နှင့် ဆိုင် စကားပြောစာသားများကို ဖတ်လေ့လာရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c5-objective-4",
+      "revision": 1,
+      "statement": {
+        "en": "Order food and ask quantities/prices aloud.",
+        "my": "အစားအစာ မှာခြင်း၊ အရေအတွက်နှင့် ဈေးနှုန်းမေးခြင်းကို အသံထွက် လေ့ကျင့်ရန်။"
+      },
+      "action": "produce",
+      "tags": {
+        "areas": ["speaking"],
+        "coreSkills": ["speaking"]
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c5-objective-5",
+      "revision": 1,
+      "statement": {
+        "en": "Find explicit shopping facts and self-review short answers.",
+        "my": "ဈေးဝယ်စာရင်းပါ စာပိုဒ်၏ အချက်အလက်များကို ရှာပြီး ကိုယ်တိုင် ပြန်စစ်ရန်။"
+      },
+      "action": "interpret",
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c5-objective-6",
+      "revision": 1,
+      "statement": {
+        "en": "Write an order and a three-item shopping list.",
+        "my": "ယဉ်ကျေးသော အမှာစာနှင့် ပစ္စည်း သုံးမျိုးပါသော ဈေးဝယ်စာရင်း ရေးရန်။"
+      },
+      "action": "produce",
+      "tags": {
+        "areas": ["writing"],
+        "coreSkills": ["writing"]
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["self_practice"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    },
+    {
+      "kind": "objective",
+      "id": "a1-c5-objective-7",
+      "revision": 1,
+      "statement": {
+        "en": "Check 12 grammar/vocabulary recognition questions.",
+        "my": "သဒ္ဒါနှင့် စကားလုံးသိရှိမှု မေးခွန်း ၁၂ ခုကို လေ့ကျင့်ပြီး ပြန်ကြည့်ရန်။"
+      },
+      "action": "recognize",
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "successCriterion": {
+        "en": "Use the linked practice, explain or compare your response and reflect. No CEFR award.",
+        "my": "ဆက်စပ်လေ့ကျင့်မှုကို ပြုလုပ်ပြီး ကိုယ့်အဖြေကို ရှင်းပြ၊ ယှဉ်ကြည့်ကာ ပြန်စစ်ပါ။ CEFR အဆင့် မပေးပါ။"
+      },
+      "expectedEvidence": ["recognition"],
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 5
+      },
+      "descriptorRefs": []
+    }
+  ],
+  "exercises": [
+    {
+      "kind": "exercise",
+      "id": "a1-c5-l1-1",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-3",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "What food does the customer order? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-l1-2",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-3",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "What drink does the customer request? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-l2-1",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-3",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "How much are three bananas? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-l2-2",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["listening"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-3",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "Does the customer need a bag? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-r1",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-5",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "When does Ken go shopping? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-r2",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-5",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "How many eggs does he need? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-r3",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-5",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "Does he buy rice? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-r4",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-5",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "Does the store have milk? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-r5",
+      "revision": 1,
+      "type": "fill_in_blank",
+      "instructions": {
+        "en": "Write a short response, then compare with one example. Self-review only; no automatic correctness judgment.",
+        "my": "တိုတောင်းသော အဖြေ ရေးပြီး ဥပမာတစ်ခုနှင့် ယှဉ်ကြည့်ပါ။ ကိုယ်တိုင် ပြန်စစ်ရန်သာ ဖြစ်ပြီး အလိုအလျောက် အမှား/အမှန် မသတ်မှတ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 2
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-5",
+          "revision": 1
+        }
+      ],
+      "segments": [
+        {
+          "type": "text",
+          "text": "How much do three bananas cost? "
+        },
+        {
+          "type": "blank",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-reading-group",
+      "revision": 1,
+      "type": "reading_comprehension",
+      "instructions": {
+        "en": "Read, respond briefly, then self-review.",
+        "my": "ဖတ်၍ တိုတောင်းစွာ ဖြေပြီး ကိုယ်တိုင် ပြန်စစ်ပါ။"
+      },
+      "tags": {
+        "areas": ["reading"],
+        "coreSkills": ["reading"]
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 10
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-5",
+          "revision": 1
+        }
+      ],
+      "stimulusRef": {
+        "kind": "stimulus",
+        "id": "a1-c5-reading-stimulus",
+        "revision": 1
+      },
+      "itemRefs": [
+        {
+          "kind": "exercise",
+          "id": "a1-c5-r1",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c5-r2",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c5-r3",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c5-r4",
+          "revision": 1
+        },
+        {
+          "kind": "exercise",
+          "id": "a1-c5-r5",
+          "revision": 1
+        }
+      ],
+      "assistance": "practice_with_support"
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-k1",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "I need two ___."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c5-k1-a",
+          "text": {
+            "language": "en",
+            "text": "egg"
+          }
+        },
+        {
+          "id": "a1-c5-k1-b",
+          "text": {
+            "language": "en",
+            "text": "eggs"
+          }
+        },
+        {
+          "id": "a1-c5-k1-c",
+          "text": {
+            "language": "en",
+            "text": "rice"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-k2",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Could I have ___ water, please?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c5-k2-a",
+          "text": {
+            "language": "en",
+            "text": "some"
+          }
+        },
+        {
+          "id": "a1-c5-k2-b",
+          "text": {
+            "language": "en",
+            "text": "an"
+          }
+        },
+        {
+          "id": "a1-c5-k2-c",
+          "text": {
+            "language": "en",
+            "text": "a"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-k3",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Do you have ___ milk?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c5-k3-a",
+          "text": {
+            "language": "en",
+            "text": "a"
+          }
+        },
+        {
+          "id": "a1-c5-k3-b",
+          "text": {
+            "language": "en",
+            "text": "any"
+          }
+        },
+        {
+          "id": "a1-c5-k3-c",
+          "text": {
+            "language": "en",
+            "text": "many"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-k4",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "How ___ bananas do you want?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c5-k4-a",
+          "text": {
+            "language": "en",
+            "text": "much"
+          }
+        },
+        {
+          "id": "a1-c5-k4-b",
+          "text": {
+            "language": "en",
+            "text": "many"
+          }
+        },
+        {
+          "id": "a1-c5-k4-c",
+          "text": {
+            "language": "en",
+            "text": "any"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-k5",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "How ___ water do you drink?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c5-k5-a",
+          "text": {
+            "language": "en",
+            "text": "much"
+          }
+        },
+        {
+          "id": "a1-c5-k5-b",
+          "text": {
+            "language": "en",
+            "text": "many"
+          }
+        },
+        {
+          "id": "a1-c5-k5-c",
+          "text": {
+            "language": "en",
+            "text": "a"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-k6",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "I would like ___ banana."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c5-k6-a",
+          "text": {
+            "language": "en",
+            "text": "a"
+          }
+        },
+        {
+          "id": "a1-c5-k6-b",
+          "text": {
+            "language": "en",
+            "text": "an"
+          }
+        },
+        {
+          "id": "a1-c5-k6-c",
+          "text": {
+            "language": "en",
+            "text": "some"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-k7",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "I’d like two ___ of rice."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c5-k7-a",
+          "text": {
+            "language": "en",
+            "text": "bowl"
+          }
+        },
+        {
+          "id": "a1-c5-k7-b",
+          "text": {
+            "language": "en",
+            "text": "bowls"
+          }
+        },
+        {
+          "id": "a1-c5-k7-c",
+          "text": {
+            "language": "en",
+            "text": "rices"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-k8",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "We don’t have ___ eggs."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c5-k8-a",
+          "text": {
+            "language": "en",
+            "text": "some"
+          }
+        },
+        {
+          "id": "a1-c5-k8-b",
+          "text": {
+            "language": "en",
+            "text": "a"
+          }
+        },
+        {
+          "id": "a1-c5-k8-c",
+          "text": {
+            "language": "en",
+            "text": "any"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-k9",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "___ is this coffee?"
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c5-k9-a",
+          "text": {
+            "language": "en",
+            "text": "How many"
+          }
+        },
+        {
+          "id": "a1-c5-k9-b",
+          "text": {
+            "language": "en",
+            "text": "How much"
+          }
+        },
+        {
+          "id": "a1-c5-k9-c",
+          "text": {
+            "language": "en",
+            "text": "How long"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-k10",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "Choose the polite order."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c5-k10-a",
+          "text": {
+            "language": "en",
+            "text": "Give me rice."
+          }
+        },
+        {
+          "id": "a1-c5-k10-b",
+          "text": {
+            "language": "en",
+            "text": "I’d like some rice, please."
+          }
+        },
+        {
+          "id": "a1-c5-k10-c",
+          "text": {
+            "language": "en",
+            "text": "Rice now."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-k11",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "I have ___ rice at home."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c5-k11-a",
+          "text": {
+            "language": "en",
+            "text": "some"
+          }
+        },
+        {
+          "id": "a1-c5-k11-b",
+          "text": {
+            "language": "en",
+            "text": "an"
+          }
+        },
+        {
+          "id": "a1-c5-k11-c",
+          "text": {
+            "language": "en",
+            "text": "many"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "a1-c5-k12",
+      "revision": 1,
+      "type": "multiple_choice",
+      "instructions": {
+        "en": "Choose one answer. Recognition practice only.",
+        "my": "အဖြေတစ်ခု ရွေးပါ။ အခြေခံသိရှိမှု လေ့ကျင့်ခြင်းသာ ဖြစ်သည်။"
+      },
+      "tags": {
+        "areas": ["grammar"],
+        "coreSkills": []
+      },
+      "difficulty": {
+        "targetCefr": "A1",
+        "band": "introductory",
+        "estimateSource": "author",
+        "estimatedMinutes": 1
+      },
+      "objectiveRefs": [
+        {
+          "kind": "objective",
+          "id": "a1-c5-objective-7",
+          "revision": 1
+        }
+      ],
+      "prompt": {
+        "language": "en",
+        "text": "A ___ of water, please."
+      },
+      "selection": "single",
+      "options": [
+        {
+          "id": "a1-c5-k12-a",
+          "text": {
+            "language": "en",
+            "text": "banana"
+          }
+        },
+        {
+          "id": "a1-c5-k12-b",
+          "text": {
+            "language": "en",
+            "text": "bottle"
+          }
+        },
+        {
+          "id": "a1-c5-k12-c",
+          "text": {
+            "language": "en",
+            "text": "eggs"
+          }
+        }
+      ]
+    }
+  ],
+  "assessments": [],
+  "stimuli": [
+    {
+      "kind": "stimulus",
+      "id": "a1-c5-reading-stimulus",
+      "revision": 1,
+      "type": "reading",
+      "passage": {
+        "language": "en",
+        "text": "Ken goes to the supermarket after work. He needs two eggs, three bananas and a bottle of water. He has some rice at home, so he does not buy rice. He wants milk, but the shop does not have any today. The bananas cost 300 yen for three."
+      },
+      "sourceAttribution": "A1 Chapter 5 Full Lesson Pack"
+    }
+  ],
+  "transcripts": [],
+  "assets": []
+}

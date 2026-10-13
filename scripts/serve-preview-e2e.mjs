@@ -8,6 +8,8 @@ const child = spawn(process.execPath, [next, "dev", "--hostname", "127.0.0.1", "
     NEXT_DIST_DIR: ".next-e2e",
     NEXT_PUBLIC_SUPABASE_URL: "",
     NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: "",
+    LINGUATRACK_V2_HISTORY_ENABLED: "false",
+    LINGUATRACK_V2_MCQ_ENABLED: "false",
   },
 });
 for (const signal of ["SIGINT", "SIGTERM"]) process.on(signal, () => child.kill(signal));

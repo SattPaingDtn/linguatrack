@@ -1,0 +1,416 @@
+{
+  "exerciseRules": [
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-l1-1",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "fill-in-blank-variants-v1",
+      "maxPoints": 1,
+      "type": "fill_in_blank",
+      "scoring": "exact_set",
+      "normalizerVersion": "en-nfc-trim-ascii-space-casefold-v1",
+      "acceptedByBlank": [
+        {
+          "blankId": "answer",
+          "variants": ["Chicken and rice"]
+        }
+      ],
+      "explanation": {
+        "en": "Compare this example with the explicit text. Other wording can also be valid. This preview does not judge correctness.",
+        "my": "စာသားထဲတွင် ဖော်ပြထားသော အချက်နှင့် ဥပမာကို ယှဉ်ကြည့်ပါ။ အခြားစကားလုံးဖြင့် ဖြေခြင်းလည်း မှန်နိုင်သည်။ ဤစမ်းကြည့်မှုက အမှား/အမှန် မသတ်မှတ်ပါ။ အသံအစစ်ဖြင့် ပြန်စစ်ရန် လိုသေးသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-l1-2",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "fill-in-blank-variants-v1",
+      "maxPoints": 1,
+      "type": "fill_in_blank",
+      "scoring": "exact_set",
+      "normalizerVersion": "en-nfc-trim-ascii-space-casefold-v1",
+      "acceptedByBlank": [
+        {
+          "blankId": "answer",
+          "variants": ["Water"]
+        }
+      ],
+      "explanation": {
+        "en": "Compare this example with the explicit text. Other wording can also be valid. This preview does not judge correctness.",
+        "my": "စာသားထဲတွင် ဖော်ပြထားသော အချက်နှင့် ဥပမာကို ယှဉ်ကြည့်ပါ။ အခြားစကားလုံးဖြင့် ဖြေခြင်းလည်း မှန်နိုင်သည်။ ဤစမ်းကြည့်မှုက အမှား/အမှန် မသတ်မှတ်ပါ။ အသံအစစ်ဖြင့် ပြန်စစ်ရန် လိုသေးသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-l2-1",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "fill-in-blank-variants-v1",
+      "maxPoints": 1,
+      "type": "fill_in_blank",
+      "scoring": "exact_set",
+      "normalizerVersion": "en-nfc-trim-ascii-space-casefold-v1",
+      "acceptedByBlank": [
+        {
+          "blankId": "answer",
+          "variants": ["300 yen"]
+        }
+      ],
+      "explanation": {
+        "en": "Compare this example with the explicit text. Other wording can also be valid. This preview does not judge correctness.",
+        "my": "စာသားထဲတွင် ဖော်ပြထားသော အချက်နှင့် ဥပမာကို ယှဉ်ကြည့်ပါ။ အခြားစကားလုံးဖြင့် ဖြေခြင်းလည်း မှန်နိုင်သည်။ ဤစမ်းကြည့်မှုက အမှား/အမှန် မသတ်မှတ်ပါ။ အသံအစစ်ဖြင့် ပြန်စစ်ရန် လိုသေးသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-l2-2",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "fill-in-blank-variants-v1",
+      "maxPoints": 1,
+      "type": "fill_in_blank",
+      "scoring": "exact_set",
+      "normalizerVersion": "en-nfc-trim-ascii-space-casefold-v1",
+      "acceptedByBlank": [
+        {
+          "blankId": "answer",
+          "variants": ["No"]
+        }
+      ],
+      "explanation": {
+        "en": "Compare this example with the explicit text. Other wording can also be valid. This preview does not judge correctness.",
+        "my": "စာသားထဲတွင် ဖော်ပြထားသော အချက်နှင့် ဥပမာကို ယှဉ်ကြည့်ပါ။ အခြားစကားလုံးဖြင့် ဖြေခြင်းလည်း မှန်နိုင်သည်။ ဤစမ်းကြည့်မှုက အမှား/အမှန် မသတ်မှတ်ပါ။ အသံအစစ်ဖြင့် ပြန်စစ်ရန် လိုသေးသည်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-r1",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "fill-in-blank-variants-v1",
+      "maxPoints": 1,
+      "type": "fill_in_blank",
+      "scoring": "exact_set",
+      "normalizerVersion": "en-nfc-trim-ascii-space-casefold-v1",
+      "acceptedByBlank": [
+        {
+          "blankId": "answer",
+          "variants": ["After work."]
+        }
+      ],
+      "explanation": {
+        "en": "Compare this example with the explicit text. Other wording can also be valid. This preview does not judge correctness.",
+        "my": "စာသားထဲတွင် ဖော်ပြထားသော အချက်နှင့် ဥပမာကို ယှဉ်ကြည့်ပါ။ အခြားစကားလုံးဖြင့် ဖြေခြင်းလည်း မှန်နိုင်သည်။ ဤစမ်းကြည့်မှုက အမှား/အမှန် မသတ်မှတ်ပါ။ ကိုယ့်အဖြေကို စာပိုဒ်နှင့် ယှဉ်ကြည့်ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-r2",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "fill-in-blank-variants-v1",
+      "maxPoints": 1,
+      "type": "fill_in_blank",
+      "scoring": "exact_set",
+      "normalizerVersion": "en-nfc-trim-ascii-space-casefold-v1",
+      "acceptedByBlank": [
+        {
+          "blankId": "answer",
+          "variants": ["Two."]
+        }
+      ],
+      "explanation": {
+        "en": "Compare this example with the explicit text. Other wording can also be valid. This preview does not judge correctness.",
+        "my": "စာသားထဲတွင် ဖော်ပြထားသော အချက်နှင့် ဥပမာကို ယှဉ်ကြည့်ပါ။ အခြားစကားလုံးဖြင့် ဖြေခြင်းလည်း မှန်နိုင်သည်။ ဤစမ်းကြည့်မှုက အမှား/အမှန် မသတ်မှတ်ပါ။ ကိုယ့်အဖြေကို စာပိုဒ်နှင့် ယှဉ်ကြည့်ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-r3",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "fill-in-blank-variants-v1",
+      "maxPoints": 1,
+      "type": "fill_in_blank",
+      "scoring": "exact_set",
+      "normalizerVersion": "en-nfc-trim-ascii-space-casefold-v1",
+      "acceptedByBlank": [
+        {
+          "blankId": "answer",
+          "variants": ["No."]
+        }
+      ],
+      "explanation": {
+        "en": "Compare this example with the explicit text. Other wording can also be valid. This preview does not judge correctness.",
+        "my": "စာသားထဲတွင် ဖော်ပြထားသော အချက်နှင့် ဥပမာကို ယှဉ်ကြည့်ပါ။ အခြားစကားလုံးဖြင့် ဖြေခြင်းလည်း မှန်နိုင်သည်။ ဤစမ်းကြည့်မှုက အမှား/အမှန် မသတ်မှတ်ပါ။ ကိုယ့်အဖြေကို စာပိုဒ်နှင့် ယှဉ်ကြည့်ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-r4",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "fill-in-blank-variants-v1",
+      "maxPoints": 1,
+      "type": "fill_in_blank",
+      "scoring": "exact_set",
+      "normalizerVersion": "en-nfc-trim-ascii-space-casefold-v1",
+      "acceptedByBlank": [
+        {
+          "blankId": "answer",
+          "variants": ["No."]
+        }
+      ],
+      "explanation": {
+        "en": "Compare this example with the explicit text. Other wording can also be valid. This preview does not judge correctness.",
+        "my": "စာသားထဲတွင် ဖော်ပြထားသော အချက်နှင့် ဥပမာကို ယှဉ်ကြည့်ပါ။ အခြားစကားလုံးဖြင့် ဖြေခြင်းလည်း မှန်နိုင်သည်။ ဤစမ်းကြည့်မှုက အမှား/အမှန် မသတ်မှတ်ပါ။ ကိုယ့်အဖြေကို စာပိုဒ်နှင့် ယှဉ်ကြည့်ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-r5",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "fill-in-blank-variants-v1",
+      "maxPoints": 1,
+      "type": "fill_in_blank",
+      "scoring": "exact_set",
+      "normalizerVersion": "en-nfc-trim-ascii-space-casefold-v1",
+      "acceptedByBlank": [
+        {
+          "blankId": "answer",
+          "variants": ["300 yen."]
+        }
+      ],
+      "explanation": {
+        "en": "Compare this example with the explicit text. Other wording can also be valid. This preview does not judge correctness.",
+        "my": "စာသားထဲတွင် ဖော်ပြထားသော အချက်နှင့် ဥပမာကို ယှဉ်ကြည့်ပါ။ အခြားစကားလုံးဖြင့် ဖြေခြင်းလည်း မှန်နိုင်သည်။ ဤစမ်းကြည့်မှုက အမှား/အမှန် မသတ်မှတ်ပါ။ ကိုယ့်အဖြေကို စာပိုဒ်နှင့် ယှဉ်ကြည့်ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-k1",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c5-k1-b"],
+      "explanation": {
+        "en": "Use eggs in this context. Review the pattern in Learn.",
+        "my": "two နောက်မှာ countable plural eggs သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-k2",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c5-k2-a"],
+      "explanation": {
+        "en": "Use some in this context. Review the pattern in Learn.",
+        "my": "ယဉ်ကျေးတဲ့ request မှာ some water လို့ဆိုနိုင်တယ်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-k3",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c5-k3-b"],
+      "explanation": {
+        "en": "Use any in this context. Review the pattern in Learn.",
+        "my": "ပုံမှန်မေးခွန်းမှာ any milk ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-k4",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c5-k4-b"],
+      "explanation": {
+        "en": "Use many in this context. Review the pattern in Learn.",
+        "my": "Bananas ရေတွက်နိုင်လို့ many ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-k5",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c5-k5-a"],
+      "explanation": {
+        "en": "Use much in this context. Review the pattern in Learn.",
+        "my": "Water uncountable ဖြစ်လို့ much ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-k6",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c5-k6-a"],
+      "explanation": {
+        "en": "Use a in this context. Review the pattern in Learn.",
+        "my": "banana ရဲ့အစအသံ consonant ဖြစ်လို့ a ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-k7",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c5-k7-b"],
+      "explanation": {
+        "en": "Use bowls in this context. Review the pattern in Learn.",
+        "my": "two bowls of rice လို့ ပြောပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-k8",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c5-k8-c"],
+      "explanation": {
+        "en": "Use any in this context. Review the pattern in Learn.",
+        "my": "Negative မှာ any eggs သုံးပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-k9",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c5-k9-b"],
+      "explanation": {
+        "en": "Use How much in this context. Review the pattern in Learn.",
+        "my": "ဈေးနှုန်းမေးရင် How much ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-k10",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c5-k10-b"],
+      "explanation": {
+        "en": "Use I’d like some rice, please. in this context. Review the pattern in Learn.",
+        "my": "I’d like..., please. က ပိုယဉ်ကျေးတယ်။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-k11",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c5-k11-a"],
+      "explanation": {
+        "en": "Use some in this context. Review the pattern in Learn.",
+        "my": "Affirmative uncountable rice နဲ့ some ပါ။"
+      }
+    },
+    {
+      "exerciseRef": {
+        "kind": "exercise",
+        "id": "a1-c5-k12",
+        "revision": 1
+      },
+      "gradingRevision": 1,
+      "graderVersion": "multiple-choice-exact-set-v1",
+      "maxPoints": 1,
+      "type": "multiple_choice",
+      "scoring": "exact_set",
+      "correctOptionIds": ["a1-c5-k12-b"],
+      "explanation": {
+        "en": "Use bottle in this context. Review the pattern in Learn.",
+        "my": "A bottle of water လို့ ပြောပါတယ်။"
+      }
+    }
+  ],
+  "assessmentPolicies": []
+}

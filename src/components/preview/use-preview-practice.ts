@@ -24,7 +24,11 @@ export const emptyQuestionState: QuestionState = {
 export type PracticeStates = Record<string, QuestionState>;
 
 // Memory only. No session provider, browser storage, persistence client or private grading imports.
-export function usePreviewPractice(questions: PreviewQuestion[], publicDigest: string) {
+export function usePreviewPractice(
+  questions: PreviewQuestion[],
+  publicDigest: string,
+  context?: { endpoint: string; contentVersion: string; lessonId: string },
+) {
   const [states, setStates] = useState<PracticeStates>({});
   const inFlight = useRef(new Set<string>());
   function update(id: string, change: (previous: QuestionState) => QuestionState) {
@@ -48,15 +52,15 @@ export function usePreviewPractice(questions: PreviewQuestion[], publicDigest: s
     inFlight.current.add(id);
     update(id, (previous) => ({ ...previous, pending: true, error: null }));
     try {
-      const response = await fetch("/api/dev-preview/answer", {
+      const response = await fetch(context?.endpoint ?? "/api/dev-preview/answer", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         cache: "no-store",
         credentials: "omit",
         signal: AbortSignal.timeout(15000),
         body: JSON.stringify({
-          contentVersion: PREVIEW_VERSION,
-          lessonId: PREVIEW_LESSON_ID,
+          contentVersion: context?.contentVersion ?? PREVIEW_VERSION,
+          lessonId: context?.lessonId ?? PREVIEW_LESSON_ID,
           publicDigest,
           exercise: { kind: "exercise", id, revision: question.revision },
           optionId: selected,
